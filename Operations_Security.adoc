@@ -1,0 +1,11 @@
+= Operations & Security
+In diesem Kapitel werden die operativen Abläufe und Sicherheitsmaßnahmen des Unternehmens beschrieben. Es umfasst die täglichen Geschäftsprozesse, die IT-Infrastruktur, sowie die Strategien zur Gewährleistung der Datensicherheit und des Schutzes vor Cyberbedrohungen.
+
+== Sicherheitsstrategie
+Die Sicherheitsstrategie des Unternehmens basiert auf einem mehrschichtigen Ansatz, der sowohl physische als auch digitale Sicherheitsmaßnahmen umfasst.
+
+
+== Operations Security
+
+
+== IT-Security

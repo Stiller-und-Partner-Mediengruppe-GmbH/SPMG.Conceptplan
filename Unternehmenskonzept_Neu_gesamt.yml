@@ -1,0 +1,73 @@
+# Theme-Definition für Asciidoctor-PDF
+page:
+  layout: book
+  margin: [1.2in, 0.75in, 0.75in, 0.75in] # [Oben, Rechts, Unten, Links]
+  size: A4
+
+base:
+  font_color: #333333
+  font_family: Helvetica
+
+# Die Gestaltung der Kopfzeile
+header:
+  height: 0.8in
+  background_color: #070052 # Ein kräftiges Dunkelblau
+  font_color: #FFFFFF      # Weißer Text im Header
+  font_size: 10
+  vertical_align: middle
+  padding: [0, 20, 0, 20]  # Innenabstand [Oben, Rechts, Unten, Links]
+  
+  # Design für ungerade Seiten (und rechte Seiten im Buch-Modus)
+  recto:
+    left: 'image:logo.svg[width=30]' # Pfad zu deinem Logo
+    center: '{section-title}'
+    right: '{page-number} von {page-count}'
+    
+  # Design für gerade Seiten (linke Seiten)
+  verso:
+    left: '{page-number} von {page-count}'
+    center: 'Mein Projektbericht'
+    right: 'image:logo.svg[width=30]'
+
+# Die Gestaltung der Überschriften
+heading:
+  align: left
+  font_color: #070052
+
+h1:
+  font_size: 28
+  font_style: bold
+  space_before: 0.5in
+  space_after: 0.25in
+  font_color: #070052
+
+h2:
+  font_size: 20
+  font_style: bold
+  space_before: 0.35in
+  space_after: 0.15in
+  font_color: #070052
+
+h3:
+  font_size: 16
+  font_style: bold
+  space_before: 0.25in
+  space_after: 0.1in
+  font_color: #1a1a7a
+
+h4:
+  font_size: 13
+  font_style: bold
+  space_before: 0.15in
+  space_after: 0.08in
+  font_color: #333333
+
+# Die Gestaltung der Fußzeile (optional)
+footer:
+  height: 0.5in
+  font_size: 8
+  font_color: #777777
+  recto:
+    right: 'Erstellt mit AsciiDoc'
+  verso:
+    left: 'Vertraulich'
