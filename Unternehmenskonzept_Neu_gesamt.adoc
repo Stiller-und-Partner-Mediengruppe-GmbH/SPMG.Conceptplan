@@ -1,5 +1,6 @@
 :doctype: book
 :toc: macro
+:toclevels: 5
 :source-highlighter: highlight.js
 :icons: font
 // Lade die entsprechende Kopfzeile (kopfzeile_diplomarbeit_aul, ..._hif oder ..._kolleg)
@@ -18,7 +19,7 @@ image::logo.svg[width=200, alt="Stiller und Partner Mediengruppe GmbH/Holding (S
 {author} +
 In der Fassung vom {docdate}
 
-toc::[]
+toc::[levels=3]
 
 == Vorwort
 Die Stiller und Partner Mediengruppe GmbH/Holding (SPMG) ist ein innovatives Medien und Unterhaltungsunternehmen, das sich auf die Entwicklung und Produktion von hochwertigen Multi-Medialen Inhalten spezialisiert hat. In diesem Dokument werden die genauen Pläne und Ziele zur Gründung der SPMG dargelegt. Hier wird die Geschichte hinter der Idee, die Visionen, der Aufbau und unser Auftrag als Dienstleister und Arbeitgeber beschrieben. Es werden die Produkte und Projekte vorgestellt, welche unser Kerngeschäft bilden, sowie die Werte, welche wir als Unternehmen vertreten. Zudem werden die Ziele und Strategien erläutert, welche wir verfolgen, um unsere Vision zu verwirklichen. Dieses Dokument dient als Leitfaden für die Gründung und Entwicklung der SPMG und soll potenziellen Investoren, Partnern und Mitarbeitern einen umfassenden Einblick in unser Unternehmen geben.
@@ -38,6 +39,14 @@ SPMG und das SPMG-Logo sind eingetragene Marken der Stiller und Partner Mediengr
 === Haftungsausschluss
 Die Informationen in diesem Dokument werden "wie besehen" bereitgestellt, ohne jegliche ausdrückliche oder stillschweigende Gewährleistung. Die SPMG, vertreten durch den Gründer und CCO **Sebastian Andreas Stiller**, übernimmt keine Verantwortung für die Genauigkeit, Vollständigkeit oder Aktualität der Informationen in diesem Dokument oder anderen archivierten Veröffentlichungen. Jegliche Nutzung der Informationen in diesem Dokument ab Veröffentlichung erfolgt auf eigenes Risiko.
 
+== Kontakt 
+Für weitere Informationen oder Anfragen bezüglich der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) können Sie uns unter den folgenden Kontaktdaten erreichen:
+
+Ansprechpartner: **Sebastian Andreas Stiller** (Gründer und Chief Creative Officer - CCO)
+
+* **Adresse**: To be Announced
+* **Telefon**: +43 660 2084555
+* **E-Mail**: (mailto:kontakt@sebastianstiller.at)
 
 
 include::Intro_History.adoc[leveloffset=+1]

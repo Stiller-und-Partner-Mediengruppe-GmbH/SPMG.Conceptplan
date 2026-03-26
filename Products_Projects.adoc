@@ -1,7 +1,16 @@
 
+= Produkte und Projekte
 
-== Produkte und Projekte
+== Produkte
 
-=== Produkte
+[NOTE]
+====
+Die Produktbeschreibungen werden in Kürze hinzugefügt.
+====
 
-=== Projekte
+== Projekte
+
+[NOTE]
+====
+Die Projektbeschreibungen werden in Kürze hinzugefügt.
+====

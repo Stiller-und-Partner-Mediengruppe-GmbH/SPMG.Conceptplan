@@ -1,5 +1,11 @@
-= Operations & Security
+== Operations & Security
 In diesem Kapitel werden die operativen Abläufe und Sicherheitsmaßnahmen des Unternehmens beschrieben. Es umfasst die täglichen Geschäftsprozesse, die IT-Infrastruktur, sowie die Strategien zur Gewährleistung der Datensicherheit und des Schutzes vor Cyberbedrohungen.
+
+Im weiteren werden die Mitarbeiter des Sicherheits- und Operationsteam als "Beamte/n" bezeichnet. Diese Bezeichnung soll weder Polizeiliche noch Hoheitliche Aufgaben suggestieren, sondern dient lediglich der internen Unterscheidung und Organisation innerhalb des Unternehmens. Alle Mitarbeiter, die in diesem Kapitel beschrieben werden, sind Angestellte der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) und unterliegen den entsprechenden arbeitsrechtlichen Bestimmungen.
+
+Im weiteren werden die Mitarbeiter der Landespolizei als "Polizist/in" oder "Exikutivbedienstete/r" bezeichnet. Diese Bezeichnungen dienen der Klarheit und Unterscheidung zwischen den internen Sicherheitskräften des Unternehmens und den externen Strafverfolgungsbehörden. Alle Erwähnungen von "Polizist/in" oder "Exikutivbedienstete/r" beziehen sich auf die Mitarbeiter der  zuständigen Landespolizeidirektion (Wien/NÖ), die für die Aufrechterhaltung der öffentlichen Sicherheit und Ordnung verantwortlich sind.
+
+Im weiteren wird die Bezeichnung "Exekutive" für die Polizei im gesamten verwendet. Hierbei wird rein nur die Polizei gemeint und nicht die anderen Mitglieder der Exekutive, wie z.B. die Landesregierung, die Bundesregierung oder andere Behörden. Alle Erwähnungen von "Exekutive" beziehen sich ausschließlich auf die Polizei und deren Mitarbeiter, die für die Aufrechterhaltung der öffentlichen Sicherheit und Ordnung verantwortlich sind. 
 
 == Sicherheitsstrategie
 Die Sicherheitsstrategie des Unternehmens basiert auf einem mehrschichtigen Ansatz, der sowohl physische als auch digitale Sicherheitsmaßnahmen umfasst.
@@ -7,5 +13,56 @@ Die Sicherheitsstrategie des Unternehmens basiert auf einem mehrschichtigen Ansa
 
 == Operations Security
 
+=== Unternehmenseigener Sicherheitsdienst
+Die SPMG setzt bei der Sicherung ihrer Betriebsstätten und Veranstaltungen auf einen undernehmenseigenen Sicherheitsdienst, welcher mit speziell geschulten und Taktisch ausgebildeten Beamten besetzt ist. Dieser Sicherheitsdienst ist für die Überwachung der Zugänge, die Durchführung von Sicherheitskontrollen und die Reaktion auf Sicherheitsvorfällen in allen Anlagen der SPMG verantwortlich. 
+
+Die Taktische Ausbildung und Bewaffnung der Sicherheitsbeamten resultiert aus der Notwendigkeit, auf potenzielle Bedrohungen von Mitarbeitern, Kunden, Gästen oder VIP Personen angemessen reagieren zu können. Diese Maßnahmen dienen dem Schutz aller Personen auf den Geländen und Betriebstätten der SPMG und sollen vor allem die Exekutive zu entlasten. 
+
+Die Zusammenarbeit mit der Exekutive erfolgt hierbei sowohl bei Sicherheitsangelegenheiten, im Rahmen von Ermittlungen, aus auch bei der Plannung und Durchführung von diversen Projekten, Veranstaltungen und Produktionen( siehe Abschnitt Produkte und Projekte).
+
+=== Einheiten des Sicherheitsdienstes 
+Der Sicherheitsdienst der SPMG ist in verschiedene Einheiten unterteilt, um eine effektive und spezialisierte Sicherheitsversorgung zu gewährleisten. Dazu gehören:
+
+* **Security and Patrol Unit (SPMG-SPU)**: +
+Dies sind die Boots on the Ground. Sie sind für die Überwachung der Betriebsstätten, die Durchführung von Sicherheitskontrollen und die Reaktion auf Sicherheitsvorfälle verantwortlich. Sie patrouillieren regelmäßig die Anlagen der SPMG, um potenzielle Bedrohungen zu erkennen und zu verhindern.
+
+* ** Special Intervention Unit (SPMG-SIU)**: +
+Diese Einheit dient als Interventionsasset für Hochrisikolagen und Schwere Sicherheitsvorfälle zuständig und entsprechend ausgerüstet und geschult. Sie arbeitet am Engsten mit der Exekutive zusammen, um bei Bedarf die Einheiten der Exekutive zu ergänzen und zu unterstützen.
+
+* **VIP Close Protection Unit (SPMG-VCPU)**: +
+Diese Einheit ist für den Schutz von VIP Personen(Prominente, Politiker, Ehrengäste) zuständig, welche sich auf den Geländen der SPMG aufhalten. Sie sind speziell geschult, um potenzielle Bedrohungen zu erkennen und zu neutralisieren, um die Sicherheit der VIP Personen zu gewährleisten. Hiebei wird auch wieder eng mit den Personenschützern der Exekutive (stichwort: Politiker und Ehrengäste) zusammengearbeitet, da diese die grundsätzliche Zuständigkeit haben.  
+
+* **Event Security Unit (SPMG-ESU)**: +
+Diese Einheit ist für die Planung und Ergänzenden Durchführung von Sicherheitsmaßnahmen bei Großveranstaltungen, wie z.B. Konzerten, Festivals oder Firmenfeiern, zuständig. Sie arbeitet eng mit der Exekutive zusammen, um die Sicherheit der Veranstaltungsteilnehmer zu gewährleisten und potenzielle Bedrohungen zu erkennen und zu verhindern.
+
+* **Arial Support Unit (SPMG-ASU)**: +
+Diese Einheit ist für den Betrieb, die Wartung und die generelle Einsatzplanung der Drehflügler als Unterstützungseinheiten der SPMG. Sie stellen also die Hubschrauber für die Sicherheitsoperationen der SPMG bereit, welche sowohl für die Überwachung der Betriebsstätten, die Unterstützung bei Sicherheitsvorfällen.
+
+* **Investigation and Intelligence Unit (SPMG-IIU)**: +
+Diese Einheit ist das Rückgrat der Sicherheitsstrategie der SPMG. Sie ist für die Durchführung von Erhebungen im Rahmen von Background Checks, Asset Protection(Ladendetektive), Sicherheits- und Risikoanalysen. Sie ist auch für die ersten Ermittlungen bei Gefährdungslagen von Mitarbeitern und VIPs zuständig. Sie ist auch im ständigen Austausch mit der Exekutive, um Informationen über potenzielle Bedrohungen zu teilen und gemeinsam Strategien zur Gefahrenabwehr zu entwickeln.
+
+* **K9 Unit (SPMG-K9)**: +
+Diese Einheit ist für den Einsatz von speziell ausgebildeten Hunden zuständig, welche bei der Überwachung der Betriebsstätten, der Durchführung von Sicherheitskontrollen und der Vorbeugenden Maßnahmen bei Großveranstaltungen eingesetzt werden. Hierbei gibt es verschiedene Spezialisierungen, wie z.B. Sprengstoffspürhunde, Drogenspürhunde oder Personenspürhunde, welche je nach Bedarf eingesetzt werden.
 
 == IT-Security
+aber auch die beste physische Sicherheit kann nicht helfen, wenn die IT-Infrastruktur des Unternehmens nicht ausreichend geschützt ist. Daher legt die SPMG großen Wert auf die Implementierung von robusten IT-Sicherheitsmaßnahmen, um die Vertraulichkeit, Integrität und Verfügbarkeit der Daten und Systeme zu gewährleisten.
+Die IT-Sicherheitsstrategie der SPMG umfasst die folgenden Einheiten: 
+
+* **Network Security Unit (SPMG-NSU)**: +
+Diese Einheit ist für die Sicherung der Netzwerkinfrastruktur des Unternehmens zuständig. Sie implementiert und überwacht Firewalls, Intrusion Detection Systems (IDS) und diversen anderen Sicherheitsmaßnahmen, um unautorisierte Zugriffe zu verhindern und potenziell katastrophale Sicherheitsvorfälle, Ausfälle oder Datenlecks zu verhindern. Sie sind auch für die regelmäßige Überprüfung und Aktualisierung der Sicherheitsrichtlinien und -protokolle und die durchführung von Schulungen im Bereich IT-Sicherheit für die Mitarbeiter zuständig. +
+Sie arbeiten auch eng mit den Cybercrime Einheiten der Exekutive und der DSN (Direktion Staatsschutz und Nachrichtendienst) zusammen, um Informationen über potenzielle Bedrohungen zu teilen und gemeinsam Strategien zur Gefahrenabwehr zu entwickeln.
+
+* **Network Service Engineering Unit (SPMG-NSEU)**: +
+Diese Einheit ist für die Planung, Implementierung und Wartung der Netzwerkinfrastruktur des Unternehmens zuständig. Sie stellt sicher, dass die Netzwerkinfrastruktur den Anforderungen des Unternehmens entspricht und gleichzeitig sicher und zuverlässig ist. Sie arbeiten eng mit der Network Security Unit (SPMG-NSU) zusammen, um sicherzustellen, dass die Netzwerkinfrastruktur den Sicherheitsanforderungen entspricht und potenzielle Schwachstellen identifiziert und behoben werden.
+
+== Medizinische Versorgung
+Die SPMG legt auch großen Wert auf das Wohlbefinden ihrer Mitarbeiter und Gäste.
+Daher beschäftigt die SPMG ein Team von medizinischem Fachpersonal, welches für die medizinische Versorgung und Notfallversorgung auf den Betriebsstätten und Veranstaltungen des Unternehmens zuständig ist. Dieses Team arbeitet eng mit den örtlichen Rettungsdiensten und Krankenhäusern zusammen, um sicherzustellen, dass im Falle eines medizinischen Notfalls schnell und effektiv reagiert werden kann. Sie sind auch für die Durchführung von Erste-Hilfe-Schulungen für die Mitarbeiter zuständig. 
+Hiebei wird generell unterschieden zwischen der Arbeitsmedizinischen Versorgung, welche sich um die Gesundheit der Mitarbeiter kümmert, und der Notfallmedizinischen Versorgung, welche für die medizinische Versorgung bei Notfällen auf den Betriebsstätten und Veranstaltungen zuständig ist.
+
+* **Arbeitsmedizinische Versorgung**: +
+Die Arbeitsmedizinische Versorgung wird von einem Team von Arbeitsmedizinern und Gesundheitsexperten bereitgestellt. Sie sind für die Durchführung von Gesundheitschecks, Tauglichkeitsuntersuchungen und die Entwicklung von Gesundheitsprogrammen für die Mitarbeiter zuständig. Sie arbeiten eng mit der Personalabteilung zusammen, um sicherzustellen, dass die Arbeitsbedingungen sicher und gesundheitsfördernd sind.
+
+* **Notfallmedizinische Versorgung**: +
+die Notfallmedizinische Versorgung sind der Unternehmensinterne Rettungs- bzw. Sanitätsdienst, welcher bei den Betriebsstätten, Veranstaltungen, Produktionen und auf dem Gelände der Erlebniswelt und Hotelanlagen der SPMG für die medizinische Versorgung bei Notfällen zuständig ist. Sie besteht aus Rettungssanitätern, Notfallsanitätern und Ärzten, welche speziell für die Anforderungen des Unternehmens und die Umstände der Erlebniswelt und Hotelanlagen der SPMG geschult sind. Sie arbeiten eng mit den örtlichen Rettungsdiensten und Krankenhäusern zusammen, um sicherzustellen, dass im Falle eines medizinischen Notfalls schnell und effektiv reagiert werden kann. Sie sind auch für die Durchführung von Erste-Hilfe-Schulungen für die Mitarbeiter zuständig. Auch hier kann zwischen Boden und Lufteinheiten unterschieden werden, da die SPMG auch über einen eigenen Rettungshubschrauber verfügt, welcher bei Bedarf für die medizinische Versorgung bei Notfällen eingesetzt werden kann. +
+Diese sollen im bedarfsfall die sog. NO-Flow Zeiten, also die Zeit zwischen dem Eintreten eines Notfalls und der Ankunft in einer Einrichtung mit definitver Versorgung, so gering wie möglich zu halten, um die Überlebenschancen und die Prognose der Betroffenen zu verbessern.

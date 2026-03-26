@@ -1,2 +1,6 @@
 = Executive Summary
 
+[NOTE]
+====
+Die Executive Summary wird in Kürze hinzugefügt.
+====
