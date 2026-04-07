@@ -1,6 +1,40 @@
 
 = Produkte und Projekte
 
+
+[plantuml, org-chart-productions, svg]
+----
+@startuml
+skinparam packageStyle rectangle
+
+' Dieser Befehl erlaubt das Mischen von verschiedenen Elementtypen (Object & Rectangle)
+allowmixing
+
+' Definition eines Styles für reinen Text
+skinparam rectangle<<text>> {
+    BackgroundColor transparent
+    BorderColor transparent
+    Shadowing false
+}
+
+title Organigramm - Abteilungsstruktur - Produktion
+
+package "Productions" as PROD {
+    rectangle "CPO" as CPO
+    object "Movies" as MPU
+    object "Games" as GPU{
+     external Producer: Tobias Wittmann
+}   
+
+    CPO -down-> MPU
+    CPO -down-> GPU
+
+} 
+
+
+@enduml
+----
+
 == Produkte
 
 [NOTE]

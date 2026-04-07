@@ -10,7 +10,7 @@
 :lang: DE
 :hyphens:
 :author: Sebastian Stiller
-:docdate: 04-03-2026
+:docdate: {docdate}
 :title: SPMG-Unternehmensgründungskonzept
 
 

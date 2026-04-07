@@ -4,3 +4,103 @@
 ====
 Die Executive Summary wird in Kürze hinzugefügt.
 ====
+
+[plantuml, org-chart-full, svg]
+----
+@startuml
+skinparam packageStyle rectangle
+
+' Dieser Befehl erlaubt das Mischen von verschiedenen Elementtypen (Object & Rectangle)
+allowmixing
+
+' Definition eines Styles für reinen Text
+skinparam rectangle<<text>> {
+    BackgroundColor transparent
+    BorderColor transparent
+    Shadowing false
+}
+
+title SPMG - Orga und Abteilungen
+
+package "Aufsichtsrat SPMG" as AR {
+    object "Konzernleitung" as KL {
+        CCO: Sebastian Andreas Stiller
+        CTO: TBD
+        CSO: TBD
+        CMO: TBD
+        CPO: TBD
+              
+    }
+}
+
+package "IT-Abteilung" as IT {
+    rectangle "CTO" as CTO
+    object "Entwicklung" as DEV
+    object "Support" as SUP
+}
+
+
+package "Security Operations" as SO {
+    rectangle "CSO" as CSO
+    
+    object "Security and Patrol Unit" as SPU
+    object "Special Intervention Unit" as SIU
+    object "VIP Close Protection Unit" as VCPU
+    object "Event Security Unit" as ESU
+    object "Arial Support Unit" as ASU{
+        Flightchief: TBD
+        Groundchief: TBD
+}
+    object "Investigation and Intelligence Unit" as IIU
+    object "K9 Unit" as K9
+
+    CSO -down-> SPU
+    CSO -down-> SIU
+    CSO -down-> VCPU
+    CSO -down-> ESU
+    CSO -down-> ASU
+    CSO -down-> IIU
+    CSO -down-> K9
+} 
+
+package "Medical Operations" as MO {
+    rectangle "CMO" as CMO
+    
+    object "Arbeitsmedizin" as AM
+    object "Sanitätsdienst" as SD
+    object "Medizinisch Präventive Maßnahmen" as MPM
+    object "Flugrettung" as HEMS{
+        Flightchief: TBD
+        Groundchief: TBD
+}
+    object "Rettungshunde" as RK9
+
+    CMO -down-> AM
+    CMO -down-> SD
+    CMO -down-> MPM
+    CMO -down-> HEMS
+    CMO -down-> RK9
+} 
+
+package "Productions" as PROD {
+    rectangle "CPO" as CPO
+    object "Movies" as MPU
+    object "Games" as GPU{
+     external Producer: Tobias Wittmann
+}   
+
+    CPO -down-> MPU
+    CPO -down-> GPU
+
+} 
+
+' Beziehungen / Hierarchien
+AR -down-> CTO
+AR -down-> CSO
+AR -down-> CMO
+AR -down-> CPO
+
+CTO -down-> DEV
+CTO -down-> SUP
+@enduml
+----

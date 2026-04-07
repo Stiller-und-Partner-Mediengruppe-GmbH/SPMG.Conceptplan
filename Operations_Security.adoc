@@ -7,6 +7,7 @@ Im weiteren werden die Mitarbeiter der Landespolizei als "Polizist/in" oder "Exi
 
 Im weiteren wird die Bezeichnung "Exekutive" für die Polizei im gesamten verwendet. Hierbei wird rein nur die Polizei gemeint und nicht die anderen Mitglieder der Exekutive, wie z.B. die Landesregierung, die Bundesregierung oder andere Behörden. Alle Erwähnungen von "Exekutive" beziehen sich ausschließlich auf die Polizei und deren Mitarbeiter, die für die Aufrechterhaltung der öffentlichen Sicherheit und Ordnung verantwortlich sind. 
 
+
 == Sicherheitsstrategie
 Die Sicherheitsstrategie des Unternehmens basiert auf einem mehrschichtigen Ansatz, der sowohl physische als auch digitale Sicherheitsmaßnahmen umfasst.
 
@@ -22,6 +23,51 @@ Die Zusammenarbeit mit der Exekutive erfolgt hierbei sowohl bei Sicherheitsangel
 
 === Einheiten des Sicherheitsdienstes 
 Der Sicherheitsdienst der SPMG ist in verschiedene Einheiten unterteilt, um eine effektive und spezialisierte Sicherheitsversorgung zu gewährleisten. Dazu gehören:
+
+
+[plantuml, org-chart-security, svg]
+----
+@startuml
+skinparam packageStyle rectangle
+
+' Dieser Befehl erlaubt das Mischen von verschiedenen Elementtypen (Object & Rectangle)
+allowmixing
+
+' Definition eines Styles für reinen Text
+skinparam rectangle<<text>> {
+    BackgroundColor transparent
+    BorderColor transparent
+    Shadowing false
+}
+
+title Organigramm - Abteilungsstruktur - Sicherheitsdienst
+
+package "Security Operations" as SO {
+    rectangle "CSO" as CSO
+    
+    object "Security and Patrol Unit" as SPU
+    object "Special Intervention Unit" as SIU
+    object "VIP Close Protection Unit" as VCPU
+    object "Event Security Unit" as ESU
+    object "Arial Support Unit" as ASU{
+        Flightchief: TBD
+        Groundchief:TBD
+}
+    object "Investigation and Intelligence Unit" as IIU
+    object "K9 Unit" as K9
+
+    CSO -down-> SPU
+    CSO -down-> SIU
+    CSO -down-> VCPU
+    CSO -down-> ESU
+    CSO -down-> ASU
+    CSO -down-> IIU
+    CSO -down-> K9
+} 
+
+
+@enduml
+----
 
 * **Security and Patrol Unit (SPMG-SPU)**: +
 Dies sind die Boots on the Ground. Sie sind für die Überwachung der Betriebsstätten, die Durchführung von Sicherheitskontrollen und die Reaktion auf Sicherheitsvorfälle verantwortlich. Sie patrouillieren regelmäßig die Anlagen der SPMG, um potenzielle Bedrohungen zu erkennen und zu verhindern.
@@ -59,6 +105,46 @@ Diese Einheit ist für die Planung, Implementierung und Wartung der Netzwerkinfr
 Die SPMG legt auch großen Wert auf das Wohlbefinden ihrer Mitarbeiter und Gäste.
 Daher beschäftigt die SPMG ein Team von medizinischem Fachpersonal, welches für die medizinische Versorgung und Notfallversorgung auf den Betriebsstätten und Veranstaltungen des Unternehmens zuständig ist. Dieses Team arbeitet eng mit den örtlichen Rettungsdiensten und Krankenhäusern zusammen, um sicherzustellen, dass im Falle eines medizinischen Notfalls schnell und effektiv reagiert werden kann. Sie sind auch für die Durchführung von Erste-Hilfe-Schulungen für die Mitarbeiter zuständig. 
 Hiebei wird generell unterschieden zwischen der Arbeitsmedizinischen Versorgung, welche sich um die Gesundheit der Mitarbeiter kümmert, und der Notfallmedizinischen Versorgung, welche für die medizinische Versorgung bei Notfällen auf den Betriebsstätten und Veranstaltungen zuständig ist.
+
+
+[plantuml, org-chart-medical, svg]
+----
+@startuml
+skinparam packageStyle rectangle
+
+' Dieser Befehl erlaubt das Mischen von verschiedenen Elementtypen (Object & Rectangle)
+allowmixing
+
+' Definition eines Styles für reinen Text
+skinparam rectangle<<text>> {
+    BackgroundColor transparent
+    BorderColor transparent
+    Shadowing false
+}
+
+title Organigramm - Abteilungsstruktur - Medizinische Versorgung
+
+package "Medical Operations" as MO {
+    rectangle "CMO" as CMO
+    
+    object "Arbeitsmedizin" as AM
+    object "Sanitätsdienst" as SD
+    object "Medizinisch Präventive Maßnahmen" as MPM
+    object "Flugrettung" as HEMS{
+        Flightchief: TBD
+        Groundchief: TBD
+}
+    object "Rettungshunde" as RK9
+
+    CMO -down-> AM
+    CMO -down-> SD
+    CMO -down-> MPM
+    CMO -down-> HEMS
+    CMO -down-> RK9
+} 
+
+@enduml
+----
 
 * **Arbeitsmedizinische Versorgung**: +
 Die Arbeitsmedizinische Versorgung wird von einem Team von Arbeitsmedizinern und Gesundheitsexperten bereitgestellt. Sie sind für die Durchführung von Gesundheitschecks, Tauglichkeitsuntersuchungen und die Entwicklung von Gesundheitsprogrammen für die Mitarbeiter zuständig. Sie arbeiten eng mit der Personalabteilung zusammen, um sicherzustellen, dass die Arbeitsbedingungen sicher und gesundheitsfördernd sind.
