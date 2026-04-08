@@ -1,4 +1,4 @@
-== Operations & Security
+= Operations & Security
 In diesem Kapitel werden die operativen Abläufe und Sicherheitsmaßnahmen des Unternehmens beschrieben. Es umfasst die täglichen Geschäftsprozesse, die IT-Infrastruktur, sowie die Strategien zur Gewährleistung der Datensicherheit und des Schutzes vor Cyberbedrohungen.
 
 Im weiteren werden die Mitarbeiter des Sicherheits- und Operationsteam als "Beamte/n" bezeichnet. Diese Bezeichnung soll weder Polizeiliche noch Hoheitliche Aufgaben suggestieren, sondern dient lediglich der internen Unterscheidung und Organisation innerhalb des Unternehmens. Alle Mitarbeiter, die in diesem Kapitel beschrieben werden, sind Angestellte der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) und unterliegen den entsprechenden arbeitsrechtlichen Bestimmungen.

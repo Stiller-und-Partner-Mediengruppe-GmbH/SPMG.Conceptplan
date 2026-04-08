@@ -24,10 +24,14 @@ package "Productions" as PROD {
     object "Movies" as MPU
     object "Games" as GPU{
      external Producer: Tobias Wittmann
-}   
+}
+    object "TV Shows" as TVU
+    object "Comics" as CPU
 
     CPO -down-> MPU
     CPO -down-> GPU
+    CPO -down-> TVU
+    CPO -down-> CPU
 
 } 
 

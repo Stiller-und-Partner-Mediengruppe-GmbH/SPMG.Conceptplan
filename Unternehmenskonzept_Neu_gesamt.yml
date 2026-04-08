@@ -1,0 +1,14 @@
+extends: default
+footer:
+  font_size: 9
+  height: 1cm
+  # 'recto' definiert die rechte/ungerade Seite, 'verso' die linke/gerade.
+  # Wir setzen beide gleich, damit es konsistent bleibt.
+  recto:
+    left: "{page} von {total-pages}"
+    center: "{chapter-title}"
+    right: "{page} von {total-pages}"
+  verso:
+    left: "{page} von {total-pages}"
+    center: "{chapter-title}"
+    right: "{page} von {total-pages}"

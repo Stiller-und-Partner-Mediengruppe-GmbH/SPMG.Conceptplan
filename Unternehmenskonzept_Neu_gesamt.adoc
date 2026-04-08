@@ -12,9 +12,8 @@
 :author: Sebastian Stiller
 :docdate: {docdate}
 :title: SPMG-Unternehmensgründungskonzept
+:title-logo-image: image:logo.svg[pdfwidth=100, align=center]
 
-
-image::logo.svg[width=200, alt="Stiller und Partner Mediengruppe GmbH/Holding (SPMG) Logo", align="center"]
 = Unternehmenskonzept Stiller und Partner Mediengruppe GmbH/Holding (SPMG)
 {author} +
 In der Fassung vom {docdate}
@@ -59,4 +58,5 @@ include::Products_Projects.adoc[leveloffset=+1]
 
 include::Operations_Security.adoc[leveloffset=+1]
 
+include::Company_agreement.adoc[]
 
