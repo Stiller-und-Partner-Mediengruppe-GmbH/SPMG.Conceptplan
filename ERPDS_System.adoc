@@ -1,0 +1,35 @@
+= Enterprise Resource Planning and Dispatch System (ERPDS)
+
+Die SPMG nutzt für ihre internen Prozesse und dem grundlegenden Tagesgeschäft ein Hauseigenes ERP-System mit internen Dispatch-Funktionen, welche es ermöglichen, alle internen Services koordiniert zu steuern. 
+
+Das ERPDS ist hierbei ein maßgeschneidertes System, welches speziell auf die umfassenden Anforderungen und Bedürfnisse der SPMG und ihrer Serviceteams (Security, Facilty Management, Sanitätsdienst, Brandschutz, etc.) zugeschnitten ist. 
+
+Der Funktionalitätsumfang des ERPDS umfasst unter anderem die folgenden Bereiche:
+
+== Personalmanagement 
+Das ERPDS ermöglicht die Verwaltung aller relevanten Personaldaten, einschließlich der Qualifikationen, Zertifikate, Disziplinarien und Lizenzen, welche die Mitarbeiter für die Ausübung ihrer Tätigkeiten benötigen. Es bietet Funktionen zur Planung von Schulungen, zur Überwachung von Zertifikatsabläufen und zur Verwaltung von Mitarbeiterprofilen.
+
+== Projektmanagement
+Das ERPDS unterstützt die Planung, Koordination und Überwachung von Projekten. +
+ Die Plattform ermöglicht die autoatisierte Dokumentenerstellung, Berichtserstellung und Fortschrittsverfolgung, um sicherzustellen, dass Projekte effizient und termingerecht abgeschlossen werden.
+
+== Fleetmanagement
+Die Plattform bietet Funktionen zur Verwaltung der Fahrzeugflotte der SPMG, einschließlich der Wartungsplanung, der Verwaltung von Fahrerdaten und rechtssicheren Dokumentenspeicherung (z.B. Digitales Fahrtenbuch, Digitales Zulassungsdokumente, usw.). 
+
+== Rechtssichere Dokumentenverwaltung
+Alle Dokumente, die im Rahmen der interner Prozesse erstellt werden, werden im ERPDS rechtssicher mittels digitaler Signatur (ID-Austria) signiert und archiviert. Dies gewährleistet die Einhaltung aller gesetzlichen Anforderungen und ermöglicht eine 
+
+== Technische Dokumentation 
+Die Technische Dokumentation der Plattform umfasst detailliertere Funktionsbeschreibungen, Anleitungen zur Nutzung der verschiedenen Module und Informationen zu den technischen Spezifikationen des Systems. Sie finden diese Dokumentation auf folgender Seite: 
+
+https://github.com/Stiller-und-Partner-Mediengruppe-GmbH/ERPDS-SPMG.Dokumentation/releases
+
+[WARNING] 
+
+Bitte achten Sie darauf, dass nur die aktuellsten Release-Versionen der Technischen Dokumentation in der Aktuellen Version verwendet werden sollten. Ältere Versionen können veraltete Informationen enthalten, welche nicht mehr mit der aktuellen Version des ERPDS übereinstimmen.
+
+[WARNING]
+
+Die SPMG behält sich das Recht vor, die Technische Dokumentation jederzeit zu aktualisieren oder zu ändern, um sicherzustellen, dass sie stets den neuesten Stand der Software widerspiegelt. Es wird empfohlen, regelmäßig nach Updates der Dokumentation zu suchen, um über alle Änderungen und Verbesserungen informiert zu bleiben.
+Diese Updates können sie in der Plattform in ihren Benachrichtigungen oder durch eine Rundmail über die internen Kommunikationskanäle der SPMG erfahren.
+
