@@ -27,12 +27,24 @@ package "Productions" as PROD {
 }
     object "TV Shows" as TVU
     object "Comics" as CPU
+    object "SPMG Land" as SPL
+    object "SPMG Eventhalle" as SPEH
+    object "Bücher" as BUE
+    Object "Sachbücher" as SBUE
+    Object "Romane" as ROMS
+    Object "SPMG Cinemas" as SCIN
+
 
     CPO -down-> MPU
     CPO -down-> GPU
     CPO -down-> TVU
     CPO -down-> CPU
-
+    CPO -down-> SPL
+    CPO -down-> SPEH
+    CPO -down-> BUE
+    BUE -down-> SBUE
+    BUE -down-> ROMS
+    CPO -down-> SCIN
 } 
 
 
@@ -45,10 +57,51 @@ package "Productions" as PROD {
 ====
 Die Produktbeschreibungen werden in Kürze hinzugefügt.
 ====
+Die SPMG hat eine Vielzahl von Produkten, die sich auf die verschiedenen Bereiche der Medien- und Unterhaltungsindustrie erstrecken. Diese Projekte sind darauf ausgerichtet, innovative und hochwertige Inhalte zu schaffen, die unser Publikum begeistern und unsere Position als führendes Medienunternehmen stärken.
+ 
+=== Projekte
 
-== Projekte
+Die SPMG hat mehrere spannende Projekte welche den Kern unseres Schaffens bilden. Diese Projekte sind umfassen die folgenden IPs und Franchises.
 
-[NOTE]
-====
-Die Projektbeschreibungen werden in Kürze hinzugefügt.
-====
+==== Filme und Filmfranchises
+
+===== Descent
+
+Descent ist eine geplante Action/Thriller/Krimi Filmreihe, welche vom Gründer und CCO *Sebastian Andreas Stiller* selber verfasst und produziert wird. 
+
+
+==== Videospiele und Spiel-Franchises
+
+Diese Spiele werden von unserem externen Partner, *Tobias Wittmann* und seinem Studio [Name hier einfügen], entwickelt und produziert. Diese Spiele sind dann über unsere Steam-Seite erhältlich und werden von uns vertrieben. 
+
+===== Decent: The Game
+
+Basierend auf unserer gleichnamigen Filmreihe ist Descent: The Game eine möglichkeit für Fans, einen tieferen Einblick in die Welt von Descent zu erhalten und selbst Teil der spannenden Story zu werden. 
+
+===== Unnamd Simulator Game
+
+In diesem Simulator können Spieler in die Rolle eines Unternehmers schlüpfen und gemeinsam mit anderen Spielern sein eigenes Unternehmensimperium aufbauen. Es ist eine Mischung aus Wirtschaftssimulation, Multiplayer-Online-Spiel, First und Thrid Person Shooter und einer Kompexen Fahrzeug-Simulation. Du kannst auf eine große Auswahl an Fahrzeugen, Waffen und anderem Gerät zurückgreifen, um deine Lieferungen und Projekte vor anderen Spielern zu schützen oder sie anzugreifen. Es wird eine Vielzahl von Missionen, Herausforderungen und Events geben, die die Spieler gemeinsam bewältigen können. Es ist ein Spiel, welches die Kreativität, Strategie und Zusammenarbeit der Spieler fördert und gleichzeitig eine spannende und unterhaltsame Erfahrung bietet.
+
+==== TV-Shows und Sender
+
+Die SPMG ist auch in der Entwicklung von diversen TV-Produktionen wie Serien, Live-Shows und Dokumentationen. Diese Produktionen werden auf verschiedenen Plattformen und Sendern ausgestrahlt, um ein breites Publikum zu erreichen.
+
+==== Comics 
+
+==== Bücher
+
+===== Sachbücher
+===== Romane
+=== SPMG Land
+
+Das SPMG Land ist ein geplanter Themenpark und Erlebniswelt, in welcher Besucher in die diversen Welten und Geschichten unserer Franchises eintauchen können. Es soll eine einzigartige Mischung aus Unterhaltung, Bildung und interaktiven Erlebnissen bieten, die die Kreativität und Fantasie unserer Besucher anregen.
+
+=== SPMG Eventhalle
+
+Die SPMG Eventhalle ist ein geplante Event und Veranstaltungshalle, welche für eine Vielzahl von Veranstaltungen, Events und Live-Shows genutzt werden soll. Sie soll ein vielseitiger Veranstaltungsort sein, der sowohl für unsere eigenen Produktionen als auch für externe Veranstaltungen zur Verfügung steht. Die Eventhalle wird mit modernster Technologie ausgestattet sein, um ein unvergessliches Erlebnis für alle Besucher zu gewährleisten.
+
+=== SPMG Cinemas 
+
+Die SPMG Cinemas sind eine geplante Kette von Kinos, die in verschiedenen Städten (vorallem in Österreich) eröffnet werden sollen. Diese Kinos sind nicht nur als Orte für die Vorführung unserer eigenen Filme und Produktionen gedacht, sondern auch als Plattform für die Zusammenarbeit mit anderen Studios und Filmemachern, um eine breite Palette von Inhalten zu präsentieren. Die SPMG Cinemas werden mit modernster Projektionstechnologie und komfortablen Einrichtungen ausgestattet sein, um ein erstklassiges Kinoerlebnis zu bieten.
+
+

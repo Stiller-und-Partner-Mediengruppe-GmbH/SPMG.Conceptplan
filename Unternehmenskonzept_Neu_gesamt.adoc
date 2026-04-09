@@ -45,7 +45,7 @@ Ansprechpartner: **Sebastian Andreas Stiller** (Gründer und Chief Creative Offi
 
 * **Adresse**: To be Announced
 * **Telefon**: +43 660 2084555
-* **E-Mail**: (mailto:kontakt@sebastianstiller.at)
+* **E-Mail**: mailto:kontakt@sebastianstiller.at[kontakt@sebastianstiller.at]
 
 
 include::Intro_History.adoc[leveloffset=+1]
