@@ -1,0 +1,141 @@
+= Executive Summary
+
+[NOTE]
+====
+Die Executive Summary wird in Kürze hinzugefügt.
+====
+
+[plantuml, org-chart-full, svg]
+----
+@startuml
+skinparam packageStyle rectangle
+
+' Dieser Befehl erlaubt das Mischen von verschiedenen Elementtypen (Object & Rectangle)
+allowmixing
+
+' Definition eines Styles für reinen Text
+skinparam rectangle<<text>> {
+    BackgroundColor transparent
+    BorderColor transparent
+    Shadowing false
+}
+
+title SPMG - Orga und Abteilungen
+
+package "Aufsichtsrat SPMG" as AR {
+    object "Konzernleitung" as KL {
+        CCO: Sebastian Andreas Stiller
+        CTO: TBD
+        CSO: TBD
+        CMO: TBD
+        CPO: TBD
+              
+    }
+}
+
+package "IT-Abteilung" as IT {
+    rectangle "CTO" as CTO
+    object "Entwicklung" as DEV
+    object "Support" as SUP
+}
+
+
+package "Security Operations" as SO {
+    rectangle "CSO" as CSO
+    
+    object "Security and Patrol Unit" as SPU
+    object "Special Intervention Unit" as SIU
+    object "VIP Close Protection Unit" as VCPU
+    object "Event Security Unit" as ESU
+    object "Arial Support Unit" as ASU{
+        Flightchief: TBD
+        Groundchief: TBD
+}
+    object "Investigation and Intelligence Unit" as IIU
+    object "K9 Unit" as K9
+
+    CSO -down-> SPU
+    CSO -down-> SIU
+    CSO -down-> VCPU
+    CSO -down-> ESU
+    CSO -down-> ASU
+    CSO -down-> IIU
+    CSO -down-> K9
+} 
+
+package "Medical Operations" as MO {
+    rectangle "CMO" as CMO
+    
+    object "Arbeitsmedizin" as AM
+    object "Sanitätsdienst" as SD
+    object "Medizinisch Präventive Maßnahmen" as MPM
+    object "Flugrettung" as HEMS{
+        Flightchief: TBD
+        Groundchief: TBD
+}
+    object "Rettungshunde" as RK9
+
+    CMO -down-> AM
+    CMO -down-> SD
+    CMO -down-> MPM
+    CMO -down-> HEMS
+    CMO -down-> RK9
+} 
+
+package "Productions" as PROD {
+    rectangle "CPO" as CPO
+    object "Movies" as MPU
+    object "Games" as GPU{
+     external Producer: Tobias Wittmann
+}   
+
+    CPO -down-> MPU
+    CPO -down-> GPU
+
+} 
+
+' Beziehungen / Hierarchien
+AR -down-> CTO
+AR -down-> CSO
+AR -down-> CMO
+AR -down-> CPO
+
+CTO -down-> DEV
+CTO -down-> SUP
+@enduml
+----
+
+== Die Neudefinition der europäischen Medienlandschaft
+Die Stiller und Partner Mediengruppe GmbH/Holding (SPMG) ist die Realisierung einer ambitionierten Vision, die darauf abzielt, Österreich als führenden europäischen Filmstandort zu etablieren und die Grenzen der Unterhaltungsindustrie nachhaltig zu verschieben. 
+Unter der Leitung des Gründers und Chief Creative Officers (CCO), Sebastian Andreas Stiller, bündelt die SPMG kreative Exzellenz mit einer hochmodernen, autarken Infrastruktur, um Multi-Media-Inhalte auf Hollywood-Niveau zu produzieren.
+Die Vision: Vom „Fiebertraum“ zum Branchenführer
+Der Ursprung der SPMG liegt in einem ambitionierten HTL-Abschlussprojekt aus dem Jahr 2023. Dieses Erstlingswerk, ein Krimi-Kurzfilm, wurde vom Gründer selbst als „Fiebertraum“ beschrieben, der trotz minimaler Ressourcen und zahlreicher Rückschläge – wie fehlender Ausrüstung und einem extrem engen Zeitplan – produziert wurde.
+Sebastian Stiller weigerte sich, diesen beinahe missglückten Versuch auf sich sitzen zu lassen, und nutzte die gewonnenen Erkenntnisse („Lessons-learned“), um die Idee von Grund auf neu zu entwickeln.
+Diese Entschlossenheit prägt das Unternehmen bis heute: Von einer mehrjährigen Recherchephase bis hin zum geplanten offiziellen Markteintritt im Jahr 2029, sobald der Gründer sein Ingenieurszertifikat erhalten hat, um die Professionalität und Seriosität des Hauses zu garantieren. Die SPMG ist somit das Ergebnis jahrelanger Verfeinerung einer Mission, die den Anspruch hat, die österreichische Medienlandschaft für immer zu verändern.
+
+== Das Flaggschiff-Projekt: *„Descent“*
+
+Das Herzstück und der kreative Anker der SPMG ist das Franchise *„Descent“*. Dieses Projekt bildet das Fundament, auf dem die gesamte Unternehmensidentität aufbaut:
+Filmreihe: *„Descent“* ist als hochkarätige Action/Thriller/Krimi-Filmreihe konzipiert, die vom Gründer Sebastian Andreas Stiller persönlich verfasst und produziert wird
+. Ziel ist es, eine Qualität zu erreichen, die internationale Blockbuster-Standards nicht nur erfüllt, sondern herausfordert
+.
+„Descent: The Game“: Die Welt von *„Descent“* wird über die Leinwand hinaus erweitert. In Zusammenarbeit mit dem externen Partner Tobias Wittmann entsteht ein Videospiel, das es Fans ermöglicht, tiefer in die Lore einzutauchen und selbst Teil der spannenden Handlung zu werden.
+Synergie-Effekte: *„Descent“* dient als Prototyp für die integrierte Strategie der SPMG, bei der geistiges Eigentum (IP) über verschiedene Medienformate hinweg – von Film über Gaming bis hin zu physischen Erlebnissen – konsistent und hochwertig verwertet wird.
+
+== Ein integriertes Ökosystem der Unterhaltung
+
+Neben dem *„Descent“*-Franchise basiert das Kerngeschäft auf einer synergetischen Struktur aus verschiedenen Unterhaltungsbereichen:
+Gaming & Simulation: Neben dem *„Descent“*-Spiel entwickelt die SPMG komplexe Simulationen wie das „Unnamed Simulator Game“, eine Mischung aus Wirtschaftssimulation und Multiplayer-Shooter, in dem Spieler eigene Imperien aufbauen können
+.
+Erlebniswelten: Durch Projekte wie das „SPMG Land“ (ein Themenpark für die Welten der SPMG-Franchises), die „SPMG Eventhalle“ für Live-Shows und eine eigene Kinokette („SPMG Cinemas“) wird die Marke für das Publikum physisch greifbar.
+
+== Operative Souveränität und Sicherheit
+
+Was die SPMG grundlegend von klassischen Medienhäusern unterscheidet, ist ihre tiefgreifende, beinahe staatlich anmutende operative Struktur, die den Schutz von Produktionen und Gästen priorisiert:
+Unternehmenseigener Sicherheitsdienst: Spezialisierte Einheiten wie die Special Intervention Unit (SIU) für Hochrisikolagen und die Aerial Support Unit (ASU) mit eigener Hubschrauberflotte gewährleisten maximale Sicherheit auf allen Betriebsstätten.
+Medizinische Versorgung: Ein interner Sanitätsdienst inklusive eigener Flugrettung minimiert die sogenannten „No-Flow“-Zeiten in Notfällen und sorgt für das Wohlbefinden von Mitarbeitern und Gästen auf Hollywood-Niveau.
+Technologische Basis: Das maßgeschneiderte ERPDS (Enterprise Resource Planning and Dispatch System) steuert zentral alle Prozesse – von der Fahrzeugflotte bis zur rechtssicheren Dokumentenverwaltung mittels ID-Austria.
+
+== Ein Versprechen für die Zukunft
+
+Die SPMG ist mehr als ein Unternehmen; sie ist ein Beweis dafür, dass visionäres Denken gepaart mit einem lückenlosen, jahrelang vorbereiteten Plan keine Grenzen kennt. Als innovativer Dienstleister und Arbeitgeber verpflichtet sich die Holding ab 2029 höchsten ethischen Standards und einer Compliance, die Vertrauen bei Investoren schafft und die Reputation des österreichischen Films weltweit stärken wird

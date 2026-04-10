@@ -13,6 +13,7 @@
 :docdate: {docdate}
 :title: SPMG-Unternehmensgründungskonzept
 :title-logo-image: image:logo.svg[pdfwidth=100, align=center]
+:imagesdir: images
 
 = Unternehmenskonzept Stiller und Partner Mediengruppe GmbH/Holding (SPMG)
 {author} +
@@ -48,17 +49,17 @@ Ansprechpartner: **Sebastian Andreas Stiller** (Gründer und Chief Creative Offi
 * **E-Mail**: mailto:kontakt@sebastianstiller.at[kontakt@sebastianstiller.at]
 
 
-include::Intro_History.adoc[leveloffset=+1]
+include::chapters/Intro_History.adoc[leveloffset=+1]
 
-include::Executive_Summery.adoc[leveloffset=+1]
+include::chapters/Executive_Summery.adoc[leveloffset=+1]
 
-include::Compliance_HR_Finance.adoc[leveloffset=+1]
+include::chapters/Compliance_HR_Finance.adoc[leveloffset=+1]
 
-include::Products_Projects.adoc[leveloffset=+1]
+include::chapters/Products_Projects.adoc[leveloffset=+1]
 
-include::Operations_Security.adoc[leveloffset=+1]
+include::chapters/Operations_Security.adoc[leveloffset=+1]
 
-include::ERPDS_System.adoc[leveloffset=+1]
+include::chapters/ERPDS_System.adoc[leveloffset=+1]
 
-include::Company_agreement.adoc[leveloffset=+1]
+include::chapters/Company_agreement.adoc[leveloffset=+1]
 
