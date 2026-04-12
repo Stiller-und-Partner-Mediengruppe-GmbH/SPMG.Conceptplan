@@ -61,5 +61,7 @@ include::chapters/Operations_Security.adoc[leveloffset=+1]
 
 include::chapters/ERPDS_System.adoc[leveloffset=+1]
 
+include::chapters/requirements.adoc[leveloffset=+1]
+
 include::chapters/Company_agreement.adoc[leveloffset=+1]
 

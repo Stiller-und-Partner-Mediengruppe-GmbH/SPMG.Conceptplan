@@ -1,0 +1,97 @@
+= Anforderungsprofile der Mitarbeiter:innen innerhalb der SPMG
+
+Im Folgenden Abschnitt werden die Anforderungen und Qualifikationen beschrieben, die für die verschiedenen Positionen innerhalb der Strukturen der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) erforderlich sind. DIese Anforderungen umfassen sowohl fachliche als auch persönliche Kompetenzen, die notwendig sind, um die Aufgaben, Aufgabenbereiche und Verantwortlichkeiten der jeweiligen Positionen erfolgreich zu erfüllen. 
+
+Die Profile sind so eingeteilt, dass sie pro Abteilung und Position kategorisiert sind, um eine klare Übersicht und eine gezielte Suche zu ermöglichen. 
+
+== Anforderungen für Personal in der Geschäftsführung und Algemeinen Verwaltungspositionen
+Die Geschäftsführung und allgemeinen Verwaltungspositionen innerhalb der SPMG erfordern eine Kombination aus diversen Führungsqualitäten, strategischem Denken, organisatorischen und Technischen Fähigkeiten und Qualifikationen. 
+
+=== Geschäftsführung
+==== CFO (Chief Financial Officer)
+Der CFO ist für die finanzielle Führung und Compliance Prüfung der SPMG verantwortlich. Er oder sie muss über fundierte Kenntnisse in den Bereichen Finanzmanagement, Buchhaltung, Steuern und steuerrechtliche Vorschriften im Rahmen der Abgabenordnung verfügen. 
+
+===== Anforderungen:
+
+* Abgeschlossenes Studium in Betriebswirtschaft, Finanzen oder einem verwandten Bereich
+* Mehrjährige Erfahrung in einer leitenden Finanzposition, idealerweise im zusammenhang mit den Medien- und Unterhaltungsbranche 
+* Grundlegende Kenntnisse im Bereich Mediengestaltung und Produktion von Multimedialen Inhalten sind von Vorteil
+
+==== COO (Chief Operating Officer)
+Der COO ist für die operative Führung und die Einhaltung von der Compliance und Standing Operating Procedures (SOPs) innerhalb der SPMG verantwortlich. Er oder sie müssen dabei vor allem mit dem CSO (Chief Security Officer) 
+
+===== Anforderungen:
+
+
+==== CSO (Chief Security Officer)
+Der CSO ist für die Sicherheit und alle Sicherheitsrelevanten Operationen im Zusammenhang mit der SPMG, deren Mitarbeitern, Kunden und Partnern in Ausübung ihrer Aufgaben des Täglichen Geschäfts- und Wertgenerierungsprozesse verantwortlich. Er oder sie müssen auf die besonderen Sicherheitsanforderungen im Zusammenhang mit dem Umgang mit sensiblen Daten, der Wahrung von Geschäftsgeheimnissen und Geistigem Eigentum, Sicherheitsvorkehrungen im Zusammenhang mit der Produktion von Multimedialen Inhalten, Objekt- und Personenschutz, Einsatzkoordination von Sicherheitseinsatzkräften. 
+
+===== Anforderungen:
+
+* Abgeschlossene Ausbildung im Bereich des Sicherheitsgewerbes, der Personenschutzbranche oder einem Staatlichen Sicherheitsbereich (z.B. Polizei, Militär)
+* Mehrjährige Erfahrung in einer leitenden Sicherheitsposition, idiealerweise im Zusammenhang mit der Medien- und Unterhaltungsbranche
+* Grundlegende Kenntnisse im Bereich Mediengestaltung und Produktion von Multimedialen Inhalten sind von Vorteil
+* Nachweis Waffenrechtlicher Dokumente und Qualifikationen (z.B. Waffenschein, Sachkundeprüfung, etc.) sind dringend erforderlich
+* Nachweis Gewerberechtlicher Dokumente und Qualifikationen (z.B. Gewerbeschein, etc.)  für das Sicherheitsgewerbe sind dringend erforderlich
+* Nachweis von Qualifikationen im Bereich des Diensthundewesens (z.B. Sachkundeprüfung, Modul "Diensthundewesen") sind dringend erforderlich
+
+==== CMO (Chief Medical Officer)
+Der CMO ist für die medizinische Versorgung und Betreuung der Mitarbeiter:innen, Gästen und VIPs der SPMG verantwortlich. Er oder sie müssen dabei auf die besonderen Anforderungen im Zusammenhang mit der medizinischen Versorgung im Rahmen von Veranstaltungen, Dreharbeiten und anderen Aktivitäten der SPMG eingehen können.
+
+===== Anforderungen:
+* Abgeschlossenes Studium in Medizin in Österreich oder einem anderen Land, welches von der Österreichischen Ärztekammer anerkannt ist
+* Volle Approbation als Arzt in Österreich.
+* Führungskräfte-Diplom: Nachweis über eine Ausbildung in "Krankenhausmanagement" oder "Ärztliche Führungskräfte" (mind. 160 Stunden gemäß Krankenanstaltengesetz).
+* Berufserfahrung: Nachweis einer mindestens 5-jährigen klinischen Tätigkeit als Fach- oder Oberarzt in einem Österreichischen Krankenhaus (nicht von Anfang an Notwendig wird aber später nachzureichen sein)
+* Nachweis über vorhandenem Notarzt-Dekrets
+* Nachweis über vorhandenem Arbeitsmedizinischem Dekret
+* Nachweis über vorhandener Qualifikationen im Bereich des Rettzungsdienstes, vorallem im bereich der Hubschrauber-Rettung (HEMS)(Medical Manager).
+
+==== CPO (Chief Production Officer)
+Der CPO ist für die Produktion von Multimedialen Inhalten und die Einhaltung von Produktionsstandards und -prozessen innerhalb der SPMG verantwortlich. Er oder sie müssen dabei auf die besonderen Anforderungen im Zusammenhang mit der Produktion von Multimedialen Inhalten eingehen können.
+
+===== Anforderungen:
+* Abgeschlossene Ausbildung an einer HTL (mit Matura ist von Vorteil) im Bereich der Mediengestaltung, Medientechnik, oder Informatik
+* Erfahrung in der Produktion von Multimedialen Inhalten, idealerweise mit einem Schwerpunkt auf Film- und Videoproduktion, Animation, oder interaktive Medien
+
+=== Anforderungen für Personal im Bereich der Allgemeinen Verwaltung
+Die allgemeinen Verwaltungspositionen innerhalb der SPMG erfordern eine Kombination aus organisatorischen, administrativen und Kommunikativen Fähigkeiten und Qualifikationen. 
+Hier wird zwischen den einzelnen Abteilungen unterschieden. 
+
+==== Sicherheitsdienst (Sec-Ops)
+Der Sicherheitsdienst innerhalb der SPMG ist eine sehr umfangreiche und komplexe Abteilung, welche sich mit der Sicherheit von Mitarbeitern, Kunden, Partnern, Veranstaltungen, Dreharbeiten und anderen Aktivitäten der SPMG beschäftigt. Die Anforderungen für die verschiedenen Positionen innerhalb des Sicherheitsdienstes sind daher sehr unterschiedlich und umfassen sowohl fachliche als auch persönliche Kompetenzen.
+
+[WARNING]
+
+Für die Mitarbeiter des Sicherheitsdienstes wird eine Waffenrechtliche Prüfung durch die zuständige Landespolizeidirektion durchgeführt. Bei Negativer Prüfung kann eine Anstellung nicht gewährleistet werden. 
+
+===== Sicherheitsdienstmitarbeiter:in (Streifendienst)
+Ein Sicherheitsdienstmitarbeiter:in im Streifendienst ist derjenige, welcher die Sicherheit in den Anlagen und bei den Events der SPMG. Er ist für den Reibungslosen Ablauf des Tagesgeschäft und die Aufrechterhaltung der Ordnung innerhalb der Anlagen und Events der SPMG. 
+
+====== Anforderungen 
+
+* Berufserfahrung im Bereich des Sicherheitsbereich, Staatlicher Institutionen (Polizei) oder  Abgeleisteten Grundwehrdienst ( verplichtend in Österreich)
+* positives waffenspezifisches Psychologisches Gutachten (keine Abweisungsgründe vorhanden)
+* Unbescholtenes europäisches Führungszeugnis (besonders für Bewerber aus dem EWR-Raum)
+* Berechtigung zum Führen von Kraftfahrzeugen der Klasse B (C vorteilhaft)
+
+===== Sicherheitsdienstmitarbeiter:in (Objektschutz)
+Ein Sicherheitsdienstmitarbeiter:in im Objektschutz-Dienst ist derjenige der sicherstellt die Zugänge der Anlagen und bei Events der SPMG gesichert sind und nur die Personen diese betreten die sollten. 
+
+====== Anforderungen 
+* Berufserfahrung im Bereich des Sicherheitsbereich, Staatlicher Institutionen (Polizei) oder  Abgeleisteten Grundwehrdienst ( verplichtend in Österreich)
+* positives waffenspezifisches Psychologisches Gutachten (keine Abweisungsgründe vorhanden)
+* Unbescholtenes europäisches Führungszeugnis (besonders für Bewerber aus dem EWR-Raum)
+* Berechtigung zum Führen von Kraftfahrzeugen der Klasse B (C vorteilhaft)
+* Berufserfahrung im bereich des Objektschutzes 
+
+===== Sicherheitsdienstmitarbeiter:in (Hundeführer)
+
+* Berufserfahrung im Bereich des Sicherheitsbereich, Staatlicher Institutionen (Polizei) oder  Abgeleisteten Grundwehrdienst ( verplichtend in Österreich)
+* positives waffenspezifisches Psychologisches Gutachten (keine Abweisungsgründe vorhanden)
+* Unbescholtenes europäisches Führungszeugnis (besonders für Bewerber aus dem EWR-Raum)
+* Berechtigung zum Führen von Kraftfahrzeugen der Klasse B (C vorteilhaft)
+* Nachweis der Berechtigung zum führen eines Diensthundes (Diensthundeprüfung und Hundeführerschein)
+
+===== Sicherheitsdienstmitarbeiter:in (Personenschutz)
+
