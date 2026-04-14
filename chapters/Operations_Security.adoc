@@ -90,6 +90,17 @@ Diese Einheit ist das Rückgrat der Sicherheitsstrategie der SPMG. Sie ist für 
 * **K9 Unit (SPMG-K9)**: +
 Diese Einheit ist für den Einsatz von speziell ausgebildeten Hunden zuständig, welche bei der Überwachung der Betriebsstätten, der Durchführung von Sicherheitskontrollen und der Vorbeugenden Maßnahmen bei Großveranstaltungen eingesetzt werden. Hierbei gibt es verschiedene Spezialisierungen, wie z.B. Sprengstoffspürhunde, Drogenspürhunde oder Personenspürhunde, welche je nach Bedarf eingesetzt werden.
 
+* **Security Logistics Unit(SPMG-SLU)**: +
+Die Security Logistics Unit der SPMG ist eine Sondereinheit, welche für Hochrisiko-Transporte im Auftrag der SPMG in den Anlagen und auch außerhalb. 
+Diese Transporte umfassen vor allem: +
+
+** *Werttransporte*: +
+Jede Tageslosung die in den Anlagen der SPMG erwirtschaftet wird, wird von der Security Logistics Unit abgeholt und in unserem Security Center gezählt und anschließend unter höchsten Sicherheitvorkehrungen zu einer Partnerbank gebracht. Dadurch wird garantiert das keinerlei einnahmen beim Transport zur Bank gestohlen werden können. 
+
+** *Arrestantentransporte*: +
+Jede Person welche nach der Verübung einer Strafbaren handlung wird von unserem Sicherheitsdienst entsprechend Angehalten und von der SLU in das Sicherheitszentrum zur Internen Vorfallsdokumentation verbracht.
+** *VIP-Schuttle 
+
 == IT-Security
 aber auch die beste physische Sicherheit kann nicht helfen, wenn die IT-Infrastruktur des Unternehmens nicht ausreichend geschützt ist. Daher legt die SPMG großen Wert auf die Implementierung von robusten IT-Sicherheitsmaßnahmen, um die Vertraulichkeit, Integrität und Verfügbarkeit der Daten und Systeme zu gewährleisten.
 Die IT-Sicherheitsstrategie der SPMG umfasst die folgenden Einheiten: 
