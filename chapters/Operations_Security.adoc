@@ -29,11 +29,8 @@ Der Sicherheitsdienst der SPMG ist in verschiedene Einheiten unterteilt, um eine
 ----
 @startuml
 skinparam packageStyle rectangle
-
-' Dieser Befehl erlaubt das Mischen von verschiedenen Elementtypen (Object & Rectangle)
 allowmixing
 
-' Definition eines Styles für reinen Text
 skinparam rectangle<<text>> {
     BackgroundColor transparent
     BorderColor transparent
@@ -49,12 +46,17 @@ package "Security Operations" as SO {
     object "Special Intervention Unit" as SIU
     object "VIP Close Protection Unit" as VCPU
     object "Event Security Unit" as ESU
-    object "Arial Support Unit" as ASU{
+    object "Arial Support Unit" as ASU {
         Flightchief: TBD
-        Groundchief:TBD
-}
+        Groundchief: TBD
+    }
     object "Investigation and Intelligence Unit" as IIU
     object "K9 Unit" as K9
+    object "Security Logistics Unit" as SLU
+    object "SLU-Werttransport" as SLU_WT
+    object "SLU-Arrestantentransport" as SLU_AT
+    object "SLU-VIP Shuttle Service" as SLU_VIP
+    object "SLU-VIP Medical Service" as SLU_VIP_Med
 
     CSO -down-> SPU
     CSO -down-> SIU
@@ -63,9 +65,13 @@ package "Security Operations" as SO {
     CSO -down-> ASU
     CSO -down-> IIU
     CSO -down-> K9
+    CSO -down-> SLU
+    
+    SLU -down-> SLU_WT
+    SLU -down-> SLU_AT
+    SLU -down-> SLU_VIP
+    SLU_VIP -down-> SLU_VIP_Med
 } 
-
-
 @enduml
 ----
 
@@ -99,7 +105,13 @@ Jede Tageslosung die in den Anlagen der SPMG erwirtschaftet wird, wird von der S
 
 ** *Arrestantentransporte*: +
 Jede Person welche nach der Verübung einer Strafbaren handlung wird von unserem Sicherheitsdienst entsprechend Angehalten und von der SLU in das Sicherheitszentrum zur Internen Vorfallsdokumentation verbracht.
-** *VIP-Schuttle 
+
+** *VIP-Shuttle Service*: +
+Im Rahmen unseres VIP-Shuttle Services werden können VIPs und geladene Ehrengäste durch unsere fähigen Einsatzfahrer der SLU zwischen Terminen und Ihrer Unterkunft transportiert werden. 
+
+** *VIP-Medical-Shuttle Service*: +
+Auf bedarf kann auch eine Abholung mit Medizinischer Begleitung (NFS-NKI oder bei besonderem Bedarf mit Arzt) durchgeführt werden. +
+Dieses und das VIP-Shuttle-Service arbeiten auch sehr eng mit der Close Protection Unit (SPMG-VCPU) zusammen um die Bestmögliche Experience für den Gast zu garantieren.
 
 == IT-Security
 aber auch die beste physische Sicherheit kann nicht helfen, wenn die IT-Infrastruktur des Unternehmens nicht ausreichend geschützt ist. Daher legt die SPMG großen Wert auf die Implementierung von robusten IT-Sicherheitsmaßnahmen, um die Vertraulichkeit, Integrität und Verfügbarkeit der Daten und Systeme zu gewährleisten.
@@ -145,13 +157,13 @@ package "Medical Operations" as MO {
         Flightchief: TBD
         Groundchief: TBD
 }
-    object "Rettungshunde" as RK9
+    object "Rettungshunde" as R_K9
 
     CMO -down-> AM
     CMO -down-> SD
-    CMO -down-> MPM
+    AM -down-> MPM
     CMO -down-> HEMS
-    CMO -down-> RK9
+    CMO -down-> R_K9
 } 
 
 @enduml
@@ -159,7 +171,16 @@ package "Medical Operations" as MO {
 
 * **Arbeitsmedizinische Versorgung**: +
 Die Arbeitsmedizinische Versorgung wird von einem Team von Arbeitsmedizinern und Gesundheitsexperten bereitgestellt. Sie sind für die Durchführung von Gesundheitschecks, Tauglichkeitsuntersuchungen und die Entwicklung von Gesundheitsprogrammen für die Mitarbeiter zuständig. Sie arbeiten eng mit der Personalabteilung zusammen, um sicherzustellen, dass die Arbeitsbedingungen sicher und gesundheitsfördernd sind.
+** **Medizinisch Präventive Maßnahmen**: +
+Die Einheit für Medizinisch Präventive maßnahmen ist eine Untereinheit der Arbeitsmedizin und beschäftigt sich mit der Analyse von Gesundheitsdaten der Mitarbeitern und öffentlich Verfügbaren Daten um zu garantieren das der Ausbruch einer Krankheitwelle oder Pandemie früh erkannt wird und entsprechende Maßnahmen zum Schutz der Mitarbeiter und Gäste eingeleitet werden. 
 
-* **Notfallmedizinische Versorgung**: +
-die Notfallmedizinische Versorgung sind der Unternehmensinterne Rettungs- bzw. Sanitätsdienst, welcher bei den Betriebsstätten, Veranstaltungen, Produktionen und auf dem Gelände der Erlebniswelt und Hotelanlagen der SPMG für die medizinische Versorgung bei Notfällen zuständig ist. Sie besteht aus Rettungssanitätern, Notfallsanitätern und Ärzten, welche speziell für die Anforderungen des Unternehmens und die Umstände der Erlebniswelt und Hotelanlagen der SPMG geschult sind. Sie arbeiten eng mit den örtlichen Rettungsdiensten und Krankenhäusern zusammen, um sicherzustellen, dass im Falle eines medizinischen Notfalls schnell und effektiv reagiert werden kann. Sie sind auch für die Durchführung von Erste-Hilfe-Schulungen für die Mitarbeiter zuständig. Auch hier kann zwischen Boden und Lufteinheiten unterschieden werden, da die SPMG auch über einen eigenen Rettungshubschrauber verfügt, welcher bei Bedarf für die medizinische Versorgung bei Notfällen eingesetzt werden kann. +
-Diese sollen im bedarfsfall die sog. NO-Flow Zeiten, also die Zeit zwischen dem Eintreten eines Notfalls und der Ankunft in einer Einrichtung mit definitver Versorgung, so gering wie möglich zu halten, um die Überlebenschancen und die Prognose der Betroffenen zu verbessern.
+* **Sanitätsdienstliche Betreuung**: +
+Um auf alle Eventualitäten vorbereitet zu sein ist es nicht nur Wichtig einen Starken Sicherheitsdienst sondern auch eine gute Notfallversorgung und damit wir das in allen Anlagen und auf allen Events der SPMG gewährleisten können.
+** **Bodengebundener Sanitätsdienst**: +
+Der Bodengebundene Sanitätsdienst ist bei jedem Event, Dreharbeiten und in der Erlebniswelt um im Falle des Falles Personen Erstzuversorgen und dann einer höheren Medizinischen Versorgung (KH) zuzuführen.
+** **Hubschraubergebundener Sanitätsdienst (HEMS)**: +
+Um auch auf besondere Medizinische Notfälle vorbereitet zu sein betreibt die SPMG auch eine Flotte aus mehreren H145 Rettungshubschrauben um die bestmögliche Versorgung zu gewährleisten. 
+** **Sanitäts-Rettungshunde**: +
+Um auch bei Sonderlagen eine Bestmögliche Versorgung von Personen gewähleisten zu können beherbergt die SPMG neben ihren Diensthunden auch eine kleine Einheit von speziell für den Rettungsdienst ausgebildete Hunde.
+ 
+
