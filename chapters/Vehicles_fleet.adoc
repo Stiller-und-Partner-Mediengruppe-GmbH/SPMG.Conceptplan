@@ -1,32 +1,31 @@
 = Fahrzeuge und Unternehmensflotte
 
+== Fahrzeuge für den Grundlegenden Dienstbetrieb
+
+=== Logistische Unterstützungseinheiten
+
+=== Technische Unterstützungseinheiten
+
+=== Betriebsfeuerwehr
+
+=== Sicherheitsdienst
+
 == Sonderfahrzeuge
 
-=== 1. Flottenstandard & Fahrzeugauswahl
-Zur Gewährleistung einer einheitlichen Flottenoptik und funktionalen Sicherheit sind für die MCA-Einheit folgende Standards definiert:
+=== Logistische Unterstützungseinheiten
 
-* **Zugelassene Modelle:** Mercedes-Benz Sprinter oder Volkswagen Crafter (Hochdach-Variante empfohlen).
-* **Fahrzeugaußenfarbe:**
-** **Basis:** Vollfolierung in Schwarz Matt (Non-reflective).
-** **Akzentuierung:** Teilfolierung in Nachtblau (HEX #070052) gemäß Corporate Design Vorgaben.
-* **Branding-Richtlinie:** Beschriftungen ausschließlich in Silber-Reflexfolie. Auf hoheitliche Symbole oder Farbkombinationen (Rot/Blau) ist zur Vermeidung von Verwechslungen mit der Exekutive zwingend zu verzichten.
+=== Technische Unterstützungseinheiten
 
-=== 2. Technische Ausstattung (Warnsysteme)
-Alle Fahrzeuge dieser Kategorie sind mit zertifizierter Warntechnik des Herstellers **Hänsch** auszustatten.
+=== Betriebsfeuerwehr
 
-* **Dachaufbau (Early Warner):**
-** Vollmatrix-LED-Klapptafel zur rückwärtigen Absicherung.
-** Ansteuerung über fahrzeugeigenen CAN-Bus zur Geschwindigkeitsüberwachung (Auto-Stow Funktion).
-* **Heckabsicherung (Flush Mount):**
-** Integration von Hänsch Integro LED-Modulen direkt in die Karosserie (Hecktüren/Dachsäulen).
-** Die Montage muss bündig erfolgen, um die aerodynamische Silhouette und die Reinigungsfähigkeit zu erhalten.
-* **Steuerungseinheit:**
-** Fest verbautes Einbaubedienteil (z.B. Hänsch BE 300) in der Mittelkonsole.
-** Konfiguration: Aktivierung der Heckwarnanlage nur bei Stillstand (Koppelung an Handbremssignal).
+=== Sicherheitsdienst
 
-=== 3. Fleet Compliance & Rechtliche Abnahme (AT)
-Das Fuhrparkmanagement ist für die Einhaltung folgender Punkte verantwortlich:
+== Luftfahrzeuge 
 
-* **KFG-Konformität:** Durchführung der Einzelabnahme gemäß **§ 20 KFG** (Bewilligung für gelbes Warnlicht) bei der zuständigen Landesprüfstelle.
-* **Wartungsintervall:** Jährliche Funktionsprüfung der LED-Matrix und der mechanischen Klappkomponenten sowie Dichtigkeitsprüfung der Karosserie-Integration.
-* **Dokumentation:** Die Bewilligungsbescheide sind dauerhaft im Fahrzeug mitzuführen.
+=== Hubschrauber
+
+=== Flugzeuge 
+
+==== Firmen-Jets
+
+==== Transportflugzeuge
