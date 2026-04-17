@@ -12,14 +12,180 @@ Es wird hier grundsätzlich zwischen der Dienstbekleidung und der Uniform unters
 
 === Standard Dienstalltag 
 
- 
+==== Definition des Standard-Dienstbetriebes (SDB)
+1. Begriffsbestimmung Der Standard-Dienstbetrieb (SDB) definiert den regulären, kontinuierlichen Arbeitsmodus der Stiller und Partner Mediengruppe GmbH im 24/7-Rhythmus
+. Er umfasst alle routinemäßigen Prozesse, die zur Aufrechterhaltung der betrieblichen Sicherheit, der Funktionsfähigkeit der Infrastruktur sowie der Erbringung der medientechnischen Dienstleistungen notwendig sind. Im SDB steht die operative Effizienz und die unmittelbare Einsatzfähigkeit der Fachbereiche im Vordergrund.
+2. Kategorisierung nach Fachbereichen Im SDB werden die spezifischen Aufgaben der Fachbereiche wie folgt abgegrenzt:
+Sicherheitsdienst: Kontinuierliche Besetzung des Lage- und Sicherheitszentrums (LSZ), Durchführung von Objektkontrollen, Zutrittsmanagement sowie die Überwachung technischer Schutzeinrichtungen (z. B. bewaffneter Werkschutz gemäß rechtlicher Vorgaben)
+.
+** *Brandschutz (Betriebsfeuerwehr)*: Überwachung brandgefährlicher Tätigkeiten, regelmäßige Kontrolle der Brandschutzeinrichtungen auf dem Unternehmensgelände und Sicherstellung der Evakuierungswege.
+** *Sanitätsdienst (MedOps)*: Aufrechterhaltung der medizinischen Erstversorgungseinheiten, Bereitschaftsdienst für interne Notfälle und regelmäßige Überprüfung des medizinischen Equipments.
 
-==== Unternehmensleitung, Management und Vertrieb
+** *Technik (Infrastruktur und Instandhaltungsdienst)*: Administration der IT-Infrastruktur, Wartung des ERP-Systems (einschließlich der mobilen Anwendungen), Sicherstellung der Live-Übertragungskapazitäten sowie Pflege der NFC- und QR-basierten Zugangssysteme.
 
+** *Vertrieb*: Standardmäßige Kundenbetreuung, Abwicklung von Bestandskontrakten und die tägliche Akquise im Innendienst ohne externe Repräsentationsverpflichtung.
+** *Management*: Durchführung des Tagesgeschäfts, interne Ressourcenplanung via ERP-Software und die operative Leitung der Fachabteilungen.
+** *Technik (Produktions und Veranstaltungsdienst)*: Durchführung von Bild- und Tonaufnahmen, Aufbau und Bedienung der Produktionstechnik vor Ort oder im Studio sowie die technische Vorbereitung von Live-Übertragungen unter Verwendung spezialisierter Softwarelösungen.
+
+3. Bekleidungsstandards Im Standard-Dienstbetrieb ist die Bekleidung konsequent auf Funktionalität und den Schutz der Mitarbeiter ausgelegt:
+Operative Dienste (Sicherheit, Brandschutz, MedOps): Tragen der funktionellen Einsatzbekleidung bzw. der persönlichen Schutzausrüstung (PSA). Hierbei liegt der Fokus auf Strapazierfähigkeit, Erkennbarkeit und praktischem Nutzen (z. B. Holster, Funkgeräteaufnahmen)
+.
+Technik: Zweckmäßige, robuste Arbeitskleidung, die den Anforderungen an den Umgang mit Hardware und Infrastruktur gerecht wird.
+Management & Vertrieb: Business-Casual-Standard oder die allgemeine SPMG-Dienstbekleidung (z. B. Poloshirt/Blazer mit Firmenlogo), sofern kein direkter Termin mit externen Würdenträgern oder Investoren ansteht.
+4. Zielsetzung Das primäre Ziel des Standard-Dienstbetriebes ist die lückenlose Gewährleistung der Betriebssicherheit und der Servicequalität der Mediengruppe
+. Durch klare Routinen und funktionsoptimierte Ausrüstung wird eine Arbeitsumgebung geschaffen, die sowohl die Gesundheit der Mitarbeiter (Arbeitsschutz) als auch die hohen Anforderungen an den Schutz von Daten, Sachwerten und der Markenidentität (Domain- und Urheberschutz) im Alltag sicherstellt
 
 === Representationsanläße 
+==== Definition und Standards für Repräsentationsanlässe
 
+1. Begriffsbestimmung Als Repräsentationsanlässe werden alle offiziellen Termine und Ereignisse definiert, bei denen die Außenwirkung und die Markenidentität der Stiller und Partner Mediengruppe GmbH (SPMG) im Zentrum stehen. In diesen Situationen dient die Dienstbekleidung primär als visuelle Repräsentation der Unternehmenswerte – Professionalität, Seriosität und Kompetenz – und tritt hinter rein funktionale oder taktische Aspekte zurück
+.
+2. Kategorisierung der Anlässe Repräsentationsanlässe erfordern ein gesteigertes Maß an förmlichem Auftreten. Dazu zählen insbesondere:
+Stakeholder-Management: Besuche von bestehenden oder potenziellen Geschäftspartnern sowie Investorengespräche.
+Protokollarische Termine: Empfänge und Begehungen durch Würdenträger, Vertreter von Behörden oder politische Entscheidungsträger.
+Öffentlichkeitsarbeit: Auftritte bei Pressekonferenzen, offiziellen Branchenevents oder öffentlichen Veranstaltungen der Unternehmensleitung.
+3. Bekleidungsstandards nach Fachbereichen Je nach Verantwortungsbereich ist bei diesen Anlässen folgender Bekleidungsstandard zwingend einzuhalten:
+Unternehmensleitung, Management & Vertrieb: Tragen eines hochwertigen Business-Standards (Anzug/Kostüm), um Verlässlichkeit und die wirtschaftliche Stärke der Mediengruppe zu signalisieren
+.
+Sicherheits-, Brandschutz- und Sanitätsdienst: Bei Repräsentationsanlässen ist von der funktionalen Einsatz- oder PSA-Bekleidung zur offiziellen Repräsentationsuniform (Dienstanzug mit Hemd/Krawatte) zu wechseln. Dies dient insbesondere bei Besuchen von Würdenträgern der Vermittlung von geordneter Autorität und dem protokollarischen Respekt
+.
+4. Zielsetzung Die strikte Einhaltung dieser Standards bei Repräsentationsanlässen stellt sicher, dass die SPMG über alle Geschäftsbereiche hinweg als Einheit wahrgenommen wird und das Vertrauen externer Partner in die professionelle Struktur des Lage- und Sicherheitszentrums sowie der Mediengruppe gestärkt wird
 
 
 === Besondere Dienste 
+==== Definition der Besonderen Dienste (Dienste mit erhöhtem Gefahrenpotenzial)
+1. Begriffsbestimmung +
+ Besondere Dienste umfassen alle operativen Tätigkeiten, die aufgrund ihrer Art, des Einsatzumfeldes oder der verwendeten Arbeitsmittel ein überdurchschnittliches Gefahrenpotenzial für Leib und Leben aufweisen
+,
+. Diese Dienste sind durch strikte regulatorische Vorgaben – wie etwa die H1-Bewilligung für Hubschrauberflüge – und die zwingende Verwendung von Persönlicher Schutzausrüstung (PSA) gekennzeichnet
+. Sie erfordern eine spezialisierte Ausbildung und eine kontinuierliche Überwachung durch das Lage- und Sicherheitszentrum.
+2. Kategorisierung der Fachbereiche +
+im Flugbetrieb Innerhalb der Hubschrauber-Operationen und angrenzender Hochrisikobereiche werden folgende Rollen definiert:
+** *Piloten (Flight Crew)*: Verantwortlich für die sichere Führung des Luftfahrzeugs unter Einhaltung der H1-Bewilligungskriterien und der flugbetrieblichen Sicherheitsvorschriften. 
+** *Groundcrew (Bodenmannschaft)*: Zuständig für die technische Vorbereitung, Betankung und Wartung der Hubschrauber sowie den sicheren Umgang mit Gefahrstoffen im Bereich der Flugbetriebsflächen.
+** *Bodenlotsen / Marshaller*: Verantwortlich für die Einweisung der Luftfahrzeuge am Boden und die Absicherung des Gefahrenbereichs während der Start- und Landephasen, um Kollisionen und Unfälle zu vermeiden.
+** *Integrierte Rettungskräfte (MedOps-HEMS)*: Speziell geschultes Sanitätspersonal für die Luftrettung oder Evakuierung, deren Einsatzplanung eng mit den Flugbetriebszeiten verknüpft ist.
+** *Technik & IT*: Sicherstellung der flugrelevanten Kommunikationsinfrastruktur und der ERP-gestützten Wartungsprotokolle für die Luftfahrzeuge.
+** *Einsatzleitung (Management)*: Strategische Planung der Flugbewegungen und Überwachung der rechtlichen Compliance (z. B. Flugbuchführung und Genehmigungsmanagement).
 
+3. Bekleidungsstandards (PSA-Fokus) In den Besonderen Diensten ist das Tragen der fachspezifischen Persönlichen Schutzausrüstung (PSA) oberste Dienstpflicht:
+Flugdienst: Flammhemmende Fliegerkombinationen, Flughelme und Gehörschutz für Piloten.
+Bodendienst: Hochsichtbare Warnkleidung (High-Vis) nach geltenden Normen, Sicherheitsschuhe der Klasse S3, Gehörschutz sowie gegebenenfalls antistatische Kleidung bei der Betankung
+.
+Kennzeichnung: Klare visuelle Unterscheidbarkeit der Funktionen (z. B. farblich codierte Westen für Marshaller vs. Groundcrew), um die Kommunikation auf dem Rollfeld auch unter Lärmbelastung zu gewährleisten.
+4. Zielsetzung Die primäre Zielsetzung der Besonderen Dienste ist die absolute Minimierung von Unfallrisiken bei gleichzeitiger Maximierung der operativen Effektivität im Hochrisikosegment. 
+Durch die Kombination aus technischer Überwachung (ERP/LSZ), spezialisierter PSA und strenger Einhaltung behördlicher Auflagen wird ein Sicherheitsstandard etabliert, der die Integrität der Mitarbeiter schützt und die Zuverlässigkeit der SPMG als spezialisierter Mediengruppe mit Luftfahrtkomponente untermauert.
+
+
+== Kleidungsordnung und Uniformdefinitionen 
+
+Die folgenden Tabellen definieren die verbindlichen Bekleidungsstandards der Stiller und Partner Mediengruppe GmbH, unterteilt nach Einsatzszenario, Fachbereich und klimatischer Bedingung.
+
+=== 1. Standard-Dienstbetrieb (SDB)
+Der Fokus liegt hierbei auf der operativen Funktionalität im täglichen 24/7-Betrieb.
+
+[cols="1,2,2", options="header"]
+|===
+| Fachbereich | Warme Zeiten (Spezifische Stücke) | Kalte Zeiten (Spezifische Stücke)
+
+| **Management**
+| SPMG-Poloshirt (fein), leichte Chino-Hose, Halbschuhe.
+| SPMG-Strickpullover, Hemd/Bluse, Business-Mantel, Lederstiefel.
+
+| **Vertrieb**
+| SPMG-Poloshirt (gebrandet), dunkle Jeans oder Chino, Sneaker (gepflegt).
+| Langarm-Poloshirt, Softshelljacke mit Logo, wetterfeste Schuhe.
+
+| **Technik (Produktion)**
+| Schwarzes Funktions-T-Shirt (reflexionsarm), Cargo-Arbeitshose, leichte Arbeitsschuhe.
+| Schwarze Fleecejacke, Thermo-Cargo-Hose, S1-Sicherheitsschuhe.
+
+| **Sicherheit (Bewaffnet, leichte Rüstung)**
+| Kurzarm-Tactical-Shirt, leichte Einsatzhose, Dienstgürtel mit Holster (bewaffnet gemäß rechtlicher Vorgaben), leichte Unterziehschutzweste.
+| Langarm-Einsatzhemd, Rollkragen-Unterzieher, Einsatzparka, gefütterte Stiefel, Dienstgürtel (bewaffnet).
+
+| **Sanitätsdienst**
+| MedOps-Poloshirt, Rettungsdiensthose (weiß/rot), leichte Sicherheitsschuhe.
+| MedOps-Einsatzjacke (hochvisibel), Fleece-Innenjacke, Thermo-Einsatzhose.
+
+| **Brandschutz**
+| SPMG-Brandschutz-Poloshirt, leichte Arbeitshose (flammhemmend), S3-Stiefel.
+| Brandschutz-Dienstjacke, Thermo-Unterwäsche, S3-Sicherheitsstiefel.
+
+| **Sanitär / Reinigung**
+| Arbeits-Kasack (kurzarm), leichte Arbeitshose, rutschfeste Schuhe.
+| Langarm-Arbeitskittel oder Fleeceweste, verstärkte Arbeitshose.
+|===
+
+=== 2. Repräsentationsanlässe (Rep)
+Maßgeblich für die Außendarstellung bei Besuchen von Investoren, Partnern oder Würdenträgern.
+
+[cols="1,2,2", options="header"]
+|===
+| Fachbereich | Warme Zeiten (Spezifische Stücke) | Kalte Zeiten (Spezifische Stücke)
+
+| **Management**
+| Business-Anzug/Kostüm, helles Hemd/Bluse, Seidenkrawatte/-tuch.
+| Dunkler Business-Anzug, schwerer Wollmantel, Lederhandschuhe, Schal.
+
+| **Vertrieb**
+| Sakko/Blazer mit dezentem SPMG-Pin, Stoffhose, Lederschuhe.
+| Anzug-Kombination, eleganter Trenchcoat, Business-Stiefel.
+
+| **Technik (Produktion)**
+| Schwarzes SPMG-Piqué-Shirt (hochwertig), saubere dunkle Stoffhose.
+| Hochwertige schwarze Softshelljacke mit SPMG-Stick, gepflegte dunkle Hose.
+
+| **Sicherheit**
+| Repräsentationsuniform: Weißes Diensthemd, Krawatte, Sakko mit SPMG-Wappen, Stoffhose mit Bügelfalte.
+| Repräsentationsuniform, offizieller Dienstmantel, weiße Schirmmütze (optional).
+
+| **Sanitätsdienst**
+| Weißes Hemd/Bluse mit Rangabzeichen, dunkle Tuchhose, Halbschuhe.
+| Dienstmantel über der Repräsentationsuniform, dunkle Lederstiefel.
+
+| **Brandschutz**
+| Ausgehuniform (Tuchrock), Hemd, Krawatte, Schirmmütze.
+| Ausgehuniform mit schwerem Übermantel.
+
+| **Sanitär / Reinigung**
+| Einwandfreie SPMG-Systemkleidung (Poloshirt & Hose), einheitliches Schuhwerk.
+| SPMG-Systemjacke (sauber), einheitliche dunkle Arbeitshose.
+|===
+
+==== 3. Besondere Dienste (Dienste mit PSA)
+Spezialisierte Ausrüstung für Hochrisikobereiche und den Flugbetrieb unter H1-Bewilligung.
+
+[cols="1,2,2", options="header"]
+|===
+| Fachbereich | Warme Zeiten (Spezifische Stücke) | Kalte Zeiten (Spezifische Stücke)
+
+| **Piloten / Crew**
+| Flammhemmende Flugkombi, Flughelm mit Com-Set, Fliegerhandschuhe.
+| Thermo-Flugkombi (H1-konform), isolierte Fliegerstiefel, Thermo-Handschuhe [8].
+
+| **Groundcrew / Lotsen**
+| High-Vis Warnweste (Klasse 2), Kapselgehörschutz, S3-Schuhe, Marshaling-Wands.
+| High-Vis Winterparka (Klasse 3), Thermo-S3-Stiefel, gefütterter Gehörschutz.
+
+| **Sicherheit (Schwere Rüstung)**
+| Schwere ballistische Schutzweste (Plate Carrier), Combat-Shirt (flammhemmend), Tactical-Helm, Oberschenkelholster.
+| Ballistischer Schutz über taktischem Winterparka, Kälteschutzhandschuhe (taktisch), Sturmhaube.
+
+| **Technik (Aviation)**
+| Antistatische Arbeitshose, Kopfschutz-Anstoßkappe, PSA-Handschuhe.
+| Antistatischer Thermo-Overall, Kälteschutz-Unterzieher für Helm.
+
+| **Sanitätsdienst (Luft)**
+| Flugtaugliche MedOps-Kombination (flammhemmend), PSA-Kopfschutz.
+| Isolierte Flugrettungs-Kombi, wasserfeste PSA-Stiefel.
+
+| **Sanitär (Spezial)**
+| Chemikalienschutzanzug (Einweg), Atemschutzmaske, Schutzhandschuhe.
+| Chemikalienschutzanzug mit Kälteschutz-Unterzug, isolierte Schutzstiefel.
+|===
+
+[IMPORTANT]
+Für alle Dienstkleidungs- und Uniformgegenstände müssen nicht vom Mitarbeiter angeschafft werden sondern werden vom Unternehmen im Rahmen einer Pool-Wäsche bereitgestellt und können auch entsprechend getauscht werden. 
+
+== Corporate Identity
