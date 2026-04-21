@@ -33,6 +33,7 @@ package "Productions" as PROD {
     Object "Sachbücher" as SBUE
     Object "Romane" as ROMS
     Object "SPMG Cinemas" as SCIN
+    Object "Live.spmg.at" as LIVE
 
 
     CPO -down-> MPU
@@ -45,6 +46,7 @@ package "Productions" as PROD {
     BUE -down-> SBUE
     BUE -down-> ROMS
     CPO -down-> SCIN
+    CPO -down-> LIVE
 } 
 
 
@@ -78,7 +80,7 @@ Diese Spiele werden von unserem externen Partner, *Tobias Wittmann* und seinem S
 
 Basierend auf unserer gleichnamigen Filmreihe ist Descent: The Game eine möglichkeit für Fans, einen tieferen Einblick in die Welt von Descent zu erhalten und selbst Teil der spannenden Story zu werden. 
 
-===== Unnamd Simulator Game
+===== Unnamed Simulator Game
 
 In diesem Simulator können Spieler in die Rolle eines Unternehmers schlüpfen und gemeinsam mit anderen Spielern sein eigenes Unternehmensimperium aufbauen. Es ist eine Mischung aus Wirtschaftssimulation, Multiplayer-Online-Spiel, First und Thrid Person Shooter und einer Kompexen Fahrzeug-Simulation. Du kannst auf eine große Auswahl an Fahrzeugen, Waffen und anderem Gerät zurückgreifen, um deine Lieferungen und Projekte vor anderen Spielern zu schützen oder sie anzugreifen. Es wird eine Vielzahl von Missionen, Herausforderungen und Events geben, die die Spieler gemeinsam bewältigen können. Es ist ein Spiel, welches die Kreativität, Strategie und Zusammenarbeit der Spieler fördert und gleichzeitig eine spannende und unterhaltsame Erfahrung bietet.
 
@@ -104,4 +106,47 @@ Die SPMG Eventhalle ist ein geplante Event und Veranstaltungshalle, welche für 
 
 Die SPMG Cinemas sind eine geplante Kette von Kinos, die in verschiedenen Städten (vorallem in Österreich) eröffnet werden sollen. Diese Kinos sind nicht nur als Orte für die Vorführung unserer eigenen Filme und Produktionen gedacht, sondern auch als Plattform für die Zusammenarbeit mit anderen Studios und Filmemachern, um eine breite Palette von Inhalten zu präsentieren. Die SPMG Cinemas werden mit modernster Projektionstechnologie und komfortablen Einrichtungen ausgestattet sein, um ein erstklassiges Kinoerlebnis zu bieten.
 
+=== SPMG Streaming Plattform (Live.spmg.at) – Die unternehmenseigene Live- & Archiv-Plattform
+==== 1. Vision & Strategie
+Aufbau einer unabhängigen High-End-Streaming-Infrastruktur, die Presse- und Öffentlichkeitsarbeit ohne die Abhängigkeit von Drittanbietern (YouTube/Twitch) ermöglicht. Das System vereint maximale Datensouveränität mit professioneller Broadcast-Qualität und nahtloser Integration in unsere bestehende Enterprise-Software.
+
+==== 2. Technisches Ökosystem (The Stack)
+Wir setzen auf eine hybride Architektur aus bewährten Enterprise-Frameworks und spezialisierten Video-Engines:
+
+* Core-Backend: C# / ASP.NET Core (Steuerung, Sicherheit, Business-Logik).
+
+* Frontend: React mit TypeScript (Interaktive User-Experience, Video.js Integration).
+
+* Media-Engine: SRS (Simple Realtime Server) via Docker – optimiert für SRT/RTMP-Ingest und HLS-Delivery.
+
+* Storage-Souveränität: Self-hosted MinIO (S3-kompatibel) für die revisionssichere Archivierung.
+
+* Real-time Interaction: SignalR für latenzfreien Chat und Live-Status-Updates.
+
+==== 3. Key Features für die Öffentlichkeitsarbeit
+* Long-Form Stability: Spezielle Optimierung für Events über 2 Stunden durch segmentiertes HLS-Streaming und automatisierte Failover-Routinen.
+
+* Smart Archiving: Vollautomatisierter Workflow nach Stream-Ende (Merge, Transcoding via FFmpeg, Thumbnail-Generierung und Cloud-Upload).
+
+* Deep Integration: Nahtlose Anbindung an bestehende Benutzerverwaltungen und Corporate-Identity-Vorgaben.
+
+* DVR-Funktion (Time-Shift): Journalisten können während der laufenden Übertragung zurückspulen, um keine Information zu verpassen.
+
+==== 4. Investitions- & Genehmigungsargumente (Business Case)
+* Unabhängigkeit: Schutz vor Algorithmus-Willkür, Werbeunterbrechungen oder plötzlichen Richtlinienänderungen externer Plattformen.
+
+* Datensicherheit: Zuschauerdaten und sensible Presse-Informationen verbleiben vollständig auf eigener Infrastruktur (DSGVO-Konformität "by Design").
+
+* Asset-Building: Aufbau einer eigenen digitalen Mediathek, die langfristig wertvollen Content für Marketing und interne Fortbildung bereithält.
+
+* Skalierbarkeit: Durch die Containerisierung (Docker/Kubernetes) kann die Plattform mit den Anforderungen des Unternehmens mitwachsen.
+
+==== 5. Warum für Talente attraktiv?
+Mitarbeiter arbeiten an der Speerspitze der Videotechnik:
+
+* Full-Stack-Challenge: Verbindung von High-Performance C# Backends mit modernen React-Frontends.
+
+* Low-Level-Engineering: Direkte Arbeit mit Video-Codecs, Streaming-Protokollen (SRT) und Cloud-Infrastruktur (MinIO/S3).
+
+* Impact: Entwicklung eines Systems, das die öffentliche Wahrnehmung des Unternehmens maßgeblich prägt.
 

@@ -57,6 +57,8 @@ include::chapters/Compliance_HR_Finance.adoc[leveloffset=+1]
 
 include::chapters/Products_Projects.adoc[leveloffset=+1]
 
+include::chapters/GuestServices_Hospitality.adoc[leveloffset=+1]
+
 include::chapters/Operations_Security.adoc[leveloffset=+1]
 
 include::chapters/ERPDS_System.adoc[leveloffset=+1]
@@ -68,6 +70,7 @@ include::chapters/requirements.adoc[leveloffset=+1]
 include::chapters/Uniform_corporate_identity.adoc[leveloffset=+1]
 
 include::chapters/Vehicles_fleet.adoc[leveloffset=+1]
+
 
 include::chapters/Company_agreement.adoc[leveloffset=+1]
 
