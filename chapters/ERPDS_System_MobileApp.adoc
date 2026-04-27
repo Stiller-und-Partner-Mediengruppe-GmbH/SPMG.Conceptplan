@@ -7,6 +7,24 @@ Die Android App (SPMG-ERPDS), welche auf allen Diensthandys der Mitarbeiter vori
 
 === Personalfunktionen
 ==== Der Dienstplan (mit Abwesenheitsmeldung)
-im Kern dieser Funktione liegt ein Dienstplan welcher Jeder Mitarbeiter individuell angepasst an die Funktion im Unternehmen und dem Anstellungsverhältnisses (Vollzeit, Geringfügig, etc.) sehen kann. Somit müssen nicht jede Woche Dienstpläne ausgedruckt werden, sondern jeder Mitarbeiter kann Minutenaktuell seinen Dienstplan kontrollieren und Vorgesetzte können so auch schnell auf Personelle Änderungen Reagieren.
+Im Kern dieser Funktione liegt ein Dienstplan welcher Jeder Mitarbeiter individuell angepasst an die Funktion im Unternehmen und dem Anstellungsverhältnisses (Vollzeit, Geringfügig, etc.) sehen kann. Somit müssen nicht jede Woche Dienstpläne ausgedruckt werden, sondern jeder Mitarbeiter kann Minutenaktuell seinen Dienstplan kontrollieren und Vorgesetzte können so auch schnell auf Personelle Änderungen Reagieren.
 
-Ein weiterer Vorteil ist die Möglichkeit für den Mitarbeiter eine Abwesenheit direkt in der App (auch mit Upload für Krankmeldungen) einzupflegen und 
+Ein weiterer Vorteil ist die Möglichkeit für den Mitarbeiter eine Abwesenheit direkt in der App (auch mit Upload für Krankmeldungen) einzupflegen und den Dienstplan direkt in der App anzupassen.
+
+=== Sicherheitsdienstliche Funktionen
+==== Sicherheitskontrollen
+Eines der schwierigsten Aufgaben im Bereich des Sicherheitsdienstes ist die Kontrolle ob Personen überhaupt Zugang zum Gelände haben sollten oder nicht. Bei herkömmlichen Sicherheitsdiensten erfolgt dies meist über Funkabfragen oder der Mitarbeiter muss den Namen in den Computer eingeben und auf das Ergebnis warten. Mit unserer App anbindung an das zentrale ERPDS System ist dies nicht notwendig. 
+
+Der Mitarbeiter scannt mit dem NFC Reader des Diensthandys einfach die Dienstkarte(für Mitarbeiter) oder den Besucherausweis und erhält sofort die Zugangsberechtigungen der Person. Keine Eingaben von Namen oder Ähnliches wird benötigt. Es muss einfach die Karte an das Handy gehalten werden und Presto. 
+
+==== Live Dispatches 
+
+Gerade bei einem derart großen Unternehmen wie der SPMG kann jeden Tag so einiges passieren. Aus diesem Grund beschäftigt die SPMG auch ihren eigenen Sicherheits-, Sanitätsdienst und Betriebsfeuerwehr, welche alle Zentral über unsere Intigrierte Funkstelle koordiniert und verwaltet. Viele andere Firmen setzen immernoch auch klassische Pager-Alarmierungen oder sog. Blaulicht-SMS um ihre Einheiten entsprechend zu disponieren. 
+
+In der SPMG werden die Systemerhaltenden Mitarbeiter direkt in der App zu Einsätzen alamiert.
+
+==== Direktes Berichtswesen
+
+Das schlimmste an einem Einsatz ist die Bürokratie und das ewige Berichte schreiben. Bei der SPMG werden diese Dinge deutlich vereinfacht.
+
+* Zum einen werden die Berichte automatisiert aus den Dispositionen und den Aktionen (Personenerfassungen, Statusmeldungen) und auch alles was während dem Einsatz passiert wird durch den Einsatz für Körpergetragenen Kameras 
