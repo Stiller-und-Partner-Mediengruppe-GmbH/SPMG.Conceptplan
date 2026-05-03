@@ -4,6 +4,45 @@ Im Folgenden Abschnitt werden die Anforderungen und Qualifikationen beschrieben,
 
 Die Profile sind so eingeteilt, dass sie pro Abteilung und Position kategorisiert sind, um eine klare Übersicht und eine gezielte Suche zu ermöglichen. 
 
+== Allgemeine Anforderungen und Standards 
+Die SPMG hält sich sehr hohe Standards welche durch ihre Mitarbeiter ausgestrahlt werden.
+
+=== Repräsentative Standards und Dienstdisziplin
+
+Dieser Abschnitt definiert die äußeren Rahmenbedingungen für den Dienstbetrieb der SPMG. Das Erscheinungsbild der Mitarbeiter wird als "passive Bewaffnung" betrachtet und dient der psychologischen Autoritätswahrung sowie der funktionalen Sicherheit.
+
+==== Grooming- und Hygiene-Vorschriften (GHS)
+Die Einhaltung dieser Standards ist für alle operativen Kräfte (Security, BtF, San) bindend und bildet die Grundlage für den "Goldstandard" der SPMG.
+
+[cols="2,5", options="header"]
+|===
+| Bereich | Standardvorgabe
+| Haartracht | Kurzer militärischer Schnitt oder fest fixierter "Tactical Bun". Das Haar darf die Kragenoberkante der Uniform nicht berühren (Sicherheitsrisiko im Nahkampf).
+| Rasur | Glattrasur ist der Standard. Für Kräfte der BtF und der Health Unit ist die Glattrasur aufgrund der Maskendichtigkeit (Atemschutz/FFP3) zwingend. Für Security ist ein gepflegter Kurztrim (max. 5mm) bei exakt definierten Konturen zulässig.
+| Hände/Nägel | Fingernägel sind kurz und sauber zu halten. In der Health Unit gilt ein striktes Schmuck- und Uhrenverbot an Händen und Unterarmen zur Sicherstellung der Desinfektions-Compliance.
+| Ausrüstung | Dienststiefel sind vor jedem Dienstantritt auf Hochglanz zu polieren. Uniformteile müssen sauber, faltenfrei und in einwandfreiem Zustand sein.
+|===
+
+==== Operative Durchsetzung (Der Appell)
+Die Überprüfung der Standards erfolgt großflächig im Rahmen der täglichen Dienstübergabe.
+
+[horizontal]
+Antreten:: Die aufziehende Schicht tritt vollzählig zum Appell an.
+Frontabnahme:: Der Diensthabende (KvO/Lion) führt eine persönliche Kontrolle (Grooming-Check) jedes Mitarbeiters durch.
+Meldung im ERPDS:: Die Einsatzbereitschaft hinsichtlich der GHS wird für jeden Mitarbeiter digital im System quittiert.
+
+==== Sanktionierung bei Nichterfüllung
+Mitarbeiter, die den definierten Standards bei Dienstantritt nicht entsprechen, gelten als nicht einsatzbereit.
+
+Der Diensthabende weist den Mitarbeiter zur sofortigen Nachbesserung an.
+
+Die Zeit der Nachbesserung (z. B. Rasur im Sozialraum, Polieren der Stiefel) gilt nicht als Dienstzeit.
+
+Wiederholte Verstöße werden automatisiert über das ERPDS an die Akademieleitung (The Ridge) gemeldet und führen zu einer disziplinären Überprüfung der Eignung für den Elite-Status.
+
+[WARNING]
+Ein gepflegtes Äußeres ist die erste Verteidigungslinie. Wer sich selbst nicht unter Kontrolle hat, kann keinen Sektor kontrollieren.
+
 == Anforderungen für Personal in der Geschäftsführung und Algemeinen Verwaltungspositionen
 Die Geschäftsführung und allgemeinen Verwaltungspositionen innerhalb der SPMG erfordern eine Kombination aus diversen Führungsqualitäten, strategischem Denken, organisatorischen und Technischen Fähigkeiten und Qualifikationen. 
 
@@ -94,4 +133,3 @@ Ein Sicherheitsdienstmitarbeiter:in im Objektschutz-Dienst ist derjenige der sic
 * Nachweis der Berechtigung zum führen eines Diensthundes (Diensthundeprüfung und Hundeführerschein)
 
 ===== Sicherheitsdienstmitarbeiter:in (Personenschutz)
-

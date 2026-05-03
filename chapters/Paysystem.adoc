@@ -1,0 +1,73 @@
+== Gehalts- und Entlohnungsschema (Annäherung an Gehaltstruktur Öffentlicher Dienst)
+
+Die Besoldung der Mitarbeiter der Stiller und Partner MedienGruppe (SPMG) folgt dem Prinzip der Leistungsgerechtigkeit und der sozialen Stabilität. Durch die Abkehr von marktüblichen Niedriglohnmodellen etabliert die SPMG einen "Privatbeamten-Status", der höchste Loyalität und Professionalität einfordert.
+
+===  Besoldungssystematik (Anlehnung an ÖD)
+Die Entlohnung innerhalb der Mediengruppe erfolgt nach einem transparenten Schema, das sich an der Systematik des Öffentlichen Dienstes (ÖD) orientiert. Dies garantiert Planungssicherheit und eine klare Laufbahnentwicklung.
+
+[horizontal]
+Verwendungsgruppen:: Einstufung in die Gruppen V3 (Kadetten/Basis), V2 (Qualified Operators) und V1 (Unit-Leads/Lions) basierend auf Ausbildung und Verantwortung.
+Vorrückung (Biennalen):: Automatische Gehaltssteigerungen alle zwei Jahre innerhalb der jeweiligen Verwendungsgruppe zur Honorierung von Betriebstreue.
+Basis-Garantie:: Das Einstiegsgehalt der Gruppe V3/Stufe 3 ist fix mit 10 % über dem geltenden Branchen-Kollektivvertrag dotiert.
+Indexierung:: Jährliche Anpassung der Bezüge analog zu den kollektivvertraglichen Abschlüssen unter Beibehaltung der 10-prozentigen SPMG-Marge.
+
+==== Funktionales Zulagenwesen
+Zusätzlich zum Grundbezug werden für spezifische Belastungen und Qualifikationen Zulagen gewährt. Diese werden über das ERPDS-Modul "Payroll" automatisiert und manipulationssicher abgerechnet.
+
+[cols="1,3", options="header"]
+|===
+| Zulagenart | Kriterium für Gewährung
+| Gefahrenzulage | Einsatz in bewaffneten Units (Rhino, Viper) oder Sektoren mit erhöhtem Gefährdungsgrad.
+| Spezialistenbonus | Nachgewiesene Zertifizierung durch "The Ridge" (z. B. EOD, Drohnenpilot, San-Spezialisierung).
+| Erschwernis | Abgeltung für Nachtdienste, Sonn- und Feiertage sowie Dienst unter erschwerten Umweltbedingungen.
+| Funktionszulage | Übernahme von Führungsverantwortung oder administrativen Sonderaufgaben im ERPDS.
+|===
+
+=== Compliance und EU-Entgelttransparenz (EU Pay Act)
+Die SPMG-Besoldungsstruktur ist von Grund auf so konzipiert, dass sie die Anforderungen der EU-Entgelttransparenz-Richtlinie (EU Pay Act) vollumfänglich erfüllt.
+
+Objektivität: Entgeltunterschiede basieren ausschließlich auf geschlechtsneutralen, objektiven Kriterien (Dienstalter, Qualifikation, Funktion).
+
+Auskunftsfähigkeit: Über das ERPDS-Mitarbeiterportal kann jeder Bedienstete seine Einstufung jederzeit einsehen.
+
+Gleichbehandlung: Das automatisierte System schließt diskriminierende Lohnentscheidungen technisch aus.
+
+=== Rechtliche Bindung und Rückersatz
+Aufgrund der überdurchschnittlichen Besoldung und der hochwertigen Ausbildung am Campus "The Ridge" behält sich die Stiller und Partner MedienGruppe den rechtlich zulässigen Rückersatz von Ausbildungskosten bei vorzeitigem Austritt vor.
+
+Zentraler Leitsatz: Überdurchschnittliche Leistung verdient überdurchschnittliche Entlohnung. Die SPMG investiert in Menschen, um Sicherheit als Goldstandard zu garantieren.
+
+=== Gehaltskalkulation
+Nach diesem Schema resultiert folgende Grundlegende Kalkulationstabelle.
+
+==== Sicherheitsdienst
+
+Die Einstufung folgt einem strengen Qualifikations- und Zeitmodell. Der Übergang zwischen den Gruppen markiert den Wechsel von der Ausbildung in die volle operative Verantwortung.
+
+[cols="1,1,2,4", options="header"]
+|===
+| Verw.Gruppe | Stufe | Bezeichnung | Operatives Profil / Status
+
+| V3 | 1 | Anwärter 1.Jahr | Auszubildender im ersten Ausbildungsjahr
+| V3| 2| Anwärter 2. Jahr| Auszubildender im zweiten Ausbildungsjahr
+| V3 | 3 | Anwärter 3. Jahr| Auszubildender im Letzten Ausbildungsjahr (Vor der Abschließenden Prüfung/Vereidigung) 
+| V2 | 1 | Sicherheitsdienstorgan | Voll ausgebildete Mitarbeiter. Volle operative Befugnis und Waffenträger-Status.
+| V2 | 2 | Sicherheitsdienstorgan (Teamleiter) | Vorgesetztes Organ eines Teams (2-3 Organe)
+| V2 | 3| Sicherheitsdienstorgan (Dienstgruppenleitung) | Vorgesetztes Organ meherer Teams (Dienstgruppen)
+| V2| 4| Sicherheitsdienstorgan (Sektor-DGL)| Vorgesetztes Organ mehrer Dienstgruppen eines Sektors 
+|V2 | 5 | Sicherheitsorgan ()|
+| V1 | 1-3 | Kommandant (Unit Lead) | Führung von taktischen Einheiten (Wolf, Rhino, Viper). Verantwortlich für Einsatzplanung vor Ort.
+| V1 | 2 | Stlv. Direktor / Stlv. Abteilungskommandant | 
+| V1 | 3 | Direktor / Abteilungskommandant | Operatives Kommando des Sicherheitsdienstes direkt unterstellt dem Sicherheitschef (CSO)
+|===
+
+==== Details zur Kalkulationslogik
+
+Bemessungsgrundlage (V3/3): Die Gehaltsstufe V3/3 ist der gesetzte Ankerpunkt. Sie wird jährlich um den Prozentsatz der Kollektivvertragserhöhung angepasst, wobei der 10 %-Vorsprung der SPMG als statischer Faktor gewahrt bleibt.
+
+Biennalsprünge: Innerhalb der Gruppen erfolgt alle 24 Monate eine automatische Vorrückung in die nächste Stufe, sofern das jährliche "Performance-Audit" im ERPDS positiv abgeschlossen wurde.
+
+
+Bezeichnungen im Dienstbetrieb: Die Bezeichnungen (z. B. "Sicherheitsdienstorgan") sind im täglichen Dienstbetrieb und bei Meldungen verpflichtend zu verwenden, um die Befehlskette (Chain of Command) zu wahren.
+
+==== Zulagen

@@ -67,6 +67,8 @@ include::chapters/ERPDS_System_MobileApp.adoc[leveloffset=+1]
 
 include::chapters/requirements.adoc[leveloffset=+1]
 
+include::chapters/Paysystem.adoc[leveloffset=+1]
+
 include::chapters/Uniform_corporate_identity.adoc[leveloffset=+1]
 
 include::chapters/Vehicles_fleet.adoc[leveloffset=+1]
