@@ -21,9 +21,7 @@ Die Taktische Ausbildung und Bewaffnung der Sicherheitsbeamten resultiert aus de
 
 Die Zusammenarbeit mit der Exekutive erfolgt hierbei sowohl bei Sicherheitsangelegenheiten, im Rahmen von Ermittlungen, aus auch bei der Plannung und Durchführung von diversen Projekten, Veranstaltungen und Produktionen( siehe Abschnitt Produkte und Projekte).
 
-=== Einheiten des Sicherheitsdienstes 
-Der Sicherheitsdienst der SPMG ist in verschiedene Einheiten unterteilt, um eine effektive und spezialisierte Sicherheitsversorgung zu gewährleisten. Dazu gehören:
-
+=== Organisation des Sicherheitsdienstes 
 
 [plantuml, org-chart-security, svg]
 ----
@@ -42,30 +40,45 @@ title Organigramm - Abteilungsstruktur - Sicherheitsdienst
 package "Security Operations" as SO {
     rectangle "CSO" as CSO
     
+    object "Referat Operationen" as RO{
+        Referatsleiter: TBD
+    }
+    object "Referat Sondereinheiten" as RSE{
+        Referatsleiter: TBD
+    }
+    object "Referat Unterstützungseinheiten" as RUE{
+        Referatsleiter: TBD
+    }
     object "Security and Patrol Unit" as SPU
-    object "Special Intervention Unit" as SIU
-    object "VIP Close Protection Unit" as VCPU
-    object "Event Security Unit" as ESU
+    object "Sonder Interventions Gruppe" as SIG
+    object "Bereitschaftseinheit" as BE
+    object "Personenschutzgruppe" as PSG
+    object "Event Sicherheitsgruppe" as ESG
     object "Arial Support Unit" as ASU {
         Flightchief: TBD
         Groundchief: TBD
     }
-    object "Investigation and Intelligence Unit" as IIU
-    object "K9 Unit" as K9
+    object "Ermittlungsdienst" as ED
+    object "Diensthundeeinheit" as DHE
     object "Security Logistics Unit" as SLU
     object "SLU-Werttransport" as SLU_WT
     object "SLU-Arrestantentransport" as SLU_AT
     object "SLU-VIP Shuttle Service" as SLU_VIP
     object "SLU-VIP Medical Service" as SLU_VIP_Med
 
-    CSO -down-> SPU
-    CSO -down-> SIU
-    CSO -down-> VCPU
-    CSO -down-> ESU
-    CSO -down-> ASU
-    CSO -down-> IIU
-    CSO -down-> K9
-    CSO -down-> SLU
+    CSO -down-> RO
+    CSO -down-> RSE
+    CSO -down-> RUE
+
+    RO -down-> SPU
+    RSE -down-> SIG
+    RSE -down-> PSG
+    RSE -down-> BE
+    RUE -down-> ESG
+    RUE -down-> ASU
+    RO -down-> ED
+    RSE -down-> DHE
+    RUE -down-> SLU
     
     SLU -down-> SLU_WT
     SLU -down-> SLU_AT
@@ -75,43 +88,58 @@ package "Security Operations" as SO {
 @enduml
 ----
 
-* **Security and Patrol Unit (SPMG-SPU)**: +
+
+Der Sicherheitsdienst der SPMG ist in verschiedene Einheiten unterteilt, um eine effektive und spezialisierte Sicherheitsversorgung zu gewährleisten. Als übergeordnete Stellen fungieren jeweils die entsprechenden Referate, welche für den jeweiligen Fachbereich zuständig sind.
+
+diese Referate sind: +
+
+* **Referat Operationen**: +
+Bildet das Tagesgeschäft im Bereich unseres Sicherheitsdienst und umfasst den Streifendienst (Security Patrol Unit(SPU)) und den Ermittlungsdienst (Investigation and Intelligence Unit)
+
+** **Referat Operationen/Security and Patrol Unit (SPMG-SPU)**: +
 Dies sind die Boots on the Ground. Sie sind für die Überwachung der Betriebsstätten, die Durchführung von Sicherheitskontrollen und die Reaktion auf Sicherheitsvorfälle verantwortlich. Sie patrouillieren regelmäßig die Anlagen der SPMG, um potenzielle Bedrohungen zu erkennen und zu verhindern.
 
-* ** Special Intervention Unit (SPMG-SIU)**: +
-Diese Einheit dient als Interventionsasset für Hochrisikolagen und Schwere Sicherheitsvorfälle zuständig und entsprechend ausgerüstet und geschult. Sie arbeitet am Engsten mit der Exekutive zusammen, um bei Bedarf die Einheiten der Exekutive zu ergänzen und zu unterstützen.
-
-* **VIP Close Protection Unit (SPMG-VCPU)**: +
-Diese Einheit ist für den Schutz von VIP Personen(Prominente, Politiker, Ehrengäste) zuständig, welche sich auf den Geländen der SPMG aufhalten. Sie sind speziell geschult, um potenzielle Bedrohungen zu erkennen und zu neutralisieren, um die Sicherheit der VIP Personen zu gewährleisten. Hiebei wird auch wieder eng mit den Personenschützern der Exekutive (stichwort: Politiker und Ehrengäste) zusammengearbeitet, da diese die grundsätzliche Zuständigkeit haben.  
-
-* **Event Security Unit (SPMG-ESU)**: +
-Diese Einheit ist für die Planung und Ergänzenden Durchführung von Sicherheitsmaßnahmen bei Großveranstaltungen, wie z.B. Konzerten, Festivals oder Firmenfeiern, zuständig. Sie arbeitet eng mit der Exekutive zusammen, um die Sicherheit der Veranstaltungsteilnehmer zu gewährleisten und potenzielle Bedrohungen zu erkennen und zu verhindern.
-
-* **Arial Support Unit (SPMG-ASU)**: +
-Diese Einheit ist für den Betrieb, die Wartung und die generelle Einsatzplanung der Drehflügler als Unterstützungseinheiten der SPMG. Sie stellen also die Hubschrauber für die Sicherheitsoperationen der SPMG bereit, welche sowohl für die Überwachung der Betriebsstätten, die Unterstützung bei Sicherheitsvorfällen.
-
-* **Investigation and Intelligence Unit (SPMG-IIU)**: +
+** **Referat Operationen/Ermittlungsdienst (SPMG-ED)**: +
 Diese Einheit ist das Rückgrat der Sicherheitsstrategie der SPMG. Sie ist für die Durchführung von Erhebungen im Rahmen von Background Checks, Asset Protection(Ladendetektive), Sicherheits- und Risikoanalysen. Sie ist auch für die ersten Ermittlungen bei Gefährdungslagen von Mitarbeitern und VIPs zuständig. Sie ist auch im ständigen Austausch mit der Exekutive, um Informationen über potenzielle Bedrohungen zu teilen und gemeinsam Strategien zur Gefahrenabwehr zu entwickeln.
 
-* **K9 Unit (SPMG-K9)**: +
+* **Referat Sondereinheiten**: +
+Dieses Referat beschäftigt sich mit allem was nicht dem Tagesgeschäft im Einklang ist. Ihre Einheiten umfassen unsere Sonder Interventions Gruppe (SIG) für besondere Lagen, unsere DienstHundeEinheit (DHE), unsere Personenschutzgruppe (PSG), Event Sicherheits Gruppe (ESG)  
+** ** Referat Sondereinheiten/Sonder Interventions Gruppe (SPMG-SIG)**: +
+Diese Einheit dient als Interventionsasset für Hochrisikolagen und Schwere Sicherheitsvorfälle zuständig und entsprechend ausgerüstet und geschult. Sie arbeitet am Engsten mit der Exekutive zusammen, um bei Bedarf die Einheiten der Exekutive zu ergänzen und zu unterstützen.
+
+** **Referat Sondereinheiten/Bereitschaftseinheit (BE)** +
+Diese Einheit ist speziell für die Sicherung von Betriebsstätten im Demonstrationsfall ausgelegt und kommt also in Zusammenarbeit mit ihrem Polizeilichen Pondou der ASE/BE der Landespolizeidirektion Wien. Diese Einheit unterstützt in dieser Aufgabe die Einheit für Objektschutz
+
+** **Referat Sondereinheiten/Personenschutz Gruppe (SPMG-PSG)**: +
+Diese Einheit ist für den Schutz von VIP Personen(Prominente, Politiker, Ehrengäste) zuständig, welche sich auf den Geländen der SPMG aufhalten. Sie sind speziell geschult, um potenzielle Bedrohungen zu erkennen und zu neutralisieren, um die Sicherheit der VIP Personen zu gewährleisten. Hiebei wird auch wieder eng mit den Personenschützern der Exekutive (stichwort: Politiker und Ehrengäste) zusammengearbeitet, da diese die grundsätzliche Zuständigkeit haben.  
+
+** **Referat Sondereinheiten/Event Sicherheits Gruppe (SPMG-ESG)**: +
+Diese Einheit ist für die Planung und Ergänzenden Durchführung von Sicherheitsmaßnahmen bei Großveranstaltungen, wie z.B. Konzerten, Festivals oder Firmenfeiern, zuständig. Sie arbeitet eng mit der Exekutive zusammen, um die Sicherheit der Veranstaltungsteilnehmer zu gewährleisten und potenzielle Bedrohungen zu erkennen und zu verhindern.
+
+** **Referat Sondereinheiten/Diensthundeeinheit (SPMG-DHE)**: +
 Diese Einheit ist für den Einsatz von speziell ausgebildeten Hunden zuständig, welche bei der Überwachung der Betriebsstätten, der Durchführung von Sicherheitskontrollen und der Vorbeugenden Maßnahmen bei Großveranstaltungen eingesetzt werden. Hierbei gibt es verschiedene Spezialisierungen, wie z.B. Sprengstoffspürhunde, Drogenspürhunde oder Personenspürhunde, welche je nach Bedarf eingesetzt werden.
 
-* **Security Logistics Unit(SPMG-SLU)**: +
+* **Referat Unterstützungseinheiten**: +
+
+** **Referat Unterstützungseinheiten/Arial Support Unit (SPMG-ASU)**: +
+Diese Einheit ist für den Betrieb, die Wartung und die generelle Einsatzplanung der Drehflügler als Unterstützungseinheiten der SPMG. Sie stellen also die Hubschrauber für die Sicherheitsoperationen der SPMG bereit, welche sowohl für die Überwachung der Betriebsstätten, die Unterstützung bei Sicherheitsvorfällen.
+
+** **Referat Unterstützungseinheiten/Security Logistics Unit(SPMG-SLU)**: +
 Die Security Logistics Unit der SPMG ist eine Sondereinheit, welche für Hochrisiko-Transporte im Auftrag der SPMG in den Anlagen und auch außerhalb. 
 Diese Transporte umfassen vor allem: +
 
-** *Werttransporte*: +
+*** *Werttransporte*: +
 Jede Tageslosung die in den Anlagen der SPMG erwirtschaftet wird, wird von der Security Logistics Unit abgeholt und in unserem Security Center gezählt und anschließend unter höchsten Sicherheitvorkehrungen zu einer Partnerbank gebracht. Dadurch wird garantiert das keinerlei einnahmen beim Transport zur Bank gestohlen werden können. 
 
-** *Arrestantentransporte*: +
+*** *Arrestantentransporte*: +
 Jede Person welche nach der Verübung einer Strafbaren handlung wird von unserem Sicherheitsdienst entsprechend Angehalten und von der SLU in das Sicherheitszentrum zur Internen Vorfallsdokumentation verbracht.
 
-** *VIP-Shuttle Service*: +
+*** *VIP-Shuttle Service*: +
 Im Rahmen unseres VIP-Shuttle Services werden können VIPs und geladene Ehrengäste durch unsere fähigen Einsatzfahrer der SLU zwischen Terminen und Ihrer Unterkunft transportiert werden. 
 
-** *VIP-Medical-Shuttle Service*: +
+*** *VIP-Medical-Shuttle Service*: +
 Auf bedarf kann auch eine Abholung mit Medizinischer Begleitung (NFS-NKI oder bei besonderem Bedarf mit Arzt) durchgeführt werden. +
-Dieses und das VIP-Shuttle-Service arbeiten auch sehr eng mit der Close Protection Unit (SPMG-VCPU) zusammen um die Bestmögliche Experience für den Gast zu garantieren.
+Dieses und das VIP-Shuttle-Service arbeiten auch sehr eng mit der Personenschutzgruppe (SPMG-PSG) zusammen um die Bestmögliche Experience für den Gast zu garantieren.
 
 == IT-Security
 aber auch die beste physische Sicherheit kann nicht helfen, wenn die IT-Infrastruktur des Unternehmens nicht ausreichend geschützt ist. Daher legt die SPMG großen Wert auf die Implementierung von robusten IT-Sicherheitsmaßnahmen, um die Vertraulichkeit, Integrität und Verfügbarkeit der Daten und Systeme zu gewährleisten.
