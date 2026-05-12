@@ -61,6 +61,8 @@ include::chapters/GuestServices_Hospitality.adoc[leveloffset=+1]
 
 include::chapters/Operations_Security.adoc[leveloffset=+1]
 
+include::chapters/Operations_Medical.adoc[leveloffset=+1]
+
 include::chapters/ERPDS_System.adoc[leveloffset=+1]
 
 include::chapters/ERPDS_System_MobileApp.adoc[leveloffset=+1]

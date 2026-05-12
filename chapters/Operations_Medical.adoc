@@ -1,0 +1,57 @@
+== Medizinische Versorgung
+Die SPMG legt auch großen Wert auf das Wohlbefinden ihrer Mitarbeiter und Gäste.
+Daher beschäftigt die SPMG ein Team von medizinischem Fachpersonal, welches für die medizinische Versorgung und Notfallversorgung auf den Betriebsstätten und Veranstaltungen des Unternehmens zuständig ist. Dieses Team arbeitet eng mit den örtlichen Rettungsdiensten und Krankenhäusern zusammen, um sicherzustellen, dass im Falle eines medizinischen Notfalls schnell und effektiv reagiert werden kann. Sie sind auch für die Durchführung von Erste-Hilfe-Schulungen für die Mitarbeiter zuständig. 
+Hiebei wird generell unterschieden zwischen der Arbeitsmedizinischen Versorgung, welche sich um die Gesundheit der Mitarbeiter kümmert, und der Notfallmedizinischen Versorgung, welche für die medizinische Versorgung bei Notfällen auf den Betriebsstätten und Veranstaltungen zuständig ist.
+
+[plantuml, org-chart-medical, svg]
+----
+@startuml
+skinparam packageStyle rectangle
+
+' Dieser Befehl erlaubt das Mischen von verschiedenen Elementtypen (Object & Rectangle)
+allowmixing
+
+' Definition eines Styles für reinen Text
+skinparam rectangle<<text>> {
+    BackgroundColor transparent
+    BorderColor transparent
+    Shadowing false
+}
+
+title Organigramm - Abteilungsstruktur - Medizinische Versorgung
+
+package "Medical Operations" as MO {
+    rectangle "CMO" as CMO
+    
+    object "Arbeitsmedizin" as AM
+    object "Sanitätsdienst" as SD
+    object "Medizinisch Präventive Maßnahmen" as MPM
+    object "Flugrettung" as HEMS{
+        Flightchief: TBD
+        Groundchief: TBD
+}
+    object "Rettungshunde" as R_K9
+
+    CMO -down-> AM
+    CMO -down-> SD
+    AM -down-> MPM
+    CMO -down-> HEMS
+    CMO -down-> R_K9
+} 
+
+@enduml
+----
+
+* **Arbeitsmedizinische Versorgung**: +
+Die Arbeitsmedizinische Versorgung wird von einem Team von Arbeitsmedizinern und Gesundheitsexperten bereitgestellt. Sie sind für die Durchführung von Gesundheitschecks, Tauglichkeitsuntersuchungen und die Entwicklung von Gesundheitsprogrammen für die Mitarbeiter zuständig. Sie arbeiten eng mit der Personalabteilung zusammen, um sicherzustellen, dass die Arbeitsbedingungen sicher und gesundheitsfördernd sind.
+** **Medizinisch Präventive Maßnahmen**: +
+Die Einheit für Medizinisch Präventive maßnahmen ist eine Untereinheit der Arbeitsmedizin und beschäftigt sich mit der Analyse von Gesundheitsdaten der Mitarbeitern und öffentlich Verfügbaren Daten um zu garantieren das der Ausbruch einer Krankheitwelle oder Pandemie früh erkannt wird und entsprechende Maßnahmen zum Schutz der Mitarbeiter und Gäste eingeleitet werden. 
+
+* **Sanitätsdienstliche Betreuung**: +
+Um auf alle Eventualitäten vorbereitet zu sein ist es nicht nur Wichtig einen Starken Sicherheitsdienst sondern auch eine gute Notfallversorgung und damit wir das in allen Anlagen und auf allen Events der SPMG gewährleisten können.
+** **Bodengebundener Sanitätsdienst**: +
+Der Bodengebundene Sanitätsdienst ist bei jedem Event, Dreharbeiten und in der Erlebniswelt um im Falle des Falles Personen Erstzuversorgen und dann einer höheren Medizinischen Versorgung (KH) zuzuführen.
+** **Hubschraubergebundener Sanitätsdienst (HEMS)**: +
+Um auch auf besondere Medizinische Notfälle vorbereitet zu sein betreibt die SPMG auch eine Flotte aus mehreren H145 Rettungshubschrauben um die bestmögliche Versorgung zu gewährleisten. 
+** **Sanitäts-Rettungshunde**: +
+Um auch bei Sonderlagen eine Bestmögliche Versorgung von Personen gewähleisten zu können beherbergt die SPMG neben ihren Diensthunden auch eine kleine Einheit von speziell für den Rettungsdienst ausgebildete Hunde.
