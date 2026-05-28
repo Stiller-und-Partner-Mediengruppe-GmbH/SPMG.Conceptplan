@@ -1,14 +1,14 @@
-= Compliance, HR und Finance
+= 4 Compliance, HR und Finance
 
 In diesem Abschnitt werden die Compliance-Richtlinien, Personalmanagement-Strategien und Finanzierungspläne der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) dargelegt. Diese Bereiche sind entscheidend für die Einhaltung gesetzlicher Vorschriften, die Förderung einer positiven Unternehmenskultur und die Sicherstellung der finanziellen Stabilität unseres Unternehmens.
 
 
-== Compliance
+== 4.1 Compliance
 Hierbei werden die Richtlinien und Verfahren beschrieben, die die SPMG implementiert, um sicherzustellen, dass alle Geschäftsaktivitäten im Einklang mit den geltenden Gesetzen, Vorschriften und ethischen Standards stehen. Dies umfasst unter anderem die Einhaltung von Datenschutzbestimmungen, Anti-Korruptionsgesetzen und Arbeitsrecht.
 
 
-== Human Resources
+== 4.2 Human Resources
 Dieser Abschnitt behandelt die Strategien und Praktiken, die die SPMG anwendet, um talentierte Mitarbeiter zu gewinnen, zu entwickeln und zu halten. Es werden Themen wie Rekrutierung, Mitarbeiterentwicklung, Leistungsmanagement und Unternehmenskultur behandelt.
 
-== Finance
+== 4.3 Finance
 Hier werden die Finanzierungsstrategien, Budgetierungsprozesse und finanziellen Ziele der SPMG erläutert. Es wird beschrieben, wie das Unternehmen seine finanziellen Ressourcen verwaltet, um nachhaltiges Wachstum zu fördern und langfristigen Erfolg zu sichern.

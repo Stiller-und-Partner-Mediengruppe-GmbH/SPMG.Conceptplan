@@ -1,17 +1,17 @@
-= SPMG-ERPDS - Mobile Applikation (Android)
+= 11 SPMG-ERPDS - Mobile Applikation (Android)
 
 Die SPMG setzt in der Ausübung ihrer Tätigkeit nicht nur auf ein Kraftvolles ERPDS System welches auf jeden Rechner vorhanden ist sondern wir haben auch verstanden, dass Smartphones in dieser Zeit auch aus dem Arbeitsalltag nicht mehr wegzudenken ist. 
 
-== Vom Dienstplan zur Einlasskontrolle - Die Funktionen der SPMG-ERPDS App
+== 11.1 Vom Dienstplan zur Einlasskontrolle - Die Funktionen der SPMG-ERPDS App
 Die Android App (SPMG-ERPDS), welche auf allen Diensthandys der Mitarbeiter vorinstalliert ist. bieten nicht nur klassische Funktionen wie einen Dienstplan und Abwesenheitsmeldung sondern es ist der Mobile begleiter jedes Mitarbeiters
 
-=== Personalfunktionen
+=== 11.1.1 Personalfunktionen
 ==== Der Dienstplan (mit Abwesenheitsmeldung)
 Im Kern dieser Funktione liegt ein Dienstplan welcher Jeder Mitarbeiter individuell angepasst an die Funktion im Unternehmen und dem Anstellungsverhältnisses (Vollzeit, Geringfügig, etc.) sehen kann. Somit müssen nicht jede Woche Dienstpläne ausgedruckt werden, sondern jeder Mitarbeiter kann Minutenaktuell seinen Dienstplan kontrollieren und Vorgesetzte können so auch schnell auf Personelle Änderungen Reagieren.
 
 Ein weiterer Vorteil ist die Möglichkeit für den Mitarbeiter eine Abwesenheit direkt in der App (auch mit Upload für Krankmeldungen) einzupflegen und den Dienstplan direkt in der App anzupassen.
 
-=== Sicherheitsdienstliche Funktionen
+=== 11.1.2 Sicherheitsdienstliche Funktionen
 ==== Sicherheitskontrollen
 Eines der schwierigsten Aufgaben im Bereich des Sicherheitsdienstes ist die Kontrolle ob Personen überhaupt Zugang zum Gelände haben sollten oder nicht. Bei herkömmlichen Sicherheitsdiensten erfolgt dies meist über Funkabfragen oder der Mitarbeiter muss den Namen in den Computer eingeben und auf das Ergebnis warten. Mit unserer App anbindung an das zentrale ERPDS System ist dies nicht notwendig. 
 
@@ -27,4 +27,5 @@ In der SPMG werden die Systemerhaltenden Mitarbeiter direkt in der App zu Einsä
 
 Das schlimmste an einem Einsatz ist die Bürokratie und das ewige Berichte schreiben. Bei der SPMG werden diese Dinge deutlich vereinfacht.
 
-* Zum einen werden die Berichte automatisiert aus den Dispositionen und den Aktionen (Personenerfassungen, Statusmeldungen) und auch alles was während dem Einsatz passiert wird durch den Einsatz für Körpergetragenen Kameras 
+* Zum einen werden die Berichte automatisiert aus den Dispositionen und den Aktionen (Personenerfassungen, Statusmeldungen) und auch alles was während dem Einsatz passiert wird durch den Einsatz für Körpergetragenen Kameras Rechtssicher Dokumentiert.
+

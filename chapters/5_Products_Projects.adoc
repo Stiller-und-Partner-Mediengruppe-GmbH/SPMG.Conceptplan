@@ -1,5 +1,5 @@
 
-= Produkte und Projekte
+= 5 Produkte und Projekte
 
 
 [plantuml, org-chart-productions, svg]
@@ -53,7 +53,7 @@ package "Productions" as PROD {
 @enduml
 ----
 
-== Produkte
+== 5.1 Produkte
 
 [NOTE]
 ====
@@ -61,56 +61,58 @@ Die Produktbeschreibungen werden in Kürze hinzugefügt.
 ====
 Die SPMG hat eine Vielzahl von Produkten, die sich auf die verschiedenen Bereiche der Medien- und Unterhaltungsindustrie erstrecken. Diese Projekte sind darauf ausgerichtet, innovative und hochwertige Inhalte zu schaffen, die unser Publikum begeistern und unsere Position als führendes Medienunternehmen stärken.
  
-=== Projekte
+== 5.2 Projekte
 
 Die SPMG hat mehrere spannende Projekte welche den Kern unseres Schaffens bilden. Diese Projekte sind umfassen die folgenden IPs und Franchises.
 
-==== Filme und Filmfranchises
+=== 5.2.1 Filme und Filmfranchises
 
-===== Descent
+==== Descent
 
 Descent ist eine geplante Action/Thriller/Krimi Filmreihe, welche vom Gründer und CCO *Sebastian Andreas Stiller* selber verfasst und produziert wird. 
 
 
-==== Videospiele und Spiel-Franchises
+=== 5.2.2 Videospiele und Spiel-Franchises
 
 Diese Spiele werden von unserem externen Partner, *Tobias Wittmann* und seinem Studio [Name hier einfügen], entwickelt und produziert. Diese Spiele sind dann über unsere Steam-Seite erhältlich und werden von uns vertrieben. 
 
-===== Decent: The Game
+==== Decent: The Game
 
 Basierend auf unserer gleichnamigen Filmreihe ist Descent: The Game eine möglichkeit für Fans, einen tieferen Einblick in die Welt von Descent zu erhalten und selbst Teil der spannenden Story zu werden. 
 
-===== Unnamed Simulator Game
+==== Unnamed Simulator Game
 
 In diesem Simulator können Spieler in die Rolle eines Unternehmers schlüpfen und gemeinsam mit anderen Spielern sein eigenes Unternehmensimperium aufbauen. Es ist eine Mischung aus Wirtschaftssimulation, Multiplayer-Online-Spiel, First und Thrid Person Shooter und einer Kompexen Fahrzeug-Simulation. Du kannst auf eine große Auswahl an Fahrzeugen, Waffen und anderem Gerät zurückgreifen, um deine Lieferungen und Projekte vor anderen Spielern zu schützen oder sie anzugreifen. Es wird eine Vielzahl von Missionen, Herausforderungen und Events geben, die die Spieler gemeinsam bewältigen können. Es ist ein Spiel, welches die Kreativität, Strategie und Zusammenarbeit der Spieler fördert und gleichzeitig eine spannende und unterhaltsame Erfahrung bietet.
 
-==== TV-Shows und Sender
+=== 5.2.3 TV-Shows und Sender
 
 Die SPMG ist auch in der Entwicklung von diversen TV-Produktionen wie Serien, Live-Shows und Dokumentationen. Diese Produktionen werden auf verschiedenen Plattformen und Sendern ausgestrahlt, um ein breites Publikum zu erreichen.
 
-==== Comics 
+=== 5.2.4 Comics 
 
-==== Bücher
+=== 5.2.5 Bücher
 
-===== Sachbücher
-===== Romane
-=== SPMG Land
+* **Sachbücher** +
+
+* **Romane** +
+
+== 5.3 SPMG Land
 
 Das SPMG Land ist ein geplanter Themenpark und Erlebniswelt, in welcher Besucher in die diversen Welten und Geschichten unserer Franchises eintauchen können. Es soll eine einzigartige Mischung aus Unterhaltung, Bildung und interaktiven Erlebnissen bieten, die die Kreativität und Fantasie unserer Besucher anregen.
 
-=== SPMG Eventhalle
+== 5.4 SPMG Eventhalle
 
 Die SPMG Eventhalle ist ein geplante Event und Veranstaltungshalle, welche für eine Vielzahl von Veranstaltungen, Events und Live-Shows genutzt werden soll. Sie soll ein vielseitiger Veranstaltungsort sein, der sowohl für unsere eigenen Produktionen als auch für externe Veranstaltungen zur Verfügung steht. Die Eventhalle wird mit modernster Technologie ausgestattet sein, um ein unvergessliches Erlebnis für alle Besucher zu gewährleisten.
 
-=== SPMG Cinemas 
+== 5.5 SPMG Cinemas 
 
 Die SPMG Cinemas sind eine geplante Kette von Kinos, die in verschiedenen Städten (vorallem in Österreich) eröffnet werden sollen. Diese Kinos sind nicht nur als Orte für die Vorführung unserer eigenen Filme und Produktionen gedacht, sondern auch als Plattform für die Zusammenarbeit mit anderen Studios und Filmemachern, um eine breite Palette von Inhalten zu präsentieren. Die SPMG Cinemas werden mit modernster Projektionstechnologie und komfortablen Einrichtungen ausgestattet sein, um ein erstklassiges Kinoerlebnis zu bieten.
 
-=== SPMG Streaming Plattform (Live.spmg.at) – Die unternehmenseigene Live- & Archiv-Plattform
-==== 1. Vision & Strategie
+== 5.6 SPMG Streaming Plattform (Live.spmg.at) – Die unternehmenseigene Live- & Archiv-Plattform
+=== 5.6.1 Vision & Strategie
 Aufbau einer unabhängigen High-End-Streaming-Infrastruktur, die Presse- und Öffentlichkeitsarbeit ohne die Abhängigkeit von Drittanbietern (YouTube/Twitch) ermöglicht. Das System vereint maximale Datensouveränität mit professioneller Broadcast-Qualität und nahtloser Integration in unsere bestehende Enterprise-Software.
 
-==== 2. Technisches Ökosystem (The Stack)
+=== 5.6.2 Technisches Ökosystem (The Stack)
 Wir setzen auf eine hybride Architektur aus bewährten Enterprise-Frameworks und spezialisierten Video-Engines:
 
 * Core-Backend: C# / ASP.NET Core (Steuerung, Sicherheit, Business-Logik).
@@ -123,7 +125,7 @@ Wir setzen auf eine hybride Architektur aus bewährten Enterprise-Frameworks und
 
 * Real-time Interaction: SignalR für latenzfreien Chat und Live-Status-Updates.
 
-==== 3. Key Features für die Öffentlichkeitsarbeit
+=== 5.6.3 Key Features für die Öffentlichkeitsarbeit
 * Long-Form Stability: Spezielle Optimierung für Events über 2 Stunden durch segmentiertes HLS-Streaming und automatisierte Failover-Routinen.
 
 * Smart Archiving: Vollautomatisierter Workflow nach Stream-Ende (Merge, Transcoding via FFmpeg, Thumbnail-Generierung und Cloud-Upload).
@@ -132,7 +134,7 @@ Wir setzen auf eine hybride Architektur aus bewährten Enterprise-Frameworks und
 
 * DVR-Funktion (Time-Shift): Journalisten können während der laufenden Übertragung zurückspulen, um keine Information zu verpassen.
 
-==== 4. Investitions- & Genehmigungsargumente (Business Case)
+=== 5.6.4 Investitions- & Genehmigungsargumente (Business Case)
 * Unabhängigkeit: Schutz vor Algorithmus-Willkür, Werbeunterbrechungen oder plötzlichen Richtlinienänderungen externer Plattformen.
 
 * Datensicherheit: Zuschauerdaten und sensible Presse-Informationen verbleiben vollständig auf eigener Infrastruktur (DSGVO-Konformität "by Design").
@@ -141,7 +143,7 @@ Wir setzen auf eine hybride Architektur aus bewährten Enterprise-Frameworks und
 
 * Skalierbarkeit: Durch die Containerisierung (Docker/Kubernetes) kann die Plattform mit den Anforderungen des Unternehmens mitwachsen.
 
-==== 5. Warum für Talente attraktiv?
+=== 5.6.5 Warum für Talente attraktiv?
 Mitarbeiter arbeiten an der Speerspitze der Videotechnik:
 
 * Full-Stack-Challenge: Verbindung von High-Performance C# Backends mit modernen React-Frontends.

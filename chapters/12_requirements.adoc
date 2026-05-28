@@ -1,13 +1,13 @@
-= Anforderungsprofile der Mitarbeiter:innen innerhalb der SPMG
+= 12 Anforderungsprofile der Mitarbeiter:innen innerhalb der SPMG
 
 Im Folgenden Abschnitt werden die Anforderungen und Qualifikationen beschrieben, die für die verschiedenen Positionen innerhalb der Strukturen der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) erforderlich sind. DIese Anforderungen umfassen sowohl fachliche als auch persönliche Kompetenzen, die notwendig sind, um die Aufgaben, Aufgabenbereiche und Verantwortlichkeiten der jeweiligen Positionen erfolgreich zu erfüllen. 
 
 Die Profile sind so eingeteilt, dass sie pro Abteilung und Position kategorisiert sind, um eine klare Übersicht und eine gezielte Suche zu ermöglichen. 
 
-== Allgemeine Anforderungen und Standards 
+== 12.1 Allgemeine Anforderungen und Standards 
 Die SPMG hält sich sehr hohe Standards welche durch ihre Mitarbeiter ausgestrahlt werden.
 
-=== Repräsentative Standards und Dienstdisziplin
+=== 12.1.1 Repräsentative Standards und Dienstdisziplin
 
 Dieser Abschnitt definiert die äußeren Rahmenbedingungen für den Dienstbetrieb der SPMG. Das Erscheinungsbild der Mitarbeiter wird als "passive Bewaffnung" betrachtet und dient der psychologischen Autoritätswahrung sowie der funktionalen Sicherheit.
 
@@ -43,10 +43,10 @@ Wiederholte Verstöße werden automatisiert über das ERPDS an die Akademieleitu
 [WARNING]
 Ein gepflegtes Äußeres ist die erste Verteidigungslinie. Wer sich selbst nicht unter Kontrolle hat, kann keinen Sektor kontrollieren.
 
-== Anforderungen für Personal in der Geschäftsführung und Algemeinen Verwaltungspositionen
+== 12.2 Anforderungen für Personal in der Geschäftsführung und Algemeinen Verwaltungspositionen
 Die Geschäftsführung und allgemeinen Verwaltungspositionen innerhalb der SPMG erfordern eine Kombination aus diversen Führungsqualitäten, strategischem Denken, organisatorischen und Technischen Fähigkeiten und Qualifikationen. 
 
-=== Geschäftsführung
+=== 12.2.1 Geschäftsführung
 ==== CFO (Chief Financial Officer)
 Der CFO ist für die finanzielle Führung und Compliance Prüfung der SPMG verantwortlich. Er oder sie muss über fundierte Kenntnisse in den Bereichen Finanzmanagement, Buchhaltung, Steuern und steuerrechtliche Vorschriften im Rahmen der Abgabenordnung verfügen. 
 
@@ -93,7 +93,7 @@ Der CPO ist für die Produktion von Multimedialen Inhalten und die Einhaltung vo
 * Abgeschlossene Ausbildung an einer HTL (mit Matura ist von Vorteil) im Bereich der Mediengestaltung, Medientechnik, oder Informatik
 * Erfahrung in der Produktion von Multimedialen Inhalten, idealerweise mit einem Schwerpunkt auf Film- und Videoproduktion, Animation, oder interaktive Medien
 
-=== Anforderungen für Personal im Bereich der Allgemeinen Verwaltung
+=== 12.2.2 Anforderungen für Personal im Bereich der Allgemeinen Verwaltung
 Die allgemeinen Verwaltungspositionen innerhalb der SPMG erfordern eine Kombination aus organisatorischen, administrativen und Kommunikativen Fähigkeiten und Qualifikationen. 
 Hier wird zwischen den einzelnen Abteilungen unterschieden. 
 

@@ -1,9 +1,4 @@
-= Executive Summary
-
-[NOTE]
-====
-Die Executive Summary wird in Kürze hinzugefügt.
-====
+= 3. Executive Summary
 
 [plantuml, org-chart-full, svg]
 ----
@@ -43,30 +38,59 @@ package "IT-Abteilung" as IT {
 package "Security Operations" as SO {
     rectangle "CSO" as CSO
     
-    object "Security and Patrol Unit" as SPU
-    object "Special Intervention Unit" as SIU
-    object "VIP Close Protection Unit" as VCPU
-    object "Event Security Unit" as ESU
-    object "Arial Support Unit" as ASU{
+    object "Referat Operationen" as RO{
+        Referatsleiter: TBD
+    }
+    object "Referat Sondereinheiten" as RSE{
+        Referatsleiter: TBD
+    }
+    object "Referat Unterstützungseinheiten" as RUE{
+        Referatsleiter: TBD
+    }
+    object "Streifendienst" as SPU
+    object "Sonder Interventions Gruppe" as SIG
+    object "Bereitschaftseinheit" as BE
+    object "Personenschutzgruppe" as PSG
+    object "Event Sicherheitsgruppe" as ESG
+    object "Flugeinheit Sicherheit" as FES {
         Flightchief: TBD
         Groundchief: TBD
-}
-    object "Investigation and Intelligence Unit" as IIU
-    object "K9 Unit" as K9
+    }
+    object "Ermittlungsdienst" as ED
+    object "Diensthundeeinheit" as DHE
+    object "Logistische Sicherungs Gruppe" as LSG
+    object "LSG-Werttransport" as LSG_WT
+    object "LSG-Arrestantentransport" as LSG_AT
+    object "LSG-VIP Shuttle Service" as LSG_VIP
+    object "LSG-VIP Medical Service" as LSG_VIP_Med
 
-    CSO -down-> SPU
-    CSO -down-> SIU
-    CSO -down-> VCPU
-    CSO -down-> ESU
-    CSO -down-> ASU
-    CSO -down-> IIU
-    CSO -down-> K9
+    CSO -down-> RO
+    CSO -down-> RSE
+    CSO -down-> RUE
+
+    RO -down-> SPU
+    RSE -down-> SIG
+    RSE -down-> PSG
+    RSE -down-> BE
+    RUE -down-> ESG
+    RUE -down-> FES
+    RO -down-> ED
+    RSE -down-> DHE
+    RUE -down-> LSG
+    
+    LSG -down-> LSG_WT
+    LSG -down-> LSG_AT
+    LSG -down-> LSG_VIP
+    LSG_VIP -down-> LSG_VIP_Med
 } 
 
-package "Medical Operations" as MO {
+package "Medizin" as MO {
     rectangle "CMO" as CMO
     
-    object "Arbeitsmedizin" as AM
+    object "Referat Arbeitsmedizin" as AM
+    object "Referat Rettungsdienst" as RRD{
+        LNA: TBD
+    }
     object "Sanitätsdienst" as SD
     object "Medizinisch Präventive Maßnahmen" as MPM
     object "Flugrettung" as HEMS{
@@ -76,10 +100,11 @@ package "Medical Operations" as MO {
     object "Rettungshunde" as RK9
 
     CMO -down-> AM
-    CMO -down-> SD
-    CMO -down-> MPM
-    CMO -down-> HEMS
-    CMO -down-> RK9
+    CMO -down-> RRD
+    RRD -down-> SD
+    AM -down-> MPM
+    RRD -down-> HEMS
+    RRD -down-> RK9
 } 
 
 package "Productions" as PROD {
@@ -105,7 +130,7 @@ CTO -down-> SUP
 @enduml
 ----
 
-== Die Neudefinition der europäischen Medienlandschaft
+== 3.1 Die Neudefinition der europäischen Medienlandschaft
 Die Stiller und Partner Mediengruppe GmbH/Holding (SPMG) ist die Realisierung einer ambitionierten Vision, die darauf abzielt, Österreich als führenden europäischen Filmstandort zu etablieren und die Grenzen der Unterhaltungsindustrie nachhaltig zu verschieben. 
 Unter der Leitung des Gründers und Chief Creative Officers (CCO), Sebastian Andreas Stiller, bündelt die SPMG kreative Exzellenz mit einer hochmodernen, autarken Infrastruktur, um Multi-Media-Inhalte auf Hollywood-Niveau zu produzieren.
 Die Vision: Vom „Fiebertraum“ zum Branchenführer
@@ -113,7 +138,7 @@ Der Ursprung der SPMG liegt in einem ambitionierten HTL-Abschlussprojekt aus dem
 Sebastian Stiller weigerte sich, diesen beinahe missglückten Versuch auf sich sitzen zu lassen, und nutzte die gewonnenen Erkenntnisse („Lessons-learned“), um die Idee von Grund auf neu zu entwickeln.
 Diese Entschlossenheit prägt das Unternehmen bis heute: Von einer mehrjährigen Recherchephase bis hin zum geplanten offiziellen Markteintritt im Jahr 2029, sobald der Gründer sein Ingenieurszertifikat erhalten hat, um die Professionalität und Seriosität des Hauses zu garantieren. Die SPMG ist somit das Ergebnis jahrelanger Verfeinerung einer Mission, die den Anspruch hat, die österreichische Medienlandschaft für immer zu verändern.
 
-== Das Flaggschiff-Projekt: *„Descent“*
+== 3.2 Das Flaggschiff-Projekt: *„Descent“*
 
 Das Herzstück und der kreative Anker der SPMG ist das Franchise *„Descent“*. Dieses Projekt bildet das Fundament, auf dem die gesamte Unternehmensidentität aufbaut:
 Filmreihe: *„Descent“* ist als hochkarätige Action/Thriller/Krimi-Filmreihe konzipiert, die vom Gründer Sebastian Andreas Stiller persönlich verfasst und produziert wird
@@ -122,20 +147,20 @@ Filmreihe: *„Descent“* ist als hochkarätige Action/Thriller/Krimi-Filmreihe
 „Descent: The Game“: Die Welt von *„Descent“* wird über die Leinwand hinaus erweitert. In Zusammenarbeit mit dem externen Partner Tobias Wittmann entsteht ein Videospiel, das es Fans ermöglicht, tiefer in die Lore einzutauchen und selbst Teil der spannenden Handlung zu werden.
 Synergie-Effekte: *„Descent“* dient als Prototyp für die integrierte Strategie der SPMG, bei der geistiges Eigentum (IP) über verschiedene Medienformate hinweg – von Film über Gaming bis hin zu physischen Erlebnissen – konsistent und hochwertig verwertet wird.
 
-== Ein integriertes Ökosystem der Unterhaltung
+== 3.3 Ein integriertes Ökosystem der Unterhaltung
 
 Neben dem *„Descent“*-Franchise basiert das Kerngeschäft auf einer synergetischen Struktur aus verschiedenen Unterhaltungsbereichen:
 Gaming & Simulation: Neben dem *„Descent“*-Spiel entwickelt die SPMG komplexe Simulationen wie das „Unnamed Simulator Game“, eine Mischung aus Wirtschaftssimulation und Multiplayer-Shooter, in dem Spieler eigene Imperien aufbauen können
 .
 Erlebniswelten: Durch Projekte wie das „SPMG Land“ (ein Themenpark für die Welten der SPMG-Franchises), die „SPMG Eventhalle“ für Live-Shows und eine eigene Kinokette („SPMG Cinemas“) wird die Marke für das Publikum physisch greifbar.
 
-== Operative Souveränität und Sicherheit
+== 3.4 Operative Souveränität und Sicherheit
 
 Was die SPMG grundlegend von klassischen Medienhäusern unterscheidet, ist ihre tiefgreifende, beinahe staatlich anmutende operative Struktur, die den Schutz von Produktionen und Gästen priorisiert:
 Unternehmenseigener Sicherheitsdienst: Spezialisierte Einheiten wie die Special Intervention Unit (SIU) für Hochrisikolagen und die Aerial Support Unit (ASU) mit eigener Hubschrauberflotte gewährleisten maximale Sicherheit auf allen Betriebsstätten.
 Medizinische Versorgung: Ein interner Sanitätsdienst inklusive eigener Flugrettung minimiert die sogenannten „No-Flow“-Zeiten in Notfällen und sorgt für das Wohlbefinden von Mitarbeitern und Gästen auf Hollywood-Niveau.
 Technologische Basis: Das maßgeschneiderte ERPDS (Enterprise Resource Planning and Dispatch System) steuert zentral alle Prozesse – von der Fahrzeugflotte bis zur rechtssicheren Dokumentenverwaltung mittels ID-Austria.
 
-== Ein Versprechen für die Zukunft
+== 3.5 Ein Versprechen für die Zukunft
 
 Die SPMG ist mehr als ein Unternehmen; sie ist ein Beweis dafür, dass visionäres Denken gepaart mit einem lückenlosen, jahrelang vorbereiteten Plan keine Grenzen kennt. Als innovativer Dienstleister und Arbeitgeber verpflichtet sich die Holding ab 2029 höchsten ethischen Standards und einer Compliance, die Vertrauen bei Investoren schafft und die Reputation des österreichischen Films weltweit stärken wird

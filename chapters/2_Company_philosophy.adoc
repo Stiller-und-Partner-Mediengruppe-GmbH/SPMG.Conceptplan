@@ -1,0 +1,307 @@
+:author: Sebastian Andreas Stiller 
+
+= 2. Theoretisches Unternehmensphilosophie Konzept
+Ein Konzept von {author} erarbeitet im Zeitraum von 10.08.2023 bis {docdate}
+
+== 2.1 Tabellenverzeichnis
+Alle Abbildungen obliegen dem Urheberrechtes der Stiller und Partner MedienGruppe GmbH.
+
+Des Weiteren unterliegen sich der Geheimhaltungspflicht als Firmengeheimnisses laut ADV der Stiller und Partner MedienGruppe GmbH (ADV §4 Abs 2).
+
+Ihre Verbreitung außerhalb des Unternehmens und ohne Zustimmung des Autors bzw. der Geschäftsleitung der Stiller und Partner MedienGruppe GmbH is nicht gestattet und wird Zivil- sowie Arbeitsrechtliche Konsequenzen nach sich ziehen.
+
+* <<table-1>>
+* <<table-2>>
+* <<table-3>>
+
+== 2.2 Abbildungsverzeichnis
+Alle Abbildungen obliegen dem Urheberrechtes der Stiller und Partner MedienGruppe GmbH.
+
+Des Weiteren unterliegen sich der Geheimhaltungspflicht als Firmengeheimnisses laut ADV der Stiller und Partner MedienGruppe GmbH (ADV §4 Abs 2).
+
+Ihre Verbreitung außerhalb des Unternehmens und ohne Zustimmung des Autors bzw. der Geschäftsleitung der Stiller und Partner MedienGruppe GmbH is nicht gestattet und wird Zivil- sowie Arbeitsrechtliche Konsequenzen nach sich ziehen.
+
+* <<img-11>>
+* <<img-10>>
+
+== 2.3 Vorwort
+Dieses umfasst die Gründung des Unternehmens als reine Mediengruppe, dies bedeutet, dass wir nicht wie bis jetzt der Konsens war eine Aufteilung zwischen den Tätigkeiten im Bereich Mediengestalltung und dem Vertrieb von EDV Peripherie Geräten( Tastaturen, Kopfhörern und Mäuse).
+
+Sondern nur die Gründung eines auf Mediengestaltung spezialisiertes Unternehmen welches auf die Erstellung von Multimedialen Material mit sowohl Unterhaltenden als auch Unterrichtenden Inhalten(entsprechend dem Allgemeinen Medienbildungsauftrages gemäß dem Grundversorgungsauftrages des Rundfunks.
+
+== 2.4 Einleitung
+Dieses Dokument zeigt ein Konzept zur Errichtung eines Medienunternehmens welches als Ziel hat Personen von 12 bis 80 zu Unterhalten.
+
+Die Komponente, dass wir an Firmen Peripheriegeräte verkaufen und sie in dieser Hinsicht beraten muss hierbei wegfallen da das Risiko zu gravierend ist.
+
+Denn einerseits geht unser derzeitiges Konzept nur auf, wenn wir es schaffen ernsthaften kontakt zu den Herstellerfirmen (Jabra, Philips, Logitech usw.) herstellen und sie uns einen Lizenzvertrag ermöglichen ohne uns als Vertriebsfirma auszubeuten.
+
+Zweitens liegt ein großes Risiko darin, dass keiner von uns beiden tatsächliche Erfahrung in den Bereichen Handel und Logistik haben und wir daher auch nicht wirklich ein sehr professionelles Bild nach außen tragen.
+
+Der Dritte Punkt ist die Tatsache, dass laut Konzept die gesamte, darin nicht nur Finanziell, sondern auch was die Auftragslast betrifft, Arbeit alleine also ohne weitere Mitarbeiter stemmen müssen.
+
+[Das dies, aufgrund der Tatsache das ich persönlich noch eine Bildungseinrichtung besuche und nicht weiß, ob ich im laufenden Schuljahr überhaupt die Zeit finde alles zu stemmen(Schule, Unternehmen und körperliche Gesundheit) und Herr Dollensky die ersten Jahre nebenberuflich im Unternehmen Tätig sein möchte, somit also auch nicht seine volle Aufmerksamkeit dem Unternehmen widmen kann.]
+
+Ist es meine persönliche und gut durchdachte Meinung den Bereich des Peripheriehandels sofort abzustoßen und stattdessen ein reines Medienunternehmen mit dem Grundprinzip der Produktion und dem Vertrieb von Medieninhalten, welche sowohl unterhalten als auch, im Sinne des allgemeinen Medienbildungsauftrages gemäß dem Grundversorgungsauftrages des Rundfunks, Möglichkeiten zu Weiterbildung bieten.
+
+Weiters ist es meine Empfehlung dies nicht vollkommen alleine zu machen, sondern als Team mit anderen Personen, da man so nicht nur die Arbeit aufteilen, sondern auch die Möglichkeit mehrere Projekte gleichzeitig laufen zu haben.
+
+Es ist auch eine Möglichkeit, um den Anfang einfacher zu gestalten da wir dann das Finanzielle nicht alleine tragen müssen sondern es auf mehrere Personen Aufteilen können.
+
+Hier ist eine Tabelle als Vergleich um zu zeigen, wie wo die Probleme liegen, wenn wir nur zu zweit agieren und welche Erleichterungen ein Team bieten:
+
+[[table-1]]
+.Darstellung Vor- und Nachteile
+[cols="1,1", options="header"]
+|===
+|Nur wir beide |Ein Team von Personen
+
+|Wir tragen die gesamte finanzielle Last der 70.000 (jeweils 35.000 jeder),
+|Wir können das Startkapital auf mehrere aufteilen (Jeder zahlt einen Prozentuellen Teil zu den 70.000 bei, somit verringert sich die Zahllast für jeden
+
+|Wir müssen zwischen Schule/Arbeit und der Firma jonglieren (wird auf Dauer zu Performanceproblemen und stressbedingter Krankheit führen),
+|Wir können die Projekte so Aufteilen, dass wir uns auf unsere Jeweiligen Hauptbeschäftigungen konzentrieren(Schule/Arbeit)
+|===
+
+Ich muss hoffentlich nicht schreiben, wie wichtig die Entscheidung ist, andere um Hilfe zu bitten, denn nicht umsonst heißt es ja: „Teamwork makes the dream work!“, was ja übersetzt bedeutet: Teamwork lässt den Traum wahr werden.
+
+Gemeint ist also die Tatsache, dass wenn man als Team arbeitet und sich auf andere Verlassen kann die einen Unterstützen dann kann man alles schaffen, was man sich vorstellt.
+
+Eine weitere Weisheit besagt: “together we rise, devided we fall!“, was wiederum bedeutet: Gemeinsam werden wir Triumphieren, getrennt/alleine werden wir scheitern.
+
+Das mögen zwar beides Sprichwörter sein, doch tragen sie dennoch einen wahren Kern in sich nämlich die Tatsache, dass als Gruppe alles einfacher ist.
+
+Wie oben bereits geschrieben empfehle ich die Errichtung eines reinen Medienunternehmens welches in Lang- und Kurzfristige Projekte in Form von:
+
+* Die Erstellung von Social Media Inhalten in den Bereichen Gaming, Gameshows und Liveevents zur Generierung und Erweiterung einer „Community“ also einer Fan Gemeinde, welche uns durch Ihre Einschaltquoten und Freiwilliger Spenden einen gewissen Prozentsatz des Gesamtumsatzes einbringen.
+* Die Erstellung von größeren Medieninhalten in Form von Videospielen und Kurz- bzw. Spielfilmen.
+* Welche um einen Fixpreis zu Kauf angeboten werden, um so einen weiteren Teil des Gesamtumsatzes zu erzielen.
+* Die Errichtung eines sogenannten „Merch“-Shops in dem Personen Werbeartikel und Promo-Artikel erhalten können welche von uns Inhouse gestaltet und bei einem Hersteller bestellt werden.
+
+Diese Produkte beinhalten unter anderem T-Shirts, Schlüsselanhänger, Autogrammkarten, Mouse- bzw. Deskpads und vieles mehr.
+
+Hierbei ist zu verstehen das wir uns Personen (vorrangig in unserem Freundeskreis) die ein Ähnliche Interesse haben wie und mit uns etwas erarbeiten wollen bei dem es nicht nur um den Umsatz bzw. den Gewinn geht, sondern auch um die Tatsache das wir dann etwas geschaffen haben das uns gehört und auf das wir stolz sein können
+
+== 2.5 Die Webseite
+Betreffend der Webseite ist zu sagen das wir uns tatsächlich darauf konzentrieren sollten zuerst eine Marke uns Aufzubauen und dann erst Eine Plattform zu entwickeln die wir zum Streamen unserer Eigenproduktionen verwenden.
+
+Weiters empfehle ich wie in meiner E-Mail vom 10.08.2023 die Strikte Abtrennung des Kundenportals und der Unternehmensinternen Verwaltungsseite, da eine Kombination wie sie derzeit vorliegt nicht nur ein hohes Sicherheitsrisiko und eine Möglichkeit für Daten-Leaks bietet, sondern auch einen Verstoß gegen die Europäische Verordnung zur Sicherstellung des Allgemeinen Datenschutzes (DSGVO).
+
+Die Lösung wäre in diesem Fall, dass wir die Produktseiten und die Interne Seite sowie alle Plugins, welche auf den bestehenden File-share zugreifen zu entfernen und stattdessen eine reine Informationsseite Erstellen bestehend aus der Hauptseite auf der unsere Unternehmerischen Absichten und Generelle Informationen zu unserem Unternehmen zu finden ist, Eine Seite auf der wir uns und unser Team vorstellen und eine wo die Projekte Vorgestellt werden wobei man auf ein Projekt klicken kann und dann zu einer Seite geführt wird auf der man anschließend Alle Informationen, Presseausschreibungen und Promo-Material (Trailer, Behind The Scenes usw.).
+
+Hierbei ist zu beachten das Keinerlei Verbindung mit dem internen Fileshare(Firmenverteiler) nötig sein wird.
+
+//[[img-1]]
+//.Ein Bild der Hauptseite der SuP MedienGruppe GmbH
+//image::./images/image1.png[Ein Bild der Hauptseite der SuP MedienGruppe GmbH]
+
+Abbildung Belegschaft:
+
+//[[img-2]]
+//.Eine Abbildung der Belegschaftsseite der SuP MedienGruppe GmbH
+//image::./images/image2.png[Eine Abbildung der Belegschaftsseite der SuP MedienGruppe GmbH]
+
+//[[img-3]]
+//.Ein Bild der Mitarbeiterdetailseite der SuP MedienGruppe GmbH
+//image::./images/image3.png[Ein Bild der Mitarbeiterdetailseite der SuP MedienGruppe GmbH]
+
+Abbildung Projekte:
+
+//[[img-4]]
+//.Ein Bild von der Projektübersichtsseite der SuP MedienGruppe GmbH
+//image::./images/image4.png[Ein Bild von der Projektübersichtsseite der SuP MedienGruppe GmbH]
+
+//[[img-5]]
+//.Ein Bild von der Projektübersichtsseite der SuP MedienGruppe GmbH
+//image::./images/image5.png[Ein Bild von der Projektübersichtsseite der SuP MedienGruppe GmbH]
+
+//[[img-6]]
+//.Online-Shop der Stiller und Partner Mediengruppe GmbH/Holding (SPMG)
+//image::./images/image6.png[Online-Shop der Stiller und Partner Mediengruppe GmbH/Holding (SPMG)]
+
+//[[img-7]]
+//.Produkt-Detailseite des Shops
+//image::./images/image7.png[Produkt-Detailseite des Shops]
+
+== 2.6 Das Team
+Die erste Entscheidung eines Unternehmers muss immer sein, wie groß ist die Belegschaft von Anfang an.
+
+Denn gerade in unserer Branche kann man nicht alleine Arbeiten ( bzw. in unserem Fall zu zweit).
+
+Der Gedanke darf auch nicht sein, dass man es alleine schafft, denn in 90% der Fälle holt man sich spätestens nach wenigen Monaten Hilfe, weil man die Arbeitslast nicht alleine stemmen kann.
+
+Genau aus diesem Grund darf unsere Entscheidung nicht rein darauf beruhen, dass Mitarbeiter Geld kosten, denn auch wenn dies natürlich der Fall ist so ist der Vorteil eines Team doch ziemlich groß.
+
+Man darf tatsächlich nicht außer Acht lassen, dass mit einem Team hinter dir wird nicht nur die Verantwortung eines jeden kleiner aber man ermöglicht auch eine Optimierung des Arbeitsablaufes, indem man die Aufgaben verteilt und nicht alles an einer Person hängt.
+
+Dadurch wird auch sowohl die Fehlerquote als auch natürlich das Ausmaß eines Fehlers minimiert( ein Teammitglied editiert ein Video und der Teamleiter muss sich nur auf die Abnahme des Videos/Projektes anstatt dass der Teamleiter die Zeit finden muss um das Video/Projekt zu editieren).
+
+Ein Vorschlag meinerseits also wie folgt:
+
+[[table-2]]
+.Tabellarische Darstellung des Teams
+[cols="1,1,1", options="header"]
+|===
+|Bereich |Name |Position
+
+.3+|Vorstand |Sebastian Stiller |Chief Creative Officer
+| |Chief Finance Officer
+|Dominik Nadrasky |Chief Development Officer
+
+.3+|Produktion Film und Musik |Eric Jiyane |Abteilungsleiter Schnitt
+|Paul Preitler |Abteilungsleiter Musik und Tontechnik
+|Paul Winter |Abteilungsleiter Aufnahme und Videotechnik
+|===
+
+[[img-8]]
+.Organigramm SuP MedienGruppe GmbH nach Konzept Neu
+//image::./images/image8.png[Organigramm SuP MedienGruppe GmbH nach Konzept Neu]
+
+[[img-9]]
+.Organigramm Teil 2 SuP MedienGruppe GmbH nach Konzept Neu
+//image::./images/image9.png[Organigramm Teil 2 SuP MedienGruppe GmbH nach Konzept Neu]
+
+== 2.7 Interne Verwaltungssoftware
+Ebenfalls ist eine Webbasierte Verwaltungsapplikation in einer Form wie wir sie zum jetzigen Zeitpunkt erstellen können nicht ideal.
+
+Empfehlenswert ist es daher, dass wir eher auf eine Applikation am Smartphone hinarbeiten und dieses dann auf den Handys der Mitarbeiter auszurollen, da wir dann nicht nur besser garantieren können das der Datenschutz eingehalten wird, sondern wir können auch benötigte Formulare zum Ausfüllen zur Verfügung stellen.
+
+Diese Applikation kann auch adaptiert werden um auch auf den Computer dieselben Funktionalitäten erfüllen.
+
+== 2.8 Wertschöpfung
+Es ist natürlich auch in diesem Fall nicht außer Acht zu lassen, dass ohne Gewinn das Unternehmen nicht lange überleben wird, deshalb empfehle ich eine Aufteilung in die Produktion/Erarbeitung von Medialen Produkten( Videospiele) welche über einschlägige Plattformen(Steam) veröffentlicht und käuflich erwerbbar, sind.
+
+Zusätzlich ist die Möglichkeit eines Online-Shops, in dem wir selbst gestaltete Waren in Form von Merchandise (Werbematerial wie Kappen, Mousepads, T-Shirts usw.) zu laufenden Projekten(Spiele, Filme uvm.).
+
+Weiters ist es möglich unsere Mediale Präsenz in Form von Dokumentationen, Berichterstattungen, Filmen, Videoserien, Fotostrecken uvm. zu zeigen und diese auch gegebenenfalls auf Auftragsbasis kostenpflichtig anzubieten.
+
+Kooperationen sind ebenfalls eine Möglichkeit um uns als Unternehmen Medial zu etablieren.
+
+Hier noch mal eine Auflistung aller Produkte/Projekte wir anbieten könnten:
+
+=== 2.8.1 Produkte
+
+==== 2.8.1.1 Merchandise – Shop
+* Kappen
+* T-Shirts
+* Hoodies(Kapuzenpullis)
+* Mousepads
+* Deskpads
+* Tassen
+* Becher
+* Schlüsselanhänger
+* Autogrammkarten( zu einem Späteren Zeitpunkt)
+* Rucksäcke(zu einem späteren Zeitpunkt)
+
+==== 2.8.1.2 Videospiele (STEAM)
+* LVA Simulator/24 Stunden Leben auf der Autobahn Simulator
+** Einen Simulator welcher die Arbeit der LVA und Asfinag auf Wiens Autobahnen beleuchtet.
+** Es wäre natürlich in diesem Fall eine Kooperation mit dem Privatsender ATV.
+** Ein ähnliches Konzept gibt es für Österreich (bzw. Wien) nicht.
+
+=== 2.8.2 Projekte
+
+==== 2.8.2.1 Dokumentationen
+* HTLs in Wien (Rennweg, Spengergasse)
+* Fahrzeuge und Technik der Blaulichtorganisationen Wiens (MA70, MA68, LPDW, WL, ÖBB, WW, WE)
+
+==== 2.8.2.2 Berichterstattungen
+* Nationalfeiertag (26.10.)
+* Wiener Polizeiball(02.02.)
+* Wahlberichterstattung
+* To be Announced
+
+==== 2.8.2.3 Filme
+Zu einem Zeitpunkt in der näheren Zukunft hätte ich geplant das Konzept eines Filmes zu realisieren.
+
+Dieser wäre ein mit 60 – 90 Minuten festgelegter Spielfilm, der möglicherweise dann zur Basis eines Franchises werden könnte
+
+=== 2.8.3 YouTube Community Projekte
+Hierbei handelt es sich um die bereits besprochenen Thematiken
+
+* Tutorials (Medientechnik)
+* Gaming Videos und Streams
+* Tech – Reviews
+
+Uvm.
+
+Dies ist nur eine Konzept Aufstellung und dient natürlich nur zum Veranschaulichen der Thematischen Verteilung.
+
+=== 2.8.4 zeitlich/Tabellarische Darstellung
+In der folgenden Darstellung finden Sie die letzte Auflistung mit Zeitlicher Abfolge (nach wie vielen GJ was verwirklicht werden soll).
+
+[[table-3]]
+.Zeitlich/Tabellarische Darstellung Projekte und Produkte
+[cols="1,1,2,1", options="header"]
+|===
+|Kat. |Ident. |Bez. |GJ
+
+.2+|9.1 |9.1.1 |Merchandise - Shop |GJ 2 od. 3
+|9.1.2 |Videospiele |GJ 3 od. 4
+
+| | | |
+
+.4+|9.2 |9.2.1 |Dokumentationen |GJ 3 od. 5
+|9.2.2 |Berichterstattungen |GJ 4 od. 5
+|9.2.3 |Filme |GJ 5
+|9.2.4 |YouTube Community Inhalte |GJ 4
+|===
+
+== 2.9. Unternehmensstandorte
+Der Standort ist einer der Wichtigsten Aspekte einer erfolgreichen Unternehmensgründung.
+
+Es ist daher Wichtig zuerst zu wissen wie viele Standorte man anstrebt, wie diese Standorte verwendet werden und vor allem was muss dieser Standort können?
+
+In diesem Sinne ist es also wichtig sich zu fragen Wo wollen wir Wie viele Standorte zu Welchen Zwecke wir betreiben wollen.
+
+=== 2.9.1 Standortkonzept
+Eine Möglichkeit wie wir dieses Verfahren nutzen können ist uns die folgenden Fragen zu stellen.
+
+==== 2.9.1.1 Wie viel Personal wollen wir haben?
+Soll zusätzlich zum Gründungsteam Personal angeworben werden? Wie viel Personal soll zusätzlich angeworben werden?
+
+Ist dies der Fall so muss der Standort entsprechend Büro Räumlichkeiten zur Verfügung zu stellen.
+
+==== 2.9.1.2 Soll es Außendienst geben?
+Sollen Mitarbeiter auch im Außendienst agieren? Wie viele Personen sollen für den Außendienst ausgewählt werden?
+
+Ist dies ebenfalls der Fall so ist es Wichtig entsprechend Parkflächen oder Anbindung an Öffentliche Verkehrsmittel zu Berücksichtigen.
+
+==== 2.9.1.3 Soll es Home-Office geben?
+Home-Office ist seit der SARS-CoV 2 Pandemie eine gute Möglichkeit, um das Personal auch in schwierigen Zeiten die Alternative zu erbringen ihrer Arbeit nachzugehen.
+
+Dem entsprechend muss Infrastruktur zur Verfügung stellen (VPN-Service, entsprechende Hardware(Laptop, Bildschirme, Docking Stations)
+
+==== 2.9.1.4 Soll es Warenverkauf geben?
+Warenverkauf ist eine gute Möglichkeit außerhalb der Produktionssaison bzw. in der Vorlaufzeit eines Projektes (Phase in welcher z.B. Drehbücher, Handlungen geschrieben werden) zu überbrücken.
+
+Eine Möglichkeit wäre ein Merch-shop
+
+==== 2.9.1.5 Wollen wir In-House Produktionen machen?
+Eine In-House Produktion bedeutet, dass wir unsere Produkte selbst im eigenen Unternehmen erzeugen (in-House engl.: im Haus, im eigenen Gebäude).
+
+Die Produktion im eigenen Gebäude birgt zwar sehr viele Risiken aber hat auch einige Vorteile.
+
+Ein Nachteil ist es das Wir als Unternehmen das gesamte Risiko tragen.
+
+Dies bedeutet wir müssen sicherstellen, dass die Qualität und Menge sichergestellt ist.
+
+Also ob genug Material vorhanden ist, um den Kundenansturm zu bewältigen.
+
+Ein Weiterer Nachteil ist die Bindung an externen Produzenten.
+
+Der Vorteil hierbei ist jedoch die Tatsache, dass wenn wir unsere Ware selbst produzieren können wir entscheiden was wir produzieren und dadurch verkaufen können.
+
+== 2.10 Dokumente
+
+=== 2.10.1 Dienstausweis
+Der Dienstausweis ist hierbei nicht nur das Zentrale Identifikationsmittel des Mitarbeiter
+[[img-11]]
+.Dienstausweis Rückseite
+image::Dienstausweis_heck.png[Dienstausweis Rückseite]
+
+[[img-10]]
+.Dienstausweis Frontseite
+image::Dienstausweis_front.png[Dienstausweis Frontseite]
+
+=== 2.10.2 Projektdokumentation

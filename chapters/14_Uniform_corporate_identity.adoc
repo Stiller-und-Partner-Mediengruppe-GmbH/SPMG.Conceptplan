@@ -1,8 +1,8 @@
-= Dienstbekleidung und Corporate Identity
+= 15 Dienstbekleidung und Corporate Identity
 
 In diesem Abschnitt werden die grundlegenden Regelungen im Bezug zur *Dienstbekleidung* und der *Corporate Identity (Logo und Farbschema)*
 
-== Dienstbekleidung und Uniformen
+== 15.1 Dienstbekleidung und Uniformen
 
 Ein Unternehmen ist nur so seriös wie seine Mitarbeiter. Aus diesem Grund muss der Mitarbeiter auch so Seriös aussehen wie die Seriösität des Unternehmen es darstellen soll. Aus diesem Grund setzt auch die Stiller und Partner Mediengruppe GmbH/Holding (SPMG) auf eine Standartisierte Dienstbekleidung und Uniform 
 
@@ -10,7 +10,7 @@ Ein Unternehmen ist nur so seriös wie seine Mitarbeiter. Aus diesem Grund muss 
 
 Es wird hier grundsätzlich zwischen der Dienstbekleidung und der Uniform unterschieden. Die Dienstbekleidung bezeichnet hier also die Kleidung welche Personen tragen müssen, welche in den Bereichen Unternehmensleitung, Management und Vertrieb tätig sind. Uniformen werden von Personen getragen, wenn sie also in Operativen Bereichen(Sicherheit, Sanitätswesen, Brandschutz, Produktion und Technik und Logistik) tätig sind 
 
-=== Standard Dienstalltag 
+=== 15.1.1Standard Dienstalltag 
 
 ==== Definition des Standard-Dienstbetriebes (SDB)
 1. Begriffsbestimmung Der Standard-Dienstbetrieb (SDB) definiert den regulären, kontinuierlichen Arbeitsmodus der Stiller und Partner Mediengruppe GmbH im 24/7-Rhythmus
@@ -35,7 +35,7 @@ Management & Vertrieb: Business-Casual-Standard oder die allgemeine SPMG-Dienstb
 4. Zielsetzung Das primäre Ziel des Standard-Dienstbetriebes ist die lückenlose Gewährleistung der Betriebssicherheit und der Servicequalität der Mediengruppe
 . Durch klare Routinen und funktionsoptimierte Ausrüstung wird eine Arbeitsumgebung geschaffen, die sowohl die Gesundheit der Mitarbeiter (Arbeitsschutz) als auch die hohen Anforderungen an den Schutz von Daten, Sachwerten und der Markenidentität (Domain- und Urheberschutz) im Alltag sicherstellt
 
-=== Representationsanläße 
+=== 15.1.2 Representationsanläße 
 ==== Definition und Standards für Repräsentationsanlässe
 
 1. Begriffsbestimmung Als Repräsentationsanlässe werden alle offiziellen Termine und Ereignisse definiert, bei denen die Außenwirkung und die Markenidentität der Stiller und Partner Mediengruppe GmbH (SPMG) im Zentrum stehen. In diesen Situationen dient die Dienstbekleidung primär als visuelle Repräsentation der Unternehmenswerte – Professionalität, Seriosität und Kompetenz – und tritt hinter rein funktionale oder taktische Aspekte zurück
@@ -52,7 +52,7 @@ Sicherheits-, Brandschutz- und Sanitätsdienst: Bei Repräsentationsanlässen is
 4. Zielsetzung Die strikte Einhaltung dieser Standards bei Repräsentationsanlässen stellt sicher, dass die SPMG über alle Geschäftsbereiche hinweg als Einheit wahrgenommen wird und das Vertrauen externer Partner in die professionelle Struktur des Lage- und Sicherheitszentrums sowie der Mediengruppe gestärkt wird
 
 
-=== Besondere Dienste 
+=== 15.1.3 Besondere Dienste 
 ==== Definition der Besonderen Dienste (Dienste mit erhöhtem Gefahrenpotenzial)
 1. Begriffsbestimmung +
  Besondere Dienste umfassen alle operativen Tätigkeiten, die aufgrund ihrer Art, des Einsatzumfeldes oder der verwendeten Arbeitsmittel ein überdurchschnittliches Gefahrenpotenzial für Leib und Leben aufweisen
@@ -77,16 +77,16 @@ Kennzeichnung: Klare visuelle Unterscheidbarkeit der Funktionen (z. B. farblich 
 Durch die Kombination aus technischer Überwachung (ERP/LSZ), spezialisierter PSA und strenger Einhaltung behördlicher Auflagen wird ein Sicherheitsstandard etabliert, der die Integrität der Mitarbeiter schützt und die Zuverlässigkeit der SPMG als spezialisierter Mediengruppe mit Luftfahrtkomponente untermauert.
 
 
-== Corporate Identity: Bekleidung und Distinktionen
+== 15.2 Corporate Identity: Bekleidung und Distinktionen
 
-=== 1. Identitätsphilosophie und operative Säulen
+=== 15.2.1 Identitätsphilosophie und operative Säulen
 Die visuelle Identität der SPMG basiert auf den Werten **Integrität, technische Präzision und operative Souveränität**. Sie dient als Ausdruck unserer Fachkompetenz gegenüber Investoren und Partnern.
 
 * **Rechtssicherheit:** Gewährleistet durch Domain- und Markenschutz in Österreich sowie die strikte Einhaltung des Urheberrechts (Schutz von Stimme und Gesicht).
 * **Sicherheitspräsenz:** Der bewaffnete Werkschutz signalisiert geordnete Autorität gemäß den österreichischen Rechtsnormen.
 * **Fachkompetenz:** Die Einhaltung der H1-Bewilligungskriterien im Flugbetrieb sowie die offiziell anerkannte Betriebsfeuerwehr (BTF) bilden das Rückgrat der operativen Identität.
 
-=== 2. Farbliche Gestaltung (Color Management System)
+=== 15.2.2 Farbliche Gestaltung (Color Management System)
 Das Farbsystem dient der sofortigen funktionalen Identifikation der Fachbereiche. Die Hintergrundfarben in der Tabelle dienen ausschließlich der visuellen Referenz.
 
 [cols="2,5,2,2,1", options="header"]
@@ -137,22 +137,22 @@ Das Farbsystem dient der sofortigen funktionalen Identifikation der Fachbereiche
 |===
 {set:cellbgcolor!}
 
-=== 3. Dienstbekleidung und Kopfbedeckungen
+=== 15.2.3 Dienstbekleidung und Kopfbedeckungen
 Die Bekleidung unterscheidet strikt zwischen operativer Funktionalität und formalem Protokoll.
 
-==== 3.1 Standard-Dienstbetrieb (SDB)
+==== 15.2.3.1 Standard-Dienstbetrieb (SDB)
 Fokus auf Ergonomie und Tragekomfort im täglichen Dienst.
 * **Bekleidung:** Funktionale Einsatzbekleidung in den jeweiligen Fachbereichsfarben.
 * **Kopfbedeckung:** SPMG-Baseball-Kappen oder Beanies. Diese dienen der praktischen Arbeit und minimieren Verwechslungsgefahren mit Behörden im Alltag.
 
-==== 3.2 Repräsentationsanlässe (Rep)
+==== 15.2.3.2 Repräsentationsanlässe (Rep)
 Formeller Dienstanzug für offizielle Termine und protokollarische Aufgaben.
 * **Schnitt:** Orientierung am Dienstanzug der Landespolizeidirektion (LPD) und Berufs- /Freiwiligen Feuerwehren, jedoch konsequent in *Tactical Navy*.
 * **Kopfbedeckung (Hierarchisch):**
 ** **Offiziere (Leitung):** Tellerkappe (Schirmmütze) in Tactical Navy mit hellblauem Band.
 ** **Chargen & Unteroffiziere:** Barrett in Tactical Navy mit hellblauer Abzeichen-Unterlage.
 
-=== 4. Distinktionen der operativen Einsatzorganisationen
+=== 15.2.4 Distinktionen der operativen Einsatzorganisationen
 Distinktionen sind exklusiv den operativen Einheiten vorbehalten. Die Unternehmensleitung führt keine Rangabzeichen.
 
 [cols="1,3,2", options="header"]
@@ -176,7 +176,7 @@ Distinktionen sind exklusiv den operativen Einheiten vorbehalten. Die Unternehme
 | Kennzeichnung der Funkhoheit und Koordinationsgewalt im Sicherheitszentrum.
 |===
 
-=== 5. Systemintegration (ERP & NFC)
+=== 15.2.5 Systemintegration (ERP & NFC)
 Die visuelle Identität ist unmittelbar mit der digitalen Infrastruktur verknüpft.
 
 * **Validierung:** Dienstgrade und Berechtigungen werden erst nach Prüfung der Qualifikationsnachweise im **ERP-System** freigeschaltet und entsprechend Ausgegeben angebracht. 

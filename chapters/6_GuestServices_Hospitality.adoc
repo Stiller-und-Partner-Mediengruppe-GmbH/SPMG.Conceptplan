@@ -1,27 +1,27 @@
-= Gästebetreuung und Bewirtung
+= 6 Gästebetreuung und Bewirtung
 
 In diesem Kapitel werden die Bereiche beschrieben, welche direkt mit den Gästen interagieren. Dies beinhaltet vorallem die Erlebniswelt, Veranstaltungshalle, das Hotel und die Kinos. Es wird auch beschrieben wie Bereiche wie, Sicherheitsdienst, Sanitätsdienst und Betriebsfeuerwehr geschult werden um so freundlich wie möglich mit den Gästen zu interagieren.
 
-== Erlebniswelt 
+== 6.1 Erlebniswelt 
 
-== Hotel
+== 6.2 Hotel
 
-== Veranstaltungshalle
+== 6.3 Veranstaltungshalle
 
-== Kinos
+== 6.4 Kinos
 
-== Digitaler Gästeservice: Smart Connect WLAN-Infrastruktur
+== 6.5 Digitaler Gästeservice: Smart Connect WLAN-Infrastruktur
 
 Im Rahmen unserer Strategie für exzellente Gästebetreuung setzen wir auf eine barrierefreie, kontaktlose WLAN-Anbindung. Ziel ist es, den manuellen Aufwand der Passworteingabe zu eliminieren und den Serviceprozess durch moderne Technologie zu beschleunigen.
 
-=== Technisches Konzept & Umsetzung
+=== 6.5.1 Technisches Konzept & Umsetzung
 Um eine maximale Kompatibilität bei minimaler Hemmschwelle zu gewährleisten, nutzen wir ein hybrides Zugangssystem:
 
 * **NFC-Integration (Near Field Communication):** In Werbemittel oder Tischaufsteller integrierte Chips ermöglichen den Netzzugriff durch bloßes Annähern ("Tap-to-Connect"). Dies bietet ein High-End-Nutzererlebnis für Android- und iOS-Nutzer.
 * **QR-Fallback:** Ein komplementärer, CI-konformer QR-Code stellt den Zugang für ältere Endgeräte sicher.
 * **Sicherheitsstandard:** Die Anbindung erfolgt über ein isoliertes Gast-VLAN. Dies garantiert die strikte Trennung vom produktiven Firmennetzwerk und erfüllt alle Anforderungen an die Datensicherheit (DSGVO).
 
-=== Strategische Relevanz für Stakeholder
+=== 6.5.2 Strategische Relevanz für Stakeholder
 
 [cols="1,2", options="header"]
 |===

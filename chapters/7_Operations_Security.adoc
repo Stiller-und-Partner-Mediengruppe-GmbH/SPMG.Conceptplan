@@ -1,4 +1,4 @@
-= Operations & Security
+= 7 Operations & Security
 In diesem Kapitel werden die operativen Abläufe und Sicherheitsmaßnahmen des Unternehmens beschrieben. Es umfasst die täglichen Geschäftsprozesse, die IT-Infrastruktur, sowie die Strategien zur Gewährleistung der Datensicherheit und des Schutzes vor Cyberbedrohungen.
 
 Im weiteren werden die Mitarbeiter des Sicherheits- und Operationsteam als "Beamte/n" bezeichnet. Diese Bezeichnung soll weder Polizeiliche noch Hoheitliche Aufgaben suggestieren, sondern dient lediglich der internen Unterscheidung und Organisation innerhalb des Unternehmens. Alle Mitarbeiter, die in diesem Kapitel beschrieben werden, sind Angestellte der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) und unterliegen den entsprechenden arbeitsrechtlichen Bestimmungen.
@@ -8,20 +8,20 @@ Im weiteren werden die Mitarbeiter der Landespolizei als "Polizist/in" oder "Exi
 Im weiteren wird die Bezeichnung "Exekutive" für die Polizei im gesamten verwendet. Hierbei wird rein nur die Polizei gemeint und nicht die anderen Mitglieder der Exekutive, wie z.B. die Landesregierung, die Bundesregierung oder andere Behörden. Alle Erwähnungen von "Exekutive" beziehen sich ausschließlich auf die Polizei und deren Mitarbeiter, die für die Aufrechterhaltung der öffentlichen Sicherheit und Ordnung verantwortlich sind. 
 
 
-== Sicherheitsstrategie
+== 7.1 Sicherheitsstrategie
 Die Sicherheitsstrategie des Unternehmens basiert auf einem mehrschichtigen Ansatz, der sowohl physische als auch digitale Sicherheitsmaßnahmen umfasst.
 
 
-== Operations Security
+== 7.2 Operations Security
 
-=== Unternehmenseigener Sicherheitsdienst
+=== 7.2.1 Unternehmenseigener Sicherheitsdienst
 Die SPMG setzt bei der Sicherung ihrer Betriebsstätten und Veranstaltungen auf einen undernehmenseigenen Sicherheitsdienst, welcher mit speziell geschulten und Taktisch ausgebildeten Beamten besetzt ist. Dieser Sicherheitsdienst ist für die Überwachung der Zugänge, die Durchführung von Sicherheitskontrollen und die Reaktion auf Sicherheitsvorfällen in allen Anlagen der SPMG verantwortlich. 
 
 Die Taktische Ausbildung und Bewaffnung der Sicherheitsbeamten resultiert aus der Notwendigkeit, auf potenzielle Bedrohungen von Mitarbeitern, Kunden, Gästen oder VIP Personen angemessen reagieren zu können. Diese Maßnahmen dienen dem Schutz aller Personen auf den Geländen und Betriebstätten der SPMG und sollen vor allem die Exekutive zu entlasten. 
 
 Die Zusammenarbeit mit der Exekutive erfolgt hierbei sowohl bei Sicherheitsangelegenheiten, im Rahmen von Ermittlungen, aus auch bei der Plannung und Durchführung von diversen Projekten, Veranstaltungen und Produktionen( siehe Abschnitt Produkte und Projekte).
 
-=== Organisation des Sicherheitsdienstes 
+=== 7.2.2 Organisation des Sicherheitsdienstes 
 
 [plantuml, org-chart-security, svg]
 ----
@@ -49,22 +49,22 @@ package "Security Operations" as SO {
     object "Referat Unterstützungseinheiten" as RUE{
         Referatsleiter: TBD
     }
-    object "Security and Patrol Unit" as SPU
+    object "Streifendienst" as SPU
     object "Sonder Interventions Gruppe" as SIG
     object "Bereitschaftseinheit" as BE
     object "Personenschutzgruppe" as PSG
     object "Event Sicherheitsgruppe" as ESG
-    object "Arial Support Unit" as ASU {
+    object "Flugeinheit Sicherheit" as FES {
         Flightchief: TBD
         Groundchief: TBD
     }
     object "Ermittlungsdienst" as ED
     object "Diensthundeeinheit" as DHE
-    object "Security Logistics Unit" as SLU
-    object "SLU-Werttransport" as SLU_WT
-    object "SLU-Arrestantentransport" as SLU_AT
-    object "SLU-VIP Shuttle Service" as SLU_VIP
-    object "SLU-VIP Medical Service" as SLU_VIP_Med
+    object "Logistische Sicherungs Gruppe" as LSG
+    object "LSG-Werttransport" as LSG_WT
+    object "LSG-Arrestantentransport" as LSG_AT
+    object "LSG-VIP Shuttle Service" as LSG_VIP
+    object "LSG-VIP Medical Service" as LSG_VIP_Med
 
     CSO -down-> RO
     CSO -down-> RSE
@@ -75,15 +75,15 @@ package "Security Operations" as SO {
     RSE -down-> PSG
     RSE -down-> BE
     RUE -down-> ESG
-    RUE -down-> ASU
+    RUE -down-> FES
     RO -down-> ED
     RSE -down-> DHE
-    RUE -down-> SLU
+    RUE -down-> LSG
     
-    SLU -down-> SLU_WT
-    SLU -down-> SLU_AT
-    SLU -down-> SLU_VIP
-    SLU_VIP -down-> SLU_VIP_Med
+    LSG -down-> LSG_WT
+    LSG -down-> LSG_AT
+    LSG -down-> LSG_VIP
+    LSG_VIP -down-> LSG_VIP_Med
 } 
 @enduml
 ----
@@ -141,7 +141,7 @@ Im Rahmen unseres VIP-Shuttle Services werden können VIPs und geladene Ehrengä
 Auf bedarf kann auch eine Abholung mit Medizinischer Begleitung (NFS-NKI oder bei besonderem Bedarf mit Arzt) durchgeführt werden. +
 Dieses und das VIP-Shuttle-Service arbeiten auch sehr eng mit der Personenschutzgruppe (SPMG-PSG) zusammen um die Bestmögliche Experience für den Gast zu garantieren.
 
-== IT-Security
+== 7.3 IT-Security
 aber auch die beste physische Sicherheit kann nicht helfen, wenn die IT-Infrastruktur des Unternehmens nicht ausreichend geschützt ist. Daher legt die SPMG großen Wert auf die Implementierung von robusten IT-Sicherheitsmaßnahmen, um die Vertraulichkeit, Integrität und Verfügbarkeit der Daten und Systeme zu gewährleisten.
 Die IT-Sicherheitsstrategie der SPMG umfasst die folgenden Einheiten: 
 
