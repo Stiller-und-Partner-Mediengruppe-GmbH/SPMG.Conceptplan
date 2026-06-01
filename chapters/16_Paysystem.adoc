@@ -1,8 +1,8 @@
-= 13 Gehalts- und Entlohnungsschema (Annäherung an Gehaltstruktur Öffentlicher Dienst)
+= 16 Gehalts- und Entlohnungsschema (Annäherung an Gehaltstruktur Öffentlicher Dienst)
 
 Die Besoldung der Mitarbeiter der Stiller und Partner MedienGruppe (SPMG) folgt dem Prinzip der Leistungsgerechtigkeit und der sozialen Stabilität. Durch die Abkehr von marktüblichen Niedriglohnmodellen etabliert die SPMG einen "Privatbeamten-Status", der höchste Loyalität und Professionalität einfordert.
 
-== 13.1 Besoldungssystematik (Anlehnung an ÖD)
+== 16.1 Besoldungssystematik (Anlehnung an ÖD)
 Die Entlohnung innerhalb der Mediengruppe erfolgt nach einem transparenten Schema, das sich an der Systematik des Öffentlichen Dienstes (ÖD) orientiert. Dies garantiert Planungssicherheit und eine klare Laufbahnentwicklung.
 
 [horizontal]
@@ -11,7 +11,7 @@ Vorrückung (Biennalen):: Automatische Gehaltssteigerungen alle zwei Jahre inner
 Basis-Garantie:: Das Einstiegsgehalt der Gruppe V3/Stufe 3 ist fix mit 10 % über dem geltenden Branchen-Kollektivvertrag dotiert.
 Indexierung:: Jährliche Anpassung der Bezüge analog zu den kollektivvertraglichen Abschlüssen unter Beibehaltung der 10-prozentigen SPMG-Marge.
 
-== 13.2 Funktionales Zulagenwesen
+== 16.2 Funktionales Zulagenwesen
 Zusätzlich zum Grundbezug werden für spezifische Belastungen und Qualifikationen Zulagen gewährt. Diese werden über das ERPDS-Modul "Payroll" automatisiert und manipulationssicher abgerechnet.
 
 [cols="1,3", options="header"]
@@ -23,7 +23,7 @@ Zusätzlich zum Grundbezug werden für spezifische Belastungen und Qualifikation
 | Funktionszulage | Übernahme von Führungsverantwortung oder administrativen Sonderaufgaben im ERPDS.
 |===
 
-== 13.3 Compliance und EU-Entgelttransparenz (EU Pay Act)
+== 16.3 Compliance und EU-Entgelttransparenz (EU Pay Act)
 Die SPMG-Besoldungsstruktur ist von Grund auf so konzipiert, dass sie die Anforderungen der EU-Entgelttransparenz-Richtlinie (EU Pay Act) vollumfänglich erfüllt.
 
 Objektivität: Entgeltunterschiede basieren ausschließlich auf geschlechtsneutralen, objektiven Kriterien (Dienstalter, Qualifikation, Funktion).
@@ -32,15 +32,15 @@ Auskunftsfähigkeit: Über das ERPDS-Mitarbeiterportal kann jeder Bedienstete se
 
 Gleichbehandlung: Das automatisierte System schließt diskriminierende Lohnentscheidungen technisch aus.
 
-== 13.4 Rechtliche Bindung und Rückersatz
+== 16.4 Rechtliche Bindung und Rückersatz
 Aufgrund der überdurchschnittlichen Besoldung und der hochwertigen Ausbildung am Campus "The Ridge" behält sich die Stiller und Partner MedienGruppe den rechtlich zulässigen Rückersatz von Ausbildungskosten bei vorzeitigem Austritt vor.
 
 Zentraler Leitsatz: Überdurchschnittliche Leistung verdient überdurchschnittliche Entlohnung. Die SPMG investiert in Menschen, um Sicherheit als Goldstandard zu garantieren.
 
-== 13.5 Gehaltskalkulation
+== 16.5 Gehaltskalkulation
 Nach diesem Schema resultiert folgende Grundlegende Kalkulationstabelle.
 
-=== 13.5.1 Sicherheitsdienst
+=== 16.5.1 Sicherheitsdienst
 
 Die Einstufung folgt einem strengen Qualifikations- und Zeitmodell. Der Übergang zwischen den Gruppen markiert den Wechsel von der Ausbildung in die volle operative Verantwortung.
 

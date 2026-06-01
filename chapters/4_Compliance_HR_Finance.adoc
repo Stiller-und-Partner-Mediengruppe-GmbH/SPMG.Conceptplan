@@ -6,9 +6,47 @@ In diesem Abschnitt werden die Compliance-Richtlinien, Personalmanagement-Strate
 == 4.1 Compliance
 Hierbei werden die Richtlinien und Verfahren beschrieben, die die SPMG implementiert, um sicherzustellen, dass alle Geschäftsaktivitäten im Einklang mit den geltenden Gesetzen, Vorschriften und ethischen Standards stehen. Dies umfasst unter anderem die Einhaltung von Datenschutzbestimmungen, Anti-Korruptionsgesetzen und Arbeitsrecht.
 
+[[sec:automatische_zeiterfassung]]
+== 4.2 Automatische Zeiterfassung
 
-== 4.2 Human Resources
+Die Erfassung von einsatz- und logistikrelevanten Zeiten innerhalb des ERPDS-Ökosystems erfolgt vollständig automatisiert und hardwaregestützt. Um eine maximale Systemstabilität sowie Datensparsamkeit zu gewährleisten, wird bewusst auf fehleranfällige und externe Positionsüberwachungen (wie Geofencing-Technologien) verzichtet. Stattdessen basiert die Zeiterfassung auf direkten Hardware-Triggern der eingesetzten Primärgeräte (Panasonic Toughbook) und den fahrzeugeigenen Telemetriesystemen.
+
+=== 4.2.1 Trigger-Logik nach Fahrzeugkategorie
+
+[cols="2,3,3", options="header"]
+|===
+| Fahrzeugtyp | Ereignis (Event) | System-Aktion im ERPDS
+
+.2+| *Bodenfahrzeuge* +
+(RTW, SanTW, LF, SD, SIG)
+| Einrasten des Toughbooks im _Active Vehicle Dock_ sowie Quittierung via CAN-Bus-Schnittstelle (z. B. Multifunktionslenkrad).
+| Automatische Statussetzung "Einsatz übernommen / Anfahrt". Zeitstempel wird rechtssicher im Backend hinterlegt.
+
+| Physische Entnahme des Geräts aus dem Dock (Wechsel in den Mobil-/Abgesessen-Modus).
+| System registriert den Statuswechsel ("Erkundung" bzw. "Patientenaufnahme"). Die Weboberfläche bleibt für das "Muscle Memory" konsistent; die Lenkrad-Schnittstelle wird temporär deaktiviert.
+
+.2+| *Luftfahrzeuge* +
+(H135, S-70 Black Hawk)
+| Abgriff des Triebwerkstarts (_Engine Start_) oder des Landegestell-Schalters (_Skid-Switch / Weight-on-Wheels_) über das Avionik-Gateway (ARINC 429).
+| Automatische Protokollierung der Start- bzw. Landezeiten im Einsatztagebuch. Statuswechsel auf "In der Luft" oder "Gelandet".
+
+| Aktivierung des Lastenhakens (_Hook Release_) bei Außenlasttransporten (Sling Load) der S-70 Black Hawk.
+| Unverzügliche Erfassung des genauen Entlade-Zeitpunkts inklusive des via Avionik übermittelten Lastgewichts zur automatischen Erstellung des Ladungsmanifests.
+|===
+
+=== 4.2.2 Audio-gestützte Protokollierung
+
+Zur Entlastung des Personals in kritischen Arbeitsphasen (z. B. Loadmaster bei der Außenlastüberwachung am Schwenkarm oder Truppführer im Cockpit) verfügt das System über eine integrierte Funkauswertung:
+
+* *Ereignisbasierte Aufzeichnung:* Sobald die _Push-to-Talk_ (PTT)-Taste des Intercoms oder Fahrzeugfunks betätigt wird, zeichnet das Toughbook über den galvanisch getrennten Audio-Eingang des Docks den Funkverkehr auf.
+* *Berichts-Integrität:* Die komprimierte Audio-Datei wird als verifiziertes Beweismittel mit dem exakten Zeitstempel im zentralen Gesamtbericht abgelegt.
+
+=== 4.2.3 Redundanz und Datensicherheit ("Hot-Swap")
+
+Da die Datenerfassung zentral über die ERPDS-Webapplikation verarbeitet wird, verbleiben die Backup-Geräte der restlichen Besatzung inaktiv in den Transportrucksäcken (kalte Redundanz). Bei einem Hardwareschaden oder Ausfall des führenden Bedieners kann jedes verlastete Toughbook durch eine einfache Session-Übernahme im Backend den exakten Zeitstempel- und Dokumentationsfluss nahtlos fortsetzen.
+
+== 4.3 Human Resources
 Dieser Abschnitt behandelt die Strategien und Praktiken, die die SPMG anwendet, um talentierte Mitarbeiter zu gewinnen, zu entwickeln und zu halten. Es werden Themen wie Rekrutierung, Mitarbeiterentwicklung, Leistungsmanagement und Unternehmenskultur behandelt.
 
-== 4.3 Finance
+== 4.4 Finance
 Hier werden die Finanzierungsstrategien, Budgetierungsprozesse und finanziellen Ziele der SPMG erläutert. Es wird beschrieben, wie das Unternehmen seine finanziellen Ressourcen verwaltet, um nachhaltiges Wachstum zu fördern und langfristigen Erfolg zu sichern.

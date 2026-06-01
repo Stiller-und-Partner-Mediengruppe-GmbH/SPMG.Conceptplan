@@ -1,17 +1,17 @@
-= 11 SPMG-ERPDS - Mobile Applikation (Android)
+= 14 SPMG-ERPDS - Mobile Applikation (Android)
 
 Die SPMG setzt in der Ausübung ihrer Tätigkeit nicht nur auf ein Kraftvolles ERPDS System welches auf jeden Rechner vorhanden ist sondern wir haben auch verstanden, dass Smartphones in dieser Zeit auch aus dem Arbeitsalltag nicht mehr wegzudenken ist. 
 
-== 11.1 Vom Dienstplan zur Einlasskontrolle - Die Funktionen der SPMG-ERPDS App
+== 14.1 Vom Dienstplan zur Einlasskontrolle - Die Funktionen der SPMG-ERPDS App
 Die Android App (SPMG-ERPDS), welche auf allen Diensthandys der Mitarbeiter vorinstalliert ist. bieten nicht nur klassische Funktionen wie einen Dienstplan und Abwesenheitsmeldung sondern es ist der Mobile begleiter jedes Mitarbeiters
 
-=== 11.1.1 Personalfunktionen
+=== 14.1.1 Personalfunktionen
 ==== Der Dienstplan (mit Abwesenheitsmeldung)
 Im Kern dieser Funktione liegt ein Dienstplan welcher Jeder Mitarbeiter individuell angepasst an die Funktion im Unternehmen und dem Anstellungsverhältnisses (Vollzeit, Geringfügig, etc.) sehen kann. Somit müssen nicht jede Woche Dienstpläne ausgedruckt werden, sondern jeder Mitarbeiter kann Minutenaktuell seinen Dienstplan kontrollieren und Vorgesetzte können so auch schnell auf Personelle Änderungen Reagieren.
 
 Ein weiterer Vorteil ist die Möglichkeit für den Mitarbeiter eine Abwesenheit direkt in der App (auch mit Upload für Krankmeldungen) einzupflegen und den Dienstplan direkt in der App anzupassen.
 
-=== 11.1.2 Sicherheitsdienstliche Funktionen
+=== 14.1.2 Sicherheitsdienstliche Funktionen
 ==== Sicherheitskontrollen
 Eines der schwierigsten Aufgaben im Bereich des Sicherheitsdienstes ist die Kontrolle ob Personen überhaupt Zugang zum Gelände haben sollten oder nicht. Bei herkömmlichen Sicherheitsdiensten erfolgt dies meist über Funkabfragen oder der Mitarbeiter muss den Namen in den Computer eingeben und auf das Ergebnis warten. Mit unserer App anbindung an das zentrale ERPDS System ist dies nicht notwendig. 
 

@@ -1,1 +1,38 @@
 = 9 Betriebsfeuerwehr und Brandschutz
+
+
+
+== 9.2 Taktische Schutzausrüstung: Sondergefahrenlagen
+
+In mobil-taktischen Einsatzlagen (MTEL) – wie Amok- oder Terrorlagen auf dem Werksgelände – sowie bei kombinierten Vorfällen mit Projektil-, Splitter- (Pyrotechnik) und Brandgefahren (Lacke/Lösungsmittel) reicht die herkömmliche Feuerwehr-PSA nach DIN EN 443 nicht aus. 
+
+Für den Eigenschutz und die Aufrechterhaltung der Handlungsfähigkeit der Betriebsfeuerwehr (BtF) ist ein aufeinander abgestimmtes ballistisches Schutzsystem zwingend erforderlich.
+
+=== 9.2.1 Ballistischer Helm mit Atemschutzintegration (PA)
+
+Aufgrund der thermischen Gefährdung durch brennbare Lacke und der mechanischen Gefährdung durch "Movie-Explosives" (Splitterflug) müssen die eingesetzten Helme spezifische Kriterien erfüllen:
+
+Materialvorgabe::
+* *Aramid (Kevlar/Twaron):* Bietet inhärente Flammhemmung (kein Schmelzen, Verkohlung erst ab ca. 450 °C) bei gleichzeitigem Schutz gegen Faustfeuerwaffen-Projektile.
+* *Titan (z. B. Ulrichtsicht):* Höchste Standzeit gegenüber mechanischen und thermischen Einwirkungen, absolut lösemittel- und hitzebeständig.
+
+Schutzklasse::
+* Mindestens *VPAM 3* oder *NIJ Level IIIA* (Projektilschutz). Für den Einsatz im Pyrotechnik-Bereich ist auf einen zertifiziert hohen *V50-Splitterschutzwert* zu achten.
+
+Schnittform und PA-Kopplung::
+* Die Helme müssen im *High-Cut-* oder speziellen *Mask-Cut-*Design ausgeführt sein, um Platz für die Dichtlippe der Atemschutzmaske zu bieten.
+* Die Anbindung des Pressluftatmers (PA) erfolgt zwingend über eine *Masken-Helm-Kombination (MHK)* mittels Sinterkupplungen (Steckzungen) direkt an den seitlichen Zubehörschienen (Rails) des Helms. Eine herkömmliche Kopfbebänderung unter der ballistischen Schale ist unzulässig (Gefahr von Leckagen und Druckstellen).
+* Das ballistische Gesichtsschutzvisier muss über einen *Respirator-Cutout* (Aussparung für den Lungenautomaten) verfügen, um im gekoppelten Zustand vollständig geschlossen werden zu können.
+
+=== 9.2.2 Taktische Kennzeichnung und Identifikation (ID-Patches)
+
+Zur Vermeidung von *Friendly Fire* durch anrückende Exekutivkräfte (z. B. EKO Cobra, SIG) ist eine unmissverständliche optische Trennung von der Täterschaft erforderlich:
+
+[horizontal]
+Farbgebung:: Die ballistische Zusatzausrüstung (Helme/Westen) sollte in Signalfarben (Rot/Sand) oder mit kontrastierenden Helmbezügen ausgeführt sein, um sich von der dunkelblauen/schwarzen Ausrüstung der Polizei abzuheben.
+Patches:: Großflächige, flammhemmende Klettschilder an Front, Rücken ($38 \times 8 \text{ cm}$) und Helmseiten mit der reflektierenden Aufschrift *„BETRIEBSFEUERWEHR“* oder *„BTF“*.
+
+[IMPORTANT]
+====
+Die Einführung dieser Ausrüstung ist gemäß Arbeitnehmerinnenschutzgesetz (ASchG) in der Gefährdungsbeurteilung zu dokumentieren und muss in enger Abstimmung mit dem zuständigen Landesfeuerwehrverband sowie der lokalen Landespolizeidirektion (LPD) erfolgen.
+====

@@ -1,0 +1,51 @@
+= 11 Abteilung: Fuhrpark- und Flottenmanagement (FFM)
+
+== 11.1 Strategische Zielsetzung 
+Die administrative Abteilung "Fuhrpark- und Flottenmanagement" (FFM) verantwortet die technische Einsatzbereitschaft, Aufrüstung und rechtssichere Dokumentation der gesamten Fahrzeugflotte der SPMG.
+
+== 11.2 Verantwortlichkeiten
+Lebenszyklus-Management: Koordination der Anschaffung (in Kooperation mit dem LBW), Aufrüstung und laufenden Wartung aller Land- und Luftfahrzeuge.
+
+Technische Spezifikation: Festlegung hoher Sicherheitsstandards, wie etwa der Einsatz vollumschlossener LKW-Aufbauten anstelle von Planen zur Erhöhung der Transportsicherheit.
+
+Corporate Design: Überwachung der einheitlichen Folierung unter strikter Vermeidung eines "Polizei-Looks", um die Markenidentität zu wahren und rechtliche Konflikte zu vermeiden.
+
+== 11.3 Unternehmenseigener Abschlepp- und Überstellungsdienst 
+Das FFM betreibt einen spezialisierten internen Dienst zur Sicherung der operativen Souveränität:
+
+Spionageprävention: Sicherstellung, dass verunfallte oder defekte Fahrzeuge, die mit sensibler IT (Knox, ERP-Schnittstellen) ausgestattet sind, ohne Zugriff Dritter direkt in die unternehmenseigene Werkstatt verbracht werden.
+
+Spezialtransport: Rechtskonformer Transfer von Filmfahrzeugen (insbes. Einsatzfahrzeuge mit Sondersignalanlagen) zwischen Standorten und Drehorten, da diese im öffentlichen Verkehr nicht eigenständig bewegt werden dürfen.
+=== 11.3.1 Rechtliche Grundlagen und Gewerbeform
+
+Die regulatorischen Anforderungen für die Gründung eines Abschleppdienstes in Österreich richten sich primär nach dem höchstzulässigen Gesamtgewicht (hzG) der eingesetzten Fahrzeuge:
+
+* *Fahrzeuge bis 3,5 t hzG (Ausnahmefall):* Fällt unter das *freie Gewerbe* ("Abschleppen von Kraftfahrzeugen"). Die Anmeldung ist an keinen Befähigungsnachweis gebunden, schränkt den professionellen Betrieb (z. B. mit Plateau-Lkw oder Bergekranen) jedoch stark ein.
+* *Fahrzeuge über 3,5 t hzG (Regelfall):* Die Tätigkeit wird als *reglementiertes Güterbeförderungsgewerbe* (Straßengüterverkehr) eingestuft. Für den Betrieb ist eine behördliche Konzession zwingend erforderlich.
+
+=== 11.3.2 Voraussetzungen für die Konzessionserteilung (> 3,5 t hzG)
+
+Für die Erlangung der Güterbeförderungskonzession durch die zuständige Behörde (Bezirkshauptmannschaft oder Magistrat) müssen vier gesetzliche Kernkriterien erfüllt werden:
+
+1. *Zuverlässigkeit:* Nachweis der gewerberechtlichen Unbescholtenheit (keine schweren straf-, arbeits- oder finanzrechtlichen Delikte, keine aktuellen Insolvenzverfahren).
+2. *Finanzielle Leistungsfähigkeit:* Nachweis von liquiden Mitteln oder Eigenkapital über eine Bankbestätigung oder ein Steuerberater-Gutachten. Die Mindestbeträge belaufen sich auf *EUR 9.000,-* für das erste Fahrzeug und *EUR 5.000,-* für jedes weitere Fahrzeug.
+3. *Tatsächliche und dauerhafte Niederlassung:* Ein fester Firmensitz in Österreich mit entsprechenden Räumlichkeiten zur Aufbewahrung der Geschäftsunterlagen sowie geeigneten Abstellplätzen für den Fuhrpark.
+4. *Fachliche Eignung (Befähigungsnachweis):* Nachweis der fachlichen Kompetenz durch den Gründer selbst oder durch die Bestellung eines gewerberechtlichen Geschäftsführers (Mindestanstellungsausmaß: 20 Wochenstunden).
+
+=== 11.3.3 Operative und infrastrukturelle Praxisanforderungen
+
+Neben den gewerberechtlichen Voraussetzungen müssen für den operativen Betrieb folgende Kriterien erfüllt sein:
+
+* *Fahrerqualifikation:* Das Lenken von Abschleppfahrzeugen über 3,5 t hzG erfordert den Führerschein der Klasse C (bzw. CE bei Anhängerbetrieb) sowie den behördlich eingetragenen Fahrerqualifizierungsnachweis (*Code C95*).
+* *Versicherungsschutz:* Neben der Kfz-Haftpflicht ist der Abschluss einer *Frachtführer-Haftpflichtversicherung* (Transportversicherung) zwingend erforderlich, um Haftungsrisiken für Schäden am abgeschleppten/geborgenen Fremdfahrzeug abzudecken.
+* *Infrastruktur (Verwahrplatz):* Sofern Abschleppungen im Auftrag von Behörden oder von Privatgrundstücken durchgeführt werden, ist ein gesichertes, umzäuntes Areal zur Verwahrung der sichergestellten Fahrzeuge gesetzlich vorgeschrieben.
+
+== 11.4 Flotten-IT und Dokumentation
+ERPDS-Integration: Führung digitaler Fahrtenbücher und Zulassungsdokumente direkt im zentralen ERPDS-System.
+
+Hardware-Integrität: Installation und Wartung von Knox-konformen Dockingstationen und Kommunikationssystemen (Funk/NFC) innerhalb der Fahrzeuge.
+
+Sondersignalanlagen: Koordination der Bestückung mit gelben Warnbalken zur Absicherung im öffentlichen Raum gemäß österreichischer Vorschriften.
+
+== 11.5 Operative Unterstützung
+Das FFM stellt die notwendigen Transportkapazitäten für die Security Logistics Unit (SLU) bereit, insbesondere für Wert- und Arrestantentransporte.

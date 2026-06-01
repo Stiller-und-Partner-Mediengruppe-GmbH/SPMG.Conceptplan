@@ -1,15 +1,15 @@
-= 16 SPMG - Gesellschaftsvertrag 
+= 18 SPMG - Gesellschaftsvertrag 
 In der Fassung vom {docdate}
 
-== 16.1 Präambel
+== 18.1 Präambel
 Im folgenden Dokument/Abschnitt wird der Gesellschaftsvertrag der Stiller und Partner Mediengruppe GmbH/Holding (im weiteren Verlauf als "*SPMG*")
 beschrieben. 
 
 Dieser Vertrag regelt eindeutig die Rechte, Pflichten, Verantwortlichkeiten und Zuständigkeiten der einzelnen Gesellschafter, die Anteile an der SPMG halten, die Geschäftsführung, die Gewinnverteilung, die Finanzierung, die Entscheidungsprozesse, die Entscheidungsgewalten(-gewichtungen) und die Auflösung der Gesellschaft. 
 
-== 16.2 Gesellschafter und Funktionen
+== 18.2 Gesellschafter und Funktionen
 
-=== 16.2.1 Chief Creative Officer (CCO)
+=== 18.2.1 Chief Creative Officer (CCO)
 Der Chief Creative Officer (CCO) ist der *Gesamtverantwortliche* für die *kreative Ausrichtung* und die *künstlerischen Geschäftsprozesse und Gewinnerwirtschaftung* der *SPMG*. +
 
 CCO der SPMG:: 
@@ -17,37 +17,37 @@ CCO der SPMG::
  geboren am 20.09.2001 +
  in Wien, Österreich
 
-=== 16.2.2 Chief Financial Officer (CFO)
+=== 18.2.2 Chief Financial Officer (CFO)
 Der Chief Financial Officer (CFO) ist der *Gesamtverantwortliche* für die *finanzielle Ausrichtung* und die *finanziellen Geschäftsprozesse und Gewinnerwirtschaftung* der *SPMG*. +
 
 CFO der SPMG:: 
  TBD
 
-=== 16.2.3 Chief Security Officer (CSO)
+=== 18.2.3 Chief Security Officer (CSO)
 Der Chief Security Officer (CSO) ist der *Gesamtverantwortliche* für die *sicherheitsrelevante Ausrichtung* und die *sicherheitsrelevanten Geschäftsprozesse und Behördliche Aufgaben* der *SPMG*. +
 
 CSO der SPMG:: 
  TBD
 
-=== 16.2.4 Chief Medical Officer (CMO)
+=== 18.2.4 Chief Medical Officer (CMO)
 Der Chief Medical Officer (CMO) ist der *Gesamtverantwortliche* für das *medizinische Wohlbefinden* der Mitarbeiter und Gäste in allen Anlagen der *SPMG*. +
 
 CMO der SPMG:: 
  TBD
 
-=== 16.2.5 Chief Fire Marshal (CFM)
+=== 18.2.5 Chief Fire Marshal (CFM)
 Der Chief Fire Marshal ist der *Gesamtverantwortliche* für die gesamten *Brandschutztechnischen* Angelegenheiten. Dies Inkludiert die Bereiche *Betriebsfeuerwehr (SPMG-BtF)* und dem *Referat Brandschutz (Verwaltungstechnisch/Rechtlicher Brandschutz)*. +
 
 CFM der SPMG::
  TBD
 
-=== 16.2.6 Chief Technology Officer (CTO)
+=== 18.2.6 Chief Technology Officer (CTO)
 Der Chief Technology Officer (CTO) ist der *Gesamtverantwortliche* für die *technologische Infrastruktur* deren Weiterentwicklung und Instandhaltung innerhalb der Anlagen der *SPMG*. +
 
 CTO der SPMG::
     TBD
 
-=== 16.2.7 Chief Production Officer (CPO)
+=== 18.2.7 Chief Production Officer (CPO)
 Der Chief Production Officer (CPO) ist der *Gesamtverantwortliche* für die *Medienproduktionen* und deren *Gewinnerwirtschaftung* innerhalb der *SPMG*. +
 
 CPO der SPMG::
@@ -57,4 +57,4 @@ Die Oben genannten Personen sind für Ihre jeweiligen Verantwortungsbereiche zus
 
 Die Entscheidungen dürfen jedoch nie einen Nachteil für die Kunden der SPMG oder die Öffentliche Wahrnehmung der SPMG darstellen. Alle Entscheidungen müssen stets im Einklang mit den Interessen der Kunden und der öffentlichen Wahrnehmung der SPMG stehen, um das Vertrauen und die Zufriedenheit unserer Kunden zu gewährleisten und die Reputation unseres Unternehmens zu schützen.
 
-== 16.3
+== 18.3

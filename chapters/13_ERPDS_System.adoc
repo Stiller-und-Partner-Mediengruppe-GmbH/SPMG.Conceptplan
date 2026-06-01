@@ -1,4 +1,4 @@
-= 10 Enterprise Resource Planning and Dispatch System (ERPDS)
+= 13 Enterprise Resource Planning and Dispatch System (ERPDS)
 
 Die SPMG nutzt für ihre internen Prozesse und dem grundlegenden Tagesgeschäft ein Hauseigenes ERP-System mit internen Dispatch-Funktionen, welche es ermöglichen, alle internen Services koordiniert zu steuern. 
 
@@ -6,30 +6,33 @@ Das ERPDS ist hierbei ein maßgeschneidertes System, welches speziell auf die um
 
 Der Funktionalitätsumfang des ERPDS umfasst unter anderem die folgenden Bereiche:
 
-== 10.1 Personalmanagement 
+== 13.1 Personalmanagement 
 Das ERPDS ermöglicht die Verwaltung aller relevanten Personaldaten, einschließlich der Qualifikationen, Zertifikate, Disziplinarien und Lizenzen, welche die Mitarbeiter für die Ausübung ihrer Tätigkeiten benötigen. Es bietet Funktionen zur Planung von Schulungen, zur Überwachung von Zertifikatsabläufen und zur Verwaltung von Mitarbeiterprofilen.
 
-== 10.2 Projektmanagement
+== 13.2 Projektmanagement
 Das ERPDS unterstützt die Planung, Koordination und Überwachung von Projekten. +
- Die Plattform ermöglicht die autoatisierte Dokumentenerstellung, Berichtserstellung und Fortschrittsverfolgung, um sicherzustellen, dass Projekte effizient und termingerecht abgeschlossen werden.
+Die Plattform ermöglicht die automatisierte Dokumentenerstellung, Berichtserstellung und Fortschrittsverfolgung, um sicherzustellen, dass Projekte effizient und termingerecht abgeschlossen werden.
 
-== 10.3 Fleetmanagement
+== 13.3 Fleetmanagement
 Die Plattform bietet Funktionen zur Verwaltung der Fahrzeugflotte der SPMG, einschließlich der Wartungsplanung, der Verwaltung von Fahrerdaten und rechtssicheren Dokumentenspeicherung (z.B. Digitales Fahrtenbuch, Digitales Zulassungsdokumente, usw.). 
 
-== 10.4 Rechtssichere Dokumentenverwaltung
-Alle Dokumente, die im Rahmen der interner Prozesse erstellt werden, werden im ERPDS rechtssicher mittels digitaler Signatur (ID-Austria) signiert und archiviert. Dies gewährleistet die Einhaltung aller gesetzlichen Anforderungen und ermöglicht eine 
+== 13.4 Automatisierte Waffenausgabe und Compliance-Monitoring
+Für die operativen Einheiten des Sicherheitsdienstes steuert das ERPDS die tägliche, rechtssichere Bereitstellung der Ausgabelisten für Dienstwaffen. Das System gleicht hierzu in Echtzeit die Daten des Dienstplans mit den gesetzlichen und internen Compliance-Vorgaben des Personalmanagements ab. 
 
-== 10.5 Technische Dokumentation 
+Mitarbeiter mit aktiven Sperren (wie der gesetzlichen 15-jährigen Waffensperre nach dem Zivildienstgesetz oder abgelaufenen waffentechnischen Überprüfungen) werden systemseitig für den bewaffneten Dienst blockiert und automatisch von der täglichen Waffenausgabeliste ausgeschlossen. Das generierte Ausgabledokument dient als revisionssicherer Nachweis für Behördenprüfungen.
+
+== 13.5 Rechtssichere Dokumentenverwaltung
+Alle Dokumente, die im Rahmen der interner Prozesse erstellt werden, werden im ERPDS rechtssicher mittels digitaler Signatur (ID-Austria) signiert und archiviert. Dies gewährleistet die Einhaltung aller gesetzlichen Anforderungen und ermöglicht eine lückenlose Nachvollziehbarkeit.
+
+== 13.6 Technische Dokumentation 
 Die Technische Dokumentation der Plattform umfasst detailliertere Funktionsbeschreibungen, Anleitungen zur Nutzung der verschiedenen Module und Informationen zu den technischen Spezifikationen des Systems. Sie finden diese Dokumentation auf folgender Seite: 
 
 https://github.com/Stiller-und-Partner-Mediengruppe-GmbH/ERPDS-SPMG.Dokumentation/releases
 
 [WARNING] 
-
-Bitte achten Sie darauf, dass nur die aktuellsten Release-Versionen der Technischen Dokumentation in der Aktuellen Version verwendet werden sollten. Ältere Versionen können veraltete Informationen enthalten, welche nicht mehr mit der aktuellen Version des ERPDS übereinstimmen.
-
-[WARNING]
+====
+Bitte achten Sie darauf, dass nur die aktuellsten Release-Versionen der Technischen Dokumentation in der aktuellen Version verwendet werden sollten. Ältere Versionen können veraltete Informationen enthalten, welche nicht mehr mit der aktuellen Version des ERPDS übereinstimmen.
+====
 
 Die SPMG behält sich das Recht vor, die Technische Dokumentation jederzeit zu aktualisieren oder zu ändern, um sicherzustellen, dass sie stets den neuesten Stand der Software widerspiegelt. Es wird empfohlen, regelmäßig nach Updates der Dokumentation zu suchen, um über alle Änderungen und Verbesserungen informiert zu bleiben.
-Diese Updates können sie in der Plattform in ihren Benachrichtigungen oder durch eine Rundmail über die internen Kommunikationskanäle der SPMG erfahren.
-
+Diese Updates können Sie in der Plattform in Ihren Benachrichtigungen oder durch eine Rundmail über die internen Kommunikationskanäle der SPMG erfahren.

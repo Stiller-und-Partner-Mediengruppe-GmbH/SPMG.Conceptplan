@@ -1,7 +1,9 @@
-== 8 Medizinische Versorgung
+= 8 Medizinische Versorgung
 Die SPMG legt auch großen Wert auf das Wohlbefinden ihrer Mitarbeiter und Gäste.
 Daher beschäftigt die SPMG ein Team von medizinischem Fachpersonal, welches für die medizinische Versorgung und Notfallversorgung auf den Betriebsstätten und Veranstaltungen des Unternehmens zuständig ist. Dieses Team arbeitet eng mit den örtlichen Rettungsdiensten und Krankenhäusern zusammen, um sicherzustellen, dass im Falle eines medizinischen Notfalls schnell und effektiv reagiert werden kann. Sie sind auch für die Durchführung von Erste-Hilfe-Schulungen für die Mitarbeiter zuständig. 
 Hiebei wird generell unterschieden zwischen der Arbeitsmedizinischen Versorgung, welche sich um die Gesundheit der Mitarbeiter kümmert, und der Notfallmedizinischen Versorgung, welche für die medizinische Versorgung bei Notfällen auf den Betriebsstätten und Veranstaltungen zuständig ist.
+
+== 8.1 Organisation der Medizinischen Abteilung
 
 [plantuml, org-chart-medical, svg]
 ----
@@ -55,3 +57,50 @@ Der Bodengebundene Sanitätsdienst ist bei jedem Event, Dreharbeiten und in der 
 Um auch auf besondere Medizinische Notfälle vorbereitet zu sein betreibt die SPMG auch eine Flotte aus mehreren H145 Rettungshubschrauben um die bestmögliche Versorgung zu gewährleisten. 
 ** **Sanitäts-Rettungshunde**: +
 Um auch bei Sonderlagen eine Bestmögliche Versorgung von Personen gewähleisten zu können beherbergt die SPMG neben ihren Diensthunden auch eine kleine Einheit von speziell für den Rettungsdienst ausgebildete Hunde.
+
+== 8.2 Sanitäterausbildungskonzept
+
+=== 8.2.1 Rechtliche Grundlagen und behördliche Akkreditierung
+Die Durchführung der Sanitäterausbildung (RS, NFS) sowie der kommissionellen Prüfungen erfolgt streng nach den Vorgaben des österreichischen *Sanitätergesetzes (SanG)* und der *Sanitäter-Ausbildungsverordnung (San-AV)*.
+
+* **Akkreditierung:** Die Anerkennung als offizielle Ausbildungseinrichtung wird über den Landeshauptmann (in Wien: MA 15) per Feststellungsbescheid erwirkt.
+* **Infrastrukturelle Kopplung:** Durch den zeitgleichen Betrieb eines anerkannten, operativen Rettungsdienstes im Unternehmen wird die gesetzliche Hürde des 160-stündigen praktischen Fahrpraktikums auf den hauseigenen Einsatzfahrzeugen (RTW/KTW) im Realbetrieb gelöst.
+* **Bauliche Trennung:** Die Rettungsakademie wird räumlich an die bestehende Sicherheitsakademie des Unternehmens angegliedert, jedoch als eigenständiger, lärm- und immissionsgeschützter Trakt (strikt getrennt von Schieß- und taktischen Trainingsanlagen) geführt.
+
+=== 8.2.2 Das Duale und Bilinguale Ausbildungssystem (DE / EN)
+Um den Anforderungen einer Weltstadt wie Wien sowie hochspezialisierten Einsatzprofilen gerecht zu werden, implementiert das Unternehmen ein am Markt einzigartiges, zweisprachiges Premium-Ausbildungsmodell.
+
+==== 8.2.2.1 Staatliche Kernausbildung (Deutsch)
+* **Rechtspflicht:** Gemäß § 27 SanG sind ausreichende Deutschkenntnisse eine Berufspflicht.
+* **Durchführung:** Der reguläre Theorieunterricht (100 Std.) sowie das Berufsmodul (40 Std.) decken das staatliche Curriculum vollumfänglich ab.
+* **Abschluss:** Die offizielle, *kommissionelle Abschlussprüfung* (Vorsitz: Medizinisch-wissenschaftlicher Leiter und Behördenvertreter der Landessanitätsdirektion) findet zwingend in **deutscher Sprache** statt.
+
+==== 8.2.2.2 Internes Zusatzmodul: "Bilingual Operations" (Englisch)
+Direkt im Anschluss an die staatliche Zertifizierung durchlaufen die Absolventen ein verpflichtendes, betriebsinternes Fach- und Prüfungsmodul in englischer Sprache.
+
+* **Inhalte:**
+** Medizinische Fachterminologie (Anatomie, Physiologie, Pathophysiologie).
+** Internationale Pharmakologie (Wirkstoffe und internationale Handelsnamen statt rein lokaler Präparate).
+** Fremdsprachige Patientenkommunikation, strukturierte Ad-hoc-Anamnese und standardisierte Übergabeschemata (z. B. SBAR/MIST).
+** _Crew Resource Management (CRM)_ und Notfall-Algorithmen nach internationalen Guidelines (ERC, PHTLS).
+* **Interne Prüfung:** Ein computergestütztes *Theoretical Assessment* sowie eine praktische *OSCE-Prüfung* (simuliertes High-Stress-Szenario mit rein englischsprachigen Patienten und Funkverkehr).
+
+=== 8.2.3 HEMS-Erweiterung (Helicopter Emergency Medical Services)
+Für den Einsatz im Drehflügel-Flugbetrieb (Flugrettung) wird das bilinguale System um ein drittes, luftfahrtspezifisches Modul ergänzt.
+
+* **Flugbetriebliche Kompetenz:** Ausbildung in *Aviation English*, Cockpit-Kommunikation und der Abarbeitung englischsprachiger Checklisten zur Unterstützung des Piloten als *HEMS Technical Crew Member (HEMS TC)*.
+* **Internationale Schnittstellen:** Intensivierung der englischsprachigen Übergabeprozesse für *Inter-Hospital-Transfers (IHT)* bei der Kooperation mit multinationalen Spitalsteams oder internationalen Ambulanzjet-Crews (z. B. am Flughafen Wien).
+
+=== 8.2.4 Arbeitsrechtliche Verankerung und Verwendungseignung
+Das Bestehen des internen, englischsprachigen Moduls wird mittels des unternehmerischen Weisungsrechts als zwingendes Kriterium für die *operative Verwendungseignung* definiert.
+
+[IMPORTANT]
+.Einsatzsperre bei Nichtbestehen
+Erfüllt ein staatlich zertifizierter Sanitäter das interne englische Qualitätsmodul nicht, wird ihm zum Schutz der Patientensicherheit, zur Vermeidung von Behandlungsfehlern und zur Haftungsminimierung des Unternehmens die Freigabe für den aktiven Einsatzdienst entzogen. Bis zur erfolgreichen Nachprüfung erfolgt eine ausschließliche Verwendung im inneren Dienst (Verwaltung, Materiallogistik).
+
+=== 8.2.5 Zielsetzung: Etablierung als Öffentliche Lehrmeinung
+Das mittelfristige Ziel des Unternehmens besteht darin, dieses erprobte und datengestützte Ausbildungskonzept über die rein interne Verwendung hinaus als neuen Standard im österreichischen Rettungswesen zu positionieren.
+
+. **Evidenzbasierte Evaluierung:** Wissenschaftliche Begleitung und Validierung der Ausbildungserfolge (Fehlerminimierung durch Bilinguität und CRM) in Kooperation mit medizinischen Universitäten oder Fachhochschulen.
+. **Beirat für Sanitäterangelegenheiten:** Einbringung des Konzepts als *Best-Practice-Modell* beim Sanitäterbeirat des Bundesministeriums (BMSGPK), um eine Aufnahme strukturierter, optionaler Englisch- und CRM-Module in die staatliche *Sanitäter-Ausbildungsverordnung (San-AV)* für urbane Zentren und HEMS-Betriebe anzustoßen.
+

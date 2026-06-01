@@ -1,0 +1,143 @@
+
+= 10 Abteilung: Logistik & Beschaffungswesen (LBW) 
+
+== 10.1 Strategische Zielsetzung 
+Die Abteilung "Logistik & Beschaffungswesen" bildet das operative Rückgrat der Stiller und Partner Mediengruppe GmbH (SPMG). Sie steuert den gesamten Material- und Informationsfluss zwischen der Medienproduktion, den Sicherheitsdienstleistungen (Abteilung Sicherheitsdienst) und den medizinischen Versorgungsbereichen (Abteilung Medizin).
+
+== 10.2 Kernaufgaben
+
+* *Zentraler Einkauf*: Beschaffung von High-End Medientechnik, medizinischem Equipment und Sicherheitsausrüstung unter Einhaltung der Grundsätze ordnungsgemäßer Buchführung (UGB).
+
+* *Referat Zeugamt (Zentral)*: Administrative Überprüfung der Qualität und Konformität von allgemeiner Ausrüstung, Uniformen und Persönlicher Schutzausrüstung (PSA).
+
+* *Lager- und Bestandsmanagement*: Digitale Erfassung aller Güter im zentralen ERPDS-System zur Sicherstellung der Materialverfügbarkeit im Feld.
+
+== 10.3 Referat Zeugamt und fachspezifische Schnittstellen 
+Während das zentrale Referat Zeugamt im LBW die administrative Oberhoheit behält, bestehen enge Schnittstellen zu dezentralen Fach-Referaten:
+
+* *Zeugamt Sicherheit:* Fachliche Handhabung von Dienstwaffen und ballistischer Schutzausrüstung gemäß Waffengesetz (WaffG).
+
+* *Zeugamt Medizin:* Technische Validierung medizinischer Apparaturen und Überwachung von Verfallsdaten.
+
+* *Zeugamt Brandschutz:* Instandhaltung von Atemschutz und technischem Rettungsgerät.
+
+== 10.4 Technologische Integration und Sicherheit
+* *Gerätekonfiguration:* Neu beschaffte Mobilgeräte werden automatisiert mittels Samsung Knox vorkonfiguriert, bevor sie in die Logistikkette übergehen.
+
+* *Zugriffsschutz:* Der Zugriff auf sensible Bestandsdaten und Lieferpläne ist durch Multifaktor-Authentifizierung (YubiKey) an allen Terminals gesichert.
+
+* *Materialbegleitung:* Der Transport hochwertiger oder sensibler Güter erfolgt in Kooperation mit der Security Logistics Unit (SLU).
+
+== 10.5 Rechtlicher Rahmen
+Das LBW agiert strikt nach den Bestimmungen des österreichischen Unternehmensgesetzbuches (UGB) und der Gewerbeordnung (GewO 1994)
+
+== 10.6 Beschaffungsweg Warnbalken
+
+=== 10.6.1 Standardisierung und In-House-Spezifikationen (System Hänsch)
+Die Beschaffung und der Ausbau der optischen und akustischen Sondersignalanlagen erfolgt nach einem standardisierten Plattform-Prinzip über die hauseigene Werkstatt unter Verwendung von Hänsch-Komponenten.
+
+==== 10.6.1.1 Spezifikation VW Passat (Sicherheitsdienstlicher Funkwagen)
+* *Optisches System:* Hänsch DBS 5000 in gelber Ausführung, flache und aerodynamische Bauweise ohne integrierte Lautsprechergitter.
+* *Akustisches P/A-System:* Integration eines Hänsch TFA 624 Tonfolgeverstärkers. *Spezifikationsvorgabe:* Die akustischen Folgetonsignale (Blaulicht-Sondersignal) werden softwareseitig permanent deaktiviert und gesperrt. Das System fungiert rein als digitaler Sprachverstärker für Evakuierungs- und Durchsageergänzungen.
+* *Hardware-Schnittstelle:* Steuerung über das digitale Bedienteil BE 300 oder das Handbedienteil HAE (Stabmikrofon) im DIN-Schacht. Die Druckkammerlautsprecher (DKL 604) werden verdeckt hinter der vorderen Stoßstange verbaut.
+
+==== 10.6.1.2 Spezifikation VW Amarok (Führungs-, Infrastruktur- und Interventionsflotte)
+* *Montage-Konzept (Anti-Chassisflex):* Der Hänsch DBS 5000 (Blau für NEF/KDF, Gelb für Infrastruktur/SIG) wird auf einer spezifischen Bracket-Halterung fixiert, die fest mit dem Ladeflächen-Hardtop verschraubt ist. Über der Fahrerkabine lagert der Träger schwimmend auf Gummidämpfern, um mechanische Verwindungen des Fahrzeugrahmens im Gelände auszugleichen.
+* *Kabel- und Schnittstellenmanagement:* Die gesamte Verkabelung der Sondersignalanlage und der Funkantennen läuft über den Dachträger nach hinten und wird direkt durch die Wand des Hardtops ins Fahrzeuginnere geführt. 
+* *Vorteile bei Inbetriebnahme, Zulassung und Totalschaden:*
+1. _Erstzulassung:_ Die Fahrerkabine bleibt im unbeschädigten Originalzustand (keine Dachbohrungen). Die originale Crash-Struktur von VW bleibt unangetastet, was die Typisierung als Sonderkraftfahrzeug bei der Landesprüfstelle massiv vereinfacht.
+2. _Wechselaufbau-Effekt:_ Bei einem wirtschaftlichen Totalschaden des Basisfahrzeugs kann das gesamte Technik-Modul (Hardtop, Träger, Warnbalken, Kabelbaum) als eine Einheit demontiert und binnen weniger Stunden auf einen neuen Amarok aufgesetzt werden (Minimierung der Downtime).
+3. _Restwertoptimierung:_ Bei Leasingrückgabe oder Ausmusterung erfolgt ein narbenfreier Rückbau in den zivilen Zustand, wodurch der Wiederverkaufswert des Basisfahrzeugs maximiert wird.
+
+
+== 10.7 Beschaffungsweg: Sprechfunkinfrastruktur
+
+=== 10.7.1 Beschaffung der Funkgeräte
+
+Die Beschaffung der TETRA-Endgeräte (Standardtyp *Sepura SC20 / SC21* sowie *SC2024 ATEX* für den Atemschutzeinsatz) erfolgt zwingend über zertifizierte Systemhäuser und offizielle Sepura-Distributoren im österreichischen Raum (z. B. _eurofunk KAPPACHER_ oder _SELECTRIC_). Ein Direktbezug über den klassischen Elektronikgroßhandel ist nicht möglich.
+
+Aufgrund der operativen Anforderungen wird die geplante Flotte von 100+ Geräten logisch und lizenztechnisch in ein *50/50-Hybrid-Modell* gesplittet:
+
+[cols="1,2,1", options="header"]
+|===
+| Flottensegment | Einsatzzweck / Konfiguration | Verschlüsselung
+| *50x Corporate-Flotte* | Hotel, Eventhalle, Erlebniswelt, allgemeiner Sicherheitsdienst. Zivile Firmware. | E2EE (Privatnetz)
+| *50x BOS-Einsatzflotte* | Rettungsdienstwachen und Betriebsfeuerwehr (BtF). Vollwertige BOS-Firmware mit ISSI-Netzzulassung. | TEA2 (Digitalfunk Austria)
+|===
+
+Die Geräte werden über den zentralen, unternehmenseigenen Core-Switch in der Wiener Zentrale verwaltet. Bei der Statusvergabe (z. B. Status 6 - Nicht einsatzbereit) wird im Endgerät ein zweistufiges Untermenü erzwungen. Während das interne System (SLZ/ERPDS) die exakte Detail-Information (z. B. "Sanitär" oder "Fahrzeugdefekt") verarbeitet, wird an die Schnittstelle der öffentlichen Leitstellen (Notruf NÖ / Florian) ein normierter Status ohne betriebsinterne Zusatzdaten übermittelt.
+
+=== 10.7.2 Erweiterung bei Expansion
+
+Die integrierte Systemarchitektur ist modular skalierbar. Bei einer personellen oder strukturellen Expansion des Unternehmens gelten je nach Einsatzzweck unterschiedliche Grenzkostenstrukturen (Capex/Opex):
+
+Corporate-Personal (Betriebsfunk)::
+  * *Capex:* Ca. 1.070 € netto einmalig pro Mitarbeiter (Endgerät, Basis-Zubehör, Lizenzierung im Radio Manager).
+  * *OpEx:* 0 €, da die Abdeckung über die bestehende Inhouse-Infrastruktur und das eigene Regionalnetz erfolgt.
+
+Einsatzpersonal (BOS-Rettungsdienst / BtF)::
+  * *Capex:* Ca. 1.470 € bis 1.770 € netto einmalig pro Kopf (erhöhte Kosten durch BOS-Zertifizierung, offizielle ISSI-Beantragung und ggf. ATEX-Schutz für Feuerwehrkräfte).
+  * *OpEx:* Ca. 25 € bis 35 € netto pro Gerät/Monat für die offizielle Netznutzungsgebühr des Bundesministeriums für Inneres.
+
+[NOTE]
+====
+Die bestehende Kerninfrastruktur (Basisstationen in Wien/Schwechat und Objektfunkanlagen) fängt eine Skalierung bis ca. 250 bis 300 Endgeräte im selben Sendegebiet ohne Hardware-Erweiterung ab. Erst bei Überschreitung dieser Kapazitätsgrenze ist der Einbau zusätzlicher Transceiver-Einschübe zur Kanalerweiterung erforderlich.
+====
+
+=== 10.7.3 Rückfinanzierung im Sanitätsbereich
+
+Die laufenden Betriebskosten (*OpEx*) der BOS-Einsatzflotte sowie die anteiligen Anschaffungskosten der Rettungsdienst-Infrastruktur finanzieren sich im laufenden Betrieb durch das gesetzliche und tarifliche Erstattungssystem (*Reimbursement*) in Österreich im Regelfall selbst:
+
+Sozialversicherungsverrechnung (ÖGK / SVS / BVAEB)::
+  Jeder im Rahmen der öffentlichen Notfallrettung oder des qualifizierten Krankentransports absolvierte Einsatz wird auf Basis der landesspezifischen Rettungsdienstgesetze direkt mit den Versicherungsträgern verrechnet. Die in den Tarifsätzen kalkulierten Pauschalen decken die normgerechte Vorhaltung der Kommunikationsmittel (BOS-Digitalfunk) voll ab.
+
+Kostenersatz bei überörtlicher Hilfeleistung (BtF)::
+  Bei Einsätzen der Betriebsfeuerwehr im Umland (Alarmierung durch die Bezirksalarmzentrale zur Unterstützung öffentlicher Kräfte) greift der gesetzliche Kostenersatz nach dem jeweiligen Landesfeuerwehrgesetz. Die Verrechnung der Fahrzeug- und Mannschaftsstunden an den Verursacher oder dessen Haftpflichtversicherung beinhaltet anteilig die Refinanzierung der verbauten Sonderschutz-Funktechnik (z. B. *Sepura SCG2200* als Fahrzeug-Gateway).
+
+Durch die aktive Mitwirkung an der öffentlichen Sicherheitsarchitektur im Großraum Wien/Schwechat und die Bereitstellung von KRITIS-Ressourcen ergibt sich zudem eine strategische Verhandlungsposition für Pauschal-Subventionen oder Gebührenreduktionen bei den ISSI-Tarifen durch das jeweilige Bundesland.
+
+
+
+== 10.8 Beschaffungsweg: Netzwerkdrucker
+
+=== 10.8.1 Ausgangslage und Zielsetzung
+Für die neue Unternehmenszentrale wird eine hochsichere, flexible und skalierbare Druckinfrastruktur implementiert. 
+Die Architektur bricht bewusst mit traditionellen, lokalen USB-Druckerstrukturen, um plattformübergreifendes Drucken (Stand-PC, Laptop, Smartphone) bei maximaler technologischer Absicherung zu gewährleisten.
+
+=== 10.8.2 Kernarchitektur (High-Security)
+Das gesamte Druckkonzept basiert auf einer strikten Trennung zwischen Steuerungs- und Ausführungsebene (*Zero-Trust-Prinzip*):
+
+* *Zentraler Printserver:* Ein gehärteter *Windows Server 2019* fungiert als einzige Schnittstelle für alle Endgeräte. Die Übertragung erfolgt verschlüsselt mittels *IPP-over-HTTPS (TLS 1.3)* inklusive Active-Directory-Authentifizierung.
+* *Netzwerksegmentierung:* Alle Drucker werden physisch und logisch in einem dedizierten, isolierten *Drucker-VLAN* platziert. Ein direkter Netzwerkzugriff von Endgeräten (Clients) in das Drucker-VLAN wird per Firewall/ACL unterbunden.
+* *Ein-Hersteller-Strategie:* Zur Minimierung des administrativen Aufwands und Maximierung der Richtlinien-Compliance (Hardening) wird exklusiv auf das Ökosystem von *HP* gesetzt.
+
+=== 10.8.3 Beschaffungsmatrix (Komponenten)
+
+[cols="2,3,4", options="header"]
+|===
+| Einsatzbereich | Empfohlene HP-Modellreihe | Spezifische Sicherheits- und Funktionsmerkmale
+
+| *Einzelbüros*
+| HP LaserJet Enterprise M406 / M507 (bzw. Color-Äquivalent)
+| Kompaktklasse mit _HP Sure Start_ (BIOS-Schutz), lokaler Festplattenverschlüsselung und optionalem _Convenience Stapler_ (manuelle Heftstation am Gerät).
+
+| *Abteilungen / Teams*
+| HP Color LaserJet Enterprise MFP M776 / M800 Serie
+| Leistungsstarke Multifunktionsgeräte mit integriertem Inline- oder Broschürenfinisher (vollautomatisches Heften und Falzen von Skripten/Comics).
+
+| *Spezialgeräte (Grafik/CAD)*
+| HP DesignJet T1700 Enterprise / Z9+ Pro
+| Großformatdrucker mit hardwarebasierter AES-256-Verschlüsselung (SED-Festplatten) für vertrauliche Pläne und Vorstufendrucke.
+
+| *Logistik / Werksverkauf*
+| HP Engage One Thermo-Belegdrucker (LAN-Variante)
+| Netzwerkfähige POS-Drucker für den Quittungs- und Etikettendruck, voll integrierbar in das zentrale Härtungskonzept.
+
+| *Industrielle Druckerei*
+| HP Indigo 7K / PageWide Web Press
+| Digitale Produktionsdruckmaschinen, vollständig isoliert in einer eigenen Produktions-DMZ. Datenübergabe erfolgt ausschließlich via Hotfolder/Workflow-System vom Windows Server.
+|===
+
+=== 10.8.4 Zentrales Management und Compliance
+Die gesamte beschaffte Flotte wird über die Software *HP Web Jetadmin* auf dem Windows Server 2019 verwaltet. 
+Dies ermöglicht ein automatisiertes Rollout der Sicherheits-Baselines (Sperrung von USB-Ports, Deaktivierung unverschlüsselter Protokolle wie HTTP/SMBv1) sowie ein permanentes Compliance-Monitoring der gesamten Infrastruktur.
