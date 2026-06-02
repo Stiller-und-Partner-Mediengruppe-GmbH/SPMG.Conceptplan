@@ -22,14 +22,16 @@ Die Zusammenarbeit mit der Exekutive erfolgt hierbei sowohl bei Sicherheitsangel
 === 7.2.2 Organisation des Sicherheitsdienstes
 
 [plantuml, org-chart-security, svg]
+----
 @startuml
 skinparam packageStyle rectangle
 allowmixing
+skinparam shadowing false
 
-skinparam rectangle<> {
-BackgroundColor transparent
-BorderColor transparent
-Shadowing false
+
+skinparam rectangle {
+    BackgroundColor transparent
+    BorderColor transparent
 }
 
 title Organigramm - Abteilungsstruktur - Sicherheitsdienst
@@ -62,6 +64,7 @@ object "LSG-Werttransport" as LSG_WT
 object "LSG-Arrestantentransport" as LSG_AT
 object "LSG-VIP Shuttle Service" as LSG_VIP
 object "LSG-VIP Medical Service" as LSG_VIP_Med
+}
 
 CSO -down-> RO
 CSO -down-> RSE
@@ -82,9 +85,8 @@ LSG -down-> LSG_AT
 LSG -down-> LSG_VIP
 LSG_VIP -down-> LSG_VIP_Med
 
-}
 @enduml
-
+----
 Der Sicherheitsdienst der SPMG ist in verschiedene Einheiten unterteilt, um eine effective und spezialisierte Sicherheitsversorgung zu gewährleisten. Als übergeordnete Stellen fungieren jeweils die entsprechenden Referate, welche für den jeweiligen Fachbereich zuständig sind.
 
 diese Referate sind: +
@@ -92,7 +94,7 @@ diese Referate sind: +
 * **Referat Operationen**: +
 Bildet das Tagesgeschäft im Bereich unseres Sicherheitsdienst und umfasst den Streifendienst (Security Patrol Unit(SPU)) und den Ermittlungsdienst (Investigation and Intelligence Unit)
 
-** **Referat Operationen/Security and Patrol Unit (SPMG-SPU)**: +
+** **Referat Operationen/Streifendienst (SPMG-SD)**: +
 Dies sind die Boots on the Ground. Sie sind für die Überwachung der Betriebsstätten, die Durchführung von Sicherheitskontrollen und die Reaktion auf Sicherheitsvorfälle verantwortlich. Sie patrouillieren regelmäßig die Anlagen der SPMG, um potenzielle Bedrohungen zu erkennen und zu verhindern.
 
 ** **Referat Operationen/Ermittlungsdienst (SPMG-ED)**: +
@@ -118,10 +120,10 @@ Diese Einheit ist für den Einsatz von speziell ausgebildeten Hunden zuständig,
 
 * **Referat Unterstützungseinheiten**: +
 
-** **Referat Unterstützungseinheiten/Arial Support Unit (SPMG-ASU)**: +
+** **Referat Unterstützungseinheiten/Flugeinheit Sicherheit (SPMG-FE/S)**: +
 Diese Einheit ist für den Betrieb, die Wartung und die generelle Einsatzplanung der Drehflügler als Unterstützungseinheiten der SPMG. Sie stellen also die Hubschrauber für die Sicherheitsoperationen der SPMG bereit, welche sowohl für die Überwachung der Betriebsstätten, die Unterstützung bei Sicherheitsvorfällen.
 
-** **Referat Unterstützungseinheiten/Security Logistics Unit(SPMG-SLU)**: +
+** **Referat Unterstützungseinheiten/Logistische Sicherungs Gruppe(SPMG-LSG)**: +
 Die Security Logistics Unit der SPMG ist eine Sondereinheit, welche für Hochrisiko-Transporte im Auftrag der SPMG in den Anlagen und auch außerhalb.
 Diese Transporte umfassen vor allem: +
 
@@ -164,7 +166,7 @@ Zum Schutz vor physischem Diebstahl und unbefugter Datenanalyse wird die gesamte
 Das System bootet erst nach erfolgreicher Zwei-Faktor-Authentifizierung im UEFI-Bootloader. Ohne den spezifischen YubiKey und die PIN existiert kein valider Krypto-Header im RAM (Schutz vor Cold-Boot-Attacken).
 ====
 
-=== 7.4.2Betriebssystem-Härtung (OS Hardening)
+=== 7.4.2 Betriebssystem-Härtung (OS Hardening)
 
 Das Windows-Image wird so modifiziert, dass Microsoft jegliche administrative Kontrolle von außen sowie der unbefugte Abfluss von Telemetriedaten entzogen wird.
 
@@ -295,7 +297,7 @@ Bei einem Totalausfall des öffentlichen Netzes (Stufe Rot) schaltet das *ERPDS*
 | Prioritätsstufe | Abgesicherte Infrastruktur / Sektoren | Operativer Fokus
 | *Priorität 1 (Kritisch)* | SLZ, Funk/IT, FWW (Feuerwehr), RDW (Rettungsdienst), H135/H145-Schienensysteme, Pionier-Logistik (SPMG-Constructions, Tanklager). | Aufrechterhaltung des BOS-Betriebs und Zivilschutz-Einsatzbereitschaft.
 | *Priorität 2 (Unterstützend)* | Interne Logistik-IT, Grundbeleuchtung des Hauptareals, Wasseraufbereitung. | Standortsicherheit und taktische Koordination.
-| *Priorität 3 (Abschaltung)* | Studio-Lot (außer Not-Berichterstattung), Erlebniswelt, Eventhalle
+| *Priorität 3 (Abschaltung)* | Studio-Lot (außer Not-Berichterstattung), Erlebniswelt, Eventhalle | Lebenskritische Notwendigkeiten
 |===
 
 

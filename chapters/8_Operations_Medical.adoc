@@ -33,13 +33,12 @@ package "Medical Operations" as MO {
         Groundchief: TBD
 }
     object "Rettungshunde" as R_K9
-
+}
     CMO -down-> AM
     CMO -down-> SD
     AM -down-> MPM
     CMO -down-> HEMS
-    CMO -down-> R_K9
-} 
+    CMO -down-> R_K9 
 
 @enduml
 ----

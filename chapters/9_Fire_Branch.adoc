@@ -30,7 +30,7 @@ Zur Vermeidung von *Friendly Fire* durch anrückende Exekutivkräfte (z. B. EKO 
 
 [horizontal]
 Farbgebung:: Die ballistische Zusatzausrüstung (Helme/Westen) sollte in Signalfarben (Rot/Sand) oder mit kontrastierenden Helmbezügen ausgeführt sein, um sich von der dunkelblauen/schwarzen Ausrüstung der Polizei abzuheben.
-Patches:: Großflächige, flammhemmende Klettschilder an Front, Rücken ($38 \times 8 \text{ cm}$) und Helmseiten mit der reflektierenden Aufschrift *„BETRIEBSFEUERWEHR“* oder *„BTF“*.
+Patches:: Großflächige, flammhemmende Klettschilder an Front, Rücken ( 8 cm) und Helmseiten mit der reflektierenden Aufschrift *„BETRIEBSFEUERWEHR“* oder *„BTF“*.
 
 [IMPORTANT]
 ====

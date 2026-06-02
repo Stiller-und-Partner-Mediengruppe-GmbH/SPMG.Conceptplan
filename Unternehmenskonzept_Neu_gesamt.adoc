@@ -83,5 +83,5 @@ include::chapters/16_Paysystem.adoc[leveloffset=+1]
 
 include::chapters/17_Uniform_corporate_identity.adoc[leveloffset=+1]
 
-include::chapters/18_Company_agreement.adoc[leveloffset=+1]
+include::chapters/Company_agreement.adoc[leveloffset=+1]
 
