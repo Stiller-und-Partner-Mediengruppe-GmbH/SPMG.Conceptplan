@@ -1,5 +1,63 @@
 = 9 Betriebsfeuerwehr und Brandschutz
 
+== 9.1 Voll Umfänglich Anerkannte Betriebsfeuerwehr (nach Landes-Feuerwehrgesetz)
+Um die Operative Souveränität des Unternehmens vollumfänglich zu gewährleisten, ist im Unternehmen eine eigene Betriebsfeuerwehr mit öffentlichem Recht
+[NOTE]
+"mit öffentlichem Recht" heißt im gegebenen Sachzusammenhang nur, dass die BtF sowohl interne Einsätze als auch öffentliche Einsätze im Umland übernimmt. Diese öffentlichen Einsätze erfolgen dann ausdrücklich auf Anweisung der jeweilig zuständigen Landesfeuerwehrzentrale (*Florian*)
+
+== 9.1.1 Organisation der SPMG Betriebsfeuerwehr
+[plantuml, org-chart-security, svg]
+----
+@startuml
+skinparam packageStyle rectangle
+allowmixing
+skinparam shadowing false
+
+
+skinparam rectangle {
+    BackgroundColor transparent
+    BorderColor transparent
+}
+
+title Organigramm - Abteilungsstruktur - Betriebsfeuerwehr
+
+package "Abteilung Brandschutz und Betriebsfeuerwehr" as FO {
+    rectangle "CFM" as CFM
+    object "Referat Betriebsfeuerwehr" as RBtF
+    object "Flugfeuerwehr" as FLF
+    object "Operativer Brandschutzdienst" as OBS
+    object "Referat Präventiver Brandschutz" as RPBS
+    object "Referat Zeugamt/Brandschutz" as RZB
+
+    CFM <-down- RBtF
+    RBtF <-down- FLF
+    RBtF <-down- OBS
+    CFM <-down- RPBS
+    CFM <-down- RZB
+}
+
+
+
+@enduml
+----
+*Abteilung Brandschutz und Betriebsfeuerwehr* ::
+Die Abteilung Brandschutz und Betriebsfeuerwehr ist die Organisatorische und Operative Brandschutz Institution der *SPMG*. Ihre Referate führen die Grundlegenden Brandschutzaufgaben im Rahmen der Wertschöpfung der *SPMG*.
+
+*Referat Betriebsfeuerwehr* :::
+Das Referat Betriebsfeuerwehr ist die Primäre Operative Brandschutz Komponente der *Stiller und Partner Mediengruppe GmbH/Holding*. Sie Operiert an Allen Standorten der *SPMG*. dies bedeutet das an jedem Standort der *SPMG* eine eigene Feuerwache (entweder Großwache oder Kleinwache) angeschlossen hat und die Zentralfeuerwache sich am Hauptareal der *SPMG* lokalisiert ist.
+
+*Flugfeuerwehr*::::
+Die Flugfeuerwehr des Referates Betriebsfeuerwehr ist eine Spezialeinheit welche sich speziel auf die Operationen im Bereich der Flug relevanten Operationen (Hubschrauber Hangaranlagen). 
+
+*Operativer Brandschutzdienst*::::
+Der Operative Brandschutzdienst des Referates Betriebsfeuerwehr führt alle Grundlegenden Brandschutz-, Brandsicherheit- und Brandverhütungsoperationen der *SPMG* durch. +
+Sie sind diejenigen welche man als Betriebsfeuerwehr verstehen würde. 
+
+*Referat Präventiver Brandschutz*:::
+Das Referat Präventiver Brandschutz ist für die koordination der gesamten präventiven Brandschutzmaßnahmen innerhalb der *SPMG*. Sie führt die Regelmäßigen Brandschutzrechtlichen Kontrollen im Rahmen des Tagesgeschäftes durch. Weiters berät sie die Geschäftführung im Rahmen ihrer Weisungsbefugnis auf Brandschutztechnische Entwicklungen oder Notwendigkeiten hin. Sie koordiniert außerdem auch gemeinsam mit dem *Referat Betriebsfeuerwehr/Operativer Brandschutzdienst* die notwendigen Maßnahmen bei Brandsicherheitswachen im Rahmen von Produktionen der *SPMG*.
+
+*Referat Zeugamt/Brandschutz* :::
+Das *Referat Zeugamt/Brandschutz* ist für sämtliche Beschaffungsaufgaben im Rahmen des Präventiven und Operativen Brandschutz zuständig. Sie sind hierbei in direkter Zusammenarbeit mit dem *Abteilung Logistik und Beschaffungswesen/Referat Zeugamt* zusammen um die Notwendigen Ausrüstungen, Fahrzeuge und Uniformen für den Brandschutz zu normieren und zu beschaffen. 
 
 
 == 9.2 Taktische Schutzausrüstung: Sondergefahrenlagen
@@ -36,3 +94,44 @@ Patches:: Großflächige, flammhemmende Klettschilder an Front, Rücken ( 8 cm) 
 ====
 Die Einführung dieser Ausrüstung ist gemäß Arbeitnehmerinnenschutzgesetz (ASchG) in der Gefährdungsbeurteilung zu dokumentieren und muss in enger Abstimmung mit dem zuständigen Landesfeuerwehrverband sowie der lokalen Landespolizeidirektion (LPD) erfolgen.
 ====
+
+== 9.3 Fahrzeuge der Betriebsfeuerwehr
+Die Fahrzeuge der *Abteilung Betriebsfeuerwehr und Brandschutz* sind alle entsprechend der jeweiligen Landesfeuerwehrgesetze und den Jeweiligen Normen (ÖNORM EN 1846-1 bis ÖNORM EN 1846-3, ÖNORM F 1001 und ÖNORM F 2011 und ÖNORM EN 1028-1 &-2) und sind hier nochmals aufgelistet.
+
+*ÖNORM EN 1846-1* :: 
+Diese Norm bezeichnet die jeweiligen Fahrzeuge nach ihrer Geländegängigkeit, Massenklassen. 
+*Fahrzeugklassen*:::
+* *L (Light/Leicht)*: Fahrzeuge für den Reinen Straßenbetrieb, vorwiegend befestigte Straßen und Wege.
+* *M (Medium/Mittel)*: Straßenfahrzeuge im eingeschränkter Geländegängigkeit.
+* *S (Severe/ Schwer): Allradbetriebene Fahrzeuge (oft geländegängig) für Einsätze abseits befestigter Straßen
+*Massenklassen (Gewicht)*:::
+* *Klasse 1*: Klein: bis 3.500 kg
+* *Klasse 2*: Leicht: über 3.500 kg bis 7.500 kg
+* *Klasse 3*: Mittel: über 7.500 kg bis 16.000 kg
+* *Klasse 4*: Schwer: über 16.000 kg
+
+*ÖNORM EN 1846-2*::
+Diese Norm stellt die Mindestanforderungen an die jeweiligen Fahrzeuge für den Feuerwehrdienst fest.
+*ÖNORM EN 1846-3*::
+Diese Norm stellt die Grundlegende Pflichtbestückung (Normbeladung) eines jeden Feuerwehrfahrzeuges
+*ÖNORM F 1001*::
+Diese Norm beschreibt die Grundlegende Nonminklatur (Benenung) im Rahmen des Brandschutz- und Feuerwehrwesens.
+*ÖNORM F 2011*::
+df
+*ÖNORM EN 1028-1*::
+Diese Norm legt die Klassifizierung, Sicherheitsanforderungen für *Feuerlöschkreiselpumpen mit Entlüftungseinrichtung*.
+*ÖNORM EN 1028-2*::
+Diese Norm beschreibt die *Prüf-* und *Messverfahren* für die in *1028-1* definierten *Löschgeräte*
+
+=== 9.3.1 Reguläre Feuerwehrfahrzeuge
+
+*Kommandofahrzeuge HIO & KDO*::
+Für die Operative Einsatztechnische Leitung des Regelbetriebes stehen zwei grundlegende Fahrzeugtypen zur Verfügung
+*Mercedes G-Klasse*:::
+Dieser Fahrzeugtyp steht als KDF (*Kommandofahrzeug*) dem Operativen Einsatzleiter (*Einsatzkommandanten*) zur Verfügung.
+*VW Passat FW*:::
+Dieser Fahrzeugtyp steht rein nur den jeweiligen *Wachleitern* und dem *Kommando* der Betriebsfeuerwehr zur Verfügung.
+
+=== 9.3.2 Spezial Feuerwehrfahrzeuge
+
+=== 9.3.3 Fahrzeuge im Flugfeld/Hangar Betrieb

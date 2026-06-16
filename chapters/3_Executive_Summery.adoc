@@ -26,7 +26,8 @@ package "Aufsichtsrat SPMG" as AR {
         CPO: TBD
         CLO: TBD
         CIO: TBD
-        GC:  TBD      
+        CFM: TBD
+        GC:  TBD   
     }
 }
 
@@ -106,6 +107,21 @@ package "Abteilung: Logistik und Beschaffungswesen" as ALBW{
     CLO <-down- RZBW
 }
 
+package "Abteilung Brandschutz und Betriebsfeuerwehr" as FO {
+    rectangle "CFM" as CFM
+    object "Referat Betriebsfeuerwehr" as RBtF
+    object "Flugfeuerwehr" as FLF
+    object "Operativer Brandschutzdienst" as OBS
+    object "Referat Präventiver Brandschutz" as RPBS
+    object "Referat Zeugamt/Brandschutz" as RZB
+
+    CFM <-down- RBtF
+    RBtF <-down- FLF
+    RBtF <-down- OBS
+    CFM <-down- RPBS
+    CFM <-down- RZB
+}
+
 package "Abteilung: Infrastruktur" as AIS{
     rectangle "CIO" as CIO
 object "Referat Haustechnik" as RHT{
@@ -183,6 +199,7 @@ AR <-down- CPO
 AR <-down- CLO
 AR <-down- CIO
 AR <-down- CVO
+AR <-down- CFM
 
 
 @enduml
