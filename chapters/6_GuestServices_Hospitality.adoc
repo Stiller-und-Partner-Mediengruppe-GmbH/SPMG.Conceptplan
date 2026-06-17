@@ -1,3 +1,4 @@
+:current-chapter: Gästebetreuung und Bewirtung
 = 6 Gästebetreuung und Bewirtung
 
 In diesem Kapitel werden die Bereiche beschrieben, welche direkt mit den Gästen interagieren. Dies beinhaltet vorallem die Erlebniswelt, Veranstaltungshalle, das Hotel und die Kinos. Es wird auch beschrieben wie Bereiche wie, Sicherheitsdienst, Sanitätsdienst und Betriebsfeuerwehr geschult werden um so freundlich wie möglich mit den Gästen zu interagieren.

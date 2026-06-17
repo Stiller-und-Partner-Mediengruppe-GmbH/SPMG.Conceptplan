@@ -13,7 +13,13 @@
 :docdate: {docdate}
 :title: SPMG-Unternehmensgründungskonzept
 :title-logo-image: image:logo.svg[pdfwidth=100, align=center]
+:pdf-theme: Unternehmenskonzept_Neu_gesamt.yml
 :imagesdir: images
+:sectnums:
+:sectnumlevels: 0
+:title-page:
+:chapter-label:
+:current-chapter:
 
 = Unternehmenskonzept Stiller und Partner Mediengruppe GmbH/Holding (SPMG)
 {author} +
@@ -49,39 +55,39 @@ Ansprechpartner: **Sebastian Andreas Stiller** (Gründer und Chief Creative Offi
 * **E-Mail**: mailto:kontakt@sebastianstiller.at[kontakt@sebastianstiller.at]
 
 
-include::chapters/1_Intro_History.adoc[leveloffset=+1]
+include::chapters/1_Intro_History.adoc[]
 
-include::chapters/2_Company_philosophy.adoc[leveloffset=+1]
+include::chapters/2_Company_philosophy.adoc[]
 
-include::chapters/3_Executive_Summery.adoc[leveloffset=+1]
+include::chapters/3_Executive_Summery.adoc[]
 
-include::chapters/4_Compliance_HR_Finance.adoc[leveloffset=+1]
+include::chapters/4_Compliance_HR_Finance.adoc[]
 
-include::chapters/5_Products_Projects.adoc[leveloffset=+1]
+include::chapters/5_Products_Projects.adoc[]
 
-include::chapters/6_GuestServices_Hospitality.adoc[leveloffset=+1]
+include::chapters/6_GuestServices_Hospitality.adoc[]
 
-include::chapters/7_Operations_Security.adoc[leveloffset=+1]
+include::chapters/7_Operations_Security.adoc[]
 
-include::chapters/8_Operations_Medical.adoc[leveloffset=+1]
+include::chapters/8_Operations_Medical.adoc[]
 
-include::chapters/9_Fire_Branch.adoc[leveloffset=+1]
+include::chapters/9_Fire_Branch.adoc[]
 
 include::chapters/10_Logistics.adoc[]
 
 include::chapters/11_Vehicle_fleetmanagement.adoc[]
 
-include::chapters/12_Vehicles_fleet.adoc[leveloffset=+1]
+include::chapters/12_Vehicles_fleet.adoc[]
 
-include::chapters/13_ERPDS_System.adoc[leveloffset=+1]
+include::chapters/13_ERPDS_System.adoc[]
 
-include::chapters/14_ERPDS_System_MobileApp.adoc[leveloffset=+1]
+include::chapters/14_ERPDS_System_MobileApp.adoc[]
 
-include::chapters/15_requirements.adoc[leveloffset=+1]
+include::chapters/15_requirements.adoc[]
 
-include::chapters/16_Paysystem.adoc[leveloffset=+1]
+include::chapters/16_Paysystem.adoc[]
 
-include::chapters/17_Uniform_corporate_identity.adoc[leveloffset=+1]
+include::chapters/17_Uniform_corporate_identity.adoc[]
 
-include::chapters/Company_agreement.adoc[leveloffset=+1]
+include::chapters/Company_agreement.adoc[]
 

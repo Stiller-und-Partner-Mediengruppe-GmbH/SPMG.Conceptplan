@@ -1,4 +1,4 @@
-
+:current-chapter: Abteilung Logistik & Beschaffungswesen
 = 10 Abteilung: Logistik & Beschaffungswesen (LBW) 
 
 == 10.1 Strategische Zielsetzung 

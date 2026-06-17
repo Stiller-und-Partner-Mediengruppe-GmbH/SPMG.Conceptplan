@@ -1,3 +1,4 @@
+:current-chapter: Abteilung Fuhrpark- und Flottenmanagement
 = 11 Abteilung: Fuhrpark- und Flottenmanagement (FFM)
 
 == 11.1 Strategische Zielsetzung 

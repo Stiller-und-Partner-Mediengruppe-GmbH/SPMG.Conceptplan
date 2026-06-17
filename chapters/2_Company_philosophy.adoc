@@ -1,5 +1,5 @@
 :author: Sebastian Andreas Stiller 
-
+:current-chapter: Theoretisches Unternehmensphilosophie Konzept
 = 2. Theoretisches Unternehmensphilosophie Konzept
 Ein Konzept von {author} erarbeitet im Zeitraum von 10.08.2023 bis {docdate}
 

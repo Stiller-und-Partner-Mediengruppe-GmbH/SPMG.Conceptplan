@@ -1,3 +1,4 @@
+:current-chapter: ERPDS Mobile
 = 14 SPMG-ERPDS - Mobile Applikation (Android)
 
 Die SPMG setzt in der Ausübung ihrer Tätigkeit nicht nur auf ein Kraftvolles ERPDS System welches auf jeden Rechner vorhanden ist sondern wir haben auch verstanden, dass Smartphones in dieser Zeit auch aus dem Arbeitsalltag nicht mehr wegzudenken ist. 

@@ -1,3 +1,4 @@
+:current-chapter: Abteilung Brandschutz und Betriebsfeuerwehr
 = 9 Betriebsfeuerwehr und Brandschutz
 
 == 9.1 Voll Umfänglich Anerkannte Betriebsfeuerwehr (nach Landes-Feuerwehrgesetz)

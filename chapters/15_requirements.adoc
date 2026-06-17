@@ -1,3 +1,4 @@
+:current-chapter: Anforderungsprofile
 = 15 Anforderungsprofile der Mitarbeiter:innen innerhalb der SPMG
 
 Im Folgenden Abschnitt werden die Anforderungen und Qualifikationen beschrieben, die für die verschiedenen Positionen innerhalb der Strukturen der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) erforderlich sind. DIese Anforderungen umfassen sowohl fachliche als auch persönliche Kompetenzen, die notwendig sind, um die Aufgaben, Aufgabenbereiche und Verantwortlichkeiten der jeweiligen Positionen erfolgreich zu erfüllen. 

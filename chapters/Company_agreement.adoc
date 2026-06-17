@@ -1,3 +1,4 @@
+:current-chapter: SPMG Gesellschaftsvertrag
 =  SPMG - Gesellschaftsvertrag 
 In der Fassung vom {docdate}
 

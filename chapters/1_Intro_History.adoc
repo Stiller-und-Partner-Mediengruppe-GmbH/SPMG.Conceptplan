@@ -1,3 +1,4 @@
+:current-chapter: Einleitung und Geschichte
 = 1. Einleitung und Geschichte
 
 == 1.1 Einleitung
