@@ -1,4 +1,3 @@
-:current-chapter: Fahrzeuge und Unternehmensflotte
 =  12 Fahrzeuge und Unternehmensflotte
 
 == 12.1 Technische Kommunikationsausstattung in den Logistik-Fahrzeugen

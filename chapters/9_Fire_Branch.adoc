@@ -1,4 +1,3 @@
-:current-chapter: Abteilung Brandschutz und Betriebsfeuerwehr
 = 9 Betriebsfeuerwehr und Brandschutz
 
 == 9.1 Voll Umfänglich Anerkannte Betriebsfeuerwehr (nach Landes-Feuerwehrgesetz)
@@ -7,7 +6,7 @@ Um die Operative Souveränität des Unternehmens vollumfänglich zu gewährleist
 "mit öffentlichem Recht" heißt im gegebenen Sachzusammenhang nur, dass die BtF sowohl interne Einsätze als auch öffentliche Einsätze im Umland übernimmt. Diese öffentlichen Einsätze erfolgen dann ausdrücklich auf Anweisung der jeweilig zuständigen Landesfeuerwehrzentrale (*Florian*)
 
 == 9.1.1 Organisation der SPMG Betriebsfeuerwehr
-[plantuml, org-chart-security, svg]
+[plantuml, org-chart-fire, svg]
 ----
 @startuml
 skinparam packageStyle rectangle

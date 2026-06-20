@@ -3,8 +3,8 @@
 :toclevels: 5
 :source-highlighter: highlight.js
 :icons: font
-// Lade die entsprechende Kopfzeile (kopfzeile_diplomarbeit_aul, ..._hif oder ..._kolleg)
-//:header_image: kopfzeile_diplomarbeit_aul.png
+:pdf-theme: Unternehmenskonzept_Neu_gesamt.yml
+:imagesdir: images
 :pdf-page-size: a4
 :toc-title: I. Inhaltsverzeichnis
 :lang: DE
@@ -13,13 +13,10 @@
 :docdate: {docdate}
 :title: SPMG-Unternehmensgründungskonzept
 :title-logo-image: image:logo.svg[pdfwidth=100, align=center]
-:pdf-theme: Unternehmenskonzept_Neu_gesamt.yml
-:imagesdir: images
 :sectnums:
 :sectnumlevels: 0
 :title-page:
 :chapter-label:
-:current-chapter:
 
 = Unternehmenskonzept Stiller und Partner Mediengruppe GmbH/Holding (SPMG)
 {author} +

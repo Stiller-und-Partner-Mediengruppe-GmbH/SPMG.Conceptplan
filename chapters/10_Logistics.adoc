@@ -1,4 +1,3 @@
-:current-chapter: Abteilung Logistik & Beschaffungswesen
 = 10 Abteilung: Logistik & Beschaffungswesen (LBW) 
 
 == 10.1 Strategische Zielsetzung 
@@ -141,3 +140,99 @@ Das gesamte Druckkonzept basiert auf einer strikten Trennung zwischen Steuerungs
 === 10.8.4 Zentrales Management und Compliance
 Die gesamte beschaffte Flotte wird über die Software *HP Web Jetadmin* auf dem Windows Server 2019 verwaltet. 
 Dies ermöglicht ein automatisiertes Rollout der Sicherheits-Baselines (Sperrung von USB-Ports, Deaktivierung unverschlüsselter Protokolle wie HTTP/SMBv1) sowie ein permanentes Compliance-Monitoring der gesamten Infrastruktur.
+== 10.9 Beschaffungsweg: Kameratechnik
+
+=== 10.9.1 Wirtschaftliche und logistische Aspekte
+
+Ablöse des Mietmodells (ARRI): Der Wechsel von der ARRI-Plattform zu einer proprietären Blackmagic Design (BMD) Infrastruktur eliminiert laufende Projekt-Mietkosten. Dies entfernt den finanziellen Druck durch Stehtage (Dead Days), wetterbedingte Verzögerungen oder verlängerte Proben- und Testphasen.
+
+Einmalige Investition: Die Anschaffung der BMD-Hardware amortisiert sich nach wenigen Drehtagen gegenüber den marktüblichen Verleihtarifen einer ARRI Alexa (samt zwingendem High-End-Zubehör wie Codex-Drives, schweren Cine-Akkus und spezifischen Verleih-Versicherungen).
+
+Lokaler Support: Der Kauf über den österreichischen Fachhandel sichert kurze Ausfallzeiten durch direkte Verfügbarkeit von Ersatzgeräten und Serviceleistungen im Schadensfall.
+
+=== 10.9.2 Studio- und Systemintegration (BMD-Ökosystem)
+
+Native ATEM-Anbindung: BMD-Kameras (u. a. URSA Cine, Pyxis, Studio-Reihe) verfügen über eine bidirektionale Signalübertragung via SDI/HDMI, die sich nahtlos in bestehende ATEM-Mischerinfrastrukturen einfügt.
+
+CCU-Fernsteuerung: Parameter wie Blende, Fokus, Verschlusszeit (Shutter), Weißabgleich und das primäre Color Grading (DaVinci Resolve Engine in der Kamera) können in Echtzeit direkt aus der Regie gesteuert werden.
+
+Integrierte Protokolle: Tally-Signale und die Talkback-Kommunikation (Intercom) werden ohne zusätzliche externe Hardware oder Funkstrecken direkt über die Videoleitung geschleust.
+
+=== 10.9.3 Fahrzeig-Rigs (Gantry- und Kamerastatik)
+
+Gewichtsreduktion des Kamerasystems: BMD-Kameras weisen im Vergleich zu ARRI-Systemen ein drastisch geringeres Eigengewicht und kompaktere Abmessungen auf.
+
+Reduzierte Gantry-Dimensionierung: Durch die geringeren Hebel- und Fliehkräfte bei Kurven- oder Bremsmanövern müssen mechanische Ausleger (Speed Rails) und Rohrkonstruktionen nicht massiv ausgeführt werden.
+
+Minimierung von Schwingungen: Das niedrigere Trägheitsmoment verringert Bildvibrationen. Aufwendige mechanische Dämpfungssysteme (Isolator Crates) oder komplexe Seilabspannungen werden weitgehend obsolet.
+
+Bürokratischer Vorteil (StVO): Schlanke Rigs innerhalb der Fahrzeugtoleranzen erleichtern die Einhaltung der gesetzlichen Ladungssicherungs- und Verkehrsvorschriften bei Kolonnenfahrten auf öffentlichen Straßen.
+
+=== 10.9.4 Ergänzende Action-Cam-Infrastruktur
+
+Einsatz als Crash-Cam: Verwendung von robusten Kleinstkameras (z. B. DJI Osmo Action, GoPro) an exponierten Positionen (Radkasten, Stoßstange) zur Absicherung des Haupt-Equipments bei physischem Risiko.
+
+Spezifische Montage (Blaulichtbalken): Platzierung der Action-Cam direkt auf dem Fahrzeugdach im Windschatten hinter dem Blaulichtbalken.
+ Mechanischer Schutz: Der Balken fungiert als physischer Deflektor gegen Partikeleinschlag (Schmutz, Insekten) und minimiert Strömungsgeräusche am Mikrofon.
+ Schnittkompatibilität: Moderne Flaggschiff-Action-Cams unterstützen 10-Bit-Aufzeichnungen in Log-Profilen (D-Log M, GP-Log). Dies ermöglicht über ein Color Space Transform (CST) in DaVinci Resolve eine präzise farbliche Anpassung an das BRAW-Material der Hauptkameras.
+ Sensordynamik: Schnelle Sensorauslesung minimiert Rolling-Shutter-Artefakte bei hochfrequent pulsierenden LED-Lichtquellen.
+
+== 10.10 Beschaffungsweg: Projektortechnik
+
+=== 10.10.1 Mastering & Metadaten (Postproduktion)
+Die Aufbereitung des unverschlüsselten Bild- und Tonmaterials erfolgt direkt aus der Postproduktions-Pipeline (DaVinci Resolve Studio oder Adobe Premiere Pro).
+
+Master-Format: Export als hocheffizientes, standardisiertes IMF-Paket (Interoperable Master Format) nach SMPTE ST 2067 (bevorzugt im Profil App 2e Studio Master).
+
+Videokompression: Nutzung moderner Codecs wie H.265 (HEVC) oder des zukunftsträchtigen ISO-Standards JPEG XS. Dadurch schrumpft die finale Dateigröße eines 4K-Spielfilms bei visuell verlustfreier Master-Qualität auf 50 bis 80 Gigabyte (statt der über 200 Gigabyte eines klassischen JPEG-2000-DCPs).
+
+Audio-Mapping: Export der Tonspuren als unkomprimiertes Linear PCM in separaten Spuren innerhalb des Containers.
+
+Metadaten-Cues (CPL): Das Schnittprogramm wandelt gesetzte Timeline-Marker framegenau in standardisierte SMPTE-Metadaten-Cues um. Diese XML-Struktur der Composition Playlist (CPL) steuert automatisiert das Saallicht (CREDITS_START) und liefert das Triggersignal für das sichere Löschen im Saal-Server (FILM_END).
+
+=== 10.10.2 Zweistufige Qualitätskontrolle (QC) & Desktop-Zuspielung
+Nach dem Export greift die modularisierte Software-Suite easyDCP (Fraunhofer IIS) für die technische Abnahme und die physische Signaleinspeisung.
+
+Stufe 1 (Software-Vorabnahme): Der unverschlüsselte IMF-Container wird im easyDCP Player+ geladen. Die GPU-beschleunigte Engine decodiert die hochbitratigen Kinodaten in Echtzeit am Studio-Arbeitsplatz. Der integrierte easyDCP Validator prüft die XML-Struktur, konstante Frameraten (24.000 / 25.000 fps) und die Audio-Lautheitsstandards (z. B. EBU R128 für spätere TV-Fassungen).
+
+Stufe 2 (Hardware-Hauptabnahme): Die Zuspielung an den Kino- oder Laserprojektor erfolgt direkt vom Studio-Rechner aus. Über eine professionelle Video-I/O-Karte (z. B. Blackmagic Design DeckLink oder UltraStudio) wird das bitgenaue Kinobild im originalen XYZ-Farbraum per HD-SDI oder DisplayPort (30-Bit-Farbtiefe) in den Service-Eingang des Projektors eingespeist. Ein teurer Kinoserver (IMB) ist für diesen Testbetrieb nicht erforderlich.
+
+=== 10.10.3 DRM-Verschlüsselung & Rechtemanagement
+Erst nach erfolgreicher Abnahme wird das unverschlüsselte Master paketiert und gesichert.
+
+MXF-Verschlüsselung: Der easyDCP Publisher verschlüsselt die Video- und Audiodaten innerhalb des MXF-Containers (Material Exchange Format) mittels AES-128-Bit auf Frame-Ebene. Ohne kryptografischen Schlüssel existiert auf den SSDs der Kinosäle nur unbrauchbarer Datensalat.
+
+KDM-Generierung: Das System erzeugt ein hardware- und zeitgebundenes XML-Zertifikat, die KDM (Key Delivery Message). Diese enthält den AES-Schlüssel, ist exakt auf den digitalen Fingerabdruck (Hardware-ID) des spezifischen Saal-Projektors zugelassen und besitzt ein strikt definiertes Zeitfenster (z. B. passend zum CMS-Spielplan).
+
+=== 10.10.4 Speicher- & Löschzyklus im Kinosaal (Instant-Wipe)
+Der automatisierte Server-Ablauf im Kinosaal nutzt die hocheffiziente Dateigröße und die restriktiven DRM-Parameter für maximale Datensicherheit:
+
+Inbound-Transfer: Das verschlüsselte 60-GB-IMF/DCP-Paket wird Just-in-Time über das Netzwerk auf die lokale SSD des Kinosaals gespiegelt.
+
+Validierung & Playback: Der Projektor verifiziert die Hardware-ID der KDM. Innerhalb des freigegebenen Zeitfensters erfolgt das hardwareseitige Decompressing und Entschlüsseln direkt bei der Projektion. Dank JPEG XS geschieht dies ohne Prozessor-Latenz und rechenintensive Pufferung.
+
+Trigger & Secure Wipe: Erreicht das Playback den SMPTE-Marker <Label>FilmEnd</Label>, erlischt die Gültigkeit der KDM sofort. Der lokale Saal-Server triggert augenblicklich einen automatisierten Secure Wipe-Befehl, löscht das MXF-Paket und überschreibt die Speicherblöcke der SSD mit dem nächsten verschlüsselten Container des Spielplans.
+
+== 2. Beschaffungsweg: Fahnen und Standarten
+
+=== Logistische Oberhoheit und Bedarfsanforderung
+Die Beschaffung, Registrierung und Instandhaltung sämtlicher textiler Identitätsmedien fällt exklusiv in den Aufgabenbereich der Abteilung Logistik & Beschaffungswesen (LBW) in Absprache mit dem Protokolldienst der Generaldirektion. 
+Jede Anforderung für den Austausch oder die Neuplatzierung von Fahnen und Standarten muss digital über das unternehmenseigene Enterprise Resource Planning and Dispatch System (ERPDS) eingeleitet und vom zuständigen Referatsleiter freigegeben werden.
+
+=== Strukturierte Lieferkette (Supply Chain)
+Zur Wahrung unserer Qualitäts- und Compliance-Standards folgt der Beschaffungsweg einer streng definierten Kette:
+
+1. *Zertifizierte Herstellererauswahl:* Das LBW arbeitet ausschließlich mit staatlich geprüften Webereien und Fahnenherstellern innerhalb Österreichs zusammen, die eine exakte Einhaltung der CI-Farbwerte (#070052) garantieren.
+2. *Wareneingang und Qualitätskontrolle:* Nach der Anlieferung erfolgt im zentralen *Referat Zeugamt* eine physische und administrative Überprüfung auf Farbkonformität, Reißfestigkeit und UV-Beständigkeit.
+3. *ERPDS-Inventarisierung:* Jedes textile Element wird mit einem eindeutigen RFID- beziehungsweise Barcode-Tag versehen und digital im System erfasst, um den Lebenszyklus lückenlos zu überwachen.
+
+=== Sachgemäße Aufbewahrung
+Nicht im Einsatz befindliche Flaggen, Repräsentationsbänder und Fahrzeugstandarten werden im klimatisierten Depot des Zentralen Zeugamts gelagert. 
+Die Lagerung erfolgt in spezialisierten, staubgeschützten und UV-absorbierenden Aufbewahrungsbehältnissen, um ein Verblassen der Textilfarben oder Stockfleckenbildung durch Luftfeuchtigkeit präventiv auszuschließen.
+
+=== Pflege, Lifecycle und Austauschintervalle
+Das Gewebe unterliegt durch permanente Witterungseinflüsse einem natürlichen Verschleiß. Es gelten folgende verbindliche Pflegerichtlinien:
+
+* *Reinigungszyklus:* Fahnen im permanenten Außeneinsatz sind quartalsweise durch das hauseigene Facility-Management materialschonend zu reinigen.
+* *Sicherheitsprüfung:* Bei Unwetterwarnungen beurteilt das LSZ (Lage- und Sicherheitszentrum) automatisch die Belastung; ab Windgeschwindigkeiten von 60 km/h sind die Flaggen einzuholen.
+* *Aussonderung:* Sichtbar beschädigte, ausgefranste oder verblasste Flaggen stellen einen Mangel im repräsentativen Goldstandard der SPMG dar. Sie werden umgehend über das ERPDS als "ausgesondert" markiert, eingezogen und durch das Zeugamt fachgerecht thermisch verwertet.

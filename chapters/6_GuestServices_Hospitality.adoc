@@ -36,3 +36,37 @@ Um eine maximale Kompatibilität bei minimaler Hemmschwelle zu gewährleisten, n
 [TIP]
 .Innovations-Statement
 Durch den Verzicht auf analoge Passwort-Zettel demonstrieren wir im Bereich der Gästebewirtung, dass wir digitale Transformation bis ins Detail leben. Technik wird hier zum unsichtbaren, aber effizienten Dienstleister.
+
+== 3. Beflaggung: Protokollarisch und Repräsentativ
+
+=== Protokollarische Grundlagen bei Staatsbesuchen und Events
+Sobald offizielle Repräsentationsanlässe auf den Geländen der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) stattfinden – insbesondere bei Veranstaltungen mit Beteiligung von Mitgliedern der österreichischen Bundesregierung oder internationalen Delegationen –, greifen die erweiterten protokollarischen Bestimmungen. 
+Die organisatorische Vorbereitung erfolgt in direkter Abstimmung zwischen der Generaldirektion (CCO) und dem hauseigenen Sicherheitsdienst (Sec-Ops).
+
+=== Exklusive Führung der Bundesdienstfahne (BDF) im Inland
+Für den Umgang mit der österreichischen Bundesdienstfahne (Fahne mit dem Bundesadler) gilt im Inland eine strikte rechtliche und exekutive Trennung. Da die SPMG als privates Unternehmen nicht befugt ist, diese Hoheitszeichen selbstständig zu führen, wird das Protokoll je nach Ressort wie folgt geregelt:
+
+* *Anlässe mit dem Bundesministerium für Inneres (BMI):* Bei der Anwesenheit des Innenministers oder einer zugehörigen Delegation wird die mitgeführte Bundesdienstfahne ausschließlich durch Beamte der Bundespolizei transportiert, am zugewiesenen Sondermast gehisst und wieder eingeholt.
+* *Anlässe mit dem Bundesministerium für Landesverteidigung (BMLV):* Bei militärischen Repräsentationsanlässen oder dem Besuch der Verteidigungsministerin verbleibt das Recht und die physische Handhabung der Bundesdienstfahne exklusiv bei den Soldaten des Österreichischen Bundesheeres (z. B. der Garde).
+* *Rolle der SPMG Sec-Ops:* Die Sicherheitskräfte der Mediengruppe übernehmen im Rahmen des Objektschutzes die Absicherung des Flaggenareals, greifen jedoch aus Compliance-Gründen zu keinem Zeitpunkt in den hoheitlichen Flaggenakt der Polizisten oder Soldaten ein.
+
+=== Repräsentationsanlässe im Ausland (Deutschland und Brüssel)
+Bei offiziellen Events, Studioeröffnungen oder medienpolitischen Terminen an permanenten Auslandsstandorten der Holding (wie in Deutschland oder bei den EU-Institutionen in Brüssel) gilt prinzipiell derselbe strenge, hoheitliche Grundablauf:
+
+* *Führung der österreichischen BDF:* Die Bundesdienstfahne der Republik Österreich wird auch im Ausland nur dann aufgezogen, wenn eine offizielle österreichische Regierungsdelegation anwesend ist und deren mitgereistes Protokoll- oder Sicherheitsperonal die Flagge eigenständig handhabt.
+* *Führung von Dienstfahnen des Gastgeberlandes:* Wird im Rahmen des Protokolls die Bundesdienstflagge des Gastgeberlandes (z. B. die Bundesdienstflagge Deutschlands mit dem Bundesschild) oder eine offizielle Dienstflagge der EU-Institutionen in Brüssel bereitgestellt, darf diese *nicht* durch SPMG-Personal berührt oder gehisst werden. Das Aufziehen und Einholen obliegt exklusiv den jeweils hoheitlich befugten Organen des Gastlandes (z. B. deutsche Bundespolizei, Bundeswehr oder dem offiziellen Protokolldienst der EU).
+* *Internationale Platzierung:* Die physische Anordnung der Flaggenmasten vor Ort entspricht der standardisierten Rangordnung, um diplomatischen Missverständnissen vorzubeugen.Sollte es sich nicht um eine Liegenschaft der *SPMG* handeln, wird auf die Infrastruktur des Gastgebers (Land oder Organisation) zurückgegriffen. 
+
+=== Repräsentative Flaggenordnung (Platzierung)
+Die optische Hierarchie der Flaggen folgt bei Veranstaltungen im In- und Ausland einer festen Struktur (vom Hauptzugang bzw. der Bühne aus betrachtet von links nach rechts):
+
+1. *Ehrenplatz (Ganz links bzw. rechts vom Rednerpult):* Die Österreichische Bundesflagge (bzw. bei offizieller Regierungspräsenz die durch staatliche Organe geführte Bundesdienstfahne).
+2. *Gastland/Internationale Ebene:* Bei Anlässen im Ausland (z. B. Deutschland) die Nationalflagge bzw. die hoheitlich geführte Dienstflagge des Gastlandes; in Brüssel die Flagge der Europäischen Union.
+3. *Unternehmensebene:* Die SPMG-Unternehmensfahne (Corporate Flag) schließt die Reihe auf der hierarchisch nachgelagerten Position ab.
+
+=== Halbmastbeflaggung (Trauerbeflaggung)
+Im Falle von staatlich angeordneten Trauerperioden oder beim Ableben von hochrangigen Persönlichkeiten des Unternehmens wird eine Halbmastbeflaggung durchgeführt:
+
+* *Ablauf:* Die Flaggen werden zunächst vollständig bis zur Mastspitze geheißt und im Anschluss langsam auf ein Drittel der Masthöhe (Halbmast) abgesenkt.
+* *Ausnahme:* Reine Werbe-, Produkt- oder Projektfahnen sind für die Dauer der Trauerbeflaggung vollständig zu entfernen, um den würdevollen und pietätvollen Charakter der protokollarischen Maßnahme restlos zu wahren. 
+* *Weitere Ausnahme*: Sollte ein Hochrangiges oder Geehrtes Mitglied der *SPMG* versterben werden nur die Unternehmensfahnen auf Halbmast gesenkt, die Nationalfahne bleibt immer Hochgehisst. (Aufgrund der Fehlenden Staatszugehörigkeit und als Zeichen das der Staat immer Aufrecht bleibt)

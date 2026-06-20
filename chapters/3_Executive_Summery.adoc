@@ -1,4 +1,4 @@
-:current-chapter: Executive Summary
+
 = 3. Executive Summary
 
 [plantuml, org-chart-full, svg]

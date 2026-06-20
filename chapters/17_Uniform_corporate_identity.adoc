@@ -186,3 +186,26 @@ Die visuelle Identität ist unmittelbar mit der digitalen Infrastruktur verknüp
 ====
 Die Verwendung der definierten Farben und Distinktionen ist verbindlich. Jede Abweichung gefährdet die Markenintegrität und den rechtlichen Schutz der SPMG als spezialisierter Mediendienstleister mit Sicherheitsdienst.
 ====
+
+== 17.3 Beflaggung und Standarte im Unternehmen
+
+=== Grundsatz und Corporate Identity
+Die optische Präsenz an den physischen Standorten der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) dient als Ausdruck unserer operativen Souveränität, Integrität und Corporate Identity (CI). 
+Die dauerhafte Beflaggung der Unternehmensareale ist ein zentrales Element des visuellen Brandings und signalisiert geordnete Struktur sowie Professionalität gegenüber Partnern und Investoren.
+
+=== Systematik der Flaggenführung
+Die reguläre Beflaggung an fest installierten Flaggenmasten auf dem Werksgelände folgt einer standardisierten Hierarchie von links nach rechts (vom Hauptzugang bzw. dem Gebäude aus betrachtet):
+
+* *Die Österreichische Nationalfahne (Bundesflagge):* Ausgeführt als reines rot-weiß-rotes Bindenschild ohne das Bundeswappen (Bundesadler). Die Verwendung dieser Flagge steht privaten Institutionen sowie Unternehmen frei und demonstriert die tiefe Verwurzelung der Mediengruppe im Medienstandort Österreich.
+* *Die Unternehmensfahne (SPMG Corporate Flag):* Gestaltet im offiziellen Color Management System der Holding. Sie zeigt das geschützte SPMG-Logo zentriert auf dem tiefblauen Hintergrund (Hex-Code #070052).
+
+=== Verwendung von Fahrzeugstandarten
+Für die Fahrzeuge der Generaldirektion und der Unternehmensleitung kommt bei offiziellen Anlassen eine beidseitig geführte Standarte zum Einsatz:
+
+* *Positionierung:* Die Befestigung erfolgt über fest montierte Standartenhalterungen fest in den vorderen Kotflügeln der Direktions- und Repäsentationsfahrzeugen.
+* *Gestaltung:* Quadratische Form, ausgeführt in schwerem, wetterfestem Textilgewebe. Die Standarte zeigt das goldgeprägte SPMG-Emblem auf dunkelblauem Grund mit einer umlaufenden, dezenten Goldkordel, um den repräsentativen Status der Geschäftsführung im täglichen Dienstalltag und bei Außenstehenden zu unterstreichen.
+
+=== Technische Vorgaben und Betrieb
+Alle Masten sind mit innenliegenden, diebstahlgesicherten Seilführungen auszustatten. 
+Die Flaggen werden im 24/7-Rhythmus geführt. 
+Bei Dunkelheit oder widrigen Sichtverhältnissen sorgt eine automatisierte, bodenseitige LED-Anstrahlung für die lückenlose Sichtbarkeit der Symbole, ohne den umliegenden Werksverkehr oder Studioaufnahmen durch Reflexionen zu beeinträchtigen.

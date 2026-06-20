@@ -1,13 +1,30 @@
 extends: default
+page:
+  margin: [120, 50, 50, 50] 
+
+header:
+  height: 120
+  recto:
+    center:
+      content:  
+        image:images/Header.png[pdfwidth=500]
+  verso:
+    center:
+      content:  
+        image:images/Header.png[pdfwidth=500]
 footer:
   font_size: 9
   recto:
-    content:
-      left: "{page} von {total-pages}"
-      center: "$current-chapter"
-      right: "{page} von {total-pages}"
+      left:
+        content: "SPMG"
+      center:
+        content: "{chapter-title}"
+      right: 
+        content: "{page-number} von {page-count}"
   verso:
-    content:
-      left: "{page} von {total-pages}"
-      center: "$current-chapter"
-      right: "{page} von {total-pages}"
+      left: 
+        content: "{page-number} von {page-count}"
+      center: 
+        content: "{chapter-title}"
+      right:
+        content: "SPMG"

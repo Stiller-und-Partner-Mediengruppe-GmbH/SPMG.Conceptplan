@@ -1,4 +1,3 @@
-:current-chapter: Abteilung Sicherheitsdienst
 = 7 Abteilung Sicherheitsdienst
 In diesem Kapitel werden die operativen Abläufe und Sicherheitsmaßnahmen des Unternehmens beschrieben. Es umfasst die täglichen Geschäftsprozesse, die IT-Infrastruktur, sowie die Strategien zur Gewährleistung der Datensicherheit und des Schutzes vor Cyberbedrohungen.
 
