@@ -1,0 +1,44 @@
+= 18 Liegenschafts- und Gebäudeverwaltung (LGW)
+
+== 18.1 Struktur und Organisation
+[plantuml, org-chart-FM, svg]
+----
+@startuml
+skinparam packageStyle rectangle
+allowmixing
+skinparam shadowing false
+
+
+
+title Organigramm - Abteilungsstruktur - Liegenschaft- und Gebäudeverwaltung
+
+package "Liegenschafts- und Gebäudeverwaltung" as LGW{
+    rectangle "CIO" as CIO
+
+
+    object "Referat Abfallwirtschaft" as RAW{
+        Referatsleiter: TBD
+    }
+    object "Referat Haustechnik " as RHT{
+        Referatsleiter: TBD
+    }
+    object "Referat Bauliche Instandhaltung" as RBI{
+        Referatsleiter: TBD
+    }
+    object "Referat Bautechnische Entwicklung" as RBE{
+        Referatsleiter: TBD
+    }
+
+    object "Referat Katastrophenschutz und Präventive Maßnahmen" as RKPM{
+        Referatsleiter: TBD
+    }
+
+    CIO <-down- RHT
+    CIO <-down- RBI
+    CIO <-down- RBE
+    CIO <-down- RKPM
+    CIO <-down- RAW
+
+}
+@enduml
+----

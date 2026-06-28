@@ -86,5 +86,7 @@ include::chapters/16_Paysystem.adoc[]
 
 include::chapters/17_Uniform_corporate_identity.adoc[]
 
+include::chapters/18_Infrastructure.adoc[]
+
 include::chapters/Company_agreement.adoc[]
 

@@ -123,8 +123,13 @@ package "Abteilung Brandschutz und Betriebsfeuerwehr" as FO {
     CFM <-down- RZB
 }
 
-package "Abteilung: Infrastruktur" as AIS{
+package "Abteilung: Liegenschaft- und Gebäudeverwaltung" as AIS{
     rectangle "CIO" as CIO
+
+    object "Referat Abfallwirtschaft" as RAW{
+        Referatsleiter: TBD
+    }
+
 object "Referat Haustechnik" as RHT{
      Referatsleiter: TBD
     }
@@ -141,6 +146,7 @@ object "Referat Haustechnik" as RHT{
     CIO <-down- RBI
     CIO <-down- RBE
     CIO <-down- RKPM
+    CIO <-down- RAW
 }
 package "Abteilung: Fuhrpark und Flottenmanagement" as AFFM {
     rectangle "CVO" as CVO
