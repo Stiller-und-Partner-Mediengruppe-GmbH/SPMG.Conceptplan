@@ -65,3 +65,62 @@ Die Entscheidungen dürfen jedoch nie einen Nachteil für die Kunden der SPMG od
 === Chief Security Officer 
 
 === Chief Medical Officer 
+
+== 4 Grundlegende Richtlinien
+
+=== § 1 Gründung der Stiller und Partner Mediengruppe GmbH/Holding
+
+==== Abs. 1 Geschäftsform 
+Die Stiller und Partner Mediengruppe wird als Gesellschaft mit bedingter Haftung nach §1 GmbHG.
+
+==== Abs. 2 Unternehmensinhalt und Gewinnerwirtschaftung
+Unternehmensinhalt und Primäres Mittel der Gewinnerwirtschaftung ist hierbei die Erstellung und Vermarktung von Multimedialen Inhalten in den Bereichen Film, Animation, Videospiele sowie der Verkauf von Vermarktungsartikeln (unter dem Begriff "Merchandise" oder "Merch"). 
+
+Als sekundäres Gewinnerwirtschaftungsmittel wird die zur Verfügungstellung von Rettungsmitteln im Sinne der Landes Rettungsdienstgesetze.  
+
+==== Abs. 3 Generalversammlung
+Entsprechend dem §34 GmbHG wird die Generalversammlung bestehend aus den Mitgliedern des Aufsichtsrates und den Vertretern der Betriebsräte
+
+=== § 2 Vorraussetzungen für den Anteilserwerb
+
+==== Abs. 1  Grundlegende Gesetzliche Vorraussetzungen 
+
+Für den Erwerb von Anteilen an der SPMG sind als Primärer Voraussetzungen die Rechtlichen Vorraussetzungen im Sinne des §§ 861 ff. ABGB. Diese lauten: 
+
+1. Übereinstimmende Willenserklärung (§ 861 ABGB)
+
+2. Wahre Einwilligung (§ 869 ABGB) 
+
+3. Geschäftsfähigkeit der Parteien (§ 865 ABGB)
+
+4. Möglichkeit (§ 878 ABGB)
+
+5. Erlaubtheit/Sittenwidrigkeit (§ 879 ABGB)
+
+[NOTE]
+Besonders Wichtig sind in diesem Fall die ersten drei (§ 861, §865 und § 869 ABGB) 
+
+==== Abs. 2 Zustimmung der Generalversammlung
+
+Für den Erwerb von Anteilen ist neben der Vorraussetzungen gemäß Abs. 1 auch eine *eindeutig Mehrheitliche Zustimmung* der *Generalversammlung der SPMG* bei einer Ordentlichen Sitzung Gemäß §1 Abs. 3 dieses Vertrages. 
+
+==== Abs. 3 Verpflichtende Sicherheitsüberprüfung
+Voraussetzung für die Erteilung der Zustimmung nach Abs. 2 ist die Durchführung und der erfolgreiche, mangelfreie Abschluss einer erweiterten Sicherheitsüberprüfung (SÜ) des potenziellen Erwerbers durch die interne Sicherheits- und Ermittlungsabteilung der Gesellschaft.
+
+Die Sicherheitsüberprüfung erstreckt sich insbesondere auf die Verifikation der Identität, die finanzielle Seriosität (Ausschluss von Geldwäsche und Strohmann-Konstrukten), das strafrechtliche Führungszeugnis sowie das Nichtvorliegen von Sicherheitsrisiken (z. B. Konkurrenzinteressen, Wirtschaftsspionage).
+
+Wird das Ergebnis der Sicherheitsüberprüfung durch die Sicherheitsabteilung negativ beschieden, ist die Zustimmung zum Anteilskauf zwingend zu verweigern. Ein entgegen dieser Bestimmung geschlossener Abtretungsvertrag (Notariatsakt) ist der Gesellschaft gegenüber absolut unwirksam.
+
+
+=== § 3 Vinkulierung der Anteile
+
+Die Übertragung von Geschäftsanteilen sowie die Einräumung von Unterbeteiligungen oder Treuhandschaften an Dritte (sowohl unter Lebenden als auch von Todes wegen) bedarf zu ihrer Rechtswirksamkeit der vorherigen schriftlichen Zustimmung der Gesellschaft (Vinkulierung i.S.d. § 76 Abs. 2 GmbHG).
+
+
+=== § 4 Ausschluss von Privilegien für Angehörige (Anti-Nepotismus)
+==== Abs. 1 
+Der Erwerb oder das Halten von Geschäftsanteilen an der Gesellschaft gewährt dem Gesellschafter kein Recht, die Anstellung, Beauftragung oder Beschäftigung von Familienangehörigen, Verwandten oder Verschwägerten (i.S.d. § 72 StGB) in der Gesellschaft oder deren Tochtergesellschaften zu verlangen.
+
+==== Abs. 2 
+Jede personelle Besetzung, insbesondere in den sensitiven Bereichen Sicherheit, IT-Infrastruktur und Logistik, erfolgt ausschließlich nach dem Prinzip der fachlichen Qualifikation und Eignung sowie nach erfolgreichem Durchlaufen des internen Standard-Bewerbungsverfahrens (inklusive der dafür vorgesehenen Sicherheitsüberprüfungen).
+Verwandte und Angehörige von Gesellschaftern unterliegen im Bewerbungs- und Auswahlverfahren denselben Kriterien und Kontrollmechanismen wie externe Bewerber. Ein "Freifahrtschein" oder eine bevorzugte Behandlung aufgrund der Gesellschafterstellung eines Angehörigen ist explizit ausgeschlossen. Die finale Personalentscheidung verbleibt uneingeschränkt bei der Geschäftsführung.
