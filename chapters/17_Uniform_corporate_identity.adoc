@@ -209,3 +209,34 @@ Für die Fahrzeuge der Generaldirektion und der Unternehmensleitung kommt bei of
 Alle Masten sind mit innenliegenden, diebstahlgesicherten Seilführungen auszustatten. 
 Die Flaggen werden im 24/7-Rhythmus geführt. 
 Bei Dunkelheit oder widrigen Sichtverhältnissen sorgt eine automatisierte, bodenseitige LED-Anstrahlung für die lückenlose Sichtbarkeit der Symbole, ohne den umliegenden Werksverkehr oder Studioaufnahmen durch Reflexionen zu beeinträchtigen.
+
+
+== 17.4 Corporate Identity: Rettungsdienst
+
+Die visuelle und begriffliche Präsenz der operativen Einheiten im Straßenraum sowie gegenüber Patienten, Behörden und Partnerorganisationen ist ein zentraler Baustein der Qualitäts- und Sicherheitspolitik der Unternehmensgruppe. Die Markenführung vereint höchste rechtliche Konformität im nationalen Rahmen mit internationaler Wiedererkennbarkeit.
+
+=== 17.4.1 Marken- und Firmenbezeichnung
+
+Im Firmenbuch ist die operative Einheit als *SPMG - Notfallrettung GmbH* eingetragen. Im täglichen Einsatzdienst, auf Einsatzkleidung, Einsatzfahrzeugen und im visuellen Branding wird die griffige Bezeichnung **„SPMG - NOTFALLRETTUNG“** geführt. 
+
+* *Rechtliche Abgrenzung:* Die bewusste Vermeidung geschützter öffentlich-rechtlicher Begriffe (wie „Berufsrettung“) garantiert absolute Konformität mit dem Unternehmensgesetzbuch (§ 18 UGB), dem Gesetz gegen den unlauteren Wettbewerb (§ 2 UWG) sowie den Bestimmungen des Wiener Rettungs- und Krankentransportgesetzes (WRKG).
+* *Fachliche Signalwirkung:* Der Begriff „Notfallrettung“ definiert das Leistungsspektrum präzise und barrierefrei. Er signalisiert die Abdeckung des gesamten präklinischen Einsatzspektrums (von Standard-Notfalleinsätzen bis hin zu kritischen Sekundärtransporten) durch ausschließlich hauptamtliches, hochqualifiziertes Fachpersonal.
+
+=== 17.4.2 Fahrzeugdesign und Normenkonformität (ÖNORM EN 1789)
+
+Das Außendesign der Einsatzfahrzeuge (RTW/NKTW) folgt streng den Vorgaben der **ÖNORM EN 1789** zur optischen Kennzeichnung von Krankenkraftwagen sowie den Sicherheitsstandards für den Wiener Straßenverkehr:
+
+. *Fahrzeugfront (Motorhaube):*
+  ** Anbringung des internationalen Begriffs **`ECNALUBMA`** in spiegelverkehrter Fettschrift unter Verwendung hochreflektierender Warnfolien. Dies gewährleistet die unmittelbare Wahrnehmung im Rückspiegel vorausfahrender Verkehrsteilnehmer.
+. *Fahrzeugflanken und Heck:*
+  ** Dominante Anbringung der Marke **SPMG - NOTFALLRETTUNG** in Kombination mit dem normgerechten Begriff **AMBULANCE**.
+  ** Das englische Element „AMBULANCE“ dient hierbei primär als internationaler Sicherheitsanker für fremdsprachige Personen, Touristen und Angehörige internationaler Organisationen im Wiener Stadtgebiet, während der deutsche Begriff die nationale Verankerung sicherstellt.
+. *Dachorganisation und Türmarkierung:*
+  ** Auf den Fahrer- und Beifahrertüren wird im Sinne des Corporate Designs der Absender der Dachorganisation geführt (*Stiller und Partner Mediengruppe GmbH*). Dies unterstreicht die Einbettung in eine strukturierte, leistungsfähige Unternehmensgruppe.
+
+=== 17.4.3 Fuhrpark-Systematik und Registrierung
+
+Zur Abrundung des behördenähnlichen, hochstrukturierten Gesamtauftritts werden sämtliche Einsatzfahrzeuge im Wiener Zulassungsbezirk einheitlich registriert:
+
+* *Behördliche Kennung:* Alle Fahrzeuge werden mit der im Rettungswesen etablierten Wiener Kennzeichen-Endung **„RD“** (z. B. `W-XXXX RD`) zugelassen.
+* *Wirkung:* Dies signalisiert Einsatzkräften, Exekutive und Klinikpersonal an den Notfallaufnahmen auf den ersten Blick die Zugehörigkeit zum qualifizierten Wiener Rettungsnetz.

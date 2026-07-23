@@ -8,11 +8,11 @@ In diesem Abschnitt werden die Compliance-Richtlinien, Personalmanagement-Strate
 Hierbei werden die Richtlinien und Verfahren beschrieben, die die SPMG implementiert, um sicherzustellen, dass alle Geschäftsaktivitäten im Einklang mit den geltenden Gesetzen, Vorschriften und ethischen Standards stehen. Dies umfasst unter anderem die Einhaltung von Datenschutzbestimmungen, Anti-Korruptionsgesetzen und Arbeitsrecht.
 
 [[sec:automatische_zeiterfassung]]
-== 4.2 Automatische Zeiterfassung
+=== 4.1.1 Automatische Zeiterfassung
 
 Die Erfassung von einsatz- und logistikrelevanten Zeiten innerhalb des ERPDS-Ökosystems erfolgt vollständig automatisiert und hardwaregestützt. Um eine maximale Systemstabilität sowie Datensparsamkeit zu gewährleisten, wird bewusst auf fehleranfällige und externe Positionsüberwachungen (wie Geofencing-Technologien) verzichtet. Stattdessen basiert die Zeiterfassung auf direkten Hardware-Triggern der eingesetzten Primärgeräte (Panasonic Toughbook) und den fahrzeugeigenen Telemetriesystemen.
 
-=== 4.2.1 Trigger-Logik nach Fahrzeugkategorie
+==== Trigger-Logik nach Fahrzeugkategorie
 
 [cols="2,3,3", options="header"]
 |===
@@ -35,19 +35,314 @@ Die Erfassung von einsatz- und logistikrelevanten Zeiten innerhalb des ERPDS-Ök
 | Unverzügliche Erfassung des genauen Entlade-Zeitpunkts inklusive des via Avionik übermittelten Lastgewichts zur automatischen Erstellung des Ladungsmanifests.
 |===
 
-=== 4.2.2 Audio-gestützte Protokollierung
+==== Audio-gestützte Protokollierung
 
 Zur Entlastung des Personals in kritischen Arbeitsphasen (z. B. Loadmaster bei der Außenlastüberwachung am Schwenkarm oder Truppführer im Cockpit) verfügt das System über eine integrierte Funkauswertung:
 
 * *Ereignisbasierte Aufzeichnung:* Sobald die _Push-to-Talk_ (PTT)-Taste des Intercoms oder Fahrzeugfunks betätigt wird, zeichnet das Toughbook über den galvanisch getrennten Audio-Eingang des Docks den Funkverkehr auf.
 * *Berichts-Integrität:* Die komprimierte Audio-Datei wird als verifiziertes Beweismittel mit dem exakten Zeitstempel im zentralen Gesamtbericht abgelegt.
 
-=== 4.2.3 Redundanz und Datensicherheit ("Hot-Swap")
+==== Redundanz und Datensicherheit ("Hot-Swap")
 
 Da die Datenerfassung zentral über die ERPDS-Webapplikation verarbeitet wird, verbleiben die Backup-Geräte der restlichen Besatzung inaktiv in den Transportrucksäcken (kalte Redundanz). Bei einem Hardwareschaden oder Ausfall des führenden Bedieners kann jedes verlastete Toughbook durch eine einfache Session-Übernahme im Backend den exakten Zeitstempel- und Dokumentationsfluss nahtlos fortsetzen.
+
+=== 4.1.3 Gründungsablauf im Detail
+
+Die Gründung der *Stiller und Partner Mediengruppe GmbH* erfolgt im Einklang mit den aktuellen österreichischen gesellschaftsrechtlichen Rahmenbedingungen (insb. GmbHG und GesRÄG). Um den administrativen Aufwand zu optimieren sowie spätere, kostenintensive Umgründungsschritte rechtssicher zu vermeiden, wird die Gesellschaft direkt als Kapitalgesellschaft errichtet.
+
+Der Errichtungs- und Entstehungsprozess gliedert sich in folgende regulatorische und finanzielle Phasen:
+
+. *Errichtung der Gesellschaft (Gesellschaftsvertrag)*
+* Die Errichtung erfolgt durch den Abschluss des Gesellschaftsvertrags (bzw. Errichtungserklärung bei einer Ein-Personen-Gründung) (Siehe Abschnitt Gesellschaftsvertrag unten).
+* Der Prozess wird wahlweise im vereinfachten elektronischen Verfahren über das Unternehmensserviceportal (eGründung via USP) oder unter Beiziehung eines Notars vollzogen.
+* *Finanzieller Rahmen:* Das Stammkapital der Gesellschaft wird auf den gesetzlichen Mindestbetrag von **10.000,00 EUR** festgesetzt.
+
+. *Kontoeröffnung und Kapitalaufbringung ("in Gründung")*
+* Auf Basis des Errichtungsaktes wird bei einem Kreditinstitut ein Geschäftskonto unter dem temporären Zusatz *Stiller und Partner Mediengruppe GmbH i.G.* (in Gründung) eröffnet. Der Zusatz dient der Absicherung im Geschäftsverkehr sowie der Einhaltung der bankrechtlichen Compliance-Vorgaben vor der Erlangung der eigenen Rechtspersönlichkeit.
+* *Barleistung:* Gemäß § 10 GmbHG wird die gesetzlich geforderte Mindest-Bareinzahlung von **5.000,00 EUR** (50 % des Stammkapitals) per Überweisung auf das neue Firmenkonto geleistet.
+
+. *Ausstellung der Bankbestätigung (§ 10 GmbHG)*
+* Nach vollständiger Wertstellung der 5.000,00 EUR stellt das Kreditinstitut die formelle **Bankbestätigung gemäß § 10 GmbHG** aus.
+* Diese bestätigt dem Firmenbuchgericht rechtsverbindlich, dass die Mindesteinlage eingezahlt wurde und der Geschäftsführung zur freien Verfügung steht.
+
+. *Firmenbuchanmeldung und Eintragung*
+* Die Anmeldung zur Eintragung in das Firmenbuch erfolgt elektronisch beim zuständigen Firmenbuchgericht (Handelsgericht Wien).
+* Dem Antrag werden der Gesellschaftsvertrag, die Musterzeichnung der Geschäftsführung sowie die Bankbestätigung beigelegt.
+* Mit der rechtskräftigen Eintragung im Firmenbuch erlangt die *Stiller und Partner Mediengruppe GmbH* ihre eigenständige Rechtspersönlichkeit.
+
+. *Abschluss der Gründungsphase (Konto- und Stammdatenumstellung)*
+* Nach Erhalt des Firmenbuchauszugs wird dieser der Bank vorgelegt.
+* Das Kreditinstitut entfernt den temporären Zusatz "in Gründung" und führt das Konto auf den offiziellen Namen *Stiller und Partner Mediengruppe GmbH*.
+* Ab diesem Zeitpunkt greift die vollständige Haftungsbeschränkung auf das Gesellschaftsvermögen.
+
+[NOTE]
+====
+**Gewerbe- und Steuererfassung:** Im unmittelbaren Anschluss an die Firmenbucheintragung erfolgen die Gewerbeanmeldung im Gewerbeinformationssystem Austria (GISA) sowie die steuerliche Erfassung beim Finanzamt Österreich zur Erlangung der Steuernummer und der USt-IdNr. (UID).
+====
+
+=== 4.1.3 Betriebsräte und Spartenkommissionen
+
+Die Einbindung der betrieblichen Arbeitnehmervertretung folgt konsequent dem operativen Hub-and-Spoke-Modell der Stiller und Partner Mediengruppe (SPMG). Um sowohl die regionale Handlungsfähigkeit an den dezentralen Standorten als auch die strategische Steuerung der Gesamtgruppe zu gewährleisten, wird eine skalierungsbereite, mehrstufige Mitbestimmungsstruktur auf Basis des österreichischen Arbeitsverfassungsgesetzes (ArbVG) etabliert.
+
+[cols="1,2,2", options="header"]
+|===
+| Ebene | Organisatorische Verankerung | Gesetzliche & Operative Funktion
+
+| Lokale Betriebsräte
+| Regionale Hubs (SLZ Bundesländer) & Hauptareal Wien-Liesing
+| Vertretung der Belegschaft vor Ort, Wahrnehmung standortspezifischer Belange (z. B. lokale Dienstplangestaltung, Schichteinteilungen der Dienstgruppen).
+
+| Zentralbetriebsrat (ZBR)
+| Operative Holding / SPMG GmbH (Zentrale Wien-Liesing)
+| Verhandlungspartner für unternehmensweite Angelegenheiten (z. B. Rollout des ERPDS-Systems, zentrale Betriebsvereinbarungen, Core-Compliance). Zusammensetzung aus Delegierten der regionalen Betriebsräte.
+
+| Konzernbetriebsrat (KBR)
+| Holding-Ebene (bei Auslagerung)
+| Übergeordnete Koordination aller Spartengesellschaften; Bündelung der Arbeitnehmerinteressen auf Gruppenebene im Rahmen einer Holdingstruktur.
+|===
+
+=== Integration in das dezentrale Standortkonzept
+In der initialen Phase bilden das Hauptareal in Wien-Liesing sowie die strategischen Regionallogistik- und Sicherheits-Hubs (SLZ) organisatorisch abgetrennte Betriebe im Sinne des § 34 ArbVG. Durch die Einsetzung lokaler Betriebsräte an den Standorten erhalten die regionalen Dienststellen- und Dienstgruppenleiter ein direktes, handlungsfähiges Gegenüber für operative Abstimmungen. Die Koordination standortübergreifender Standards obliegt dem Zentralbetriebsrat (ZBR), was Synergien sichert und Schnittstellenverluste vermeidet.
+
+=== Begünstigung von Expansion und Konzernbildung (Holdingstruktur)
+Das gewählte Mitbestimmungsmodell ist so konzipiert, dass es das geplante Unternehmenswachstum und eine spätere rechtliche Verselbstständigung einzelner Unternehmenssparten (z. B. Security/SLZ, Logistik, Bau/Infrastruktur, Medienproduktion) aktiv unterstützt:
+
+Modulare Erweiterbarkeit bei Expansion: Bei der Eröffnung neuer regionaler Hubs oder Satellitenwachen in weiteren Bundesländern oder an Logistik-Knotenpunkten (z. B. Flughafeninfrastruktur) können neue Betriebsräte nahtlos in die bestehende ZBR-Struktur eingegliedert werden, ohne die zentrale Steuerung zu beeinträchtigen.
+
+Auslagerung auf eigene Tochtergesellschaften: Sollten einzelne Sparten im Zuge der Expansion in rechtlich eigenständige Gesellschaften (GmbHs) unter dem Dach einer zentralen Holding ausgegliedert werden, wandeln sich die bisherigen ZBR-Strukturen der Sparten harmonisch in Tochter-Zentralbetriebsratsgremien um.
+
+Etablierung des Konzernbetriebsrates (KBR): Gemäß § 88a ArbVG wird bei Entstehung einer Holdingstruktur ein Konzernbetriebsrat konstituiert. Dieser übernimmt die Vertretung der Arbeitnehmerinteressen gegenüber der Holding-Geschäftsführung. Dadurch bleibt die strategische Verhandlungsfähigkeit der Gruppenleitung auch bei hoher gesellschaftsrechtlicher Komplexität gewahrt.
+
+=== Spartenkommissionen als fachliche Bindeglieder
+Aufgrund der stark heterogenen Anforderungsprofile innerhalb der Mediengruppe – von Sicherheits- und Ermittlungsdiensten über Logistik- und Baugewerke bis hin zur hochspezialisierten Medienproduktion – werden unterhalb der Betriebsratsebenen fachspezifische Spartenkommissionen (Ausschüsse gemäß § 69 ArbVG) eingerichtet.
+
+Diese Gremien setzen sich aus Arbeitnehmervertretern der jeweiligen Fachbereiche zusammen und fungieren als Berater für den ZBR bzw. KBR. Sie stellen sicher, dass branchenspezifische Sicherheits-, Arbeitsschutz- und Tarifbestimmungen (z. B. im Bewachungs- oder Baugewerbe) in den übergreifenden Betriebsvereinbarungen präzise berücksichtigt werden.
+
+=== 4.1.3 LKW Lenk- und Ruhezeiten-Compliance
+
+Die Einhaltung der gesetzlichen Vorschriften hinsichtlich der Lenk- und Ruhezeiten stellt einen zentralen Baustein der betrieblichen Compliance und Risikominimierung der *Stiller und Partner Mediengruppe* dar. Für alle im Fuhrpark eingesetzten Nutzfahrzeuge mit einem höchstzulässigen Gesamtgewicht (hzG) von mehr als 7,5 Tonnen wird ein duales Kontroll- und Dokumentationssystem angewendet. Dieses vereint die strengen regulatorischen Vorgaben der Europäischen Union und des österreichischen Arbeitszeitgesetzes (AZG) mit einer proprietären digitalen Systemarchitektur.
+
+==== Regulatorischer Rahmen & Rechtliche Grundlagen
+
+Der Betrieb von Schwerfahrzeugen unterliegt in unserem Unternehmen einer zweifachen rechtlichen Bindung, die im Arbeitsalltag synchron einzuhalten ist:
+
+* *EU-Verordnung (EG) Nr. 561/2006:* Regelung der reinen Lenkzeiten (maximale Tageslenkzeit von 9 Stunden, zweimal pro Woche auf 10 Stunden erweiterbar) sowie der verpflichtenden Fahrtunterbrechungen (45 Minuten nach spätestens 4,5 Stunden) und täglichen Ruhezeiten.
+* *Österreichisches Arbeitszeitgesetz (AZG) & KFG:* Regelung der Gesamtarbeitszeit (Höchstarbeitszeit von max. 10 Stunden/Tag, im Schnitt max. 48 Stunden/Woche). Das AZG greift vollumfänglich für alle Tätigkeiten außerhalb des Lenkrads (Laden, Wartung, administrative Aufgaben).
+
+.Systemische Unterscheidung der Arbeitsformen
+[cols="1,2,2", options="header"]
+|===
+| Tätigkeitsart | Klassifizierung (Tacho-Symbol) | Anrechnung auf AZG / Lenkzeit
+
+| Reine Fahrzeugsteuerung
+| Lenkzeit (Lenkrad)
+| Zählt als Lenkzeit & Arbeitszeit
+
+| Be-/Entladung, Berichtswesen, Wartung
+| Andere Arbeiten (Gekreuzte Hämmer)
+| Zählt als Arbeitszeit (Keine Lenkzeit)
+
+| Bereithaltung, Beifahrzeiten
+| Bereitschaftszeit (Quadrat)
+| Sonstige Einsatzzeit laut AZG
+
+| Gesetzliche Pause / Schichtende
+| Ruhezeit / Pause (Bett)
+| Keine Arbeitszeit
+|===
+
+==== Technische Umsetzung & Proprietäres Zeiterfassungssystem
+
+Um Abweichungen, Fehleingaben und Bußgelder systematisch auszuschließen, setzt das Unternehmen auf ein zweistufiges Validierungsverfahren:
+
+1. *Fahrerkarte & Digitaler Tachograf (Hardware-Ebene):* Der digitale Fahrtenschreiber fungiert als primäres, rechtlich bindendes Kontrollorgan zur Aufzeichnung der physikalischen Fahrzeugzustände.
+2. *Proprietäre Betriebs-App (Software-Ebene):* Über die unternehmenseigene Anwendung erfassen die Fahrer den Gesamtarbeitstag inklusive aller administrativen Tätigkeiten (z. B. Erstellung von Tages- und Transportberichten).
+
+To verhindern, dass Inkonsistenzen zwischen den Daten des Fahrtenschreibers und der App entstehen, ist per betrieblicher Richtlinie ein verbindlicher End-of-Shift-Workflow vorgegeben:
+
+[sequence]
+. Workflow bei Schichtende:
+. *Fahrzeug sichern:* Der LKW wird abgestellt und der digitale Fahrtenschreiber manuell auf "Ruhezeit" umgestellt.
+. *App-Stempelung:* Unmittelbar im Anschluss stoppt der Fahrer die Schichterfassung in der Unternehmens-App ("Feierabend").
+. *Arbeitsstopp:* Nach Ausführung beider Schritte ist jegliche dienstliche Tätigkeit (inkl. Telefonate oder Frachtpapierablage) strengstens untersagt.
+
+[NOTE]
+====
+Durch diesen Prozess ist sichergestellt, dass die in der App erfasste Arbeitszeit technisch stets minimal über der des Tachografen liegt. Dies gewährleistet eine lückenlose und bei Betriebsprüfungen durch das Arbeitsinspektorat vollkommen plausible Dokumentation.
+====
+
+==== Pflichten des Unternehmens & Daten-Compliance
+
+Zur Wahrung der gesetzlichen Archivierungs- und Kontrollpflichten gemäß § 26 AZG werden folgende Maßnahmen automatisiert durchgeführt:
+
+* *Turnusgemäßes Auslesen:* Die Daten der Fahrerkarten werden spätestens alle 28 Tage, die Massenspeicher der Fahrzeuge spätestens alle 90 Tage vollständig ausgelesen.
+* *Zentrales Archiv:* Die ausgelesenen `.DDD`-Dateien sowie die App-Protokolle werden für mindestens 24 Monate fälschungssicher und DSGVO-konform auf zentralen Servern gesichert.
+* *Automatisierter Datenabgleich:* Das ERP-System vergleicht die Zeitstempel der Fahrerkarte mit den Stempelzeiten der App, um Abweichungen automatisiert an das Flottenmanagement zu melden.
+
+==== Sonderregelung für BOS- und Einsatzeinheiten
+
+Sofern Schwerfahrzeuge (z. B. ELW 2 oder Sonder-RTW) im Rahmen von Einsätzen oder Bereitstellungen für Behörden und Organisationen mit Sicherheitsaufgaben (BOS) betrieben werden und als Einsatzfahrzeuge gemäß § 20 KFG zugelassen sind, greift die Generalausnahme nach Art. 3 der VO (EG) 561/2006.
+
+In diesen Fällen wird der digitale Tachograf permanent im Modus *OUT OF SCOPE ("OUT")* betrieben. Die Steuerung und Absicherung der Arbeitszeiten erfolgt in diesem Betriebsmodus ausschließlich über die Schichtlogik der proprietären Betriebs-App auf Basis der AZG-Sonderbestimmungen für Rettungsorganisationen (12-Stunden-Dienste bzw. max. 14 Stunden bei Großschadenslagen).
+
+=== 4.1.4 Fürsorge und Meldewesen
+
+Die Wahrnehmung der arbeitgeberseitigen Fürsorgepflicht (§ 1157 ABGB) sowie das operative Meldewesen sind im vorliegenden Unternehmensmodell als geschlossenes, automatisiertes Compliance-System strukturiert. Durch die klare prozessuale Trennung von exekutiver Feststellung, arbeitsmedizinischer Evaluierung und disziplinärer Prüfung erfüllt das Modell die strengen gesetzlichen Rahmenbedingungen des österreichischen Arbeits- und Arbeitnehmerinnenschutzrechts (AschG) vollumfänglich und schließt Haftungsrisiken für die Unternehmensführung aus.
+
+==== 1. Wahrnehmung der Fürsorgepflicht und Nachschau (§ 1157 ABGB)
+
+Tritt ein unentschuldigtes Fernbleiben eines Arbeitnehmers (AN) vom Dienst ein – insbesondere in sicherheitskritischen und operativen Bereichen wie dem Dispatching oder Logistikbetrieb –, entsteht für das Unternehmen unmittelbar die Notwendigkeit abzuklären, ob eine Gefahrenlage für Leib und Leben des Mitarbeiters vorliegt.
+
+* *Mittel der Wahl:* Die Entsendung eines legitimierten Berufsdetektivs dient ausschließlich der unmittelbaren Gefahrenabwehr und der Überprüfung der Reise- bzw. Dienstfähigkeit vor Ort (reine Feststellungsfunktion).
+* *Schonendes Verfahren:* Durch das Angebot einer freiwilligen Begleitung oder Abholung wird dem Grundsatz der Verhältnismäßigkeit entsprochen. Die Maßnahmen greifen weder unzulässig in die Privatsphäre ein noch stellen sie eine Ausübung von Zwang dar.
+* *Rechtssicherheit:* Der Vor-Ort-Einsatz dokumentiert, dass der Arbeitgeber seiner nachprüfbaren Fürsorgepflicht nachgekommen ist, bevor vorschnelle arbeitsrechtliche Konsequenzen gezogen werden.
+
+==== 2. Automatisierte Einbindung der Arbeitsmedizin und Arbeitspsychologie (§§ 4, 5 AschG)
+
+Um betrieblich-psychologischen Fehlbelastungen, Burn-out-Symptomatiken oder unerkannte gesundheitliche Notfälle proaktiv aufzufangen, sieht das System bei jedem medizinischen Zwischenfall im Dienst eine automatische Zuweisung an die Präventivdienste vor.
+
+* *Obligatorische Nachuntersuchung:* Nach einem medizinischen Notfall oder einer akuten Belastungsreaktion erfolgt systemseitig eine automatische Sperre für operative Tätigkeiten im ERPDS bis zur Freigabe durch die Arbeitsmedizin (Überprüfung der Dienst- und Fahrtauglichkeit).
+* *Evaluierung psychischer Belastungen (EPB):* Der arbeitspsychologische Dienst prüft im Rahmen der gesetzlichen Verpflichtungen nach §§ 4 und 5 AschG, ob organisatorische, arbeitsumweltbedingte oder aufgabenbezogene Faktoren für den Vorfall mitverantwortlich waren.
+* *Betriebliches Eingliederungsmanagement:* Liegt eine krankheitsbedingte Fehlzeit vor, leitet das System den rechtssicheren Prozess zur Wiedereingliederungsteilzeit (WIET gem. § 13a AVRAG) in Abstimmung mit der ÖGK ein.
+
+==== 3. Rechtsstaatliches Disziplinarwesen und Revisionsausschuss
+
+Für Fälle, in denen der Arbeitnehmer die Kooperation oder das Angebot der Schadensminimierung verweigert, greift ein zweistufiges, behördlich angelehntes Eskalationsmodell.
+
+[cols="1,3", options="header"]
+|===
+| Instanz / Prozess | Gesetzliche und organisatorische Verankerung
+
+| *Einsatzbericht & Dokumentation*
+| Der Berufsdetektiv erstellt einen gerichtsverwertbaren Einsatzbericht über die Verweigerung. Dieser dient als sachliche Grundlage für das HR-System und führt zum vorläufigen Entgeltstopp für den Fehltag.
+
+| *Revisionsausschuss (Recht auf Gehör)*
+| In Anlehnung an das Allgemeine Verwaltungsverfahrensgesetz (AVG, § 45 Abs. 3) erhält der AN im Revisionsausschuss die Möglichkeit zur persönlichen Stellungnahme und Argumentation. Willkürliche Entscheidungen von Einzelpersonen werden dadurch ausgeschlossen.
+
+| *Psychologische Ex-post-Abklärung*
+| Vor Wirksamwerden einer Disziplinarmaßnahme prüft der Arbeitspsychologe die Dispositions- und Diskretionsfähigkeit des AN zum Zeitpunkt der Verweigerung, um eine krankheitsbedingte Blockade auszuschließen.
+
+| *Sanktionierung*
+| Stellt der Arbeitspsychologe fest, dass keine Erkrankung vorlag, wird das Disziplinarverfahren freigegeben (erstmalig: schriftliche Abmahnung; im Wiederholungsfall: fristlose Entlassung gem. § 26 Z 4 AngG / § 82 lit. f GewO wegen beharrlicher Pflichtvernachlässigung).
+|===
+
+==== Fazit zur Governance
+
+Durch diese Systemarchitektur wird das Unternehmen vor zwei wesentlichen Risiken geschützt: Einerseits vor der Haftung wegen Verletzung der Fürsorgepflicht bei nicht erkannten medizinischen/psychischen Notfällen, andererseits vor fehlerhaften, gerichtslabilen Entlassungen. Das Verfahren entspricht in Transparenz, Verhältnismäßigkeit und Beweissicherung den höchsten rechtsstaatlichen Standards.
+
+=== 4.1.5 Arbeitszeitregelungen
+
+Zur Gewährleistung rechtlicher Compliance sowie zur Sicherstellung der durchgängigen operativen Einsatzbereitschaft unterscheidet das Unternehmen in der Arbeitszeitgestaltung strikt zwischen strategischen Führungskräften und operativem Einsatzpersonal. Die regulatorischen Vorgaben werden durch die integrierte Logik des *ERPDS* automatisiert überwacht und umgesetzt.
+
+==== Strategisches Management und Personen in hohen Führungspositionen
+Für das Topmanagement sowie Personen in leitenden Funktionen (Verwendungsgruppe 4) greifen die Ausnahmetatbestände gemäß § 1 Abs. 2 Z 8 Arbeitszeitgesetz (AZG).
+
+* *Entkopplung vom AZG-Schutzbereich:* Das leitende Personal unterliegt hinsichtlich Höchstarbeitszeiten, gesetzlicher Ruhezeiten und Pausenverpflichtungen nicht den starren Beschränkungen des AZG.
+* *Betriebliche Disponierbarkeit:* Zur Vermeidung von Störungen während strategischer Termine, Meetings oder Produktionsprozesse werden Management-Termine im Dispatching-Modul des ERPDS als spezialisierte Einsätze geführt. Dadurch ist die operative Disponierbarkeit im System während dieser Abschnitte gesperrt.
+* *Fair-Pay-Grundsatz:* Eine pauschalierte All-In-Abgeltung wird konzeptionell abgelehnt. Sämtliche dokumentierten Einsätze und Besprechungen im Zeitraum von 22:00 bis 06:00 Uhr werden im Rahmen der Lohnverrechnung ausnahmslos mit dem betrieblich festgelegten Nachtarbeits-Multiplikator berechnet.
+
+==== Operatives Personal im BOS-Bereich (Rettungsdienst und Betriebsfeuerwehr)
+Für das operative Einsatzpersonal im Sanitäts- und Sicherheitswesen gelten die gesetzlichen Rahmenbedingungen des AZG in Verbindung mit den einschlägigen Kollektivverträgen (ÖRK-KV bzw. BARS-KV) und Betriebsvereinbarungen unter vollständiger Ausnutzung der Sonderregelungen für Arbeitsbereitschaft.
+
+* *Maximale Wochenarbeitszeiten:* Die absolute Obergrenze der wöchentlichen Arbeitszeit (inklusive Überstunden und verlängerter Dienste bei Arbeitsbereitschaft) ist auf **60 Stunden** (in Ausnahmefällen mit Betriebsvereinbarung bei 24-Stunden-Diensten bis zu 72 Stunden) gedeckelt.
+* *Durchrechnungszeitraum:* Die durchschnittliche wöchentliche Arbeitszeit darf innerhalb eines rollierenden Durchrechnungszeitraumes von 17 Wochen das gesetzliche Höchstmaß von **48 Stunden** nicht überschreiten.
+
+==== Systemseitige Umsetzung und Automated Compliance Engine
+Die technische Durchsetzung der Regelungen erfolgt im ERPDS über eine zweigeteilte Validierungs-Engine im .NET-Backend:
+
+[cols="1,2,2", options="header"]
+|===
+|Personalgruppe |System-Status (Dispatch) |Compliance-Check (Rules Engine)
+
+|*Führungskräfte / Management*
+|Bei Termin / Pause: `Disponierbar = NEIN`
+|Validierung deaktiviert. Lückenlose Erfassung der Zeiten in MongoDB zur nachträglichen Zulagenberechnung.
+
+|*BOS-Einsatzkräfte*
+|Bei Schicht / Einsatz: `Disponierbar = JA / NEIN`
+|Echtzeit-Prüfung der 60h-Wochengrenze sowie automatisierte Berechnung des gleitenden 17-Wochen-Durchschnitts (< 48h) vor Freigabe von Dienstplänen.
+|===
+
+Durch diese Architektur wird das operative Einsatzwesen vor strafbewehrten Überschreitungen geschützt, während dem Management die notwendige operative Flexibilität bei lückenloser und fairer Vergütung eingeräumt wird.
 
 == 4.3 Human Resources
 Dieser Abschnitt behandelt die Strategien und Praktiken, die die SPMG anwendet, um talentierte Mitarbeiter zu gewinnen, zu entwickeln und zu halten. Es werden Themen wie Rekrutierung, Mitarbeiterentwicklung, Leistungsmanagement und Unternehmenskultur behandelt.
 
+=== 4.3.1 Zusatzversicherung "Heroshield"
+
+Im operativen Dienstbetrieb – insbesondere im Rahmen von einsatztaktischen Maßnahmen bei Betriebsfeuerwehr- und Sicherheitseinsätzen – sind die Mitarbeiter oft mit sekundenschnellen Entscheidungen in hochdynamischen Risikolagen konfrontiert. Das Bewusstsein um potenzielle persönliche Haftungs- und Regressansprüche nach dem Dienstnehmerhaftpflichtgesetz (DHG) oder Organhaftpflichtgesetz (OrgHG) darf im Ernstfall keinesfalls zu Zögern oder taktischer Passivität führen.
+
+Zur aktiven Erhöhung der einsatztaktischen Handlungssicherheit etabliert das Unternehmen ein spezialisiertes Absicherungskonzept in Kooperation mit *Heroshield*.
+
+==== Taktischer und operationaler Mehrwert für die Einsatzkräfte
+
+* *Vermeidung von Entscheidungshemmung (Mentale Einsatzbereitschaft):*
+Einsatztaktische Maßnahmen verlangen in kritischen Momenten entschlossenes Handeln. Durch die vollwertige, durch den Arbeitgeber finanzierte Deckung von Haftungs- und Rechtsrisiken wird die psychologische Hürde fehlerbedingter Regressängste eliminiert. Die Einsatzkraft kann sich zu 100 % auf das einsatztaktische Ziel und den Eigenschutz konzentrieren.
+
+* *Spezialisierte Regulierung "Von Einsatzkraft für Einsatzkraft":*
+Die Schadensabwicklung erfolgt nicht über starr-bürokratische Standard-Regulierer, sondern über ein Netzwerk, das mit den realen Gegebenheiten, Belastungen und Reaktionszeiten im Blaulicht- und Exekutivbereich vertraut ist. Dies garantiert eine fundierte, realitätsnahe Beurteilung des Eigeneinsatzes im Schadensfall.
+
+* *Nahtlose Verzahnung von Arbeits- und Eigenschutz:*
+Sollte es trotz eingehaltener Standard Operating Procedures (SOPs) zu Sach- oder Personenschäden kommen, steht dem Mitarbeiter ab der ersten Minute ein professioneller rechtlicher Schutzschirm zur Verfügung. Das schützt nicht nur den Mitarbeiter privat, sondern sichert auch das Unternehmen gegen Folgeschäden aus rechtlichen Unsicherheiten ab.
+
+==== Administrative Umsetzung und Fürsorgeprinzip
+
+Das Modell ist als *Arbeitgeber-geförderte Individualversicherung* strukturiert. Über eine zentrale Rahmenvereinbarung wird sichergestellt, dass allen operativen Kräften identische, maßgeschneiderte Leistungspakete zur Verfügung stehen:
+
+1. *Vollständige Übernahme der Prämien:* Das Unternehmen übernimmt die monatlichen Kosten im Rahmen der Personalverrechnung (z. B. als steuerbegünstigte Zukunftssicherung gemäß § 3 Abs. 1 Z 15 lit. a EStG bzw. als Sachbezug). Dies unterstreicht die gelebte Fürsorgepflicht des Dienstherrn.
+2. *Automatische Kopplung an das Dienstverhältnis:* Die Prämienübernahme ist an die aktive Dienstzeit gebunden. Im Zuge des Offboardings erfolgt die Zahlungs- bzw. Statusmeldung an den Versicherungspartner, womit das finanzielle Risiko für den Arbeitgeber bei Austritt ohne Zusatzaufwand erlischt.
+
+Durch dieses Setup wird die einsatztaktische Handlungssicherheit der Mitarbeiter auf ein Niveau gehoben, das den höchsten Standards moderner Einsatzorganisationen entspricht.
+
+
+
 == 4.4 Finance
 Hier werden die Finanzierungsstrategien, Budgetierungsprozesse und finanziellen Ziele der SPMG erläutert. Es wird beschrieben, wie das Unternehmen seine finanziellen Ressourcen verwaltet, um nachhaltiges Wachstum zu fördern und langfristigen Erfolg zu sichern.
+
+=== 4.4.1 Lohnnebenkosten und regulatorischer Besoldungsablauf
+
+Der regulatorische Prozess der Personalauszahlung (Besoldung) und der dazugehörigen gesetzlichen Abgaben folgt in Österreich einer strikt chronologischen und standardisierten Abwicklung. 
+
+Neben dem Nettogehalt, das direkt an die Dienstnehmer ausgezahlt wird, entstehen auf der Ebene des Dienstgebers gesetzliche Lohnnebenkosten sowie Einbehalte, die als Sammelbeträge an die zuständigen öffentlichen Stellen abgeführt werden müssen.
+
+==== Abgabenstruktur & Nebenkostenquote
+
+Der Bruttolohn bildet die Grundlage für sämtliche regulatorischen Abzüge und Beiträge:
+
+[cols="1,3,2", options="header"]
+|===
+| Empfänger | Abgabe / Beitrag | Tragschaft
+| *Österreichische Gesundheitskasse (ÖGK)* | Sozialversicherung (SV) inkl. Kranken-, Unfall-, Pensions- und Arbeitslosenversicherung sowie Mitarbeitervorsorgekasse (MVK) | Dienstgeber & Dienstnehmer (Einbehalt)
+| *Finanzamt Österreich* | Lohnsteuer (LSt), Dienstgeberbeitrag (DB), Zuschlag zum Dienstgeberbeitrag (DZ) | LSt: Dienstnehmer (Einbehalt) +
+DB/DZ: Dienstgeber
+| *Gemeinde / Stadt Wien* | Kommunalsteuer (KommSt) sowie ggf. Wiener Dienstgeberabgabe (DGA) | Dienstgeber
+|===
+
+==== Chronologischer Ablauf des monatlichen Besoldungsprozesses
+
+Der operative Abrechnungs- und Zahlungszyklus vollzieht sich in fünf wesentlichen Prozessschritten:
+
+. *Monatliche Lohnabrechnung (Abrechnungslauf)*
+* Berechnungsbasis: Ermittlung der Bruttobezüge inkl. Überstunden, Zulagen und Zuschlägen.
+* Ermittlung des Dienstnehmer-Betrags (Nettogehalt nach Abzug von SV-Dienstnehmeranteil und Lohnsteuer).
+* Berechnung der Dienstgeber-Lohnnebenkosten (SV-Dienstgeberanteil, DB, DZ, KommSt, MVK).
+
+. *Meldewesen via ELDA (Monatliche Beitragsmeldung - mBGM)*
+* Übermittlung der personalisierten Echtdaten pro Mitarbeiter an die ÖGK bis spätestens zum 15. des Folgemonats.
+* Die mBGM dient als regulatorische Grundlage für die korrekte Zuordnung der SV-Beiträge zu den jeweiligen Versicherungsverläufen der Mitarbeiter.
+
+. *Auszahlung der Nettogehälter*
+* Fristgerechte Überweisung der Nettogehälter an die Angestellten und Arbeiter (üblicherweise zum Monatsletzten oder 1. des Folgemonats, je nach Kollektivvertrag).
+
+. *Überweisung der Sammelbeträge (Fälligkeit: 15. des Folgemonats)*
+* *Überweisung an die ÖGK:* Bündelung sämtlicher SV-Beiträge (Dienstgeber- und Dienstnehmeranteile) sowie der Beitragsleistung zur betrieblichen Vorsorgekasse in einer **einzigen Summenüberweisung**.
+* *Überweisung an das Finanzamt:* Kumulierte Entrichtung der einbehaltenen Lohnsteuer sowie der Dienstgeberbeiträge (DB/DZ) über das e-Banking / FinanzOnline-Abgabenkonto.
+* *Überweisung an die Stadt-/Gemeindekasse:* Gesammelte Abführung der Kommunalsteuer (3 % der Bruttolohnsumme) an die jeweilige Kommune.
+
+. *Jahresabschluss & Lohnzettel (L16)*
+* Zum Jahresende (bzw. bei Austritt) erfolgt die elektronische Übermittlung des Jahreslohnzettels (Formular L16) an das Finanzamt zur Konsolidierung der Arbeitnehmerveranlagung.
+
+[NOTE]
+====
+Sämtliche Abgaben an ÖGK, Finanzamt und Gemeinde werden **nicht per Einzelüberweisung je Mitarbeiter**, sondern ausschließlich als kumulierte **Sammelüberweisungen** abgewickelt. Die detaillierte personenbezogene Aufschlüsselung erfolgt rein digital über das ELDA-Meldesystem und die elektronische Lohnkontenführung.
+====

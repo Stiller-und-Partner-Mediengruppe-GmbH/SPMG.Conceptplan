@@ -338,3 +338,134 @@ Als kundenorientierter Service und Deeskalationswerkzeug wird direkt am Einlass 
 ** *Ticket 1 (Gast):* Enthält Barcode/QR-Code und Nutzungsbedingungen des Depots.
 ** *Ticket 2 (Depot):* Wird am Behältnis/Fach fixiert.
 * *Rückgabe:* Die Aushändigung erfolgt nur gegen Vorlage des originalen Tickets. Bei Schusswaffen ist zusätzlich die Identität mittels Waffenpass abzugleichen.
+
+== 7.9 Dokumentenaufbewahrung und -verwertung
+
+=== 7.9.1 Strategisches Grundprinzip und Autarkie
+Zur kompromisslosen Wahrung von Betriebsgeheimnissen, der Einhaltung sämtlicher Vorgaben der Datenschutz-Grundverordnung (DSGVO) sowie der lückenlosen Beachtung gesetzlicher Aufbewahrungsfristen (insb. nach BAO) verfolgt das Unternehmen ein autarkes Inhouse-Sicherheitskonzept. 
+
+Umfassende Informationssicherheit schließt den physischen Daten- und Dokumentenstrom explizit mit ein. Um die typischen Risiken externer Entsorgungsdienstleister (Schnittstellenverluste, ungeschützte Transportwege, Drittpersonal) vollständig zu eliminieren, verbleibt der gesamte Lebenszyklus aller physischen Dokumente und Datenträger – von der Erstellung über die gesicherte Aufbewahrung bis hin zur endgültigen Zerstörung – ausschließlich in der Hand von eigenem, überprüftem Personal auf eigenem Betriebsgelände.
+
+=== 7.9.2 Operative Organisation und Kompetenzverteilung
+Die physische Dokumentenlogistik und -entsorgung ist organisatorisch in der *Infrastrukturabteilung* verankert. Die Aufgabenverteilung folgt dem Prinzip der strikten Funktionstrennung (Gewaltenteilung):
+
+* *Referat Abfallwirtschaft (Spezial-Team):* Ist als exekutives Organ für die interne Einsammlung, den gesicherten Transport und die physische Vernichtung aller Dokumente und Datenträger zuständig.
+* *Referat Katastrophenschutz und Präventive Maßnahmen (KPM):* Fungiert als interne Audit- und Revisionsinstanz zur Überwachung der Einhaltung von Sicherheitsstufen und führt risikobehaftete Großmaßnahmen (z. B. Jahresskartierungen) durch.
+* *Sicherheitsdienst (SD):* Überwacht die physischen und elektronischen Zutrittsrechte, sichert den Archivbereich und verwaltet die Vernichtungsprotokolle.
+* *Referat Haustechnik:* Garantiert die rein technische Verfügbarkeit und Instandhaltung der physischen Schredder- und Pressanlagen.
+
+=== 7.9.3 Regulärer Dokumentenumlauf und Sammelverfahren
+Im Tagesgeschäft gilt der Grundsatz, dass nicht-elektronischer Schriftverkehr nach Ablauf seiner unmittelbaren Bearbeitung schadlos und sicher der Vernichtung zugeführt wird.
+
+* *Sicherheitsbehälter:* In den Bürozonen stehen ausschließlich blickdichte, elektronisch oder mechanisch versperrte Alu-Sicherheitsbehälter mittlerer Sicherheitsstufe bereit.
+* *Turnusmäßige Entsorgung:* Das Spezial-Team des Referats Abfallwirtschaft leert diese Behälter in einem festen Rhythmus (dreimal wöchentlich) über definierte, geschützte Transportrouten.
+* *Vernichtungszentrum:* Die Aufarbeitung erfolgt im geschützten Schredderraum innerhalb des FM-Gebäudes. Dieser Bereich ist als gesonderte Sicherheitszone (Zustieg nur für autorisiertes Personal via elektronischer Zutrittskontrolle) ausgewiesen.
+* *Verwertung:* Das Material wird unverzüglich mittels Partikelschnitt nach hohen Sicherheitsstandards (gemäß ÖNORM S 2109 / DIN 66399) unlesbar gemacht und direkt der internen Altpapierpresse zur Übergabe an die kommunale Müllabfuhr zugeführt.
+
+=== 7.9.4 Fristenkonforme Archivierung und Jahresskartierung
+Dokumente, die gesetzlichen Aufbewahrungspflichten unterliegen, werden in einem zentralen, vom Sicherheitsdienst überwachten Archivraum aufbewahrt.
+
+* *Fristenüberwachung:* Die Zuordnung und Überwachung der Aufbewahrungsfristen erfolgt systemgestützt. Nach Ablauf der gesetzlichen Frist wird das Dokumentengut explizit zur Skartierung freigegeben.
+* *Sonderprozess Skartierung:* Einmal jährlich wird das abgelaufene Archivgut in einem strukturierten Sonderprojekt vernichtet. Das Referat KPM unterstützt hierbei die Logistik bei Großmengen mit schwerem Gerät und Transportkapazitäten.
+* *Protokollierung:* Der Transport und der Vernichtungsvorgang der Archivdokumente werden vom Sicherheitsdienst physisch begleitet. Die vollständige Vernichtung wird im Rahmen eines förmlichen Skartierungsprotokolls zur Revisionsfestigkeit dokumentiert.
+
+=== 7.9.5 Spezialverfahren für digitale Datenträger
+Vom IT-Service ausgetauschte oder ausgemusterte Datenträger (Festplatten, SSDs, CDs/DVDs, Magnetbänder) unterliegen einem verschärften Nachweisverfahren.
+
+* *Übergabe:* Die Freigabe und Erfassung der Seriennummern erfolgt direkt durch das Referat IT in versperrtem Spezialbehälter.
+* *Vernichtung im Vier-Augen-Prinzip:* Das Spezial-Team des Referats Abfallwirtschaft übernimmt die Datenträger, gleicht die Identifikationsnummern ab und führt sie der mechanischen Schredderanlage für Hardware zu.
+* *Vernichtungszertifikat:* Über jeden geschredderten Datenträger wird ein detailliertes Vernichtungsprotokoll erstellt und digital an den Sicherheitsdienst sowie die IT-Compliance übermittelt.
+
+=== 7.9.6 Zusammenfassende Bewertung des Sicherheitsstandards
+Durch die Kombination aus elektronisch gesicherten Räumlichkeiten, einem eigenen spezialisierten Referat für Abfallwirtschaft und der fachlichen Aufsicht durch Sicherheitsdienst und Katastrophenschutz erfüllt das Unternehmen nicht nur die gesetzlichen Mindestanforderungen der DSGVO (Art. 32 DSGVO – Sicherheit der Verarbeitung), sondern setzt einen Standard, der weit über die Marktüblichkeit hinausreicht und vollständige Autarkie garantiert.
+
+== 7.10 Dezentrales Sicherheitsstandortkonzept
+
+=== 7.10.1 Strategisches Grundprinzip (Hub-and-Spoke-Modell)
+Um eine lückenlose, flächendeckende Abdeckung über das gesamte österreichische Bundesgebiet zu gewährleisten und gleichzeitig die organisatorischen Grundlagen für eine dynamische Expansion in weitere EU-Mitgliedsstaaten zu schaffen, setzt die SPMG auf ein skaliersfähiges, dezentrales **Hub-and-Spoke-Sicherheitsmodell**.
+
+Das Konzept vermeidet kostenintensive und ineffiziente Redundanzen an einzelnen Objektstandorten. Statt an jeder Liegenschaft sämtliche Spezialkomponenten vorzuhalten, erfolgt eine strikte Funktionstrennung zwischen lokaler Präsenz (*Spokes*) und regionaler Intervention sowie Lageführung (*Hubs*).
+
+=== 7.10.2 Standorthierarchie und Kategorieneinteilung
+
+[cols="1,2,3,2", options="header"]
+|===
+|Kategorie |Bezeichnung |Funktion & Ausstattung |Führungsebene
+
+|**Kategorie A**
+|**SLZ Zentrale** (Wien-Liesing)
+|Strategisches Haupt-Lagezentrum, konzernweite Gesamtlageführung, Bündelung der Schwerpunkteinheiten (Luftflotte, zentrale IT-Failover-Cluster, Kriminal- & Forensikkomponente), Abdeckung des Nahbereichs.
+|Chief Security Officer (CSO) / Generaldirektion
+
+|**Kategorie B**
+|**SLZ [Bundesland / Region]** (Sicherheit & Lagezentrum)
+|Regionales Anker-Lagezentrum pro Bundesland bzw. Zielregion. Beherbergt die Sonder Interventions Gruppe (SIU), Diensthundestaffel, regionale Kriminalermittler, Fuhrpark logistik und lokale Ausbildungs- und Waffeninfrastruktur.
+|Dienstgruppenleiter (Dgl)
+
+|**Kategorie C**
+|**Satellitenwache / Objektwache**
+|Lokale Wache an Produktionsstätten, Studios oder Logistikpunkten. Fokus rein auf Objektschutz, Zutrittskontrolle, Erstintervention und Streifendienst (SPU).
+|Dienststellenleiter (Dl)
+|===
+
+=== 7.10.3 Operative Führungsstruktur
+
+Die Führungsarchitektur trennt administrative Objektverantwortung strikt von der operativen Gesamtlageführung:
+
+* **Dienststellenleiter (Dl):** Vor Ort an jeder Satelliten- sowie Hauptwache verantwortlich für den reibungslosen Wachtdienst, die Personaleinteilung, lokale Compliance und die physische Liegenschaftssicherheit.
+* **Dienstgruppenleiter (Dgl):** An den jeweiligen regionalen SLZ stationiert. Er führt das operative Lagebild der gesamten Region/des Bundeslandes, koordiniert Live-Dispatches im ERPDS und führt im Anlassfall die Interventions- und Spezialkräfte bei länderübergreifenden oder komplexen Gefahrenlagen.
+
+=== 7.10.4 Nationales Flächenabdeckungskonzept (Österreich)
+
+Die Flächenabdeckung im Bundesgebiet erfolgt nach dem Prinzip der gestaffelten Reaktionszeiten:
+
+1. **Erstphase (0–5 Minuten):** Die lokalen Streifen- und Objektschutzkräfte (SPU) der Satellitenwache leiten unverzüglich Eigenschutz- und Stabilisierungsmaßnahmen ein und sichern den betroffenen Bereich.
+2. **Interventionsphase (Zielzeitbereich):** Die Anforderung der Sonder Interventions Gruppe (SIU) sowie der Diensthundeeinheit erfolgt direkt über das zuständige regionalen **SLZ [Bundesland]**. Die Zuführung erfolgt wahlweise motorisiert via Sonderrechte-Interventionsfahrzeugen oder bei topografischen Barrieren über die Luftkomponente der SLZ Zentrale.
+3. **Ermittlungs- und Nachbereitungsphase:** Kriminaltechnische Ermittlungen und forensische Sicherungen werden ereignisbezogen durch die Spezialisten des regionalen SLZ oder der SLZ Zentrale durchgeführt.
+
+=== 7.10.5 Skalierbarkeit und internationale EU-Expansion
+
+Das Modul-Design des Sicherheitskonzepts ermöglicht einen standardisierten "Rollout" in zusätzliche Zielmärkte innerhalb der Europäischen Union:
+
+* **Standardisierte Blaupause (Landes-Hubs):** Bei einer Expansion in ein neues EU-Land wird als administrativer und taktischer Ankerpunkt primär ein **SLZ [EU-Land]** errichtet (z. B. *SLZ Bayern* oder *SLZ Westungarn*). Dieses übernimmt die regionale Aufschaltung in das zentrale ERPDS sowie die Anpassung an die jeweiligen nationalen Gewerbe- und Sicherheitsgesetze.
+* **Grenzüberschreitende Synergien:** Durch die Anbindung aller Einheiten an das übergeordnete *Enterprise Resource Planning and Dispatch System (ERPDS)* können grenznahe Satellitenwachen im Bedarfsfall auch durch ein benachbartes SLZ eines angrenzenden Bundeslandes oder EU-Nachbarstaates unterstützt werden.
+* **Einheitliches Qualitäts- und Sicherheitsniveau:** Die Trennung von schlanken Objektwachen und schlagkräftigen Regions-Zentren (SLZ) gewährleistet, dass auch bei rapider internationaler Flächungsausdehnung der hohe Standard des unternehmenseigenen Privatsicherheitsdienstes (inklusive adäquater Besoldung und klarer Führungsstrukturen) lückenlos aufrechterhalten wird.
+
+=== 7.11 Sichere Unterkünfte für VIP-Gäste
+
+==== Taktische Notwendigkeit und Abgrenzung zu kommerziellen Hotelleriestrukturen
+
+Die adäquate und geschützte Unterbringung hochkarätiger internationaler Gäste, Partner sowie Führungspersönlichkeiten stellt im Rahmen moderner Corporate-Security-Konzepte eine zentrale Herausforderung dar. Die traditionelle Einquartierung in kommerziellen Luxushotels birgt bei erhöhten Gefährdungslagen unkalkulierbare Sicherheitsrisiken. 
+
+Hotels zeichnen sich bau- und betriebsbedingt durch ein extrem hohes, unkontrollierbares Fluktuationsvolumen (Gäste, externes Servicepersonal, Lieferanten) aus. Dies führt zwangsläufig zu Schwachstellen in der Zutrittskontrolle, erhöht das Risiko von Aufklärungs- und Ausspähversuchen (Technical Surveillance Countermeasures / TSCM) durch fremde Akteure und führt im Ernstfall zu rechtlichen sowie taktischen Zielkonflikten zwischen dem privaten Personenschutz (PSG) und dem fremden Hausrecht des Hotelbetreibers.
+
+==== Das Konzept der dezentralen, verdeckten Liegenschaften (Corporate Safehouses)
+
+Um diesen Risiken wirksam zu begegnen, setzt das Unternehmenskonzept auf den Einsatz eigener, dezentral organisierter und verdeckter Unterkünfte im urbanen Raum. Diese Objekte fungieren im Normalbetrieb als unauffällige Firmenwohnungen oder administrative Dependancen und werden erst anlassbezogen als vollgesicherte Residenzen ("Standby-Aktivierung") hochgefahren.
+
+[cols="1,3", options="header"]
+|===
+| Dimension | Taktischer & Operativer Vorteil
+
+| *Souveränes Hausrecht*
+| Die uneingeschränkte Kontrolle über die Liegenschaft liegt exklusiv bei der eigenen Organisation. Es gibt kein fremdes Personal mit Generalschlüsseln und keine unüberwachbaren Allgemeinflächen.
+
+| *Vollständige Anonymität*
+| Durch das Fehlen von öffentlichen Registrierungsstellen oder Hotel-Lobbys bleibt die Anwesenheit des VIP-Gastes für die Öffentlichkeit und potenzielle Aggressoren vollständig unsichtbar.
+
+| *Integrierte Fahrzeugschleusen*
+| Die Objekte verfügen über geschützte Innenhöfe oder direkte, zugangsbeschränkte Tiefgaragen-Anbindungen. Die Übergabe des Gastes vom Transport-Konvoi in das Gebäude erfolgt somit fernab jeder öffentlichen Einsichtnahme.
+
+| *Physische & Digitale Autarkie*
+| Jede Einheit ist baulich (mindestens Widerstandsklasse RC4 nach ÖNORM) sowie technisch autark ausgelegt. Dazu gehören gehärtete Kommunikationswege (BOS-Funkrelais-Kompatibilität, verschlüsselte Eigennetze) und baulich separierte Aufenthaltsbereiche für das Objektschutzpersonal ("Command Post").
+|===
+
+==== Synergie mit behördlichen Sicherheitsstrukturen
+
+Ein wesentlicher Vorteil der dezentralen Standortwahl in Ballungsräumen wie Wien liegt in der gezielten Einbettung in das Vorfeld behördlicher Sicherheitseinrichtungen (z. B. im erweiterten Umfeld diplomatischer Vertretungen oder polizeilicher Schwerpunktzonen). 
+
+Durch dieses Setup profitiert die Liegenschaft von der permanenten, hoheitlichen Raumüberwachung der Landespolizeidirektion (LPD), ohne selbst als Schutzobjekt zu exponieren. Im Krisenfall ermöglicht die vordefinierte Schnittstelle zwischen dem privaten Personenschutz und den behördlichen Leitzentralen (z. B. via Prioritäts-Alarmierung und abgestimmter Interventions-SOPs) eine unmittelbare Reorganisation der Schutzschalen durch Exekutivkräfte.
+
+==== Fazit
+
+Die Nutzung dezentraler, eigener VIP-Unterkünfte wandelt ein passives Sicherheitsrisiko in eine aktiv steuerbare Sicherheitszone um. Sie bietet internationalen Ehrengästen ein Höchstmaß an Diskretion, Komfort und physischem Schutz, während die operativen Kosten sowie der Personalaufwand für den Objektschutz durch die baulich-organisatorische Vorhaltung auf ein Minimum reduziert werden.

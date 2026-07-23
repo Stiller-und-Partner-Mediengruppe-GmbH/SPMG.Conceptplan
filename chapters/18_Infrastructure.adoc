@@ -42,3 +42,78 @@ package "Liegenschafts- und Gebäudeverwaltung" as LGW{
 }
 @enduml
 ----
+
+== 18.2 Technische Gebäudekonzeptionierung
+
+== 18.2.1 Infrastruktur der Zentralen Uhr (Master Clock System)
+
+Die technische Zuverlässigkeit, Netzwerksynchronisation und zeitliche Integrität aller physischen und digitalen Einheiten der Stiller und Partner Mediengruppe wird durch eine hochverfügbare, zentralisierte Master-Clock-Infrastruktur sichergestellt. Diese Infrastruktur fungiert als physischer und logischer Taktgeber für sämtliche Rechenzentren, Regieräume, Logistik-Hubs, Einsatzfahrzeuge und mobilen Einheiten (Toughbook Active Docks / Avionik-Gateways).
+
+=== 18.2.2 Server-Hardware und Empfänger-Topologie
+
+Die Kerninfrastruktur der Zentralen Uhr wird im zentralen SPMG Data Center betrieben und ist als Stratum-1-Zeitserverarchitektur ausgelegt:
+
+* *Physische Empfangsantennen (Primärquellen):* Redundante, direkt am Rechenzentrumsmast montierte Antennensysteme zum Empfang von DCF77-Langwellensignalen sowie GNSS-Signalen (GPS, GLONASS, Galileo). Die Signalpfade sind hardwareseitig gegen Jamming und GPS-Spoofing abgesichert.
+* *Master Time Server (Stratum 1):* Dua-redundante, gehärtete NTP/PTP-Hardware-Zeitserver mit integrierten Rubidium- / OCXO-Oszillatoren (Holdover-Funktionalität). Diese sichern die genaue Zeitbasis auch bei vollständigem Ausfall aller externen Antennensignale über mindestens 72 Stunden ab.
+* *Infrastruktureller Fallback:* Verschlüsselte Sync-Verbindungen zu offiziellen, hochpräzisen NTP-Zeitservern der österreichischen Infrastruktur (.gv.at / .ac.at).
+
+=== 18.2.3 Netzwerk-Verteilung und Protokolle
+
+Die Signalverteilung innerhalb der Unternehmens-Infrastruktur erfolgt abgestuft nach Latenz- und Präzisionsanforderungen:
+
+* *Precision Time Protocol (PTP / IEEE 1588):* Bereitstellung in allen Broadcast-, Regie- und Mediendatennetzen (Studiokomponenten, Live-Encoding-Racks) zur Sub-Mikrosekunden-Frame-Synchronisation von Video- und Audio-Streams.
+* *Network Time Protocol (NTP / RFC 5905):* Netzweite Verteilung an Unternehmens-Server, Datenbanken, Zutrittskontrollsysteme, IP-Kameras der Sec-Ops sowie an die ERPDS-Backend-Server.
+* *Remote & Mobile Infrastructure Sync:* Automatische, verschlüsselte Synchronisation mobiler Einheiten (z. B. Panasonic Toughbooks in Fahrzeugen, Flugfunk- und Avionik-Interface-Einheiten der S-70 / H145) beim Einbuchen in das SPMG-VPN oder die lokalen Vehicle-Docks.
+
+=== 18.2.4 Physische Sicherheit, Hardening und Redundanz
+
+* *Infrastrukturelle Entkopplung:* Die Master-Clock-Hardware ist in dedizierten, zugangsbeschränkten 19-Zoll-Sicherheits-Racks innerhalb des Serverraums verbaut und USV-gepuffert.
+* *Integritätssicherung auf OS- und Hardware-Ebene:* Endgeräte und Server erhalten Schreibschutz-Richtlinien auf Systemebene; manuelle Anpassungen der Systemzeit durch lokale Benutzer sind technisch deaktiviert.
+* *Forensische Protokollierung:* Jede Abweichung oder Synchronisationsanomalie innerhalb des Netzwerks wird sofort an die Network Security Unit (NSU) gemeldet und für Audit-Zwecke unveränderbar protokolliert.
+
+== 18.3 Geschwindigkeitsbeschränkung auf allen Liegenschaften
+
+Zur Gewährleistung der betrieblichen Sicherheit, zum Schutz der internen Transportinfrastruktur sowie zur Vermeidung von Gefährdungen für Personal und Besucher gilt auf sämtlichen Liegenschaften des Unternehmens eine einheitliche Geschwindigkeitsbeschränkung.
+
+Da es sich bei den Unternehmensliegenschaften um baulich gesicherte, nicht-öffentliche Privatareale handelt (Zutritt ausschließlich für befugtes Personal, angemeldete Besucher sowie über dedizierte Garagen-Zufahrten), findet die Straßenverkehrsordnung (StVO) keine direkte behördliche Anwendung. Die rechtliche Durchsetzung erfolgt stattdessen über das Zivil- und Arbeitsrecht.
+
+=== Rechtlicher und regulatorischer Rahmen
+
+[cols="1,3", options="header"]
+|===
+| Dimension | Rechtliche Grundlage & Umsetzung
+
+| **Sachenrecht / Hausrecht**
+| Gemäß § 354 ABGB übt das Unternehmen auf allen Straßen, Wegen und Garagenbereichen das ausschließliche Eigentums- und Hausrecht aus. Die Geschwindigkeitsbeschränkung von **30 km/h** ist fester Bestandteil der verbindlichen Hausordnung.
+
+| **Schlüssige Vereinbarung** +
+*(Konkludenter Vertrag)*
+| Durch eine klare Beschilderung an allen Zufahrten, Schrankenanlagen und Garageneinfahrten werden Fahrzeuglenker vor dem Betreten/Befahren über die Objektregeln informiert. Das Passieren dieser Kontrolleinrichtungen gilt als schlüssige Zustimmung zur Hausordnung.
+
+| **Dienstrechtliche Fahrermächtigung**
+| Das Lenken von Dienstfahrzeugen sowie die Befahrung des Geländes mit Privatfahrzeugen ist an das Vorhandensein einer aufrechten betrieblichen Fahrermächtigung gekoppelt. Diese wird durch eine interne Dienstanweisung geregelt.
+|===
+
+=== Durchsetzung und Sanktionierung
+
+Die Durchsetzung unterscheidet strikt zwischen externen Personen und eigenen Mitarbeiterinnen und Mitarbeitern:
+
+* **Externe Personen / Besucher:** Zuwiderhandlungen stellen eine Verletzung des Hausrechts dar und können mit einem unmittelbaren temporären oder dauerhaften **Hausverbot** sowie ggf. mit einer **Besitzstörungsklage** (§ 339 ABGB) geahndet werden.
+* **Unternehmenspersonal:** Die Einhaltung der Tempolimits stellt eine arbeitsvertragliche Pflicht dar. Bei Verstößen greift ein abgestuftes Sanktionsmodell:
+  1. *Erstmaliger Verstoß:* Schriftliche Ermahnung durch die Fuhrparkleitung oder den Sicherheitsdienst.
+  2. *Wiederholungsfall (innerhalb von 12 Monaten):* Temporärer Entzug der betrieblichen Fahrermächtigung für die Dauer von **1 bis 4 Wochen**.
+  3. *Beharrliche oder schwere Verstöße:* Dauerhafter Entzug der betrieblichen Fahrermächtigung. Kann die geschuldete Arbeitsleistung ohne Fahrzeugnutzung nicht erbracht werden, drohen arbeitsrechtliche Konsequenzen bis hin zur Auflösung des Dienstverhältnisses.
+
+=== Gesetzliche und betriebliche Ausnahmeregelungen
+
+Um in kritischen Situationen eine unverzügliche Gefahrenabwehr zu gewährleisten, gelten für definierte Einsatzfahrzeuge Ausnahmen von der allgemeinen 30-km/h-Beschränkung:
+
+[IMPORTANT]
+====
+Von der generellen Geschwindigkeitsbeschränkung von 30 km/h ausgenommen sind:
+
+1. **Behördliche Einsatzfahrzeuge:** Fahrzeuge im Sinne des § 2 Abs. 1 Z 25 StVO in Verbindung mit § 20 KFG (z. B. Feuerwehr, Rettungsdienst, Polizei und Sicherheitsbehörden) bei dringenden Einsätzen.
+2. **Sicherheitsdienste:** Fahrzeuge des betriebseigenen Werkschutzes oder beauftragter Sicherheitsunternehmen bei dringenden Interventions-, Kontroll- oder Alarmfahrten zur Abwehr akuter Gefahren für Personen, Gebäude oder Vermögenswerte.
+
+Sämtliche von der Beschränkung befreiten Lenker bleiben an die erhöhte Sorgfaltspflicht gebunden; die Fahrweise ist auch im Einsatzfall den Sicht- und Platzverhältnissen so anzupassen, dass Dritte nicht gefährdet werden.
+====

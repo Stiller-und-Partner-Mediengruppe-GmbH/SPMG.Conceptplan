@@ -1,4 +1,4 @@
-:current-chapter: Abteilung Fuhrpark- und Flottenmanagement
+
 = 11 Abteilung: Fuhrpark- und Flottenmanagement (FFM)
 
 == 11.1 Strategische Zielsetzung 
@@ -50,3 +50,44 @@ Sondersignalanlagen: Koordination der Bestückung mit gelben Warnbalken zur Absi
 
 == 11.5 Operative Unterstützung
 Das FFM stellt die notwendigen Transportkapazitäten für die Security Logistics Unit (SLU) bereit, insbesondere für Wert- und Arrestantentransporte.
+
+== 11.6 Sondergruppe Verkehrsrecht
+
+=== 11.6.1 Strategische Positionierung und Grundausrichtung
+Die *Einsatzgruppe Verkehrs- und Zulassungsrecht* ist als hochspezialisierte Sondereinheit organisatorisch direkt in der übergeordneten Rechtsabteilung verankert. Sie fungiert als interne, voll handlungsfähige Spezialkanzlei und bildet die primäre Schnittstelle zwischen dem operativen Fuhrparkmanagement, den staatlichen Regulierungsbehörden sowie den Gerichten. 
+
+Besetzt mit vollwertig zugelassenen, angestellten Rechtsanwälte (gemäß § 1a RAO), garantiert die Einheit die uneingeschränkte Postulationsfähigkeit und Vertretungsmacht des Unternehmens vor allen ordentlichen Gerichten und Verwaltungsbehörden (einschließlich VwGH und VfGH). Dadurch wird eine vollständige Inhouse-Abwicklung aller verkehrs-, zulassungs- und haftungsrechtlichen Agenden ohne Medienbrüche oder die Notwendigkeit externer Kanzleibeaftragungen sichergestellt.
+
+=== 11.6.2 Operative Eingliederung in das Fuhrparkmanagement
+Die Eingliederung in die alltägliche Fuhrparkverwaltung erfolgt nach dem Prinzip der **funktionalen Gewaltenteilung**:
+
+* **Operativer Fuhrpark (Ausführung & Logistik):** Verantwortlich für den laufenden Betrieb, die Wartung, Disposition, die routinemäßige Führerscheinkontrolle sowie die Überwachung der wiederkehrenden Begutachtungen (§ 57a KFG).
+* **Einsatzgruppe Verkehrsrecht (Juristisches Risikomanagement & Compliance):** Übernimmt die federführende Regie, sobald Vorgänge die Ebene der reinen Verwaltung verlassen und eine rechtliche, behördliche oder haftungsrelevante Dimension erreichen.
+
+[cols="1,2,2", options="header"]
+|===
+| Anlassfall / Trigger | Aufgabe Operativer Fuhrpark | Aufgabe Einsatzgruppe Verkehrsrecht
+
+| **Spezialbeschaffung & Umbau**
+| Erfassung der Stammdaten, technische Abnahme vor Ort.
+| Beantragung und Durchsetzung von Sondergenehmigungen (z. B. § 20 KFG Blaulicht/Sondersignal, § 33 KFG Typisierungen) bei den Landesregierungen.
+
+| **Behördliche Verfahren**
+| Bereitstellung der Fahrtenbücher und Telemetriedaten.
+| Rechtssichere Erteilung von Lenkerauskünften (§ 103 KFG) zur vollständigen Abwendung der Halterhaftung von der Unternehmensführung.
+
+| **Schadens- & Unfallevents**
+| Erstausrückung, Fahrzeugsperre im System, Beweissicherung.
+| Sofortige straf- und zivilrechtliche Vertretung des Fahrers und des Unternehmens, Durchsetzung von Schadensersatzansprüchen und Regressabwehr.
+
+| **StVO-Ausnahmegenehmigungen**
+| Bedarfs- und Routenmeldung für Sondereinsätze.
+| Ausarbeitung und Erwirkung von Dauer- und Sonderausnahmegenehmigungen (§ 45 StVO) bei den zuständigen Behörden.
+|===
+
+=== 11.6.3 Digitale Workflow-Integration im ERPDS
+Die nahtlose Zusammenarbeit zwischen der Fuhrparkverwaltung, der Einsatzgruppe Verkehrsrecht sowie der übergeordneten Rechtsabteilung (inkl. der Anbindung des externen Hausnotars) wird im ERPDS über eine strikte, **rollenbasierte Rechteverwaltung (RBAC)** gesteuert:
+
+1. **Automatisierte Escalation-Trigger:** Erfasst der Fuhrparkleiter ein unfallbedingtes Schadensereignis oder trifft eine behördliche Anonymverfügung/Straferkenntnis im System ein, löst das ERPDS automatisch einen Sperr- und Übergabe-Workflow an die Einsatzgruppe aus.
+2. **Geschützter Datenraum (Legal Domain):** Aktenspezifische Ermittlungsergebnisse, Einvernahmeprotokolle und sensible Strategiepapiere unterliegen dem anwaltlichen Privileg. Sie werden im ERPDS über automatisierte Berechtigungsfilter (Row-Level Security) auf die Rollen `Internal_Legal_Counsel` und den jeweils zugewiesenen Bearbeiter beschränkt.
+3. **Durchgängige Archivierung & Audit-Trail:** Jede juristische Weichenstellung, Beantragung und gerichtliche Eingabe wird lückenlos und revisionssicher in der digitalen Fahrzeugakte hinterlegt. Dies garantiert maximale Transparenz gegenüber der Geschäftsführung bei zeitgleich vollster Wahrung der Verschwiegenheitspflichten.

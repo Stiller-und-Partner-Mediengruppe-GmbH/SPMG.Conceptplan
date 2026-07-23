@@ -37,7 +37,7 @@ Um eine maximale Kompatibilität bei minimaler Hemmschwelle zu gewährleisten, n
 .Innovations-Statement
 Durch den Verzicht auf analoge Passwort-Zettel demonstrieren wir im Bereich der Gästebewirtung, dass wir digitale Transformation bis ins Detail leben. Technik wird hier zum unsichtbaren, aber effizienten Dienstleister.
 
-== 3. Beflaggung: Protokollarisch und Repräsentativ
+== 6.6 Beflaggung: Protokollarisch und Repräsentativ
 
 === Protokollarische Grundlagen bei Staatsbesuchen und Events
 Sobald offizielle Repräsentationsanlässe auf den Geländen der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) stattfinden – insbesondere bei Veranstaltungen mit Beteiligung von Mitgliedern der österreichischen Bundesregierung oder internationalen Delegationen –, greifen die erweiterten protokollarischen Bestimmungen. 
@@ -70,3 +70,47 @@ Im Falle von staatlich angeordneten Trauerperioden oder beim Ableben von hochran
 * *Ablauf:* Die Flaggen werden zunächst vollständig bis zur Mastspitze geheißt und im Anschluss langsam auf ein Drittel der Masthöhe (Halbmast) abgesenkt.
 * *Ausnahme:* Reine Werbe-, Produkt- oder Projektfahnen sind für die Dauer der Trauerbeflaggung vollständig zu entfernen, um den würdevollen und pietätvollen Charakter der protokollarischen Maßnahme restlos zu wahren. 
 * *Weitere Ausnahme*: Sollte ein Hochrangiges oder Geehrtes Mitglied der *SPMG* versterben werden nur die Unternehmensfahnen auf Halbmast gesenkt, die Nationalfahne bleibt immer Hochgehisst. (Aufgrund der Fehlenden Staatszugehörigkeit und als Zeichen das der Staat immer Aufrecht bleibt)
+
+
+== 6.7 Servicestelle für Personenangelegenheiten
+
+Die *Servicestelle für Personenangelegenheiten* fungiert als zentraler, niederschwelliger Kommunikations- und Abwicklungs-Hub der Stiller und Partner Mediengruppe GmbH (SPMG). Sie wurde speziell konzipiert, um organisatorische, administrative und zwischenmenschliche Reibungspunkte an den Schnittstellen zwischen der Holding, ihren Sub-Entitäten (wie der Erlebniswelt, Kinos oder Veranstaltungen) und Privatpersonen (Gästen, Anwohnern, Kunden sowie externen Beteiligten) systematisch zu minimieren.
+
+Through the decoupling of administrative hurdles from everyday operations, standardizing response mechanisms, and establishing an empathetic yet solution-oriented point of contact, procedural friction is actively mitigated.
+
+=== 6.7.1 Kernaufgaben und operative Maßnahmen zur Reibungsreduktion
+
+* *Zentrales Beschwerde- und Anregungsmanagement (Single Point of Contact):*
+ Privatpersonen müssen sich nicht durch komplexe Konzernstrukturen navigieren. Die Servicestelle dient als einzige Anlaufstelle, erfasst Anliegen strukturiert im ERPDS und garantiert definierte, kurze Rückmeldefristen.
+* *Präventive Konfliktdeeskalation:*
+ Bei Beschwerden bezüglich Lärm, Logistik, Veranstaltungen oder Inhalten agiert die Servicestelle als neutraler Vermittler. Durch geschultes Personal werden Anliegen sachlich aufgenommen und intern priorisiert, bevor rechtliche oder öffentliche Reibungen entstehen.
+* *Transparente Kommunikation & Information:*
+ Bündelung aller Anfragen zu Datenschutz (DSGVO), Ticketangelegenheiten, Fundsachen oder behördlichen Kooperationen auf Privatpersonenebene.
+* *Datenschutzkonforme und unbürokratische Abwicklung:*
+ Digitale Formularprozesse und direkte Schnittstellen zur internen Dokumentenverwaltung gewährleisten maximale Rechtssicherheit bei minimalem Aufwand für den Antragsteller.
+
+=== 6.7.2 Operative Matrix zur Reduzierung von Reibungspunkten
+
+[cols="25%,35%,40%", options="header"]
+|===
+| Reibungspunkt (Problemfeld) | Ursache / Risiko | Lösungsansatz der Servicestelle
+
+| *Unklare Zuständigkeiten*
+| Verwirrung bei Privatpersonen durch die Vielfalt der SPMG-Geschäftsbereiche.
+| **Single-Point-of-Contact:** Ein einziges System erfasst und routet Anfragen automatisch an die zuständige Fachabteilung.
+
+| *Verzögerte Bearbeitungszeiten*
+| Frust bei Kunden/Anwohnern durch langwierige E-Mail-Kaskaden.
+| **SLA-gestützte Workflows:** Automatisierte Erfassung und Fristenüberwachung im ERPDS für garantierte Rückmeldungen binnen 24–48 Stunden.
+
+| *Nachbarschafts- & Lärmkonflikte*
+| Beeinträchtigung durch Events, Logistik oder Außendreharbeiten.
+| **Proaktives Anwohnermanagement:** Frühzeitige Informationsschreiben sowie ein rund um die Uhr erreichbares Bürgertelefon bei Großveranstaltungen.
+
+| *Komplexe Datenschutzanfragen*
+| Unsicherheit bei Auskunfts- oder Löschbegehren nach DSGVO.
+| **Standardisierte Selbstauskunft:** Digitale, geführte Prozesse zur Identitätsprüfung und unbürokratischen Bearbeitung.
+|===
+
+> **Strategischer Mehrwert:** 
+> Durch die Vorhaltung einer dedizierten Servicestelle werden operative Einheiten (wie Sec-Ops, Eventmanagement oder Logistik) spürbar entlastet. Gleichzeitig sichert die Servicestelle das gesellschaftliche Ansehen der SPMG und wandelt potenzielle Konflikte in Transparenz und Kundenvertrauen um.

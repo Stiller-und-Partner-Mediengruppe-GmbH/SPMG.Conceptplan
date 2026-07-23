@@ -25,7 +25,37 @@ Mitarbeiter mit aktiven Sperren (wie der gesetzlichen 15-jährigen Waffensperre 
 == 13.5 Rechtssichere Dokumentenverwaltung
 Alle Dokumente, die im Rahmen der interner Prozesse erstellt werden, werden im ERPDS rechtssicher mittels digitaler Signatur (ID-Austria) signiert und archiviert. Dies gewährleistet die Einhaltung aller gesetzlichen Anforderungen und ermöglicht eine lückenlose Nachvollziehbarkeit.
 
-== 13.6 Technische Dokumentation 
+== 13.6 Gefahrenstoffdokumentation und Disposition
+
+Die Erweiterung des ERPDS um ein integriertes Gefahrstoffmanagement bildet die rechtliche und operative Brücke zwischen der internen Lagerhaltung (WMS) und der hochkritischen Disposition im Einsatzfall (BtF, Werksrettung, Werkschutz). Durch die automatisierte Anbindung externer Fachdatenbanken sowie die Nutzung offiziellem österreichischen E-Government-Standards wird die gesetzliche Konformität vollständig im System abgebildet.
+
+=== 13.6.1 Rechtskonforme Datenerfassung und Schnittstellen
+
+Die Erfassung von Gefahrstoffen erfolgt strikt getrennt nach den für den jeweiligen Anwendungsbereich maßgeblichen Normen und Verordnungen:
+
+* *Lagersystem (Inbound & WMS):* Abbildung der Verordnung (EG) Nr. 1272/2008 (CLP/GHS) zur Auswertung von GHS-Piktogrammen, Signalwörtern sowie H- und P-Sätzen. Dies ermöglicht die automatisierte Durchsetzung von Zusammenlagerungsverboten und die Überwachung von Mengenschwellen gemäß den regionalen Feuerpolizeigesetzen sowie der VbF.
+* *Dispatching & Transport (ADR / GGBG):* Automatische Synchronisation der UN-Stoffnummern, Gefahrgutklassen und Beförderungskategorien über eine strukturierte REST-API (z. B. KISTERS TRANSEC). Dadurch entfällt die fehleranfällige manuelle Dateneingabe, und gesetzliche Updates des ADR-Regelwerks werden nahtlos übernommen.
+
+=== 13.6.2 Einsatztaktische Bereitstellung im Dispatching
+
+Im Alarmfall übersetzt das System die erfassten UN-Nummern live in einsatztaktische Handlungsempfehlungen für die Einsatzkräfte vor Ort:
+
+. *Taktische Lagebeurteilung:* Automatische Ermittlung der erforderlichen Schutzausrüstung (Schutzstufen 1 bis 4 nach ÖBFV-Richtlinien) und Berechnung von Absperradien bei Stofffreisetzungen.
+. *Sicherheitsdienst & Evakuierung:* Automatische Weitergabe von Absperrzonen an das Zutrittskontrollsystem zur Absicherung des Werksgeländes.
+. *Werksrettungsdienst:* Sofortige Bereitstellung stoffspezifischer Erstversorgungs- und Dekontaminationshinweise bei Personenschäden.
+
+=== 13.6.3 Systemarchitektur: Offline-Resilienzsicherung und Snapshot-Logik
+
+Um den Anforderungen an kritische Infrastrukturen (KITIS) gerecht zu werden, folgt die technische Umsetzung im C# .NET Backend zwei wesentlichen Schutzkonzepten:
+
+* *Data-Snapshot-Muster:* Beim Erstellen eines Lagerauftrags oder Einsatzprotokolls werden die normierten Gefahrgutdaten als unveränderlicher Ist-Zustand in das Dokument kopiert. Künftige Normenänderungen verfälschen dadurch rückwirkend keine historischen Datensätze.
+* *Offline-First & Local Caching:* Einsatzrelevante Gefahrgutstammdaten werden im Standby auf die mobilen Endgeräte (z. B. Fahrzeug-Tablets im ULF/KDOF) synchronisiert. Bei einem Netzausfall oder einer physischen Beschädigung der Werksinfrastruktur bleibt die volle Funktionalität der Einsatzführung lokal erhalten.
+
+=== 13.6.4 Revisionssichere Dokumentation via ID Austria
+
+Nach Abschluss eines Einsatzes oder Transports generiert das System automatisch einen strukturierten Einsatzbericht im PDF-Format. Zur Erfüllung der eIDAS-Vorgaben und der rechtlichen Gleichstellung gemäß § 4 SVG wird dieser Bericht über die offizielle Schnittstelle (A-Trust / MOA-SS) mittels **ID Austria** qualifiziert elektronisch signiert (QES). Das Dokument wird im Nachgang kryptografisch versiegelt und revisionssicher auf dem Server archiviert.
+
+== 13.7 Technische Dokumentation 
 Die Technische Dokumentation der Plattform umfasst detailliertere Funktionsbeschreibungen, Anleitungen zur Nutzung der verschiedenen Module und Informationen zu den technischen Spezifikationen des Systems. Sie finden diese Dokumentation auf folgender Seite: 
 
 https://github.com/Stiller-und-Partner-Mediengruppe-GmbH/ERPDS-SPMG.Dokumentation/releases

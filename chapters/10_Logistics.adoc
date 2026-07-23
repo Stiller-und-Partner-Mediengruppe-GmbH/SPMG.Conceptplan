@@ -83,7 +83,47 @@ Einsatzpersonal (BOS-Rettungsdienst / BtF)::
 Die bestehende Kerninfrastruktur (Basisstationen in Wien/Schwechat und Objektfunkanlagen) fängt eine Skalierung bis ca. 250 bis 300 Endgeräte im selben Sendegebiet ohne Hardware-Erweiterung ab. Erst bei Überschreitung dieser Kapazitätsgrenze ist der Einbau zusätzlicher Transceiver-Einschübe zur Kanalerweiterung erforderlich.
 ====
 
-=== 10.7.3 Rückfinanzierung im Sanitätsbereich
+=== 10.7.3: OS-Imaging und Device Name Handling
+
+Die Bereitstellung und Inbetriebnahme der TETRA-Handheld-Funkgeräte (Sepura-Flotte) erfolgt nach einem standardisierten, hochgradig automatisierten *Staging-Prozess*. Dadurch wird sichergestellt, dass neu beschaffte Hardware innerhalb kürzester Zeit einsatzbereit ist und nahtlos in die bestehende Flottenstruktur sowie das betriebliche Asset-Management integriert werden kann.
+
+== Technisches Grundkonzept & Rollout-Workflow
+
+Um den administrativen Aufwand bei Nachbestellungen minimal zu halten, wird auf die Erstellung individueller Programmierdateien pro Einzelgerät verzichtet. Stattdessen nutzt die Mediengruppe ein zentrales *Master-Codeplug-Template* im **Sepura Radio Manager (RM2)**. 
+
+Die Unterscheidung der einzelnen Endgeräte erfolgt dynamisch über ein datenbankgestütztes Variablen-Mapping.
+
+[cols="1,3", options="header"]
+|===
+| Prozessschritt | Beschreibung / Umsetzung
+
+| **1. Wareneingang & Identifikation**
+| Nach Anlieferung unkonfigurierter Neugeräte ("Blanko-Hardware") wird die hardwareseitig eingebrannte *TEI* (TETRA Equipment Identity) über einen Barcodescanner erfasst und direkt mit dem internen Inventarsystem abgeglichen.
+
+| **2. Datenbank-Provisionierung**
+| Im Sepura Radio Manager wird ein neues Geräteprofil mit der erfassten TEI angelegt. Im zugewiesenen Variablenfeld (`User_Defined_Variable_1`) wird die interne **SPMG-Inventarnummer** hinterlegt.
+
+| **3. OS-Imaging & Flash-Vorgang**
+| Das Funkgerät wird via USB-Programmierkabel an die Flottenmanagement-Station angeschlossen. Der Radio Manager mebelt die Firmen-Firmware (Krypton-File) auf das Gerät und verknüpft das Master-Template mit der gerätespezifischen Variable.
+
+| **4. Bluetooth Device Name Assembly**
+| Während des Schreibvorgangs generiert das System den physischen Bluetooth-Gerätenamen automatisch nach dem Schema:
+`SPMG-[Inventarnummer]` (z. B. `SPMG-2026-0104`).
+|===
+
+[NOTE]
+====
+**Zeichenlänge & Konfigurierbarkeit:** 
+Der zusammengesetzte Bluetooth *Friendly Name* überschreitet nicht die hardwareseitige Begrenzung von 15 Zeichen und ist im Gerät fest verankert. Er dient der eindeutigen und verwechslungsfreien Kopplung mit externer Peripherie (z. B. Audio-Zubehör, Bodycams oder mobilen Datenerfassungsgeräten) im Feld.
+====
+
+== Betreiber- und Sicherheitsvorteile
+
+* **Skalierbarkeit:** Der Grundstock an Funkgeräten kann jederzeit um beliebig viele Einheiten erweitert werden, ohne dass grundlegende Funknetz- oder Parameteränderungen vorgenommen werden müssen.
+* **Prozesssicherheit:** Durch die Kopplung der Bluetooth-Kennung an das zentrale Inventar-Template wird ausgeschlossen, dass im Einsatz fehlerhaft benannte oder unbefugte Geräte im Nahbereichs-Funknetz auftauchen.
+* **Autarkie:** Die Bereitstellung erfolgt vollständig in-house über die eigene Programmierstation. Es entstehen keine laufenden Servicegebühren durch externe Dienstleister bei Geräte-Updates oder Neuanschaffungen.
+
+=== 10.7.4 Rückfinanzierung im Sanitätsbereich
 
 Die laufenden Betriebskosten (*OpEx*) der BOS-Einsatzflotte sowie die anteiligen Anschaffungskosten der Rettungsdienst-Infrastruktur finanzieren sich im laufenden Betrieb durch das gesetzliche und tarifliche Erstattungssystem (*Reimbursement*) in Österreich im Regelfall selbst:
 
@@ -140,6 +180,7 @@ Das gesamte Druckkonzept basiert auf einer strikten Trennung zwischen Steuerungs
 === 10.8.4 Zentrales Management und Compliance
 Die gesamte beschaffte Flotte wird über die Software *HP Web Jetadmin* auf dem Windows Server 2019 verwaltet. 
 Dies ermöglicht ein automatisiertes Rollout der Sicherheits-Baselines (Sperrung von USB-Ports, Deaktivierung unverschlüsselter Protokolle wie HTTP/SMBv1) sowie ein permanentes Compliance-Monitoring der gesamten Infrastruktur.
+
 == 10.9 Beschaffungsweg: Kameratechnik
 
 === 10.9.1 Wirtschaftliche und logistische Aspekte
@@ -213,26 +254,147 @@ Validierung & Playback: Der Projektor verifiziert die Hardware-ID der KDM. Inner
 
 Trigger & Secure Wipe: Erreicht das Playback den SMPTE-Marker <Label>FilmEnd</Label>, erlischt die Gültigkeit der KDM sofort. Der lokale Saal-Server triggert augenblicklich einen automatisierten Secure Wipe-Befehl, löscht das MXF-Paket und überschreibt die Speicherblöcke der SSD mit dem nächsten verschlüsselten Container des Spielplans.
 
-== 2. Beschaffungsweg: Fahnen und Standarten
+== 10.11 Beschaffungsweg: Fahnen und Standarten
 
-=== Logistische Oberhoheit und Bedarfsanforderung
+=== 10.11.1 Logistische Oberhoheit und Bedarfsanforderung
 Die Beschaffung, Registrierung und Instandhaltung sämtlicher textiler Identitätsmedien fällt exklusiv in den Aufgabenbereich der Abteilung Logistik & Beschaffungswesen (LBW) in Absprache mit dem Protokolldienst der Generaldirektion. 
 Jede Anforderung für den Austausch oder die Neuplatzierung von Fahnen und Standarten muss digital über das unternehmenseigene Enterprise Resource Planning and Dispatch System (ERPDS) eingeleitet und vom zuständigen Referatsleiter freigegeben werden.
 
-=== Strukturierte Lieferkette (Supply Chain)
+=== 10.11.2 Strukturierte Lieferkette (Supply Chain)
 Zur Wahrung unserer Qualitäts- und Compliance-Standards folgt der Beschaffungsweg einer streng definierten Kette:
 
 1. *Zertifizierte Herstellererauswahl:* Das LBW arbeitet ausschließlich mit staatlich geprüften Webereien und Fahnenherstellern innerhalb Österreichs zusammen, die eine exakte Einhaltung der CI-Farbwerte (#070052) garantieren.
 2. *Wareneingang und Qualitätskontrolle:* Nach der Anlieferung erfolgt im zentralen *Referat Zeugamt* eine physische und administrative Überprüfung auf Farbkonformität, Reißfestigkeit und UV-Beständigkeit.
 3. *ERPDS-Inventarisierung:* Jedes textile Element wird mit einem eindeutigen RFID- beziehungsweise Barcode-Tag versehen und digital im System erfasst, um den Lebenszyklus lückenlos zu überwachen.
 
-=== Sachgemäße Aufbewahrung
+=== 10.11.3 Sachgemäße Aufbewahrung
 Nicht im Einsatz befindliche Flaggen, Repräsentationsbänder und Fahrzeugstandarten werden im klimatisierten Depot des Zentralen Zeugamts gelagert. 
 Die Lagerung erfolgt in spezialisierten, staubgeschützten und UV-absorbierenden Aufbewahrungsbehältnissen, um ein Verblassen der Textilfarben oder Stockfleckenbildung durch Luftfeuchtigkeit präventiv auszuschließen.
 
-=== Pflege, Lifecycle und Austauschintervalle
+=== 10.11.4 Pflege, Lifecycle und Austauschintervalle
 Das Gewebe unterliegt durch permanente Witterungseinflüsse einem natürlichen Verschleiß. Es gelten folgende verbindliche Pflegerichtlinien:
 
 * *Reinigungszyklus:* Fahnen im permanenten Außeneinsatz sind quartalsweise durch das hauseigene Facility-Management materialschonend zu reinigen.
 * *Sicherheitsprüfung:* Bei Unwetterwarnungen beurteilt das LSZ (Lage- und Sicherheitszentrum) automatisch die Belastung; ab Windgeschwindigkeiten von 60 km/h sind die Flaggen einzuholen.
 * *Aussonderung:* Sichtbar beschädigte, ausgefranste oder verblasste Flaggen stellen einen Mangel im repräsentativen Goldstandard der SPMG dar. Sie werden umgehend über das ERPDS als "ausgesondert" markiert, eingezogen und durch das Zeugamt fachgerecht thermisch verwertet.
+
+=== 10.12 Beschaffungsweg: Papierwaren und Druckzubehör
+
+Die Versorgung der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) sowie sämtlicher Tochtergesellschaften, Regionalstationen und Spezialeinheiten mit Papierwaren, Druckmedien und Verbrauchsmaterialien wird zentral durch die Abteilung Logistik & Beschaffungswesen (LBW) gesteuert. Ziel ist die Gewährleistung einer lückenlosen Materialverfügbarkeit für Verwaltung, Medienproduktion und operative Handlungsfelder unter Berücksichtigung von Wirtschaftlichkeit, Nachhaltigkeit und Sicherheitsanforderungen.
+
+==== 10.12.1 Materialklassen und Spezifikationen
+
+Das Beschaffungsportfolio im Bereich Papier und Druckzubehör gliedert sich in drei Kernkategorien:
+
+* *Standard-Büromaterialien:* Drucker- und Kopierpapiere (DIN A4 / A3, vorzugsweise FSC-/EU-Ecolabel-zertifiziert), Notiz- und Schreibwaren sowie Standard-Verpackungsmaterialien für den täglichen Verwaltungsbetrieb.
+* *Sicherheits- und Spezialpapiere:* Witterungs- und reißfeste Papiere für den Außeneinsatz (z. B. Einsatzdokumentation, Checklisten für Sicherheits- und Sanitätsdienste), fälschungssichere Dokumentenpapiere sowie Spezialmedien für Druck- und Plotteraufbauten im Medien- und Designbereich.
+* *Druckverbrauchsmaterialien:* Original- und zertifizierte Verbrauchsmaterialien (Toner, Tintenpatronen, Druckköpfe) für das flächendeckend eingesetzte Drucker- und Kopiererequipment.
+
+==== 10.12.2 Beschaffungs- und Bestellablauf
+
+Zur Vermeidung von Dezentralisierungseffekten und Fehlbeständen erfolgt der Beschaffungsprozess voll integriert über das enterprise-interne ERPDS-System:
+
+[cols="1,3,4", options="header"]
+|===
+| Schritt | Prozessstufe | Operative Durchführung
+
+| 1
+| Automatische Bestandserfassung
+| Zentrale Logistiklager und dezentrale Materiallager (z. B. auf Stationen) führen Mindestbestände. Bei Unterschreitung generiert das ERPDS automatisch eine Bestellanforderung (BANF).
+
+| 2
+| Freigabe & Bündelung
+| Die Abteilung LBW bündelt einlaufende BANFs zu Sammelbestellungen, um Rahmenverträge und Mengenrabatte bei gelisteten Hauptlieferanten maximal auszuschöpfen.
+
+| 3
+| Beauftragung & Abwicklung
+| Die Bestellung wird elektronisch an den Vertragspartner übermittelt. Direktlieferungen an Regionalstationen werden zentral erfasst und verbucht.
+
+| 4
+| Wareneingangskontrolle & Einlagerung
+| Bei Erhalt der Ware erfolgt die Überprüfung auf Vollständigkeit und Unversehrtheit im Zeugamt beziehungsweise an den lokalen Abgabestellen samt Systemverbuchung im ERPDS.
+|===
+
+==== 10.12.3 Rahmenverträge und Wirtschaftlichkeit
+
+Um administrative Aufwände gering zu halten und Planungssicherheit zu gewährleisten, schließt die SPMG mehrjährige Rahmenverträge mit zertifizierten Papier- und Büromaterialgroßhändlern ab. Bei der Auswahl der Hauptlieferanten stehen versorgungssichere Logistikketten, flexible Nachlieferfristen sowie die Bereitstellung umweltfreundlicher Produktlinien im Vordergrund.
+
+== 10.13 Beschaffungsweg: Taschenlampen und Andere Leuchtmittel
+
+=== 10.13.1 Strategische Grundausrichtung und Eigensicherung
+
+Die Beschaffung und Bereitstellung von Leuchtmitteln folgt im gesamten Unternehmen einer strikten **Null-Risiko-Strategie**. Unabhängig von der baulichen Trennung der einzelnen Fachbereiche (Sicherheitsdienst, Betriebsfeuerwehr, Sanitäts- und Rettungsdienst) wird die Licht- und Diagnostikausrüstung für jeden Mitarbeiter standardisiert. 
+
+Da bei Verbund- und Werkseinsätzen das Betreten potenziell explosionsgefährdeter Zonen (ATEX-Bereiche) nie gänzlich ausgeschlossen werden kann, gilt für die persönliche Schutzausrüstung (PSA) der Grundsatz der durchgängigen Ex-Zertifizierung. Standardisierte Konsumgüter oder nicht zertifizierte Leuchtmittel sind im operativen Dienstbetrieb strikt untersagt, um thermische Zündgefahren sowie elektrische Funkenbildung (z. B. durch Schaltkontakte) vollständig auszuschließen.
+
+=== 10.13.2 Die Normierte Zwei-Komponenten-Ausstattung
+
+Jeder Mitarbeiter – vom Interventionsdienst im Anzug (A-Dienst) über den Feuerwehrmann unter Atemschutz bis hin zum Notfallsanitäter – erhält eine identische, aus zwei Modulen bestehende Lichtausstattung:
+
+==== A. Ex-Geschützte Einsatzlampe (Primärlicht)
+* **Einsatzzweck:** Nahbereichsausleuchtung, Orientierung im Raum, Objektschutz, Absicherung von Einsatzstellen und technische Kontrollen.
+* **Sicherheitsspezifikation:** Vollständig ATEX-zertifiziert (gas- und staubdicht gekapselt, antistatisches Gehäuse), mit mechanischem oder magnetischem Sicherheitsverschluss gegen unbeabsichtigtes Öffnen.
+* **Trageweise:** Adaptiv am Koppel/der Weste (Uniformdienst, BtF), im dezenten Leder-/Kydex-Holster (Personenschutz im A-Dienst) oder direkt an der PSA.
+
+==== B. Ex-Geschütztes Penlight (Sekundär- & Diagnostiklicht)
+* **Einsatzzweck:** Universal-Diagnostikelement zur Pupillendiagnostik (Erkennung neurologischer Beeinträchtigungen wie SHT oder SM-Abusus), unauffällige Dokumentenprüfung im Personenschutz sowie blendfreies Ablesen von Plänen/Messgeräten.
+* **Sicherheitsspezifikation:** ATEX-zertifiziert für den Ex-Bereich. Lichtleistung im Diagnostikmodus auf augensichere Werte gedimmt, jedoch mit explizit ex-geschütztem Gehäuse und schaltfunkenfreier Elektronik.
+* **Trageweise:** Ergonomisch fixiert in der Hemdtasche, Sakko-Innentasche (A-Dienst) oder den vorgesehenen Stiftschlaufen der Einsatzbekleidung.
+
+=== 10.13.3 Dezentrale Logistik und Integration auf den Wachen
+
+Obwohl die Wachen der einzelnen Gewerke baulich voneinander getrennt sind, wird die Lade- und Bereitstellungsinfrastruktur systemisch vereinheitlicht.
+
+[cols="1,3", options="header"]
+|===
+| Wache / Bereich | Logistische Einbindung & Übergabe
+| **Wache A: Sicherheitsdienst**
+| Integration am zentralen Ladetisch der Ausrüstungskammer. Befestigung der Einsatzlampe am Koppel/Gurt, Penlight in der Dienstkleidung.
+
+| **Wache B: Betriebsfeuerwehr (BtF)**
+| Integration am Ladetisch der BtF-Wache. Kopplung der Primärlampe an die Brandschutzbekleidung, Penlight als redundante Sichtquelle in der Jackentasche.
+
+| **Wache C: Sanitäts- & Rettungsdienst**
+| Integration am Ladetisch der San-Station (saubere Trennung zur fahrzeuggebundenen Medizintechnik auf RTW/NEF). Primärlampe an der Einsatzhose/Jacke, Penlight als primäres Diagnostiktool am Mann.
+|===
+
+=== 10.13.4 Wirtschaftliche und operative Synergien
+
+Durch die Beschaffung von exakt zwei fest definierten Artikelnummern für das gesamte Unternehmen ergeben sich wesentliche operative und betriebswirtschaftliche Vorteile:
+
+* **Einkaufsvorteile:** Skaleneffekte und Rahmencoverage durch Großbestellungen bei einem zertifizierten Hersteller.
+* **Interdisziplinäre Schnittstelle:** Da das Sanitätspersonal die Sicherheitskräfte intern in der neurologischen Erstdiagnostik (Pupillenreflexe, Differenzierung SHT vs. Intoxikation) schult, nutzen beide Berufsgruppen im Realeinsatz exakt dasselbe Werkzeug.
+* **Reduzierter Wartungsaufwand:** Einheitliche Ladeschalen und Ladekonzepte vereinfachen die periodische Überprüfung der Ausrüstung durch die Haustechnik und minimieren die Ersatzteilbevorratung im Zentrallager.
+
+== 10.14 Beschaffungsweg/Technisches Konzept: Telekommunikation
+
+Die telekommunikative Infrastruktur des Unternehmens beruht auf einem hybriden, technisch strikt getrennten Zwei-Kanal-Modell. Es vereint eine ortsfeste IP-Telefonanlage für die Büroarbeitsplätze mit autarken Diensthandys für die mobile Erreichbarkeit. Ziel dieses Konzepts ist eine maximale Ausfallsicherheit, strikte Wahrung der Privatsphäre der Mitarbeiter sowie eine intuitive Handhabung im Alltagsbetrieb ohne den Einsatz fehleranfälliger mobiler Applikationen.
+
+=== Architecture & Systemtrennung
+
+Das System gliedert sich in zwei primäre Säulen:
+
+* **Festnetz-Komponente (Alcatel-Lucent Enterprise):** 
+  Die primäre Erreichbarkeit der Arbeitsplätze erfolgt über eine zentrale Alcatel IP-PBX. Am PC nutzen die Mitarbeiter ein softwarebasiertes Softphone (ALE SoftPhone) bzw. vereinzelte Hardphones. Über diesen Kanal läuft der reguläre Bürogeschäftsverkehr.
+* **Mobilfunk-Komponente (Rahmenvertrag):** 
+  Jeder Mitarbeiter erhält ein dediziertes Diensthandy mit eigener SIM-Karte und eigenständiger Mobilfunknummer über einen zentralen Business-Rahmenvertrag. Die Geräte werden rein unternehmensintern genutzt. Eine geschäftliche Nutzung von Privatgeräten oder Privatnummern findet nicht statt.
+
+=== Automatisierte Ausfallsicherheit (Dynamic Routing)
+
+Um die Erreichbarkeit unter der Festnetz-Durchwahl auch bei Abwesenheit oder technischen Störungen sicherzustellen, kommt ein automatisiertes, serverseitiges Routing-Verfahren (*Forward on Unregistered*) der Alcatel-Anlage zum Einsatz:
+
+1. **Normalbetrieb (Online-Status):** 
+   Ist das Softphone am PC aktiv an der Anlage registriert, werden eingehende Festnetzanrufe exklusiv am PC signalisiert. Das Diensthandy bleibt stumm.
+2. **Abwesenheit & Störungsschutz (Offline-Status):** 
+   Sobald der Mitarbeiter seinen Laptop herunterfährt, in den Ruhezustand versetzt oder das Softphone durch eine technische Störung (z. B. Anwendungsabsturz, Netzwerkunterbrechung) die Registrierung an der Anlage verliert, greift die automatische Umleitung.
+3. **Nahtlose Signalweiterleitung:** 
+   Eingehende Festnetzanrufe werden von der Anlage ohne künstliche Zeitverzögerung direkt an die geschäftliche Mobilfunknummer des Mitarbeiters durchgeschaltet. 
+
+=== Transparenz und Anrufsignalisierung
+
+Bei einer automatischen Weiterleitung übermittelt die Telefonanlage die originale Rufnummer des Anrufers (CLIP) unverfälscht an das Diensthandy. Dies sichert wichtige betriebliche Vorteile:
+
+* **Sofortige Kundenidentifikation:** Der Mitarbeiter sieht im Display des Handys direkt, welcher Kunde anruft, und kann bei verpassten Anrufen direkt vom Mobilgerät zurückrufen.
+* **Klare Abgrenzung zur Zentrale:** Manuelle Weiterverbindungen oder interne Rückfragen durch die Telefonzentrale bleiben visuell eindeutig unterscheidbar, da in diesem Fall die Durchwahl des vermittelnden Mitarbeiters aufleuchtet.
+* **Garantierte Erreichbarkeit:** Der Kunde erlebt selbst bei einem lokalen IT-Ausfall am Arbeitsplatz des Mitarbeiters keine Unterbrechung der Erreichbarkeit.
+

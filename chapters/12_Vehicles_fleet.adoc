@@ -210,7 +210,7 @@ Dokumenten-Station: Die gebrandete Pulox-Dokumentenmappe ist in einer festen, fa
 
 ==== 12.6.2.2. Sicherheits- und Ermittlungsdienst
 
-Fahrzeugwahl: Zivile Kombis und Kompaktlieferwagen mit hoher Alltagsnutzbarkeit (z. B. VW Passat, VW Caddy).
+Fahrzeugwahl: Zivile Kombis und Kompaktlieferwagen mit hoher Alltagsnutzbarkeit (z. B. VW Passat, VW T6.1).
 
 Einsatzcharakteristik: Ermittlungseinsätze, Objekt- und Personenschutz, unauffällige Präsenz, Erstintervention bei Unfällen (Poldion).
 
@@ -248,6 +248,74 @@ Betriebsmittelschutz: Fahrzeuge mit unregelmäßigen Standzeiten werden prävent
 
 Dokumenten-Station: Montage der Mappenhalterung an der Rückwand der Fahrerkabine bzw. am Ende des Mitteltunnels (immer in Flucht der Rückenlehnen).
 
+=== 12.6.2.6 UTVs
+
+Zur zielgerichteten Erweiterung der bestehenden Fahrzeugflotte wird die Komponente der **Utility Task Vehicles (UTVs / Side-by-Sides)** integriert. Um eine hohe Versorgungssicherheit, kurze Logistikwege bei Ersatzteilen sowie eine lückenlose Einhaltung europäischer Fertigungsstandards zu gewährleisten, setzt das Unternehmen im Bereich der Allrad-Sonderfahrzeuge konsequent auf Modelle des europäischen Herstellers **Corvus Off-Road Vehicles** (Entwicklung und Endmontage in der Europäischen Union).
+
+Der Einsatz von rein verbrennungsmotorischen UTVs schließt das Sicherheits- und Ausfallrisiko traktionsbatteriebasierter Elektroantriebe (z. B. Thermisches Durchgehen/Brandgefahr bei Akkus) im sensiblen Werks- und Einsatzumfeld vollständig aus.
+
+==== Einsatzbereich 1: Sicherheitsdienst & Werkschutz
+
+Für die interne Personal- und Materiallogistik auf Unternehmensgeländen kommt das kompakte Segment (*Corvus Terrain DX4s / GX4s*) zum Einsatz. Die Fahrzeuge dienen primär der schnellen und wetterunabhängigen Versetzung von Sicherheitskräften zwischen der Sicherheitsleitzentrale (SLZ) und den peripheren Kontrolleinheiten (Haupteinfahrten, Logistikzentren und Lkw-Ladebuchsen).
+
+* **Betriebsrelevante Vorteile:**
+** *Geringe Abmessungen:* Mit einer Fahrzeugbreite von nur 1,45 Metern lassen sich enge Tordurchfahrten, Betriebswege und Lkw-Schleusen ohne Behinderung des regulären Werksverkehrs passieren.
+** *Ergonomie & Schutz:* Im Gegensatz zu klassischen ATVs/Quads bietet die Side-by-Side-Bauweise zwei vollwertige Sitzplätze mit Anschnallgurten, Überrollkäfig und Wetterschutzdach für den ganzjährigen Schichtbetrieb.
+** *Wirtschaftlichkeit:* Hohe Standzeiten und geringer Verschleiß im Dauerbetrieb auf befestigten Werksstraßen.
+
+==== Einsatzbereich 2: Sanitäts- & Rettungsdienst (Private/Public Cooperation)
+
+Bei Großveranstaltungen und Open-Air-Festivals auf unbefestigtem Außengelände übernimmt die Full-Size-Variante (*Corvus Terrain DX4*) die Aufgabe als geländegängiges Einsatz- und Patiententransportfahrzeug.
+
+* **Einsatzrelevante Vorteile:**
+** *Patiententransport & Notfallversorgung:* Die ebene Ladefläche (1.203 x 1.340 mm) mit einer Nutzlast von bis zu 450 kg ermöglicht die Aufnahme normierter Tragensysteme (z. B. Schleifkorbtragen) sowie die sichere Mitführung schwerer Notfallausrüstung (Sauerstoff, Notfallrucksäcke, Defibrillatoren).
+** *Geländegängigkeit:* Mit 309 mm Bodenfreiheit, zuschaltbarem Allradantrieb ($4\times4$) und Differenzialsperre ist die Zugänglichkeit auch bei extremen Bodenverhältnissen (Matsch, tiefes Gras) im Veranstaltungsgelände garantiert.
+** *Patientenschonendes Vordringen:* Das Fahrzeug erlaubt ein kontrolliertes und sicheres Manövrieren durch dichte Menschenmengen bei Großevents.
+
+==== Synergien & Flottenstandardisierung
+
+Durch die Standardisierung auf einen einzigen europäischen Fahrgestell-Hersteller ergeben sich maßgebliche Synergieeffekte für den Gesamtfuhrpark:
+
+1. **Vereinheitlichte Wartung:** Nutzung identischer Komponenten und standardisierter Wartungsabläufe für die Einsatzbereiche Sicherheitsdienst und Sanitätsdienst.
+2. **Kritische Ersatzteilversorgung:** Vermeidung globaler Lieferkettenrisiken aus Übersee; Zugriff auf ein flächendeckendes, regionales Händler- und Servicenetz in der DACH-Region.
+3. **Einfache Bedienung:** Identische Bedien- und Sicherheitskonzepte für das eingesetzte Personal in allen Betriebsbereichen.
+
+==== 12.6.2.7 Kühltransportsysteme
+
+Zur Schließung der sensiblen Qualitätslücke auf der Last-Mile-Strecke zwischen Zentrallager und den nachgelagerten Gastrolagern wird die bestehende Fahrzeugflotte um ein hochflexibles, hybrides Kühltransportsystem erweitert. Anstelle konventioneller, starr ausgebauter Kühlfahrzeuge setzt das Logistikkonzept auf die Kombination aus temperierten Trägerfahrzeugen und autarken, aktiv gekühlten Transportboxen.
+
+===== Technischer Aufbau und Funktionsweise
+
+Das System basiert auf einer thermodynamischen Zweistufenkühlung (80/20-Prinzip), die maximale Energieeffizienz mit höchster Ausfallsicherheit verbindet:
+
+* *Basiskühlung des Trägerfahrzeugs (Raumkühlung):* Der Laderaum des Transporters wird über eine effiziente Grundisolierung und ein fahrzeugeigenes Kühlaggregat auf ein moderates Temperaturniveau (+10 °C bis +12 °C) heruntergekühlt. Dies bricht extreme Umgebungstemperaturen im Sommer und reduziert das thermische Gefälle ($ΔT$) für die Frachtmodule drastisch.
+* *Punktgenaue Modulkühlung (Transportboxen):* Die eigentliche Zieltemperatur für Frischware (+2 °C) und Tiefkühlware (-22 °C) wird durch autarke Kühlboxen erzeugt, die im Laderaum flexibel positioniert werden.
+* *Korrosionsbeständige Quick-Release-Schnittstelle:* Jede Box wird im Fahrzeug über industriell gefertigte, IP68/IP69K-zertifizierte Schnellverbinder fixiert. Diese Schnittstelle sichert die unterbrechungsfreie Energieversorgung (12V/24V) sowie die Datenübertragung (CAN-Bus) an das fahrzeugeigene Telematiksystem.
+
+.Schematische Darstellung der Schnittstelle und Sensorik
+[quote, Systemarchitektur]
+____
+*Fahrzeugbordnetz / Telematik* 
+  <--> *Quick-Release-Verbinder (IP69K)* 
+  <--> *Autarke Kühlbox (Kompressor + Akku)* 
+  <--> *E-Paper-Display & Redundante PT100-Sensoren*
+____
+
+===== Operative Vorteile auf der Last-Mile
+
+Die Integration dieser Technologie hebt die Transportlogistik auf ein neues Qualitätsniveau und bietet klare Wettbewerbsvorteile im Gastro-Segment:
+
+1. *Lückenlose Kühlkette (Cold Chain Holding):* Die Boxen werden bereits im Zentrallager vorklimatisiert und bestückt. Beim Be- und Entladen sowie beim physischen Transport in das Lager des Kunden bleiben die Module geschlossen. Ein Kälteverlust beim Öffnen der Fahrzeughecktür für Teillieferungen wird vollständig eliminiert.
+2. *Erhöhte Autarkie und Akkupufferung:* Bei Trennung vom Fahrzeugnetz schalten die Boxen nahtlos auf interne Akkus um. Durch die Vorkühlung des Laderaums reduziert sich die Last der Boxenkompressoren auf ein Minimum, was die autarke Akkulaufzeit am Zielort vervielfacht.
+3. *Visuelle HACCP-Transparenz und Qualitätsnachweis:* Jedes Modul verfügt über ein außenliegendes, energiesparendes E-Paper-Display. Dieses zeigt dem Empfänger beim Wareneingang auf einen Blick:
+* Die aktuelle Kerntemperatur (gemessen über redundante, EN 12830-konforme Sensoren).
+* Einen eindeutigen HACCP-Konformitätsstatus (OK-Status).
+* Die verbleibende Akkulaufzeit (*Time-to-Empty*) sowie den prozentualen Ladestatus (SoC).
+4. *Maximale Fuhrparkflexibilität:* Die Ladekapazitäten für Tiefkühl- und Frischeprodukte lassen sich je nach täglicher Auftragslage modular anpassen, ohne dass feste Trennwände im Fahrzeug die Raumausnutzung einschränken.
+
+Durch diese Flottenerweiterung wird nicht nur der Energieverbrauch und Hardware-Verschleiß der Kühlaggregate nachhaltig gesenkt, sondern auch eine nachweisbare, digitale Produktsicherheit garantiert, die den strengen Anforderungen des Lebensmittelrechts uneingeschränkt entspricht.
+
+
 === 12.6.3 Übergreifende Standards für Langlebigkeit und Pool-Betrieb
 
 Da die Fahrzeuge innerhalb der Verwendungsklassen als Pool-Fahrzeuge betrieben werden, greifen folgende technische und organisatorische Schutzmaßnahmen:
@@ -272,7 +340,75 @@ Validierung: Die SPMG-Flotten-App verknüpft das persönliche Mitarbeiterprofil 
 
 Check-out: Nach Fahrtende erfolgt der Gegen-Scan am Zielort. Die App fordert den Fahrer dezidiert zur Bestätigung auf, dass das Fahrzeug an das Rettbox-System angeschlossen und die Dokumentenmappe im mechanischen Rückenlehnen-Dock eingerastet ist.
 
-[[flottenumsetzung-logistik]]
+=== 12.6.4 Taktische Kommunikationsbeschilderung
+
+Zur Optimierung der taktischen Führung, der visuellen Eigenidentifikation sowie der reibungslosen Kommunikation im operativen Dienstbetrieb wird die gesamte Fahrzeugflotte mit einer einheitlichen, innenliegenden Windschutzscheiben-Beschilderung ausgestattet.
+
+==== Einsatzzweck und taktischer Nutzen
+Die Schilder dienen der schnellen und zweifelsfreien Identifikation der einzelnen Bestreifungs- und Interventionseinheiten. Sie erfüllen im täglichen Dienstbetrieb sowie bei Großschadenslagen und Koordinationseinsätzen folgende Kernfunktionen:
+
+Einsatzleitung und Disposition: Sofortige visuelle Zuordnung von Rufnamen und Fahrzeugen an Bereitstellungsräumen, Zufahrtskontrollen oder Einsatzabschnitten – auch ohne Aufschalten des Fahrzeugfunks.
+
+Schnittstelle zu Behörden und Organisationen mit Sicherheitsaufgaben (BOS): Erleichterte Identifikation der Sicherheitskräfte bei gemeinsamen Lagen mit Exekutive, Feuerwehr oder Rettungsdiensten.
+
+Bürgerkontakt und Identifizierbarkeit: Transparente und professionelle Auftrittswirkung gegenüber Auftraggebern, Objektverantwortlichen und der Öffentlichkeit bei Kontrollfahrten.
+
+==== Technische und Gestalterische Ausführung
+Um den strengen rechtlichen Vorgaben des österreichischen Kraftfahrgesetzes (KFG 1967) bezüglich der freien Sichtfeldgestaltung vollumfänglich zu entsprechen und zeitgleich eine maximale Beständigkeit zu gewährleisten, erfolgt die Ausführung nach fixen Standards:
+
+. Abmessungen und Positionierung:
+Kompaktes Sonderformat (150 x 50 mm), positioniert an der unteren Mitte der Windschutzscheiben-Innenseite. Die Anbringung erfolgt flach auf der Schnittstelle zum Armaturenbrett, sodass die Scheibenwischer-Ruheposition nicht überragt und das Hauptsichtfeld des Lenkers zu 100 % frei bleibt.
+. Corporate Identity und Farbgebung:
+Der Träger besteht aus einer 3 mm Aluminium-Verbundplatte mit mattem Finish in der Corporate Color (#070052). Das matte Schutzlaminat verhindert Lichtreflexionen sowie störende Eigenblendungen des Fahrpersonals bei Nachtfahrten.
+. Tag- und Nachtlesbarkeit:
+Während das Firmenlogo den Absender markiert, wird die Funkkennung (z. B. "STREIFE 1") in DIN 1451 Normschrift mittels hochreflektierender Spezialfolie (Klasse RA2) appliziert. Diese ermöglicht eine passive, extrem scharfe Ausleuchtung bei Fremdanstrahlung (z. B. durch Scheinwerfer oder Taschenlampen), ohne eine unzulässige aktive Lichtquelle nach KFG darzustellen.
+. Sicherheitsbefestigung:
+Die Montage erfolgt spurlos und rückstandsfrei mittels hitzebeständigem 3M Dual Lock-Klettsystem. Dies garantiert maximale Haftung auch bei Gefahrenbremsungen sowie die flexible Entnahme bei Reinigung oder Fahrzeugwechsel.
+
+=== 12.6.5 Fahrzeugausbau (Bullenfänger und innen Ausbau)
+
+Die fahrzeugtechnische Ausstattung des Fuhrparks bildet die operative Grundlage für einen sicheren, flexiblen und effizienten Einsatz im Feld. Um sowohl den strengen rechtlichen Vorgaben des österreichischen Kraftfahrgesetzes (KFG) als auch den hohen Anforderungen an die Logistik gerecht zu werden, setzt das Unternehmen auf ein standardisiertes Ausbau- und Ausstattungskonzept.
+
+==== Frontschutzsysteme (Rechtskonforme Frontbügel)
+Zur Erhöhung der passiven Fahrzeugsicherheit und zur Aufnahme von mobiler Zusatzbeleuchtung werden die Einsatzfahrzeuge mit speziellen Frontschutzbügeln ausgestattet.
+
+* **Rechtliche Konformität:** Es kommen ausschließlich Mittelbügel (*A-Bars*) zum Einsatz, die über eine gültige EG-Typgenehmigung gemäß Richtlinie 2005/66/EG bzw. der Verordnung (EG) Nr. 78/2009 verfügen. Dadurch ist die Nutzung im österreichischen Straßenverkehr nach § 22a KDV 1967 anzeigefrei und eintragungsfrei zulässig.
+* **Geometrie & Fußgängerschutz:** Um den gesetzlichen Standards zum Fußgängerschutz zu entsprechen, schließen die Bügel seitlich vor den Scheinwerfern ab und beeinträchtigen weder die Abstrahlwinkel der Beleuchtungseinrichtungen noch die Funktion der integrierten Fahrzeugsensorik.
+* **Kennzeichenanbringung:** Das vordere Kennzeichen wird auf originaler Höhe direkt an der dafür vorgesehenen, geprüften Halterung des Bügels montiert, womit alle gesetzlichen Sichtwinkel (30° seitlich) gewahrt bleiben.
+* **Integrierte Norm-Sockel:** Die Bügel verfügen ab Werk über fest verschweißte, hohle DIN-Aufsteckrohre (nach ISO 4148) mit internen Stromkontakten. Diese ermöglichen die lückenlose Montage von mobilen Hella-Arbeitsscheinwerfern ohne externe, beschädigungsanfällige Kabelführungen. Die Ansteuerung erfolgt autark über ein separates Bedienteil im Cockpit samt optischer Statusanzeige.
+
+==== Flottenweit normierter Innenausbau
+Um logistische Abläufe fahrzeugübergreifend zu vereinheitlichen, wird ein modulares, normiertes Ausbausystem implementiert. Dieses System ist speziell auf die unterschiedlichen Anforderungsprofile der eingesetzten Fahrzeugtypen abgestimmt:
+
+[cols="1,2,3", options="header"]
+|===
+|Fahrzeugmodell |Einsatzsegment |Systemarchitektur & Ausbau
+
+|**VW Amarok** +
+(Lkw-Klasse N1)
+|Führung, Intervention, Technik & Infrastruktur
+|* **Laderaum (Heck):** Vollausbau unter dem Hardtop mit Schwerlastauszügen (bis 250 kg Belastbarkeit) und arretierbaren Euroboxen-Systemen zur Ladungssicherung. +
+* **Fahrgastzelle:** Nutzung des geschützten Raums unter der Rücksitzbank als feste Staubox zur passgenauen Aufnahme empfindlicher Systemkomponenten (z. B. Hella-Steckscheinwerfer-Module in PE-Schaumstoffeinlagen).
+
+|**VW Passat** +
+(Pkw-Klasse M1)
+|Sicherheit, Personenschutz, Ermittlungsdienst
+|* **Kofferraum:** Flachbau-Schwerlastauszug mit integrierter Unterflur-Schublade zur Aufnahme von Dokumenten, IT-Komponenten und Messtechnik. +
+* **Oberdeck:** Platz für genormte Stapelboxen, gesichert über eine integrierte Rastbolzen-Fixierung zur schnellen Entnahme.
+
+|**VW T6.1** +
+(Transporter / Bus)
+| Sicherheit, Technik, Infrastruktur Diensthunde
+|* **Heckbereich:** Vertikal modulares Regalsystem mit Kasten-Auszügen und integrierten Stromanschlüssen (12V/230V) zur Ladung von Akkugeräten im Stand. +
+* **Sicherheitskonzept:** Vollständige Trennung zwischen Fahrgastzelle und Laderaum durch eine zertifizierte Trennwand nach DIN 75410.
+|===
+
+==== Vorteile der Normierung
+1. **Ergonomie & Zeiteinsparung:** Durch fahrzeugtypübergreifend identische Greifräume und Modulmaße (Euro-Norm 400 x 300 mm bzw. $600 x 400 mm) entfällt für das Personal die Einarbeitungszeit beim Fahrzeugwechsel.
+2. **Wartung & Werterhalt:** Sämtliche Einbauten werden an den originalen Befestigungspunkten (Zurrösen/Sitzschienen) verankert, wodurch die Karosserie beschädigungsfrei bleibt und die Rückbaubarkeit beim Flottentausch gewährleistet ist.
+3. **Rechtssicherheit bei Überprüfungen:** Sämtliche Komponenten des Innenausbaus und der Zusatzbeleuchtung erfüllen die Kriterien der österreichischen § 57a-Begutachtung („Pickerl“) vollumfänglich.
+
+
 == 12.7 Flottenumsetzung im Logistikbereich
 
 Für den sicheren und effizienten Transport von hochwertigem Medien-Equipment und versiegelter Merchandising-Ware (Textilien, DVDs) wird anstelle von schadensanfälligen Planen-LKWs ein vollumschlossenes Koffersystem auf Basis eines MAN TGL 12t (Neufahrzeug) definiert.
