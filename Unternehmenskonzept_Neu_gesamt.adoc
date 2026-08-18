@@ -17,6 +17,9 @@
 :sectnumlevels: 0
 :title-page:
 :chapter-label:
+:table-caption: Tabelle
+:table-grid: all
+:table-stripes: all
 
 = Unternehmenskonzept Stiller und Partner Mediengruppe GmbH/Holding (SPMG)
 {author} +

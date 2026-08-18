@@ -1,647 +1,96 @@
-=  12 Fahrzeuge und Unternehmensflotte
+= 12 Fahrzeuge und Unternehmensflotte 
 
-== 12.1 Technische Kommunikationsausstattung in den Logistik-Fahrzeugen
+In diesem Kapitel wird die Zusammensetzung der Gesamten Unternehmensflotte der *Stiller und Partner Mediengruppe* und aller ihrer Abteilungen näher erläutert. 
 
-Die informationstechnische und funktechnische Ausstattung der Fahrzeugflotte folgt einer strikten Trennung zwischen herstellereigenen Systemen und einsatzspezifischer IT. Um maximale Datensouveränität, Abhörsicherheit im Innenraum und operative Zuverlässigkeit zu gewährleisten, wird die fahrzeugeigene Konnektivität vollständig isoliert und durch eine autarke, gehärtete Behörden-Infrastruktur ersetzt.
+== 12.1 Flottenweit normierte Standards 
+
+Im Folgenden Abschnitt werden zunächst die für Alle Fahrzeuge im Dienst der *SPMG* genauer behandelt.
 
 === 12.1.1 Isolation der Fahrzeuginfrastruktur (Härtung)
 
-Vollständige Backend-Deaktivierung: Für alle Neufahrzeuge werden die herstellerseitigen Online-Dienste (VW Connect / We Connect Plus) sowie kommerzielle Datenpakete direkt im Werks-Backend der Volkswagen AG dauerhaft gesperrt.
+**Vollständige Backend-Deaktivierung:**:: Für alle Neufahrzeuge werden die herstellerseitigen Online-Dienste (VW Connect / We Connect Plus) sowie kommerzielle Datenpakete direkt im Werks-Backend der Volkswagen AG dauerhaft gesperrt.
 
-Daten-Isolierung (eCall-Ausnahme): Die im Fahrzeug integrierte eSIM-Karte wird für jeglichen regulären Datenverkehr blockiert. Die gesetzlich vorgeschriebene Notruffunktion (EU-eCall 112) bleibt im Crash-Fall oder bei manueller SOS-Auslöserung direkt zur öffentlichen Rettungsleitstelle voll funktionsfähig.
+**Daten-Isolierung (eCall-Ausnahme):**:: Die im Fahrzeug integrierte eSIM-Karte wird für jeglichen regulären Datenverkehr blockiert. 
 
-Lokaler Betriebsmodus: Das bordeigene Infotainment-System wird dauerhaft in den Modus „Maximale Privatsphäre“ versetzt. Die Sprachbedienung arbeitet ausschließlich über die lokale, fahrzeugeigene Offline-Datenbank. Eine Datenübertragung an herstellerfremde Cloud- oder KI-Dienste (wie ChatGPT) ist physisch unmöglich.
+[WARNING]
+====
+ Die gesetzlich vorgeschriebene Notruffunktion (EU-eCall 112) bleibt im Crash-Fall direkt zur öffentlichen Rettungsleitstelle voll funktionsfähig.
+====
 
-Pannentaste: Die fahrzeugeigene Pannentaste im Dachhimmel wird im Zuge des Behördenumbaus elektrisch stillgelegt bzw. blindgeschaltet. Technische Defekte werden ausschließlich über die betriebseigene Kommunikationsstruktur abgewickelt.
+**Lokaler Betriebsmodus:**::
+Das Bordeigene Infotainment-System (über Android Auto) wird in einen Abgesicherten Modus geschaltet bei dem keinerlei Daten an Hersteller- oder Unternehmensfremde Firmen gesendet werden. Die Sprachbefehle werden bis auf jene die Direkt mit dem Mobile Device des Fahrers ("Rufe 'X' an","Sende Nachricht an 'X'" ) deaktiviert. Weiters werden sämtliche Herstelller- und Unternehmnesfremden KI-Dienste (darunter ChatGPT von OpenAI, Claude von Anthropic oder auch Gemini von Google) deaktiviert und wenn möglich deinstalliert. 
 
-=== 12.1.2 Zentrale Mittelkonsole & Ergonomie
-Die gesamte einsatztaktische Steuerung wird in einer maßgefertigten, vibrationsgedämpften Funk-Mittelkonsole im Cockpit zwischen Fahrer- und Beifahrersitz zusammengeführt:
+**Pannentaste:**:: Die fahrzeugeigene Pannentaste im Dachhimmel und die damit verbundenen VW-Connect Dienste werden im Zuge des Behördenumbaus elektrisch stillgelegt bzw. blindgeschaltet. Technische Defekte werden ausschließlich über die betriebseigene Kommunikationsstruktur und Navigation wird über ein Seperates Navigationsgerät (auf dem auch Aufträge oder Einsätze gespiegelt werden) abgewickelt.
 
-Bereich Vorne (Sicht- und Griffbereich): Plan bündig in die Oberschale eingelassen befinden sich das digitale Bedienfeld der Warnlichtanlage (Hänsch BE 300 / HBE 300) sowie das flache TETRA-Funkbedienteil (Control Head ohne Telefon-Handset).
+=== 12.1.2 Flottenweiter Mittelaufbau
+Jedes Fahrzeug wird mit einer eigens angepassten KFG-Konformen Mittelkonsole ausgestattet. 
 
-Zentraler Griffbereich: Ein robustes TETRA-Handmikrofon (Faustmikrofon) wird im vorderen Drittel der Konsole mittels einer hochfesten Magnethalterung fixiert, um eine ablenkungsfreie und blinde Bedienung für Fahrer und Beifahrer gleichermaßen zu garantieren.
-
-Bereich Mitte: Montage der schweren, crash-sicheren Dockingstation für das Panasonic Toughbook (Einsatzleitsystem). Die Station ist mechanisch leicht zum Beifahrer/Fahrzeugkommandanten angewinkelt.
-
-Bereich Hinten: Integration eines vertikalen Dokumenten-Racks zur Aufnahme von Sanitäts- und Rettungsdienstprotokollen sowie Brandschutz-Objektplänen.
-
-=== 12.1.3 Autarke Einsatz-IT & Netzwerkarchitektur
-
-Gehärteter Automotive-Router: Jedes Fahrzeug wird mit einem dedizierten Multi-SIM-Mobilfunkrouter (Cradlepoint / Sierra Wireless) im verdeckten Einbauraum ausgestattet. Der Router stellt über ein privates TETRA-Enterprise-Netzwerk bzw. gesicherte LTE-Behörden-Kanäle einen permanent verschlüsselten VPN-Tunnel zur eigenen Leitstelle her.
-
-Kabelgebundene Toughbook-Anbindung: Die Datenverbindung der Toughbook-Dockingstation zum Fahrzeugrouter erfolgt aus Gründen der Ausfallsicherheit und des Jamming-Schutzes ausschließlich über geschirmte LAN-Verkabelung. Die Stromversorgung ist galvanisch getrennt an ein Zweitbatteriesystem gekoppelt.
-
-Dedizierte Behörden-Navigation (LardisOne): Die Zielführung erfolgt vollständig autark über ein separates, im Fahrersichtfeld (A-Säule/Armaturenbrett) montiertes LardisOne-Display.
-
-Das System arbeitet im „Clean Mode“ (vollständige Ausblendung von Funkgruppen und Texten zur Vermeidung von Fahrerablenkung).
-
-Das Kartenmaterial ist lokal auf dem Gerät gespeichert.
-
-Einsatzdaten-Übergabe: Bei Eingang eines Einsatzauftrags auf dem Toughbook werden die Zielkoordinaten via IP-Protokoll über den lokalen Fahrzeug-Router direkt an das Lardis-Display übergeben, woraufhin die einsatzspezifische Navigation (unter Berücksichtigung von Durchfahrtshöhen und Lkw-Sperren) vollautomatisch startet.
-
-== 12.2 Technische Kommunikationsausstattung in den Logistik-Fahrzeugen
-
-Für die Aufrechterhaltung eines lückenlosen, krisensicheren und hocheffizienten Logistik-, Sicherheits- und Qualitätsmanagements sind alle operativen Fahrzeuge (Gabelstapler, Teleskopstapler sowie die betriebseigene LKW- und Kühlflotte) mit einer standardisierten, robusten Funkinfrastruktur ausgestattet.
-
-=== 12.2.1 Systemarchitektur und TETRA-Vorkehrungen
-
-Die primäre Kommunikation erfolgt über ein standortübergreifendes, privates TETRA-Bündelfunknetz im UHF-Bereich (70cm-Band, lizenziert über die österreichische Fernmeldebehörde). Dies garantiert absolute Abhörsicherheit (Luftschnittstellenverschlüsselung), exklusive Frequenznutzung und höchste Ausfallsicherheit.
-
-[voraussetzungen]
-Spannungswandlung (DC/DC-Konverter)::
-Da Elektro-Gabelstapler und schwere Teleskopstapler mit Bordspannungen von 24V, 48V oder 80V arbeiten, die TETRA-Fahrzeugfunkgeräte (MRT) jedoch eine konstante Spannung von 12V DC benötigen, ist der Verbau von galvanisch getrennten, vibrationsfesten DC/DC-Spannungswandlern zwingend vorgeschrieben.
-Ergonomie und Cockpit-Integration::
-Die Montage der Funkgeräte bzw. der abgesetzten Bedienteile erfolgt über schwere Industriemontagesysteme (z. B. RAM-Mounts) außerhalb des primären Sichtfelds auf die Gabelzinken. Zur Bedienung unter Lärmbelastung werden externe Druckkammerlautsprecher sowie Schwanenhalsmikrofone mit PTT-Tasten (Push-to-Talk) nahe den Hydraulikhebeln integriert.
-Antennentechnik::
-Für den Hallen- und Unterbelegungsbetrieb werden auf den Staplerdächern extrem flexible, schlagfeste Knick- oder Wendelantennen verbaut, um Beschädigungen bei niedrigen Durchfahrten zu verhindern.
-
-=== 12.2.2 Prozessoptimierung durch Echtzeit-Avisierung
-
-Durch die digitale Verknüpfung des ERP-/Dispositions-Systems mit der zentralen Sicherheits- und Logistik-Leitstelle wird der Hof- und Transportbetrieb (Yard Management) proaktiv gesteuert.
-
-[cols="1,3,3", options="header"]
-|===
-|Szenario |Ablauf & Funksteuerung |Erzielter Nutzwert
-
-|Betriebseigene Flotte
-|LKWs kündigen sich via 10W-TETRA-MRT ca. 10 Minuten vor Ankunft bei der Leitstelle an.
-|Null Wartezeit. Staplerfahrer bereiten die Rampe und das Material vor, bevor der LKW den Hof erreicht.
-
-|Externe Anlieferungen
-|Fahrer avisieren die Ankunft telefonisch unter Angabe der Spedition und Lieferscheinnummer. Leitstelle prüft das System und weist die Rampe via TETRA-SDS (Textnachricht) dem Stapler zu.
-|Kein Suchverkehr auf dem Hof. Vermeidung von Missverständnissen bei der Ladungsbeschreibung durch digitale Verifizierung.
-
-|Gefahrgut & Effekte (High-Security)
-|Echtzeit-Abgleich von Explosivstoffmassen (NEM) oder ADR-Klassen im ERP. Präventive Aktivierung von Betriebsfeuerwehr (BtF), Sanitätsdienst und bewaffnetem Sicherheitsdienst (ADR-Gruppe) auf separaten TETRA-Sprechgruppen.
-|Maximale Werksicherheit. Gezielte Absperrung der Ladezonen und sofortiges taktisches Lagebild bei Zwischenfällen über die Notruffunktion (Prioritätsschaltung).
-
-|Frische- & Qualitätslogistik
-|Detektion von sensiblen Lebensmitteln bei der Vorankündigung. Leitstelle koordiniert das synchrone Rendezvous zwischen dem anliefernden LKW und dem internen Kühltransporter an den Thermorampen.
-|Lückenlose Einhaltung der Kühlkette (HACCP). Schutz vor dem Einschleppen von Quarantäneschädlingen (Insekten/Neozoen) durch automatische Umleitung an isolierte Quarantäne-Rampen.
-|===
-
-=== 12.2.3 Redundanz und krisensichere Versorgungslogistik
-
-Das System verfügt über zwei fundamentale Absicherungsmechanismen, um Betriebsablauf-Störungen bei dezentraler Infrastruktur (baulich getrennte Standorte zwischen Zentrallager und Bewirtungsbetrieben/Zentrale) zu verhindern:
-
-Kühl-Pufferzonen (Zentrallager): Das Zentrallager verfügt über autarke Kühlkapazitäten, um Lieferungen bei Verkehrschaos oder Spitzenbelastungen der Küche zwischenzupuffern und die biologische Qualität zu sichern.
-
-Push-Logistik (Express-Nachlieferung): Im kritischen Fall (akuter Vorratsmangel an einem dezentralen Standort) wird ein permanent am Zentrallager stationierter Kühltransporter aktiviert. Die Kommissionierung und Routenführung wird in Echtzeit per TETRA-Zentralfunk gesteuert, um die Betriebskantine oder Event-Bewirtungen ohne Person
-
-== 12.3 Spezifikation Fuhrpark-Design und Lichtsignalanlagen (KFG-konform)
-
-=== 12.3.1 Allgemeine Fuhrpark-Basis (Corporate Identity)
-
-Alle Fahrzeuge der Unternehmensgruppe folgen einer einheitlichen, hochgradig korporativen und taktischen Design-Linie.
-
-Grundlackierung/Folierung: Ausnahmslos Schwarz Matt.
-
-Lichtfarbe (Öffentlicher Raum): Ausschließlich Gelbes Blinklicht nach § 20 KFG. Dies garantiert die absolute Rechtssicherheit bei Begleitfahrten und schließt Fehlbedienungen oder das Erlöschen der Betriebserlaubnis kategorisch aus.
-
-Hardware-Tarnung: Sämtliche LED-Module (Dachbalken und Frontblitzer) sind in der Black-Edition (getönte Linsen, schwarze Platinen) auszuführen, um im ausgeschalteten Zustand vollständig mit der schwarz-matten Karosserie zu verschmelzen.
-
-== 12.4 Verwendungsspezifische Anforderungen
-
-=== 12.4.1 Sicherheitsdienst (Objektschutz & Präsenz)
-Diese Komponente dient der sichtbaren Präsenz, der Verkehrsregelung auf dem Betriebsgelände und der Durchführung standardisierter Kontrollfahrten.
-
-Fahrzeugtypen: VW T5 (Mannschaftstransporter / Mobile Einsatzzentrale)/VW Passat (Limosine/Valiant).
-
-Optische Kennzeichnung (Folierung):
- Dezent gehaltenes Battenburg-Muster an den Flanken (unteres Drittel).
- Farbkombination: Dunkelblau (#070052) Glanz im Wechsel mit Silber-Reflexfolie (hoher Kontrast bei Nacht, edle Metall-Optik bei Tag).
- Beschriftung: Klar lesbar mit der Aufschrift „Sicherheitsdienst“.
-
-Dachsignalanlage:
- Flacher LED-Warnbalken mit schwarzem Gehäuseunterteil and klaren Hauben.
- Taktung: Synchroner 3-fach Blitz (Triple Flash) für erhöhte Aufmerksamkeit.
-
-Frontblitzer-Konfiguration:
- Anordnung als Doppelreihe (zwei Module vertikal übereinander pro Seite im Kühlergrill).
- Schaltrhythmus: Vertikaler Wechselschlag (Oben <-> Unten) im Doppelblitz-Modus zur Signalisierung einer unmissverständlichen Präsenz.
-
-=== 12.4.2 Interventionsdienst
-Diese Fahrzeuge sind für zeitkritische Einsätze, die Begleitung interner Geldtransporte und die schnelle Intervention optimiert. Das Design strahlt maximale Dringlichkeit und Autorität aus.
-
-Fahrzeugtypen: VW Amarok/Mercedes G Klasse.
-
-Optische Kennzeichnung (Folierung):
- Dynamisches Battenburg-Muster, ausgeführt als schmaler „Speed-Stripe“ entlang der Gürtellinie, um die agile Silhouette zu betonen.
- Farbkombination: Dunkelblau (#070052) Glanz im Wechsel mit Silber-Reflexfolie.
- Beschriftung: „WERKSICHERHEIT“ in Schwarz-Reflex-Folie („Ghost-Graphics“ – tagsüber unsichtbar schwarz auf schwarz, nachts extrem hell reflektierend).
-
-Dachsignalanlage:
- High-Power LED-Warnbalken (ECE-R65 Klasse 2) für maximale Leuchtkraft bei Tag.
- Taktung: Aggressiver, schneller 3-fach Blitz (Triple Flash).
-
-Frontblitzer-Konfiguration:
- Anordnung in Trapez-Form (obere Reihe weit außen im Grill, untere Reihe enger nach innen versetzt neben dem Werksemblem).
- Schaltrhythmus: Vertikaler Wechselschlag (Obere Reihe <-> Untere Reihe). Dieser Rhythmus erzeugt im Rückspiegel vorausfahrender Fahrzeuge einen pulsierenden „Nickerfekt“, der höchste Dringlichkeit signalisiert.
-
-=== 12.4.3 Technik / Infrastruktur (Ingenieure & Logistik)
-Diese Sparte umfasst die technischen Dienste, Bauüberwachung, das Field Engineering und die Materiallogistik. Der Fokus liegt auf der Absicherung von Arbeitsstellen und der Abgrenzung zum Sicherheitsdienst.
-
-Fahrzeugtypen: VW Amarok (Offroad/Engineering), MB Sprinter (Logistik).
-
-Optische Kennzeichnung (Folierung):
- Großflächiges, unübersehbares Battenburg-Muster (Heck- und Teilseitenbeklebung) gemäß europäischem Standard für Wartungsdienste.
- Farbkombination: Dunkelblau (#070052) Glanz im Wechsel mit hochgradig sichtbarem Neon-Gelb (Fluoreszierend).
- Beschriftung: Sachliche, serifenlose Typografie mit Bezeichnungen wie „FIELD ENGINEERING“ oder „LOGISTIK & TECHNIK“.
-
-Dachsignalanlage:
- Robuster, klassischer gelber LED-Warnbalken (Amarok) bzw. Heck-Lauflichtbalken (Sprinter zur Verkehrsleitung).
- Taktung: Ruhiger, gleichmäßiger Doppelblitz (Double Flash) oder einfacher Links-Rechts-Wechselblitz.
-
-Frontblitzer-Konfiguration:
- Anordnung als Doppelreihe (vertikal übereinander) im wuchtigen Kühlergrill von Amarok und Sprinter.
- Schaltrhythmus: Synchroner Doppelblitz zur Absicherung von stehenden Gefahrenstellen und Arbeitsstellen im öffentlichen Raum.
-
-== 12.5 Technische Systemmatrix
-
-[cols="2,2,3,3", options="header"]
-|===
-|Verwendung |Fahrzeugtyp |Optik (auf Schwarz Matt) |Licht-Taktung & Front-Layout
-
-|Sicherheitsdienst
-|VW T5/VW Passat
-|Dunkelblau / Silber-Reflex (Flanke)
-|3-fach Blitz / Doppelreihe (Vertikaler Wechsel)
-
-|Interventionsdienst
-|VW Amarok/MB G-Klasse
-|Dunkelblau / Silber-Reflex (Gürtellinie) + Ghost-Schrift
-|3-fach Blitz / Trapez (Vertikaler Wechsel)
-
-|Technik/Infrastruktur
-|VW Amarok / MB Sprinter
-|Dunkelblau / Neon-Gelb (Großflächig)
-|Doppelblitz / Doppelreihe (Synchron)
-|===
-
-== 12.6 Strategisches Flottenmanagement und Fahrzeugnormierung
-
-Dieses Kapitel regelt die Beschaffung, Codierung, Ausstattung und die einsatztaktische Organisation aller Fahrzeuge der Stiller und Partner Mediengruppe GmbH (SPMG). Ziel ist eine lückenlose Interoperabilität bei Schadensereignissen (z. B. Poldion), maximale Langlebigkeit im Pool-System sowie eine softwaregestützte, transparente Nutzerzuordnung.
-
-=== 12.6.1 Unternehmensweite Normierung der Fahrzeugkennzeichen
-
-Zur sofortigen Identifikation im Lagezentrum (LSZ) sowie für externe Sicherheitsbehörden folgen alle Fahrzeugkennzeichen einem strikten, verwendungsbezogenen Codierungssystem. Als Basis dient die Zulassung am Standort Wien (W).
-
-[cols="2,2,3", options="header"]
-|===
-| Verwendungsklasse | Kennzeichen-Block | Beispiel
-| Direktion (Unternehmensleitung) | W-SPM [Digit] | W-SPM 1
-| Sicherheits- / Ermittlungsdienst | W-SPM [Digit] | W-SPM 12
-| Rettungsdienst (SAN) | W-SPM [Digit] RD | W-SPM 34 RD
-| Betriebsfeuerwehr (BtF) | W-SPM [Digit]  | W-SPM 56
-| Logistik / Medientechnik | W-SPM [Digit]  | W-SPM 78
-|===
-
-=== 12.6.2 Spezifikationen nach Verwendungsklassen
-
-==== 12.6.2.1. Direktion (Unternehmensleitung)
-
-Fahrzeugwahl: Repräsentative Premium-Fahrzeuge der Ober- und Luxusklasse (z. B. Mercedes-Benz S-Klasse, V-Klasse).
-
-Einsatzcharakteristik: Repräsentation, Langstrecke, VIP-Betreuung.
-
-Spezifischer Werterhalt: Diese Klasse erhält eine permanente High-End-Keramikversiegelung des Außenlacks zur Imagepflege und zum Schutz vor Umwelteinflüssen.
-
-Dokumenten-Station: Die gebrandete Pulox-Dokumentenmappe ist in einer festen, fahrgastraumkonformen Halterung am hinteren Ende der Mittelkonsole, exakt in einer Linie mit den Rückenlehnen der Vordersitze, arretiert.
-
-==== 12.6.2.2. Sicherheits- und Ermittlungsdienst
-
-Fahrzeugwahl: Zivile Kombis und Kompaktlieferwagen mit hoher Alltagsnutzbarkeit (z. B. VW Passat, VW T6.1).
-
-Einsatzcharakteristik: Ermittlungseinsätze, Objekt- und Personenschutz, unauffällige Präsenz, Erstintervention bei Unfällen (Poldion).
-
-Analoge Interoperabilität (Kofferraum-Leitsystem): Um im Stressfall externen Kräften (z. B. Polizei) den Blindzugriff zu erlauben, ist das Heckausbausystem hochkontrastiert (weiß auf schwarz) beschriftet. Kurze Schlagworte (z. B. ERSTE HILFE / AED, ABSPERRUNG / PYLONEN) weisen den Weg. Die Fächerkanten sind farbcodiert (Gelb für Absperrung, Grün für Medizin).
-
-Dokumenten-Station: Die Fahrzeugpapiere befinden sich in einer signalfarbenen Pulox-Mappe, die aufrecht in einem mechanischen Dock am Ende der Mittelkonsole (Flucht der Rückenlehnen) steckt. Zugriff ist von allen vier Türen aus ohne Zeitverzug möglich.
-
-==== 12.6.2.3. Rettungsdienst (SAN)
-
-Fahrzeugwahl: Schwere Rettungstransportwagen (RTW) auf Basis des Mercedes-Benz Sprinter mit spezialisiertem Kofferaufbau.
-
-Einsatzcharakteristik: Medizinische Notfallversorgung auf dem Studiogelände, Event-Sanitätsdienst, Eigenschutz.
-
-Das Zwischenwand-Prinzip: Entsprechend dem europäischen Industriestandard (EN 1789) verfügt jeder RTW über eine feste Trennwand zwischen Cockpit und Patientenraum. Diese Zwischenwand dient als primärer logistischer Ankerpunkt. Die Fächer sind strikt normiert und international verständlich mit Piktogrammen und Farbcodes beschriftet (Blau: Atmung, Rot: Kreislauf, Gelb: Hygiene).
-
-Dokumenten-Station: Die Pulox-Mappe ist in einem desinfektionsmittelbeständigen Aluminium-Einschub direkt an dieser Zwischenwand montiert – positioniert in der Flucht der vorderen Rückenlehnen. Ein externer Notarzt oder Polizist kann die Schiebetür öffnen und die Mappe sofort auf Augenhöhe entnehmen.
-
-==== 12.6.2.4. Betriebsfeuerwehr (BtF)
-
-Fahrzeugwahl: Gerätewagen, Logistik- und Kommandofahrzeuge auf Basis von Allrad-Plattformen und LKW-Chassis (z. B. VW Amarok, MAN TGL).
-
-Einsatzcharakteristik: Technischer Brandschutz, Gefahrenstoff-Erstabsicherung, Technische Hilfeleistung.
-
-Sondermaterial-Normierung: Alle Auszüge und Geräteräume sind mittels zweifarbiger Hartschaum-Einlagen (Shadowboards) organisiert. Jedes Werkzeug (z. B. HALIGAN / AXE) hat einen festen Platz mit beschriftetem Schattenriss. Das Zieh-Prinzip (orangefarbene Schlaufen an mobilen Taschen) erlaubt externen Kräften die fehlerfreie Materialentnahme.
-
-Dokumenten-Station: Bei Fahrzeugen mit Doppelkabine erfolgt die Montage des Dokumenten-Docks analog zum RTW an der Rück- bzw. Zwischenwand hinter den Vordersitzen (auf Höhe der Rückenlehnen).
-
-==== 12.6.2.5. Logistik und Medientechnik
-
-Fahrzeugwahl: Großraumtransporter und Planen-LKW für den Materialtransport (z. B. VW Transporter, Mercedes-Benz Sprinter Cargo, MAN TGL/Lion's Coach).
-
-Einsatzcharakteristik: Transport von Studio-Equipment, Crew-Shuttle, schwere Logistik.
-
-Betriebsmittelschutz: Fahrzeuge mit unregelmäßigen Standzeiten werden präventiv mit bio-freiem Premium-Diesel betankt, um Dieselpest (Bakterienwachstum) im Tank zu verhindern.
-
-Dokumenten-Station: Montage der Mappenhalterung an der Rückwand der Fahrerkabine bzw. am Ende des Mitteltunnels (immer in Flucht der Rückenlehnen).
-
-=== 12.6.2.6 UTVs
-
-Zur zielgerichteten Erweiterung der bestehenden Fahrzeugflotte wird die Komponente der **Utility Task Vehicles (UTVs / Side-by-Sides)** integriert. Um eine hohe Versorgungssicherheit, kurze Logistikwege bei Ersatzteilen sowie eine lückenlose Einhaltung europäischer Fertigungsstandards zu gewährleisten, setzt das Unternehmen im Bereich der Allrad-Sonderfahrzeuge konsequent auf Modelle des europäischen Herstellers **Corvus Off-Road Vehicles** (Entwicklung und Endmontage in der Europäischen Union).
-
-Der Einsatz von rein verbrennungsmotorischen UTVs schließt das Sicherheits- und Ausfallrisiko traktionsbatteriebasierter Elektroantriebe (z. B. Thermisches Durchgehen/Brandgefahr bei Akkus) im sensiblen Werks- und Einsatzumfeld vollständig aus.
-
-==== Einsatzbereich 1: Sicherheitsdienst & Werkschutz
-
-Für die interne Personal- und Materiallogistik auf Unternehmensgeländen kommt das kompakte Segment (*Corvus Terrain DX4s / GX4s*) zum Einsatz. Die Fahrzeuge dienen primär der schnellen und wetterunabhängigen Versetzung von Sicherheitskräften zwischen der Sicherheitsleitzentrale (SLZ) und den peripheren Kontrolleinheiten (Haupteinfahrten, Logistikzentren und Lkw-Ladebuchsen).
-
-* **Betriebsrelevante Vorteile:**
-** *Geringe Abmessungen:* Mit einer Fahrzeugbreite von nur 1,45 Metern lassen sich enge Tordurchfahrten, Betriebswege und Lkw-Schleusen ohne Behinderung des regulären Werksverkehrs passieren.
-** *Ergonomie & Schutz:* Im Gegensatz zu klassischen ATVs/Quads bietet die Side-by-Side-Bauweise zwei vollwertige Sitzplätze mit Anschnallgurten, Überrollkäfig und Wetterschutzdach für den ganzjährigen Schichtbetrieb.
-** *Wirtschaftlichkeit:* Hohe Standzeiten und geringer Verschleiß im Dauerbetrieb auf befestigten Werksstraßen.
-
-==== Einsatzbereich 2: Sanitäts- & Rettungsdienst (Private/Public Cooperation)
-
-Bei Großveranstaltungen und Open-Air-Festivals auf unbefestigtem Außengelände übernimmt die Full-Size-Variante (*Corvus Terrain DX4*) die Aufgabe als geländegängiges Einsatz- und Patiententransportfahrzeug.
-
-* **Einsatzrelevante Vorteile:**
-** *Patiententransport & Notfallversorgung:* Die ebene Ladefläche (1.203 x 1.340 mm) mit einer Nutzlast von bis zu 450 kg ermöglicht die Aufnahme normierter Tragensysteme (z. B. Schleifkorbtragen) sowie die sichere Mitführung schwerer Notfallausrüstung (Sauerstoff, Notfallrucksäcke, Defibrillatoren).
-** *Geländegängigkeit:* Mit 309 mm Bodenfreiheit, zuschaltbarem Allradantrieb ($4\times4$) und Differenzialsperre ist die Zugänglichkeit auch bei extremen Bodenverhältnissen (Matsch, tiefes Gras) im Veranstaltungsgelände garantiert.
-** *Patientenschonendes Vordringen:* Das Fahrzeug erlaubt ein kontrolliertes und sicheres Manövrieren durch dichte Menschenmengen bei Großevents.
-
-==== Synergien & Flottenstandardisierung
-
-Durch die Standardisierung auf einen einzigen europäischen Fahrgestell-Hersteller ergeben sich maßgebliche Synergieeffekte für den Gesamtfuhrpark:
-
-1. **Vereinheitlichte Wartung:** Nutzung identischer Komponenten und standardisierter Wartungsabläufe für die Einsatzbereiche Sicherheitsdienst und Sanitätsdienst.
-2. **Kritische Ersatzteilversorgung:** Vermeidung globaler Lieferkettenrisiken aus Übersee; Zugriff auf ein flächendeckendes, regionales Händler- und Servicenetz in der DACH-Region.
-3. **Einfache Bedienung:** Identische Bedien- und Sicherheitskonzepte für das eingesetzte Personal in allen Betriebsbereichen.
-
-==== 12.6.2.7 Kühltransportsysteme
-
-Zur Schließung der sensiblen Qualitätslücke auf der Last-Mile-Strecke zwischen Zentrallager und den nachgelagerten Gastrolagern wird die bestehende Fahrzeugflotte um ein hochflexibles, hybrides Kühltransportsystem erweitert. Anstelle konventioneller, starr ausgebauter Kühlfahrzeuge setzt das Logistikkonzept auf die Kombination aus temperierten Trägerfahrzeugen und autarken, aktiv gekühlten Transportboxen.
-
-===== Technischer Aufbau und Funktionsweise
-
-Das System basiert auf einer thermodynamischen Zweistufenkühlung (80/20-Prinzip), die maximale Energieeffizienz mit höchster Ausfallsicherheit verbindet:
-
-* *Basiskühlung des Trägerfahrzeugs (Raumkühlung):* Der Laderaum des Transporters wird über eine effiziente Grundisolierung und ein fahrzeugeigenes Kühlaggregat auf ein moderates Temperaturniveau (+10 °C bis +12 °C) heruntergekühlt. Dies bricht extreme Umgebungstemperaturen im Sommer und reduziert das thermische Gefälle ($ΔT$) für die Frachtmodule drastisch.
-* *Punktgenaue Modulkühlung (Transportboxen):* Die eigentliche Zieltemperatur für Frischware (+2 °C) und Tiefkühlware (-22 °C) wird durch autarke Kühlboxen erzeugt, die im Laderaum flexibel positioniert werden.
-* *Korrosionsbeständige Quick-Release-Schnittstelle:* Jede Box wird im Fahrzeug über industriell gefertigte, IP68/IP69K-zertifizierte Schnellverbinder fixiert. Diese Schnittstelle sichert die unterbrechungsfreie Energieversorgung (12V/24V) sowie die Datenübertragung (CAN-Bus) an das fahrzeugeigene Telematiksystem.
-
-.Schematische Darstellung der Schnittstelle und Sensorik
-[quote, Systemarchitektur]
-____
-*Fahrzeugbordnetz / Telematik* 
-  <--> *Quick-Release-Verbinder (IP69K)* 
-  <--> *Autarke Kühlbox (Kompressor + Akku)* 
-  <--> *E-Paper-Display & Redundante PT100-Sensoren*
-____
-
-===== Operative Vorteile auf der Last-Mile
-
-Die Integration dieser Technologie hebt die Transportlogistik auf ein neues Qualitätsniveau und bietet klare Wettbewerbsvorteile im Gastro-Segment:
-
-1. *Lückenlose Kühlkette (Cold Chain Holding):* Die Boxen werden bereits im Zentrallager vorklimatisiert und bestückt. Beim Be- und Entladen sowie beim physischen Transport in das Lager des Kunden bleiben die Module geschlossen. Ein Kälteverlust beim Öffnen der Fahrzeughecktür für Teillieferungen wird vollständig eliminiert.
-2. *Erhöhte Autarkie und Akkupufferung:* Bei Trennung vom Fahrzeugnetz schalten die Boxen nahtlos auf interne Akkus um. Durch die Vorkühlung des Laderaums reduziert sich die Last der Boxenkompressoren auf ein Minimum, was die autarke Akkulaufzeit am Zielort vervielfacht.
-3. *Visuelle HACCP-Transparenz und Qualitätsnachweis:* Jedes Modul verfügt über ein außenliegendes, energiesparendes E-Paper-Display. Dieses zeigt dem Empfänger beim Wareneingang auf einen Blick:
-* Die aktuelle Kerntemperatur (gemessen über redundante, EN 12830-konforme Sensoren).
-* Einen eindeutigen HACCP-Konformitätsstatus (OK-Status).
-* Die verbleibende Akkulaufzeit (*Time-to-Empty*) sowie den prozentualen Ladestatus (SoC).
-4. *Maximale Fuhrparkflexibilität:* Die Ladekapazitäten für Tiefkühl- und Frischeprodukte lassen sich je nach täglicher Auftragslage modular anpassen, ohne dass feste Trennwände im Fahrzeug die Raumausnutzung einschränken.
-
-Durch diese Flottenerweiterung wird nicht nur der Energieverbrauch und Hardware-Verschleiß der Kühlaggregate nachhaltig gesenkt, sondern auch eine nachweisbare, digitale Produktsicherheit garantiert, die den strengen Anforderungen des Lebensmittelrechts uneingeschränkt entspricht.
-
-
-=== 12.6.3 Übergreifende Standards für Langlebigkeit und Pool-Betrieb
-
-Da die Fahrzeuge innerhalb der Verwendungsklassen als Pool-Fahrzeuge betrieben werden, greifen folgende technische und organisatorische Schutzmaßnahmen:
-
-==== 12.6.3.1. Präventiver Korrosionsschutz
-Alle Neufahrzeuge werden vor Indienststellung durch die Inhouse-Werkstatt mit einem Anti-Korrosions-Paket nachgerüstet. Dieses umfasst eine zusätzliche Hohlraumversiegelung mit Kriechölen (z. B. Mike Sanders) sowie einen elastischen Unterbodenschutz auf Wachsbasis. Bei Sonderaufbauten (BtF/SAN) wird strikt auf elektrolytische Materialtrennung (V4A-Edelstahlkomponenten, Isolierpasten) geachtet, um Kontaktkorrosion zwischen Aluminium und Stahl zu unterbinden.
-
-==== 12.6.3.2. Technisches Lifecycle-Management
-
-Temperaturmanagement: Alle Einsatzfahrzeuge (BtF/SAN) werden im Stillstand über das 230V-Rettbox-System geladen und über integrierte Motorvorwärmsysteme permanent auf Temperatur gehalten, um materialzerstörende Kaltstarts zu eliminieren.
-
-Wartungsintervalle: Das Werkspflichtintervall für Motorölwechsel wird halbiert (Festintervall von maximal 15.000 km oder einmal jährlich). Automatikgetriebe erhalten alle 80.000 km eine vollständige Getriebespülung.
-
-Inhouse-Health-Check: Alle 6 Monate erfolgt eine präventive Inspektion (Reinigung der Laub- und Wasserkästen zur Vermeidung von Elektronikschäden, Gummipflege, Salzunterbodenwäsche).
-
-==== 12.6.3.3. Digitaler Zuweisungs- und Kontrollprozess (QR-Code-System)
-Die Zuweisung der Fahrzeuge erfolgt dezentral und ohne physischen Fahrtenbuchaufwand über das Diensthandy des Mitarbeiters:
-
-Scan: Vor Fahrtantritt scannt der Mitarbeiter den witterungsgeschützten QR-Code an der Innenseite der Fahrertür.
-
-Validierung: Die SPMG-Flotten-App verknüpft das persönliche Mitarbeiterprofil mit dem Fahrzeug und öffnet das digitale Übergabeprotokoll (3-Minuten-Regel: Abfrage von Vorschäden via Foto-Upload, Sauberkeit, Reifenstatus).
-
-Check-out: Nach Fahrtende erfolgt der Gegen-Scan am Zielort. Die App fordert den Fahrer dezidiert zur Bestätigung auf, dass das Fahrzeug an das Rettbox-System angeschlossen und die Dokumentenmappe im mechanischen Rückenlehnen-Dock eingerastet ist.
-
-=== 12.6.4 Taktische Kommunikationsbeschilderung
-
-Zur Optimierung der taktischen Führung, der visuellen Eigenidentifikation sowie der reibungslosen Kommunikation im operativen Dienstbetrieb wird die gesamte Fahrzeugflotte mit einer einheitlichen, innenliegenden Windschutzscheiben-Beschilderung ausgestattet.
-
-==== Einsatzzweck und taktischer Nutzen
-Die Schilder dienen der schnellen und zweifelsfreien Identifikation der einzelnen Bestreifungs- und Interventionseinheiten. Sie erfüllen im täglichen Dienstbetrieb sowie bei Großschadenslagen und Koordinationseinsätzen folgende Kernfunktionen:
-
-Einsatzleitung und Disposition: Sofortige visuelle Zuordnung von Rufnamen und Fahrzeugen an Bereitstellungsräumen, Zufahrtskontrollen oder Einsatzabschnitten – auch ohne Aufschalten des Fahrzeugfunks.
-
-Schnittstelle zu Behörden und Organisationen mit Sicherheitsaufgaben (BOS): Erleichterte Identifikation der Sicherheitskräfte bei gemeinsamen Lagen mit Exekutive, Feuerwehr oder Rettungsdiensten.
-
-Bürgerkontakt und Identifizierbarkeit: Transparente und professionelle Auftrittswirkung gegenüber Auftraggebern, Objektverantwortlichen und der Öffentlichkeit bei Kontrollfahrten.
-
-==== Technische und Gestalterische Ausführung
-Um den strengen rechtlichen Vorgaben des österreichischen Kraftfahrgesetzes (KFG 1967) bezüglich der freien Sichtfeldgestaltung vollumfänglich zu entsprechen und zeitgleich eine maximale Beständigkeit zu gewährleisten, erfolgt die Ausführung nach fixen Standards:
-
-. Abmessungen und Positionierung:
-Kompaktes Sonderformat (150 x 50 mm), positioniert an der unteren Mitte der Windschutzscheiben-Innenseite. Die Anbringung erfolgt flach auf der Schnittstelle zum Armaturenbrett, sodass die Scheibenwischer-Ruheposition nicht überragt und das Hauptsichtfeld des Lenkers zu 100 % frei bleibt.
-. Corporate Identity und Farbgebung:
-Der Träger besteht aus einer 3 mm Aluminium-Verbundplatte mit mattem Finish in der Corporate Color (#070052). Das matte Schutzlaminat verhindert Lichtreflexionen sowie störende Eigenblendungen des Fahrpersonals bei Nachtfahrten.
-. Tag- und Nachtlesbarkeit:
-Während das Firmenlogo den Absender markiert, wird die Funkkennung (z. B. "STREIFE 1") in DIN 1451 Normschrift mittels hochreflektierender Spezialfolie (Klasse RA2) appliziert. Diese ermöglicht eine passive, extrem scharfe Ausleuchtung bei Fremdanstrahlung (z. B. durch Scheinwerfer oder Taschenlampen), ohne eine unzulässige aktive Lichtquelle nach KFG darzustellen.
-. Sicherheitsbefestigung:
-Die Montage erfolgt spurlos und rückstandsfrei mittels hitzebeständigem 3M Dual Lock-Klettsystem. Dies garantiert maximale Haftung auch bei Gefahrenbremsungen sowie die flexible Entnahme bei Reinigung oder Fahrzeugwechsel.
-
-=== 12.6.5 Fahrzeugausbau (Bullenfänger und innen Ausbau)
-
-Die fahrzeugtechnische Ausstattung des Fuhrparks bildet die operative Grundlage für einen sicheren, flexiblen und effizienten Einsatz im Feld. Um sowohl den strengen rechtlichen Vorgaben des österreichischen Kraftfahrgesetzes (KFG) als auch den hohen Anforderungen an die Logistik gerecht zu werden, setzt das Unternehmen auf ein standardisiertes Ausbau- und Ausstattungskonzept.
-
-==== Frontschutzsysteme (Rechtskonforme Frontbügel)
-Zur Erhöhung der passiven Fahrzeugsicherheit und zur Aufnahme von mobiler Zusatzbeleuchtung werden die Einsatzfahrzeuge mit speziellen Frontschutzbügeln ausgestattet.
-
-* **Rechtliche Konformität:** Es kommen ausschließlich Mittelbügel (*A-Bars*) zum Einsatz, die über eine gültige EG-Typgenehmigung gemäß Richtlinie 2005/66/EG bzw. der Verordnung (EG) Nr. 78/2009 verfügen. Dadurch ist die Nutzung im österreichischen Straßenverkehr nach § 22a KDV 1967 anzeigefrei und eintragungsfrei zulässig.
-* **Geometrie & Fußgängerschutz:** Um den gesetzlichen Standards zum Fußgängerschutz zu entsprechen, schließen die Bügel seitlich vor den Scheinwerfern ab und beeinträchtigen weder die Abstrahlwinkel der Beleuchtungseinrichtungen noch die Funktion der integrierten Fahrzeugsensorik.
-* **Kennzeichenanbringung:** Das vordere Kennzeichen wird auf originaler Höhe direkt an der dafür vorgesehenen, geprüften Halterung des Bügels montiert, womit alle gesetzlichen Sichtwinkel (30° seitlich) gewahrt bleiben.
-* **Integrierte Norm-Sockel:** Die Bügel verfügen ab Werk über fest verschweißte, hohle DIN-Aufsteckrohre (nach ISO 4148) mit internen Stromkontakten. Diese ermöglichen die lückenlose Montage von mobilen Hella-Arbeitsscheinwerfern ohne externe, beschädigungsanfällige Kabelführungen. Die Ansteuerung erfolgt autark über ein separates Bedienteil im Cockpit samt optischer Statusanzeige.
-
-==== Flottenweit normierter Innenausbau
-Um logistische Abläufe fahrzeugübergreifend zu vereinheitlichen, wird ein modulares, normiertes Ausbausystem implementiert. Dieses System ist speziell auf die unterschiedlichen Anforderungsprofile der eingesetzten Fahrzeugtypen abgestimmt:
-
-[cols="1,2,3", options="header"]
-|===
-|Fahrzeugmodell |Einsatzsegment |Systemarchitektur & Ausbau
-
-|**VW Amarok** +
-(Lkw-Klasse N1)
-|Führung, Intervention, Technik & Infrastruktur
-|* **Laderaum (Heck):** Vollausbau unter dem Hardtop mit Schwerlastauszügen (bis 250 kg Belastbarkeit) und arretierbaren Euroboxen-Systemen zur Ladungssicherung. +
-* **Fahrgastzelle:** Nutzung des geschützten Raums unter der Rücksitzbank als feste Staubox zur passgenauen Aufnahme empfindlicher Systemkomponenten (z. B. Hella-Steckscheinwerfer-Module in PE-Schaumstoffeinlagen).
-
-|**VW Passat** +
-(Pkw-Klasse M1)
-|Sicherheit, Personenschutz, Ermittlungsdienst
-|* **Kofferraum:** Flachbau-Schwerlastauszug mit integrierter Unterflur-Schublade zur Aufnahme von Dokumenten, IT-Komponenten und Messtechnik. +
-* **Oberdeck:** Platz für genormte Stapelboxen, gesichert über eine integrierte Rastbolzen-Fixierung zur schnellen Entnahme.
-
-|**VW T6.1** +
-(Transporter / Bus)
-| Sicherheit, Technik, Infrastruktur Diensthunde
-|* **Heckbereich:** Vertikal modulares Regalsystem mit Kasten-Auszügen und integrierten Stromanschlüssen (12V/230V) zur Ladung von Akkugeräten im Stand. +
-* **Sicherheitskonzept:** Vollständige Trennung zwischen Fahrgastzelle und Laderaum durch eine zertifizierte Trennwand nach DIN 75410.
-|===
-
-==== Vorteile der Normierung
-1. **Ergonomie & Zeiteinsparung:** Durch fahrzeugtypübergreifend identische Greifräume und Modulmaße (Euro-Norm 400 x 300 mm bzw. $600 x 400 mm) entfällt für das Personal die Einarbeitungszeit beim Fahrzeugwechsel.
-2. **Wartung & Werterhalt:** Sämtliche Einbauten werden an den originalen Befestigungspunkten (Zurrösen/Sitzschienen) verankert, wodurch die Karosserie beschädigungsfrei bleibt und die Rückbaubarkeit beim Flottentausch gewährleistet ist.
-3. **Rechtssicherheit bei Überprüfungen:** Sämtliche Komponenten des Innenausbaus und der Zusatzbeleuchtung erfüllen die Kriterien der österreichischen § 57a-Begutachtung („Pickerl“) vollumfänglich.
-
-
-== 12.7 Flottenumsetzung im Logistikbereich
-
-Für den sicheren und effizienten Transport von hochwertigem Medien-Equipment und versiegelter Merchandising-Ware (Textilien, DVDs) wird anstelle von schadensanfälligen Planen-LKWs ein vollumschlossenes Koffersystem auf Basis eines MAN TGL 12t (Neufahrzeug) definiert.
-
-=== 12.7.1 Anforderungsprofil & Fahrzeugkonfiguration
-
-[cols="1,3", options="header"]
-|===
-| Komponente | Spezifikation & Logistischer Nutzen
-
-| Fahrgestell
-| MAN TGL 12t (z. B. 12.220 / 12.250) mit automatisiertem Getriebe (MAN TipMatic) für präzises Manövrieren an Rampen und hoher Akzeptanz im Fahrerkreis.
-
-| Fahrwerk
-| Vollluftfederung (bzw. Luftfederung an der Hinterachse) zum Schutz sensibler Elektronik vor Erschütterungen und zur exakten Niveau-Anpassung an Laderampen.
-
-| Aufbau
-| Plywood-Koffer (Innenbreite mind. 2,48 m für die Querladung von Europaletten). Absolut staub- und spritzwassergeschützt, um Verschmutzung der Textilien zu verhindern.
-
-| Boden
-| Verstärkter Siebdruckboden nach DIN EN 283 (hohe Punktbelastbarkeit) mit zusätzlichem Aluminium-Gerstenkorn-Belag im Heckbereich für den intensiven Gabelstaplerverkehr.
-
-| Ladungssicherung
-| Bündig in die Seitenwände versenkte Kombiankerschienen (2-reihig) für den schnellen Formschluss mittels Aluminium-Sperrbalken ohne zeitaufwendiges Niederzurren.
-
-| Heckabschluss
-| Vollflächige, hydraulische Ladebordwand (1,5t – 2t Traglast) mit integrierter Abrollsicherung für maximale Flexibilität beim "Löschen" der Ladung.
-|===
-
-=== 12.7.2 Prozessoptimierung beim Wareneingang (Check-In)
-
-Da die Ware primär auf Europaletten versiegelt (eingestrecht/geplombt) transportiert und vor dem Abladen im LKW überprüft wird, gelten für den Laderaum spezifische Anforderungen an die Arbeitsplatzqualität:
-
-Fest verbaute LED-Lichtbänder (Deckenmontage)::
-Erlauben eine schnelle visuelle Kontrolle der Stretchfolie auf Beschädigungen und das Abgleichen von Plombennummern, ohne dass Mitarbeiter mit mobilen Lichtquellen hantieren müssen.
-Vermeidung von Reflexionen (Hotspots)::
-Im Gegensatz to Taschenlampen verhindert das steile, diffuse Deckenlicht störende Lichtreflexe auf den Folien. Dies gewährleistet eine fehlerfreie Erfassung von Barcodes und Paletten-Labeln durch Handscanner im Vorbeigehen.
-Sichtprüfung der Palettenstruktur::
-Die schattenfreie Ausleuchtung des Kofferbodens ermöglicht die sofortige Erkennung von Transportschäden an den Palettenfüßen vor dem eigentlichen Entladevorgang.
+**Sonderanlagen-Bedienteil**:: Das Steuerelement für die gesamte Sonderlicht- bzw. Sondersignalanlage wird bei allen Fahrzeugen an der oberen Mittelfläche des Amaturenbrettes angebracht. Dieses steuert: +
+* Warnlicht- bzw. bei zugelassenen Einsatzfahrzeugen entsprechend dem §20 abs. 4 KFG Sondersignalanlage (Blaulicht und Folgetonhorn)
+* Umfeldbeleuchtung (Scene-Lights): Arbeitsscheinwerfer welche jeweils in alle Richtungen (Vorne, Hinten, Links und Rechts) in Dual-Ausführung. 
+* Matrixanzeigen und Early Warner-Anlagen 
+* Sonderfunktion "Heli-Mode" * 
+* IR-Lichtmodul
 
 [NOTE]
-Die Investition in ein Neufahrzeug garantiert neben der vollen Herstellergarantie und der Einhaltung aktueller Umweltzonen-Vorgaben auch die werksseitige Zertifizierung der Boden-Traglast für Flurförderzeuge. Die glatten Außenwände des Plywood-Koffers bieten zudem eine optimale, hochwertige Fläche für das Corporate Branding.
-== 12.8 Technische Kommunikationsausstattung in Luftfahrzeugbereich
+====
+die mit * markierten Punkte werden gesondert im entsprechenden Abschnitt erklärt.
+====
 
-Dieses Kapitel beschreibt die hardwareseitige, ergonomische und systemarchitektonische Integration des proprietären Enterprise Resource Planning & Dispatch System (ERPDS) in der Luftfahrzeugflotte (Airbus H145). Das System dient als primäres, geschlossenes Arbeits- und Koordinationsportal des Unternehmens und ist netzwerktechnisch strikt als autarkes Ökosystem ausgelegt.
+**Funk und Docking**::
+in der eigentlichen Mittelkonsole zwischen Fahrer und Beifahrer befinden sich die Geräte für den Betriebsinternen Tetra-Funk sowie das entsprechende Handmikrofon/Faustmikrofon. Des weitere befindet sich eine crash-sichere, ebenfalls KFG Konforme Dockingstation für das Panasonic Toughbook des Fahrers. Dieses fungiert im Fahrzeug sowohl als Mobile Office (bei abgeschaltetem Motor) und als Einsatzleitsystem über das Webbasierte ERPDS-System.
 
-=== 12.8.1 Cockpit-Zone (Pilot & Co-Pilot)
+**Dokumenten und Materialfach**:: 
+Im hinteren Bereich (auf höhe der Rückenlehnen) befindet sich Stauraum für das Fahrzeugbuch (die Fahrzeugmappe) sowie ein Spender (Halterung) für Einweg Nitril Handschuhe
 
-Die Ausstattung des Cockpits folgt den Prinzipien des Crew Resource Management (CRM) und des Distraction Management (Ablenkungsminimierung), um die Flugsicherheit in kritischen Flugphasen maximal zu gewährleisten.
+=== 12.1.3 Gehärteter KFZ-Router
 
-Hardware-Integration und Ergonomie:
- Montage einer aktiven, magnetischen Induktionsladehalterung (Wireless Charging, TSO-zertifiziert) zentral auf der Mittelkonsole (Interseat Console).
- Die Positionierung ist mechanisch so gewählt, dass die Freigängigkeit und der maximale Bewegungskorridor des linken und rechten Collectives (Pitchhebel) in jeder Fluglage zu 100 % unberührt bleiben.
- Durch den zentralen Verbau ist die Halterung für den fliegenden Piloten (Pilot Flying) sowie den assistierenden Piloten (Pilot Monitoring) gleichermaßen barrierefrei erreichbar.
+Jedes Fahrzeug ist ebenfalls mit einem eigenen KFZ-Router (Automotive Router) ausgestattet welcher einen konstanten VPN Tunnel zum Zentralserver herstellt. Hierdurch wird garantiert, dass die Fahrzeuge auch außerhalb der Netzreichweite der Liegenschaften immer eine Anbindung an die Internen Systeme behalten. 
 
-Software-Architektur (Native App):
- Die mobile Cockpit-Komponente ist als native, hochperformante Android-App (Kotlin) implementiert und läuft im gesperrten Kiosk-Modus.
- 2-Klick-Logik: Die physische Interaktion beschränkt sich auf die Einsatzannahme am Boden (Klick 1) und die "Vor Ort"-Meldung nach dem Aufsetzen (Klick 2).
- Transit-Phase (En-Route): Während des Reiseflugs verbleibt die App im passiven "At-a-glance"-Modus. Status-Updates von Bodeneinheiten werden über optimierte Großtypografie und klare Farbcodierungen (Icons) im peripheren Sichtfeld erfasst. Ein Lesen von Fließtexten ist nicht erforderlich.
- Thermal-Management: Native Überwachung der Gerätetemperatur zur automatischen Regulierung von Displayhelligkeit und Prozessorlast, um hitzebedingte Ausfälle durch die Kombination aus Qi-Ladung und direkter Sonneneinstrahlung im Cockpit zu verhindern.
+=== 12.1.4 Toughbook-Anbindung
 
-=== 12.8.2 HEMS-Kabinenbereich (Notarzt & Crew)
+Die Verbindung des Einsatzleitsystems erfolgt aus Gründen des Ausfallschutzes und Sicherheitsbedenken (jamming- /Hacking-Schutzes) strikt Kabelgebunden mittels geschirmter LAN-Kabel (*CAT 6e*) und galvanisch getrennten Stromkabel welche mit dem Zweitbatteriesystem verbunden ist. 
 
-Im medizinischen Heckbereich steht die Etablierung eines lückenlosen, gemeinsamen Lagebildes (Common Operational Picture) bei gleichzeitiger Maximaleffizienz im Vordergrund.
+=== 12.1.5 Zweitbatteriesystem und Rettbox
 
-Hardware-Integration am Notarztsitz (NA):
- Bewusster Verzicht auf kabellose Ladetechnik im Heckbereich zur Vermeidung von Verlustwärme und vibrationsbedingten Ladeabbrüchen.
- Bereitstellung von dedizierten, kabelgebundenen High-Power USB-C Power Delivery (PD) Anschlüssen (bis zu 60W Leistung, zertifiziert nach RTCA DO-160G) direkt im Medical Rack oder der Overhead-Konsole. Dies garantiert maximale Ladegeschwindigkeiten bei kurzen Flugphasen.
- Primäres Arbeitsgerät des Notarztes ist ein robustes, vibrationsunempfindliches Panasonic Toughbook.
+Jedes Fahrzeug wird mit einer Lade- oder Zweitbatterie ausgestattet. Weiters werden alle Fahrzeuge mit einem Außenladesystem "RettBox" der Firma Marechal Electric ausgestattet. Dieses ermöglicht die Fahrzeuge in den Garagen und an Liegenschaften über ein entsprechendes Kabel zu Laden und hat den Vorteil das bei aktivierung der Zündung dieses Kabel beschädigungsfrei abgesprengt (abgekoppelt) wird.
 
-Software-Architektur (Web-Applikation):
- Der Zugriff im Heck erfolgt über das webbasierte Frontend des ERPDS, welches über das bordeigene WLAN gespeist wird.
- Operativer Workflow: Während die Piloten im Cockpit nur flugrelevante Daten sehen, nutzt der Notarzt die volle Informationsdichte der Web-Applikation auf dem großen Bildschirm.
- Pre-Arrival Awareness: Medizinische Vorab-Meldungen, Triage-Zustände oder Protokoll-Updates von bereits vor Ort befindlichen Bodeneinheiten (Diensthandys/Toughbooks) werden via WebSockets in Echtzeit in die Kabine gespiegelt. Der Arzt kann den Einsatz noch vor der Landung taktisch vorbereiten.
+=== 12.1.6 Navigationsystem "LardisOne
+Die gesamte Navigation im Fahrzeug wird über ein dediziertes LardisOne Gerät abgewickelt. +
+Hierbei arbeitet dieses Gerät ausschließlich im Navigationsmodus (keine Anzeige von zusätzlichen Informationen wie Funkgruppen oder ähnliches). 
 
-=== 12.8.3 Netzwerkarchitektur und Systemintegration
+=== 12.1.7 Einsatz-/Auftragsdaten-Empfang
+Die Aufträge bzw. Einsätze werden grundlegend über das Unternehmensintere **ERPDS-System** disponiert und empfangen an das im Fahrzeug befindliche Toughbook und im Pager-Prinzip an die Mobile Devices der Mitarbeiter gesendet und über das Fahrzeug-Netzwerk an das Navigationsgerät (Berufungsort und Zielort) geleitet.
 
-Das ERPDS nutzt bestehende Infrastrukturen ausschließlich als Transportmedium. Die behördliche Primärkommunikation (BOS-Sprechfunk, TETRA) bleibt physikalisch und logisch vollständig unberührt.
+=== 12.1.8 Tetrafunk im Fahrzeug
+Jedes Fahrzeug ist mit einem Sepura Fahrzeug-Funkgerät ausgestattet. dieses ermöglicht auch während dem Fahrbetrieb die reibungslose Kommunikation mit der Unternehmenseigenen Leitzentrale und den anderen Unternehmensmitarbeitern. 
 
-Bordseitige Konnektivität (In-Flight-Internet):
- Verbau eines zertifizierten Airborne Cellular Routers im Hubschrauber, gekoppelt mit einer externen, aerodynamischen LTE/5G-Messerantenne (Blade Antenna) an der Rumpfunterseite. Dies eliminiert Abschirmungseffekte der Luftfahrzeugzelle.
- Integriertes Multi-Provider-Management (Dual-SIM) zur Gewährleistung stabiler Datenraten und unterbrechungsfreier Zellenwechsel (Cell Handover) bei Reisegeschwindigkeiten über 200 km/h.
+=== 12.1.9 Funkkennungsbeschilderung
+Jedes Fahrzeug ist mit einer eindeutigen Tetra-Funkkennung ausgestattet. Diese ist sowohl am Fahrzeugfunkgerät ersichtlich und auch von Außen in der Windschutzscheibe erkennbar. Hiebei wird ein gut lesbares, KFG/STVO konformes Schild an der Innenseite angebrachte Plakette in Corporate Design mit der Funkkennung in Retroreflektierender Farbe (Silber/Weiß)
 
-Infrastruktur- und Leitstellenanbindung:
- Der Bordrouter baut einen permanent verschlüsselten VPN-Tunnel (mTLS / IPsec) direkt in ein dediziertes, isoliertes Netzwerksegment (VLAN / VRF) der Leitstelleninfrastruktur auf.
- Das ERPDS-Backend operiert innerhalb dieses geschlossenen Segments auf dem Netzwerk-Backbone von Frequentis.
- Die Disponenten der internen Leitstelle greifen über die Web-Applikation direkt von ihren lokalen Arbeitsstationen (Eurofunk Kappacher Konsolen) auf das Portal zu, wodurch eine nahtlose optische Integration ohne Modifikation der Leitstellen-Kernsoftware erreicht wird.
+== 12.2 Flottenmodelle 
+In diesem Abschnitt werden die Grundlegenden Hersteller und Modelle der Flottenfahrzeuge aufgelistet. 
 
-Offline-First-Sicherstellung:
- Die native Kotlin-App der Piloten speichert alle Statusänderungen bei temporärem Signalverlust (z. B. in tiefen Alpentälern) lokal in einer verschlüsselten SQLite-Datenbank. Die Synchronisation mit dem Backend erfolgt vollautomatisch im Hintergrund, sobald der Bordrouter wieder Netzempfang signalisiert.
-
-== 12.9 Infrastrukturfahrzeuge der Flotte
-
-=== 12.9.1 Duales Nutzungskonzept (Sommer- und Winterdienst)
-Die Fahrzeuge der Abteilung Haustechnik und Infrastruktur unterliegen einer strikten saisonalen Nutzen-Maximierung. Durch den modularen Aufbau wird eine ganzjährige Auslastung der Assets bei gleichzeitiger Aufrechterhaltung des regulären Wartungsbetriebs gewährleistet.
-
-==== 12.9.1.1 Mercedes-Benz Unimog (Hauptachsen)
-
-Winterdienst: Einsatz als primäres Räum- und Streufahrzeug auf mehrspurigen Hauptzufahrtsstraßen. Ausrüstung mit schwerem Front-Räumschaufel-Modul und permanentem Silo-Aufbaustreuer auf der Pritsche für maximalen Massendurchsatz.
-
-Sommerdienst: Umrüstung auf ein autarkes Schwemm- und Bewässerungsmodul (Wechselaufbau-Prinzip). Ein GFK-Wassertank mit integrierten Schwallwänden auf der Pritsche speist einen an der Frontanbauplatte montierten Niederdruck-Sprühbalken.
-
-==== 12.9.1.2 VW Amarok (Neben- und Aststraßen)
-
-Winterdienst: Taktischer Einsatz als agiles Räumfahrzeug für verwinkelte Areale und Parkplätze. Die Frontaufnahme wird mit einem Pickup-Räumpflug bestückt. Das Streuen erfolgt selektiv per Hand aus einer transportsicheren Schwerlast-Kunststoffbox auf dem Ladeflächen-Auszug.
-
-Sommerdienst: Nutzung als mobiler Werkstattwagen für den regulären Instandhaltungsdienst. Das geschlossene Hardtop schützt das In-House verbaute Modulregalsystem (Sortimo/Bott) vor Witterungseinflüssen.
-
-=== 12.9.2 Wirtschaftliche Effekte und Reduktion des Fahrzeugverschleißes
-Die sommerliche Fahrbahnkühlung und Staubbindung durch das Unimog-Schwemmmodul schützt die Gesamtflotte (insbesondere schwere Einheiten wie MAN TGL und MAN Lion's Coach) vor vorzeitigem Verschleiß:
-
-Thermischer Reifenschutz: Die Absenkung der Asphalttemperatur verhindert das Erweichen der Gummimischung im Hochsommer, wodurch der abrasive Reifenabrieb exponentiell sinkt.
-
-Infrastrukturerhalt: Die Kühlung stabilisiert das Bitumen im Asphalt und unterbindet die Bildung von Spurrillen und Fahrbahnverformungen, was wiederum die mechanische Belastung auf die Fahrwerke aller Flottenfahrzeuge minimiert.
-
-Staubreduktion: Das Binden von Reifen- und Bremsstaub schont Motorenluftfilter, Innenraumfilter und offene mechanische Komponenten (z. B. Bremsanlagen und Motorrad-Komponenten der BMW R 1250 RT).
-
-== 12.10 Beschaffungsweg Warnbalken
-
-=== 12.10.1 Standardisierung und In-House-Spezifikationen (System Hänsch)
-Die Beschaffung und der Ausbau der optischen und akustischen Sondersignalanlagen erfolgt nach einem standardisierten Plattform-Prinzip über die hauseigene Werkstatt unter Verwendung von Hänsch-Komponenten.
-
-==== 12.10.1.1 Spezifikation VW Passat (Sicherheitsdienstlicher Funkwagen)
-
-Optisches System: Hänsch DBS 5000 in gelber Ausführung, flache und aerodynamische Bauweise ohne integrierte Lautsprechergitter.
-
-Akustisches P/A-System: Integration eines Hänsch TFA 624 Tonfolgeverstärkers. Spezifikationsvorgabe: Die akustischen Folgetonsignale (Blaulicht-Sondersignal) werden softwareseitig permanent deaktiviert und gesperrt. Das System fungiert rein als digitaler Sprachverstärker für Evakuierungs- und Durchsageergänzungen.
-
-Hardware-Schnittstelle: Steuerung über das digitale Bedienteil BE 300 oder das Handbedienteil HAE (Stabmikrofon) im DIN-Schacht. Die Druckkammerlautsprecher (DKL 604) werden verdeckt hinter der vorderen Stoßstange verbaut.
-
-==== 12.10.1.2 Spezifikation VW Amarok (Führungs- und Infrastrukturflotte)
-
-Montage-Konzept (Anti-Chassisflex): Der Hänsch DBS 5000 (Blau für NEF/KDF, Gelb für Infrastruktur/SIG) wird auf einer spezifischen Bracket-Halterung fixiert, die fest mit dem Ladeflächen-Hardtop verschraubt ist. Über der Fahrerkabine lagert der Träger schwimmend auf Gummidämpfern, um mechanische Verwindungen des Fahrzeugrahmens im Gelände auszugleichen.
-
-Kabel- und Schnittstellenmanagement: Die gesamte Verkabelung der Sondersignalanlage und der Funkantennen läuft über den Dachträger nach hinten und wird direkt durch die Wand des Hardtops ins Fahrzeuginnere geführt.
-
-Vorteile bei Inbetriebnahme, Zulassung und Totalschaden:
-
-Erstzulassung: Die Fahrerkabine bleibt im unbeschädigten Originalzustand (keine Dachbohrungen). Die originale Crash-Struktur von VW bleibt unangetastet, was die Typisierung als Sonderkraftfahrzeug bei der Landesprüfstelle massiv vereinfacht.
-
-Wechselaufbau-Effekt: Bei einem wirtschaftlichen Totalschaden des Basisfahrzeugs kann das gesamte Technik-Modul (Hardtop, Träger, Warnbalken, Kabelbaum) als eine Einheit demontiert und binnen weniger Stunden auf einen neuen Amarok aufgesetzt werden (Minimierung der Downtime).
-
-Restwertoptimierung: Bei Leasingrückgabe oder Ausmusterung erfolgt ein narbenfreier Rückbau in den zivilen Zustand, wodurch der Wiederverkaufswert des Basisfahrzeugs maximiert wird.
-
-== 12.11 Mauttechnische Ausstattung
-
-Die Abwicklung der Autobahnmaut in Österreich erfolgt strikt anhand der technisch zulässigen Gesamtmasse (tzGm) des jeweiligen Fahrzeugs (Feld F.1 im Zulassungsschein). Eine freiwillige, flottenweite Vereinheitlichung auf nur ein System ist gesetzlich und technisch ausgeschlossen.
-
-=== 12.11.1 Fuhrparkgestützte Systemaufteilung
-
-.Klassifizierung und Mautsysteme
-[cols="3,2,5", options="header"]
+[cols="3", options="header"]
+.Fahrzeugübersicht-Boden
 |===
-| Fahrzeugkategorie | Mautsystem | Administrative Abwicklung
-
-| Fahrzeuge <= 3,5t tzGm +
-(PKW, leichte Nutzfahrzeuge)
-| Digitale Vignette +
-(Zeitmaut)
-| Aktivierung als Unternehmer-Account im ASFINAG-Mautshop (sofortige Gültigkeit ohne Konsumentenschutzfrist). Nutzung der automatischen Abo-Funktion zur jährlichen Verlängerung empfohlen.
-
-| Fahrzeuge > 3,5t tzGm +
-(LKW, schwere Transporter)
-| GO-Box +
-(Kilometermaut)
-| Registrierung über das ASFINAG SelfCare-Portal (go-maut.at) oder direkt über den Flottenkarten-Anbieter. Abrechnung im Nachhinein (Post-Pay) via Flottenkarte oder Bankeinzug.
+| Hersteller | Modell | Zwecke 
+| VW | Amarok | Einsatzleitwagen
+|VW| T 6.1| Streifenwagen, Halbgruppenfahrzeug, Technischer Dienst
+| VW | Passat | Streifenwagen, Ermittlungsdienst, Personenschutzfahrzeug
+| Mercedes | Sprinter | RTW, Kühltransporter, Unfallaufnahmedienst, Arrestantentransport
+| Mercedes | A6 Limosine |  VIP-Transport
+| Mercedes | A6 Limosine Stretch| VIP/Event-Transport
+| Mercedes| G-Klasse| Interventionsdienst (EL)
+| MAN | TGL 7.X| Mittlere Logistik
+| MAN | TGX 18.X| Schweres Logistikfahrzeug , ELW 2 Zugmaschine
+| MAN| Lion´s Coach | Akademie Transportdienst
 |===
 
-[IMPORTANT]
-Für Neuzulassungen gilt als Einstufungsgrenze ausschließlich die technisch zulässige Gesamtmasse (tzGm), nicht das höchstzulässige Gesamtgewicht (hzG). Ablastungen von schweren Transportern auf 3,5t fallen bei Neuzulassungen automatisch in die GO-Mautpflicht.
-
-=== 12.11.2 Nachweispflichten und Sonderausstattungen
-
-Nachweispflicht für LKW (> 3,5t):::
-Nach Erhalt der GO-Box müssen die tarifrelevanten Merkmale (EURO-Emissionsklasse und CO₂-Klasse) innerhalb von 30 Tagen nachgewiesen werden. Dies erfolgt im SelfCare-Portal via PDF-Sammelupload (Mehrfachauswahl) oder per E-Mail an euroclass@asfinag.at (Sammelliste mit ZIP-Archiv). Die Box ist im System vorpersonalisiert und aktiviert sich bei der ersten Autobahndurchfahrt (akustisches Signal: ein "Pieps").
-
-Umgang mit optischen Sonderausstattungen (<= 3,5t):::
-Fahrzeuge privater Sicherheitsdienste mit gelben oder orangen Warn- und Dachbalken unterliegen der regulären Vignettenpflicht. Das automatische Kamerasystem der ASFINAG (ortsfeste Kontrollen sowie mobile ANPR-Systeme der Mautaufsicht) gleicht primär das Kennzeichen ab. Ist eine Digitale Vignette im Unternehmerkonto hinterlegt, meldet das System ein positives Prüfergebnis; die optische Kontur des Dachbalkens führt zu keinerlei Fehlern oder Beanstandungen.
-
-=== 12.11.3 Gesetzliche Mautbefreiungen (Einsatzorganisationen)
-
-Für mautbefreite Einheiten (Feuerwehren, akkreditierte Betriebsfeuerwehren, anerkannte Rettungsdienste) gilt ein gesondertes Verfahren abseits des regulären Firmenkontos:
-
-Fahrzeuge <= 3,5t::
-Permanente Befreiung von der Vignettenpflicht, sofern Blaulichtbalken außen sichtbar angebracht sind. Zur Vermeidung von Fehlalarmen bei elektronischen Kontrollen (insb. bei verdeckten Zivil-Fahrzeugen) wird eine vorab registrierte Kennzeichen-Einmeldung mittels ASFINAG-Ausnahmeantrag dringend empfohlen.
-Fahrzeuge > 3,5t::
-Verpflichtende Ausstattung mit einer "mautbefreiten GO-Box" (Kostenfreie Erfassung der Portaldurchfahrten). Die Beantragung erfolgt schriftlich direkt bei der ASFINAG unter Beilage des Zulassungsscheins und des behördlichen Blaulichtbescheids (§ 20 KFG).
-
-[[flottenanforderungen-drehfluegler]]
-== 12.12 Flottenanforderungen: Drehflügler
-
-Diese Sektion beschreibt die strategische Flottenzusammensetzung und die technischen Plattformen zur Abdeckung der betrieblichen Szenarien Luftüberwachung (S1), Luftrettung (S2) sowie Taktische Intervention und Schwerlastlogistik (S3).
-
-=== 12.12.1 Plattform-Strategie und Redundanzkonzept
-
-Um eine lückenlose 24/7-Verfügbarkeit zu garantieren, strukturelle Wartungsintervalle abzufangen und parallele Einsatzzwecke (Multi-Mission) ohne Doppelbelegungen zu realisieren, wird eine redundante Flotte von insgesamt acht Drehflüglern aufgeteilt auf drei technologische Plattformen (Airbus,  Airbus) definiert.
-
-==== 12.12.1.2 Überwachung und HEMS (Airbus H145)
-Für die Szenarien 1 und 2 wird die Airbus H145 als einheitliche High-Tech-Plattform gewählt. Dies minimiert die Kosten für das Pilotentraining (Type Rating) und das Ersatzteillager der zivilen Flotte.
-
-2x H145 Surveillance : Ausgestattet mit hochauflösender EO/IR-Sensorik (Forward Looking Infrared) und gekoppelten Suchscheinwerfern für die großflächige Nachtüberwachung (10-50 Hektar). Ermöglicht einen Schichtwechsel in der Luft ("Hot Refueling").
-
-2x H145 HEMS : Dedizierte Hubschrauber für den intensivmedizinischen Patiententransport. Der ummantelte Fenestron-Heckrotor bietet maximale Sicherheit im Bodenbetrieb auf dem Betriebsgelände.
-
-==== 12.12.1.3 Intervention und Logistik (UH-60 & H225 Super Puma)
-Aufgrund der räumlichen und funktionalen Trennung der Unterbringungskriterien zwischen dem Sicherheitsbereich und der Bauwirtschaft wird das Szenario 3 auf zwei spezialisierte Militärstandards aufgeteilt:
-
-2x Airbus H225 Super Puma (Security/Intervention): Taktische Plattform für schnelle Sicherheitsinterventionen (z. B. Fast-Roping). Geringer Rotorabwind (Downwash) im Vergleich zur Chinook, dadurch hochgradig präzise bei Zugriffen im verbauten Gelände.
-
-2x Airbus H225 Super Puma (Logistics/Construction): Schwerlastträger mit Tandem-Rotor-Technologie für den Transport von schwerem Baumaterial (> 4 Tonnen) über Fundamentgruben. Dient zeitgleich als strategische Reserve für die nationale Amtshilfe (z. B. in Kooperation mit dem Österreichischen Bundesheer).
-
-=== 12.12.2 Flottenübersicht und Investitionsvolumen
-
-[cols="1,1,2,2,1", options="header"]
+[cols="3", options="header"]
+.Fahrzeugübersicht-Luft
 |===
-|Szenario |Anzahl |Modell |Missionsfokus |Geschätzte Investition (Gesamt)
-|S1 |2 |Airbus H145 |24/7 High-End Sensorik / Nachtüberwachung |~28 Mio. €
-|S2 |2 |Airbus H145 |Intensivmedizinische Luftrettung (HEMS) |~26 Mio. €
-|S3-A |2 |Airbus H225 |Taktische Intervention / Objektschutz/Schwerlast-Baulogistik (bis 4 t) |~3 Mio. €
-|S3-B |2 |Airbus H225 Super Puma |Schwerlast-Baulogistik & Amtshilfe (ÖBH) |~90 Mio. €
-|GESAMT |8 | | |~184 Mio. €
+| Hersteller | Modell | Zwecke 
+| Airbus Helicopters | H-145 | Sicherheitsdienst (Streifen und Luftüberwachung), Rettungsdienst (Luftrettung)
+|Airbus Helicopters| H-225 | Interventionsdienst, Mittlere Logistik
 |===
-
-[NOTE]
-Die jährlichen Betriebskosten (Sprit, Wartung, Personal) sind mit ca. 10–15 % des gesamten Anschaffungswertes anzusetzen (ca. 20–25 Mio. € p.a.).
-=== 12.12.3 Logistische Infrastruktur
-
-Die Unterbringung und die Lieferketten werden dezentral organisiert, laufen jedoch in einem digitalen Zentrallager zusammen:
-
-Airbus-Kette (H145): Reinraum-Wartung für empfindliche optische Sensorik.
-
-Airbus-Kette (H225): Hochsicherheitsbereich mit Alarmrotte-Charakter für die Interventionskräfte.
-
-Airbus-Kette (H225 Super Puma): Industrieller Wartungshangar mit Deckenkränen für den schweren Getriebe- und Tandemrotorenwechsel nahe den Logistik-Hubs.
-
-Das interne Enterprise Resource Planning & Dispatch System (ERPDS) übernimmt hierbei die digitale Synchronisation der drei herstellerspezifischen Lieferketten und das Asset Management für die zeitkritischen Wartungsintervalle.

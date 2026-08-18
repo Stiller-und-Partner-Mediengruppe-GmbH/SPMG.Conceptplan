@@ -104,7 +104,7 @@ Die Unterscheidung der einzelnen Endgeräte erfolgt dynamisch über ein datenban
 | Im Sepura Radio Manager wird ein neues Geräteprofil mit der erfassten TEI angelegt. Im zugewiesenen Variablenfeld (`User_Defined_Variable_1`) wird die interne **SPMG-Inventarnummer** hinterlegt.
 
 | **3. OS-Imaging & Flash-Vorgang**
-| Das Funkgerät wird via USB-Programmierkabel an die Flottenmanagement-Station angeschlossen. Der Radio Manager mebelt die Firmen-Firmware (Krypton-File) auf das Gerät und verknüpft das Master-Template mit der gerätespezifischen Variable.
+| Das Funkgerät wird via USB-Programmierkabel an die Flottenmanagement-Station angeschlossen. Der Radio Manager lädt die Firmen-Firmware (Krypton-File) auf das Gerät und verknüpft das Master-Template mit der gerätespezifischen Variable.
 
 | **4. Bluetooth Device Name Assembly**
 | Während des Schreibvorgangs generiert das System den physischen Bluetooth-Gerätenamen automatisch nach dem Schema:
