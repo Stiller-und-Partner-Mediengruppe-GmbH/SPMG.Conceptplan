@@ -1,0 +1,105 @@
+= 10 Ausbildungsstruktur und Schulungswesen
+
+.Einleitung und Strategische Ausrichtung
+Die hohe operative Verantwortung der Stiller und Partner Mediengruppe (SPMG) in den Bereichen Sicherheit, Sanitätswesen, Feuerwehr, Logistik, Medien, Wirtschaft und Recht erfordert ein hochgradig spezialisiertes Schulungswesen. Direct im Anschluss an die operativen Einheiten bündelt die Ausbildungsstruktur das gesamte theoretische und praktische Wissensmanagement in sieben dedizierten Fachakademien.
+
+.Bilingualer Ausbildungsansatz und Ausbildungstiefe
+Um höchste Qualität bei internationalen Einsätzen, grenzüberschreitenden Film- und Medienproduktionen sowie bei der Kooperation mit internationalen Behörden zu gewährleisten, ist der Ausbildungsansatz an allen Akademien grundsätzlich **bilingual (Deutsch / Englisch)** ausgelegt:
+
+* **Fachterminologie & SOPs:** Sämtliche Lehrinhalte, Standard Operational Procedures (SOPs), Funk- und Einsatzprotokolle sowie Prüfungsunterlagen stehen parallel in deutscher und englischer Sprache zur Verfügung.
+* **Ausbildungstiefe:** Die Ausbildung beschränkt sich nicht auf rein theoretische Grundlagen, sondern reicht von der operativen Basisausbildung über taktische Spezialanwendungen bis hin zu wissenschaftlich fundierten Führungskräftelehrgängen (Meister-/Bachelor-/Master-Niveau in Anlehnung an das europäische Qualifikationsrahmen-System EQR).
+
+== 10.1 Die 7 Fachakademien der Unternehmensgruppe
+
+=== 10.1.1 Adolf-Schärf-Akademie für Sicherheit und Einsatzwesen
+Die *Adolf-Schärf-Akademie* bildet das Zentrum für die exekutive, taktische und sicherheitstechnische Qualifikation des gesamten Sicherheitspersonals.
+
+.Ausbildungsstruktur
+* **Basisausbildung (Grundmodul G-SEC):** Rechtliche Grundlagen (§ 80 StPO, Notwehr/Anhaltung, Hausrecht), Deeskalationstaktik, Nahkampf/Zugriffstechniken, bilinguale Einsatzdokumentation und Erste Hilfe.
+* **Spezialausbildung Intervention & VIP-Schutz (A-SIU):** Taktisches Verhalten bei Hochrisikolagen, Schieß- und Waffenausbildung, Personenschutz-Taktiken, VIP-Fahrsicherheitstraining und HEMS-Einsatztaktik.
+* **Sonder-Verwendungsmodul Justizsicherheitswache (S-JSW):** Strafvollzugs- und Verwahrungsrecht, Eigensicherung im Arrestbereich, Fesselungstechniken, Deeskalationspsychologie sowie sichere Verwahrungs- und Vorführabläufe.
+* **Führungsausbildung (Einsatzleiter / Command Level):** Taktische Lagenbeurteilung, Stabsarbeit nach DV 100/ÖBFV-Richtlinien, Krisenkommunikation und Führung von gemischten Sicherheitseinheiten.
+
+=== 10.1.2 Peter-Safar-Akademie für Notfallmedizin und Flugrettung
+Die *Peter-Safar-Akademie* stellt die hochspezialisierte medizinische Qualifikation des Rettungs- und Sanitätspersonals sicher und deckt das gesamte Spektrum von der Bodenrettung bis zur Flugrettung ab.
+
+.Ausbildungsstruktur
+* **Staatliche Sanitäterausbildung (gem. SanG):** Gesetzliche Mindest- und Erweiterungsmodule für Rettungssanitäter (RS) und Notfallsanitäter mit Arzneimittellehre und invasiven Maßnahmen (NKI/NKV).
+* **Bilingual Medical Operations (EN/DE):** Vertiefende Vermittlung der englischen Fachterminologie für internationale Patientenkontakte, Telemedizin und standardisierte Übergabeprotokolle (SBAR/MIST).
+* **HEMS- & Flugrettungs-Spezialausbildung:** Einweisung in Helikopter-Sicherheit, Hangar-Abläufe, Winden- und Tau-Rettungstaktiken, Flugfeld-Kommunikation und Flugphysiologie.
+* **Taktische Notfallmedizin (TEMS):** Erstversorgung unter Hochrisiko- und Bedrohungslagen in Kooperation mit der Adolf-Schärf-Akademie (TCCC / TECC Standards).
+
+=== 10.1.3 Josef-Pfeifer-Akademie für Brandschutz und Feuerwehrwesen
+Die *Josef-Pfeifer-Akademie* verantwortet die Ausbildung der Betriebsfeuerwehr und aller Brandschutzorgane.
+
+.Ausbildungsschwerpunkte
+* **Truppmann- & Truppführer-Ausbildung:** Grundlagen des abwehrenden und vorbeugenden Brandschutzes nach den Richtlinien der Feuerwehrverbände.
+* **Atemschutz & Taktische Sondergefahren:** Spezielles Einsatzmodul für schwere Atemschutzeinsätze, Chemie-/Gefahrgutschulungen sowie das Zusammenwirken von ballistischer Schutzausrüstung und Feuerwehr-PSA.
+* **Einsatzleitung Brandschutz:** Technische Einsatzleitung bei Großschadenslagen, Brandermittlung und Kooperation mit öffentlichen Berufsfeuerwehren.
+
+=== 10.1.4 Ignaz-Röckl-Akademie für Infrastruktur, Bautechnik, und Technische Logistik
+Die *Ignaz-Röckl-Akademie* schult das Personal für den technischen Betrieb, die Fuhrparklogistik und die Infrastrukturerhaltung.
+
+.Ausbildungsschwerpunkte
+* **Fuhrpark- & Schwertransportlogistik:** Führerscheinausbildungen, Sondersignalschulungen, Ladungssicherung und Fuhrparkmanagement.
+* **Bautechnik & Geländesicherung:** Befestigung von Einsatzarealen, temporäre Bauten bei Großveranstaltungen oder Filmsets sowie technischer Arbeitsschutz.
+* **Versorgungs- & Systemtechnik:** Bedienung und Wartung von Stromaggregaten, mobilen Tankanlagen und Feldinfrastruktur.
+
+=== 10.1.5 Heinz-Zemanek-Akademie für Medien- und Produktionstechnik
+Die *Heinz-Zemanek-Akademie* vermittelt das technische und operative Know-how für Film, Fernsehen, Broadcasthardware und IT-Infrastruktur.
+
+.Ausbildungsschwerpunkte
+* **Broadcast- & Kameratechnik:** Bedienung und Integration von professionellen Kamerasystemen (z. B. Blackmagic Design, ARRI), Studio-Automatisierung und Regie-Technik.
+* **Netzwerk- & IT-Infrastruktur:** Konfiguration von Regiewagen, mobilen Datencentrern, Streaming-Servern sowie Signalübertragung via Satellit und 5G/6G-Bonding.
+* **Postproduktion & Workflow-Engineering:** Schulung in Schnitt-, Color-Grading- und Audio-Design-Software sowie Verwaltung komplexer Medien-Asset-Management-Systeme (MAM).
+
+=== 10.1.6 Viktor-Mataja-Akademie für Betriebswirtschaft, Handel, Beschaffungswesen
+Die *Viktor-Mataja-Akademie* ist für die kaufmännische, logistische und strategische Schulung der Verwaltungs- und Beschaffungseinheiten zuständig.
+
+.Ausbildungsschwerpunkte
+* **Beschaffungs- & Supply-Chain-Management:** Operativer und strategischer Einkauf von Einsatzmitteln, Verhandlungsführung und Materialwirtschaft.
+* **Kaufmännische Unternehmensführung:** Kostenrechnung, Controlling, Budgetierung von Großprojekten und Schnittstellenverwaltung im ERPDS.
+* **Handels- & Zollabwicklung:** Internationale Import-/Export-Bestimmungen für Equipment, Logistiksteuerung und Vertragsrecht im Warenhandel.
+
+=== 10.1.7 Hans-Kelsen-Akademie für Rechtswissenschaft, Legistik und Prozessrecht
+Die *Hans-Kelsen-Akademie* sichert die rechtliche Exzellenz und Konformität aller Unternehmensaktivitäten ab.
+
+.Ausbildungsschwerpunkte
+* **Medien-, Urheber- & Datenschutzrecht:** Vertiefte Ausbildungen zu DSGVO, Persönlichkeitsrechten, Filmlizenzen und Urheberrecht im Medienbereich.
+* **Exekutiv- & Verwaltungsrecht:** Schulung von Führungskräften im Eingriffsrecht, Zivilrecht, Strafprozessrecht (StPO) sowie im Vollzugs- und Anhalterecht.
+* **Legistik & Vertragswesen:** Gestaltung von komplexen Dienstleistungsverträgen, Arbeitsrecht, Unternehmensvereinbarungen und Begleitung von internen Revisionsverfahren.
+
+== 10.2 Rezertifizierung und Fortbildungspflichten
+
+Zur Aufrechterhaltung der operativen Dienstfähigkeit und Gültigkeit von Berechtigungen gilt ein strenges, zeitgesteuertes Fortbildungs- und Testsystem:
+
+[[table-15]]
+.Wiederkehrende Intervalle
+[cols="1,2,2", options="header"]
+|===
+| Fachakademie / Fachbereich | Intervall | Pflichtinhalte
+
+| Adolf-Schärf-Akademie (Inkl. JSW)
+| Jährlich (12 Monate)
+| Rechts-Update, Schieß- und Waffentest, Deeskalationsprüfung, Nahkampf-Assessment
+
+| Peter-Safar-Akademie
+| Gesetzlich (24 Monate)
+| Mindestens 40 Stunden Fortbildung gem. § 50 SanG + Reanimationstraining & HEMS-Check
+
+| Josef-Pfeifer-Akademie
+| Halbjährlich (6 Monate)
+| Belastungsübung Atemschutz, Einsatzübung Sondergefahrenlagen
+
+| Heinz-Zemanek- / Ignaz-Röckl-Akademie
+| Jährlich (12 Monate)
+| Arbeitsschutz, technische Zertifizierungen, Geräte- und Fuhrpark-Unterweisungen
+|===
+
+== 10.3 Integration in das ERPDS-Schnittstellensystem
+
+Sämtliche an den Fachakademien absolvierten Module, Prüfungsleistungen und Rezertifizierungsfristen werden fälschungssicher und DSGVO-konform im ERPDS (Enterprise Resource Planning and Dispatch System) verwaltet.
+
+.Automatische Systemlogik
+* **Dispositions-Sperre:** Bei Ablauf eines Zertifikats oder einer gesetzlichen Fortbildungsfrist sperrt das ERPDS-System die betreffende Person automatisch für entsprechende operative Dispatches.
+* **Digitales Ausweiswesen:** Die aktiven Ausbildungs- und Berechtigungsstufen werden direkt auf das NFC-Element des Dienstausweises synchronisiert und dienen als Nachweis bei Kontrollen.

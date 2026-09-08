@@ -1,7 +1,11 @@
 extends: default
 page:
-  margin: [120, 50, 50, 50] 
-
+  margin: [120, 50, 50, 50]
+ 
+base:
+  font_color: '#000000'  
+heading:
+  font_color: '#070052'
 header:
   height: 120
   recto:

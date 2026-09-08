@@ -1,12 +1,12 @@
-= 12 Fahrzeuge und Unternehmensflotte 
+= 13 Fahrzeuge und Unternehmensflotte 
 
 In diesem Kapitel wird die Zusammensetzung der Gesamten Unternehmensflotte der *Stiller und Partner Mediengruppe* und aller ihrer Abteilungen näher erläutert. 
 
-== 12.1 Flottenweit normierte Standards 
+== 13.1 Flottenweit normierte Standards 
 
 Im Folgenden Abschnitt werden zunächst die für Alle Fahrzeuge im Dienst der *SPMG* genauer behandelt.
 
-=== 12.1.1 Isolation der Fahrzeuginfrastruktur (Härtung)
+=== 13.1.1 Isolation der Fahrzeuginfrastruktur (Härtung)
 
 **Vollständige Backend-Deaktivierung:**:: Für alle Neufahrzeuge werden die herstellerseitigen Online-Dienste (VW Connect / We Connect Plus) sowie kommerzielle Datenpakete direkt im Werks-Backend der Volkswagen AG dauerhaft gesperrt.
 
@@ -22,7 +22,7 @@ Das Bordeigene Infotainment-System (über Android Auto) wird in einen Abgesicher
 
 **Pannentaste:**:: Die fahrzeugeigene Pannentaste im Dachhimmel und die damit verbundenen VW-Connect Dienste werden im Zuge des Behördenumbaus elektrisch stillgelegt bzw. blindgeschaltet. Technische Defekte werden ausschließlich über die betriebseigene Kommunikationsstruktur und Navigation wird über ein Seperates Navigationsgerät (auf dem auch Aufträge oder Einsätze gespiegelt werden) abgewickelt.
 
-=== 12.1.2 Flottenweiter Mittelaufbau
+=== 13.1.2 Flottenweiter Mittelaufbau
 Jedes Fahrzeug wird mit einer eigens angepassten KFG-Konformen Mittelkonsole ausgestattet. 
 
 **Sonderanlagen-Bedienteil**:: Das Steuerelement für die gesamte Sonderlicht- bzw. Sondersignalanlage wird bei allen Fahrzeugen an der oberen Mittelfläche des Amaturenbrettes angebracht. Dieses steuert: +
@@ -43,39 +43,40 @@ in der eigentlichen Mittelkonsole zwischen Fahrer und Beifahrer befinden sich di
 **Dokumenten und Materialfach**:: 
 Im hinteren Bereich (auf höhe der Rückenlehnen) befindet sich Stauraum für das Fahrzeugbuch (die Fahrzeugmappe) sowie ein Spender (Halterung) für Einweg Nitril Handschuhe
 
-=== 12.1.3 Gehärteter KFZ-Router
+=== 13.1.3 Gehärteter KFZ-Router
 
 Jedes Fahrzeug ist ebenfalls mit einem eigenen KFZ-Router (Automotive Router) ausgestattet welcher einen konstanten VPN Tunnel zum Zentralserver herstellt. Hierdurch wird garantiert, dass die Fahrzeuge auch außerhalb der Netzreichweite der Liegenschaften immer eine Anbindung an die Internen Systeme behalten. 
 
-=== 12.1.4 Toughbook-Anbindung
+=== 13.1.4 Toughbook-Anbindung
 
 Die Verbindung des Einsatzleitsystems erfolgt aus Gründen des Ausfallschutzes und Sicherheitsbedenken (jamming- /Hacking-Schutzes) strikt Kabelgebunden mittels geschirmter LAN-Kabel (*CAT 6e*) und galvanisch getrennten Stromkabel welche mit dem Zweitbatteriesystem verbunden ist. 
 
-=== 12.1.5 Zweitbatteriesystem und Rettbox
+=== 13.1.5 Zweitbatteriesystem und Rettbox
 
 Jedes Fahrzeug wird mit einer Lade- oder Zweitbatterie ausgestattet. Weiters werden alle Fahrzeuge mit einem Außenladesystem "RettBox" der Firma Marechal Electric ausgestattet. Dieses ermöglicht die Fahrzeuge in den Garagen und an Liegenschaften über ein entsprechendes Kabel zu Laden und hat den Vorteil das bei aktivierung der Zündung dieses Kabel beschädigungsfrei abgesprengt (abgekoppelt) wird.
 
-=== 12.1.6 Navigationsystem "LardisOne
+=== 13.1.6 Navigationsystem "LardisOne
 Die gesamte Navigation im Fahrzeug wird über ein dediziertes LardisOne Gerät abgewickelt. +
 Hierbei arbeitet dieses Gerät ausschließlich im Navigationsmodus (keine Anzeige von zusätzlichen Informationen wie Funkgruppen oder ähnliches). 
 
-=== 12.1.7 Einsatz-/Auftragsdaten-Empfang
+=== 13.1.7 Einsatz-/Auftragsdaten-Empfang
 Die Aufträge bzw. Einsätze werden grundlegend über das Unternehmensintere **ERPDS-System** disponiert und empfangen an das im Fahrzeug befindliche Toughbook und im Pager-Prinzip an die Mobile Devices der Mitarbeiter gesendet und über das Fahrzeug-Netzwerk an das Navigationsgerät (Berufungsort und Zielort) geleitet.
 
-=== 12.1.8 Tetrafunk im Fahrzeug
+=== 13.1.8 Tetrafunk im Fahrzeug
 Jedes Fahrzeug ist mit einem Sepura Fahrzeug-Funkgerät ausgestattet. dieses ermöglicht auch während dem Fahrbetrieb die reibungslose Kommunikation mit der Unternehmenseigenen Leitzentrale und den anderen Unternehmensmitarbeitern. 
 
-=== 12.1.9 Funkkennungsbeschilderung
+=== 13.1.9 Funkkennungsbeschilderung
 Jedes Fahrzeug ist mit einer eindeutigen Tetra-Funkkennung ausgestattet. Diese ist sowohl am Fahrzeugfunkgerät ersichtlich und auch von Außen in der Windschutzscheibe erkennbar. Hiebei wird ein gut lesbares, KFG/STVO konformes Schild an der Innenseite angebrachte Plakette in Corporate Design mit der Funkkennung in Retroreflektierender Farbe (Silber/Weiß)
 
-== 12.2 Flottenmodelle 
+== 13.2 Flottenmodelle 
 In diesem Abschnitt werden die Grundlegenden Hersteller und Modelle der Flottenfahrzeuge aufgelistet. 
 
+[[table-22]]
 [cols="3", options="header"]
 .Fahrzeugübersicht-Boden
 |===
 | Hersteller | Modell | Zwecke 
-| VW | Amarok | Einsatzleitwagen
+| VW | Amarok | Einsatzleitwagen,Kommandofahrzeug
 |VW| T 6.1| Streifenwagen, Halbgruppenfahrzeug, Technischer Dienst
 | VW | Passat | Streifenwagen, Ermittlungsdienst, Personenschutzfahrzeug
 | Mercedes | Sprinter | RTW, Kühltransporter, Unfallaufnahmedienst, Arrestantentransport
@@ -84,13 +85,40 @@ In diesem Abschnitt werden die Grundlegenden Hersteller und Modelle der Flottenf
 | Mercedes| G-Klasse| Interventionsdienst (EL)
 | MAN | TGL 7.X| Mittlere Logistik
 | MAN | TGX 18.X| Schweres Logistikfahrzeug , ELW 2 Zugmaschine
+| Linde | H30D/H30T|  Leichte Logistik (Stapler) 
 | MAN| Lion´s Coach | Akademie Transportdienst
+| Corvus Terrain | DX4 CAB| Transitfahrzeug 
+| Corvus Terrain | DX4 CAB Ambulance | Rettungsdiensliche Bereitstellung
 |===
 
+[[table-23]]
 [cols="3", options="header"]
 .Fahrzeugübersicht-Luft
 |===
 | Hersteller | Modell | Zwecke 
 | Airbus Helicopters | H-145 | Sicherheitsdienst (Streifen und Luftüberwachung), Rettungsdienst (Luftrettung)
 |Airbus Helicopters| H-225 | Interventionsdienst, Mittlere Logistik
+| Airbus Helicopters | H-125 | Medientechnische Produktion (Heli-Cam)
 |===
+
+=== Fahrzeuggrafiken
+
+*SPMG Sicherheitsdienst*
+
+.SPMG-Security - Streifendienst - VW Passat 
+image::Fahrzeuge/SPMG_StfD_Passat_1-01.png[Alt-Text, width=600, height=400, align=center]
+.SPMG-Security - Ermittlungsdienstdienst - VW Passat 
+image::Fahrzeuge/SPMG_ErmD_Passat_1-01.png[Alt-Text, width=600, height=400, align=center]
+.SPMG-Security - Streifendienst - VW T6 
+image::Fahrzeuge/SPMG_StfD_T6-01.png[Alt-Text, width=600, height=400, align=center]
+.SPMG-Security - Streifendienst KDF - VW Amarok  
+image::Fahrzeuge/SPMG_StfD_Amarok_KDF.png[Alt-Text, width=600, height=400, align=center]
+.SPMG-Security - Interventionsdienst - VW Amarok 
+image::Fahrzeuge/SPMG_IntD_Amarok-01.png[Alt-Text, width=600, height=400, align=center]
+.SPMG-Security - Inerventionsdienst KDF - VW Amarok  
+image::Fahrzeuge/SPMG_IntD_Amarok_KDF-01.png[Alt-Text, width=600, height=400, align=center]
+
+*SPMG Brandschutz*
+
+.SPMG-Security - Streifendienst - VW Amarok 
+image::Fahrzeuge/SPMG_BtF_Amarok_KDF-01.png[Alt-Text, width=600, height=400, align=center]

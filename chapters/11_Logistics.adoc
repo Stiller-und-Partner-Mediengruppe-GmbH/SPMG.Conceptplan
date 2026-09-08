@@ -1,9 +1,9 @@
 = 10 Abteilung: Logistik & Beschaffungswesen (LBW) 
 
-== 10.1 Strategische Zielsetzung 
+== 11.1 Strategische Zielsetzung 
 Die Abteilung "Logistik & Beschaffungswesen" bildet das operative Rückgrat der Stiller und Partner Mediengruppe GmbH (SPMG). Sie steuert den gesamten Material- und Informationsfluss zwischen der Medienproduktion, den Sicherheitsdienstleistungen (Abteilung Sicherheitsdienst) und den medizinischen Versorgungsbereichen (Abteilung Medizin).
 
-== 10.2 Kernaufgaben
+== 11.2 Kernaufgaben
 
 * *Zentraler Einkauf*: Beschaffung von High-End Medientechnik, medizinischem Equipment und Sicherheitsausrüstung unter Einhaltung der Grundsätze ordnungsgemäßer Buchführung (UGB).
 
@@ -11,7 +11,7 @@ Die Abteilung "Logistik & Beschaffungswesen" bildet das operative Rückgrat der 
 
 * *Lager- und Bestandsmanagement*: Digitale Erfassung aller Güter im zentralen ERPDS-System zur Sicherstellung der Materialverfügbarkeit im Feld.
 
-== 10.3 Referat Zeugamt und fachspezifische Schnittstellen 
+== 11.3 Referat Zeugamt und fachspezifische Schnittstellen 
 Während das zentrale Referat Zeugamt im LBW die administrative Oberhoheit behält, bestehen enge Schnittstellen zu dezentralen Fach-Referaten:
 
 * *Zeugamt Sicherheit:* Fachliche Handhabung von Dienstwaffen und ballistischer Schutzausrüstung gemäß Waffengesetz (WaffG).
@@ -20,27 +20,27 @@ Während das zentrale Referat Zeugamt im LBW die administrative Oberhoheit behä
 
 * *Zeugamt Brandschutz:* Instandhaltung von Atemschutz und technischem Rettungsgerät.
 
-== 10.4 Technologische Integration und Sicherheit
+== 11.4 Technologische Integration und Sicherheit
 * *Gerätekonfiguration:* Neu beschaffte Mobilgeräte werden automatisiert mittels Samsung Knox vorkonfiguriert, bevor sie in die Logistikkette übergehen.
 
 * *Zugriffsschutz:* Der Zugriff auf sensible Bestandsdaten und Lieferpläne ist durch Multifaktor-Authentifizierung (YubiKey) an allen Terminals gesichert.
 
 * *Materialbegleitung:* Der Transport hochwertiger oder sensibler Güter erfolgt in Kooperation mit der Security Logistics Unit (SLU).
 
-== 10.5 Rechtlicher Rahmen
+== 11.5 Rechtlicher Rahmen
 Das LBW agiert strikt nach den Bestimmungen des österreichischen Unternehmensgesetzbuches (UGB) und der Gewerbeordnung (GewO 1994)
 
-== 10.6 Beschaffungsweg Warnbalken
+== 11.6 Beschaffungsweg Warnbalken
 
-=== 10.6.1 Standardisierung und In-House-Spezifikationen (System Hänsch)
+=== 11.6.1 Standardisierung und In-House-Spezifikationen (System Hänsch)
 Die Beschaffung und der Ausbau der optischen und akustischen Sondersignalanlagen erfolgt nach einem standardisierten Plattform-Prinzip über die hauseigene Werkstatt unter Verwendung von Hänsch-Komponenten.
 
-==== 10.6.1.1 Spezifikation VW Passat (Sicherheitsdienstlicher Funkwagen)
+==== 11.6.1.1 Spezifikation VW Passat (Sicherheitsdienstlicher Funkwagen)
 * *Optisches System:* Hänsch DBS 5000 in gelber Ausführung, flache und aerodynamische Bauweise ohne integrierte Lautsprechergitter.
 * *Akustisches P/A-System:* Integration eines Hänsch TFA 624 Tonfolgeverstärkers. *Spezifikationsvorgabe:* Die akustischen Folgetonsignale (Blaulicht-Sondersignal) werden softwareseitig permanent deaktiviert und gesperrt. Das System fungiert rein als digitaler Sprachverstärker für Evakuierungs- und Durchsageergänzungen.
 * *Hardware-Schnittstelle:* Steuerung über das digitale Bedienteil BE 300 oder das Handbedienteil HAE (Stabmikrofon) im DIN-Schacht. Die Druckkammerlautsprecher (DKL 604) werden verdeckt hinter der vorderen Stoßstange verbaut.
 
-==== 10.6.1.2 Spezifikation VW Amarok (Führungs-, Infrastruktur- und Interventionsflotte)
+==== 11.6.1.2 Spezifikation VW Amarok (Führungs-, Infrastruktur- und Interventionsflotte)
 * *Montage-Konzept (Anti-Chassisflex):* Der Hänsch DBS 5000 (Blau für NEF/KDF, Gelb für Infrastruktur/SIG) wird auf einer spezifischen Bracket-Halterung fixiert, die fest mit dem Ladeflächen-Hardtop verschraubt ist. Über der Fahrerkabine lagert der Träger schwimmend auf Gummidämpfern, um mechanische Verwindungen des Fahrzeugrahmens im Gelände auszugleichen.
 * *Kabel- und Schnittstellenmanagement:* Die gesamte Verkabelung der Sondersignalanlage und der Funkantennen läuft über den Dachträger nach hinten und wird direkt durch die Wand des Hardtops ins Fahrzeuginnere geführt. 
 * *Vorteile bei Inbetriebnahme, Zulassung und Totalschaden:*
@@ -49,14 +49,16 @@ Die Beschaffung und der Ausbau der optischen und akustischen Sondersignalanlagen
 3. _Restwertoptimierung:_ Bei Leasingrückgabe oder Ausmusterung erfolgt ein narbenfreier Rückbau in den zivilen Zustand, wodurch der Wiederverkaufswert des Basisfahrzeugs maximiert wird.
 
 
-== 10.7 Beschaffungsweg: Sprechfunkinfrastruktur
+== 11.7 Beschaffungsweg: Sprechfunkinfrastruktur
 
-=== 10.7.1 Beschaffung der Funkgeräte
+=== 11.7.1 Beschaffung der Funkgeräte
 
 Die Beschaffung der TETRA-Endgeräte (Standardtyp *Sepura SC20 / SC21* sowie *SC2024 ATEX* für den Atemschutzeinsatz) erfolgt zwingend über zertifizierte Systemhäuser und offizielle Sepura-Distributoren im österreichischen Raum (z. B. _eurofunk KAPPACHER_ oder _SELECTRIC_). Ein Direktbezug über den klassischen Elektronikgroßhandel ist nicht möglich.
 
 Aufgrund der operativen Anforderungen wird die geplante Flotte von 100+ Geräten logisch und lizenztechnisch in ein *50/50-Hybrid-Modell* gesplittet:
 
+[[table-16]]
+.Funkgeräteaufteilung
 [cols="1,2,1", options="header"]
 |===
 | Flottensegment | Einsatzzweck / Konfiguration | Verschlüsselung
@@ -66,7 +68,7 @@ Aufgrund der operativen Anforderungen wird die geplante Flotte von 100+ Geräten
 
 Die Geräte werden über den zentralen, unternehmenseigenen Core-Switch in der Wiener Zentrale verwaltet. Bei der Statusvergabe (z. B. Status 6 - Nicht einsatzbereit) wird im Endgerät ein zweistufiges Untermenü erzwungen. Während das interne System (SLZ/ERPDS) die exakte Detail-Information (z. B. "Sanitär" oder "Fahrzeugdefekt") verarbeitet, wird an die Schnittstelle der öffentlichen Leitstellen (Notruf NÖ / Florian) ein normierter Status ohne betriebsinterne Zusatzdaten übermittelt.
 
-=== 10.7.2 Erweiterung bei Expansion
+=== 11.7.2 Erweiterung bei Expansion
 
 Die integrierte Systemarchitektur ist modular skalierbar. Bei einer personellen oder strukturellen Expansion des Unternehmens gelten je nach Einsatzzweck unterschiedliche Grenzkostenstrukturen (Capex/Opex):
 
@@ -83,7 +85,7 @@ Einsatzpersonal (BOS-Rettungsdienst / BtF)::
 Die bestehende Kerninfrastruktur (Basisstationen in Wien/Schwechat und Objektfunkanlagen) fängt eine Skalierung bis ca. 250 bis 300 Endgeräte im selben Sendegebiet ohne Hardware-Erweiterung ab. Erst bei Überschreitung dieser Kapazitätsgrenze ist der Einbau zusätzlicher Transceiver-Einschübe zur Kanalerweiterung erforderlich.
 ====
 
-=== 10.7.3: OS-Imaging und Device Name Handling
+=== 11.7.3: OS-Imaging und Device Name Handling
 
 Die Bereitstellung und Inbetriebnahme der TETRA-Handheld-Funkgeräte (Sepura-Flotte) erfolgt nach einem standardisierten, hochgradig automatisierten *Staging-Prozess*. Dadurch wird sichergestellt, dass neu beschaffte Hardware innerhalb kürzester Zeit einsatzbereit ist und nahtlos in die bestehende Flottenstruktur sowie das betriebliche Asset-Management integriert werden kann.
 
@@ -93,6 +95,8 @@ Um den administrativen Aufwand bei Nachbestellungen minimal zu halten, wird auf 
 
 Die Unterscheidung der einzelnen Endgeräte erfolgt dynamisch über ein datenbankgestütztes Variablen-Mapping.
 
+[[table-17]]
+.Prozessmatrix Tetrasprechfunk
 [cols="1,3", options="header"]
 |===
 | Prozessschritt | Beschreibung / Umsetzung
@@ -123,7 +127,7 @@ Der zusammengesetzte Bluetooth *Friendly Name* überschreitet nicht die hardware
 * **Prozesssicherheit:** Durch die Kopplung der Bluetooth-Kennung an das zentrale Inventar-Template wird ausgeschlossen, dass im Einsatz fehlerhaft benannte oder unbefugte Geräte im Nahbereichs-Funknetz auftauchen.
 * **Autarkie:** Die Bereitstellung erfolgt vollständig in-house über die eigene Programmierstation. Es entstehen keine laufenden Servicegebühren durch externe Dienstleister bei Geräte-Updates oder Neuanschaffungen.
 
-=== 10.7.4 Rückfinanzierung im Sanitätsbereich
+=== 11.7.4 Rückfinanzierung im Sanitätsbereich
 
 Die laufenden Betriebskosten (*OpEx*) der BOS-Einsatzflotte sowie die anteiligen Anschaffungskosten der Rettungsdienst-Infrastruktur finanzieren sich im laufenden Betrieb durch das gesetzliche und tarifliche Erstattungssystem (*Reimbursement*) in Österreich im Regelfall selbst:
 
@@ -137,21 +141,24 @@ Durch die aktive Mitwirkung an der öffentlichen Sicherheitsarchitektur im Groß
 
 
 
-== 10.8 Beschaffungsweg: Netzwerkdrucker
+== 11.8 Beschaffungsweg: Netzwerkdrucker
 
-=== 10.8.1 Ausgangslage und Zielsetzung
+=== 11.8.1 Ausgangslage und Zielsetzung
 Für die neue Unternehmenszentrale wird eine hochsichere, flexible und skalierbare Druckinfrastruktur implementiert. 
 Die Architektur bricht bewusst mit traditionellen, lokalen USB-Druckerstrukturen, um plattformübergreifendes Drucken (Stand-PC, Laptop, Smartphone) bei maximaler technologischer Absicherung zu gewährleisten.
 
-=== 10.8.2 Kernarchitektur (High-Security)
+=== 11.8.2 Kernarchitektur (High-Security)
 Das gesamte Druckkonzept basiert auf einer strikten Trennung zwischen Steuerungs- und Ausführungsebene (*Zero-Trust-Prinzip*):
 
 * *Zentraler Printserver:* Ein gehärteter *Windows Server 2019* fungiert als einzige Schnittstelle für alle Endgeräte. Die Übertragung erfolgt verschlüsselt mittels *IPP-over-HTTPS (TLS 1.3)* inklusive Active-Directory-Authentifizierung.
 * *Netzwerksegmentierung:* Alle Drucker werden physisch und logisch in einem dedizierten, isolierten *Drucker-VLAN* platziert. Ein direkter Netzwerkzugriff von Endgeräten (Clients) in das Drucker-VLAN wird per Firewall/ACL unterbunden.
 * *Ein-Hersteller-Strategie:* Zur Minimierung des administrativen Aufwands und Maximierung der Richtlinien-Compliance (Hardening) wird exklusiv auf das Ökosystem von *HP* gesetzt.
 
-=== 10.8.3 Beschaffungsmatrix (Komponenten)
+=== 11.8.3 Beschaffungsmatrix (Komponenten)
 
+
+[[table-18]]
+.Beschaffungsmatrix Drucker
 [cols="2,3,4", options="header"]
 |===
 | Einsatzbereich | Empfohlene HP-Modellreihe | Spezifische Sicherheits- und Funktionsmerkmale
@@ -177,13 +184,13 @@ Das gesamte Druckkonzept basiert auf einer strikten Trennung zwischen Steuerungs
 | Digitale Produktionsdruckmaschinen, vollständig isoliert in einer eigenen Produktions-DMZ. Datenübergabe erfolgt ausschließlich via Hotfolder/Workflow-System vom Windows Server.
 |===
 
-=== 10.8.4 Zentrales Management und Compliance
+=== 11.8.4 Zentrales Management und Compliance
 Die gesamte beschaffte Flotte wird über die Software *HP Web Jetadmin* auf dem Windows Server 2019 verwaltet. 
 Dies ermöglicht ein automatisiertes Rollout der Sicherheits-Baselines (Sperrung von USB-Ports, Deaktivierung unverschlüsselter Protokolle wie HTTP/SMBv1) sowie ein permanentes Compliance-Monitoring der gesamten Infrastruktur.
 
-== 10.9 Beschaffungsweg: Kameratechnik
+== 11.9 Beschaffungsweg: Kameratechnik
 
-=== 10.9.1 Wirtschaftliche und logistische Aspekte
+=== 11.9.1 Wirtschaftliche und logistische Aspekte
 
 Ablöse des Mietmodells (ARRI): Der Wechsel von der ARRI-Plattform zu einer proprietären Blackmagic Design (BMD) Infrastruktur eliminiert laufende Projekt-Mietkosten. Dies entfernt den finanziellen Druck durch Stehtage (Dead Days), wetterbedingte Verzögerungen oder verlängerte Proben- und Testphasen.
 
@@ -191,7 +198,7 @@ Einmalige Investition: Die Anschaffung der BMD-Hardware amortisiert sich nach we
 
 Lokaler Support: Der Kauf über den österreichischen Fachhandel sichert kurze Ausfallzeiten durch direkte Verfügbarkeit von Ersatzgeräten und Serviceleistungen im Schadensfall.
 
-=== 10.9.2 Studio- und Systemintegration (BMD-Ökosystem)
+=== 11.9.2 Studio- und Systemintegration (BMD-Ökosystem)
 
 Native ATEM-Anbindung: BMD-Kameras (u. a. URSA Cine, Pyxis, Studio-Reihe) verfügen über eine bidirektionale Signalübertragung via SDI/HDMI, die sich nahtlos in bestehende ATEM-Mischerinfrastrukturen einfügt.
 
@@ -199,7 +206,7 @@ CCU-Fernsteuerung: Parameter wie Blende, Fokus, Verschlusszeit (Shutter), Weißa
 
 Integrierte Protokolle: Tally-Signale und die Talkback-Kommunikation (Intercom) werden ohne zusätzliche externe Hardware oder Funkstrecken direkt über die Videoleitung geschleust.
 
-=== 10.9.3 Fahrzeig-Rigs (Gantry- und Kamerastatik)
+=== 11.9.3 Fahrzeug-Rigs (Gantry- und Kamerastatik)
 
 Gewichtsreduktion des Kamerasystems: BMD-Kameras weisen im Vergleich zu ARRI-Systemen ein drastisch geringeres Eigengewicht und kompaktere Abmessungen auf.
 
@@ -209,18 +216,18 @@ Minimierung von Schwingungen: Das niedrigere Trägheitsmoment verringert Bildvib
 
 Bürokratischer Vorteil (StVO): Schlanke Rigs innerhalb der Fahrzeugtoleranzen erleichtern die Einhaltung der gesetzlichen Ladungssicherungs- und Verkehrsvorschriften bei Kolonnenfahrten auf öffentlichen Straßen.
 
-=== 10.9.4 Ergänzende Action-Cam-Infrastruktur
+=== 11.9.4 Ergänzende Action-Cam-Infrastruktur
 
 Einsatz als Crash-Cam: Verwendung von robusten Kleinstkameras (z. B. DJI Osmo Action, GoPro) an exponierten Positionen (Radkasten, Stoßstange) zur Absicherung des Haupt-Equipments bei physischem Risiko.
 
 Spezifische Montage (Blaulichtbalken): Platzierung der Action-Cam direkt auf dem Fahrzeugdach im Windschatten hinter dem Blaulichtbalken.
  Mechanischer Schutz: Der Balken fungiert als physischer Deflektor gegen Partikeleinschlag (Schmutz, Insekten) und minimiert Strömungsgeräusche am Mikrofon.
- Schnittkompatibilität: Moderne Flaggschiff-Action-Cams unterstützen 10-Bit-Aufzeichnungen in Log-Profilen (D-Log M, GP-Log). Dies ermöglicht über ein Color Space Transform (CST) in DaVinci Resolve eine präzise farbliche Anpassung an das BRAW-Material der Hauptkameras.
+ Schnittkompatibilität: Moderne Flaggschiff-Action-Cams unterstützen 11-Bit-Aufzeichnungen in Log-Profilen (D-Log M, GP-Log). Dies ermöglicht über ein Color Space Transform (CST) in DaVinci Resolve eine präzise farbliche Anpassung an das BRAW-Material der Hauptkameras.
  Sensordynamik: Schnelle Sensorauslesung minimiert Rolling-Shutter-Artefakte bei hochfrequent pulsierenden LED-Lichtquellen.
 
-== 10.10 Beschaffungsweg: Projektortechnik
+== 11.10 Beschaffungsweg: Projektortechnik
 
-=== 10.10.1 Mastering & Metadaten (Postproduktion)
+=== 11.10.1 Mastering & Metadaten (Postproduktion)
 Die Aufbereitung des unverschlüsselten Bild- und Tonmaterials erfolgt direkt aus der Postproduktions-Pipeline (DaVinci Resolve Studio oder Adobe Premiere Pro).
 
 Master-Format: Export als hocheffizientes, standardisiertes IMF-Paket (Interoperable Master Format) nach SMPTE ST 2067 (bevorzugt im Profil App 2e Studio Master).
@@ -231,21 +238,21 @@ Audio-Mapping: Export der Tonspuren als unkomprimiertes Linear PCM in separaten 
 
 Metadaten-Cues (CPL): Das Schnittprogramm wandelt gesetzte Timeline-Marker framegenau in standardisierte SMPTE-Metadaten-Cues um. Diese XML-Struktur der Composition Playlist (CPL) steuert automatisiert das Saallicht (CREDITS_START) und liefert das Triggersignal für das sichere Löschen im Saal-Server (FILM_END).
 
-=== 10.10.2 Zweistufige Qualitätskontrolle (QC) & Desktop-Zuspielung
+=== 11.10.2 Zweistufige Qualitätskontrolle (QC) & Desktop-Zuspielung
 Nach dem Export greift die modularisierte Software-Suite easyDCP (Fraunhofer IIS) für die technische Abnahme und die physische Signaleinspeisung.
 
 Stufe 1 (Software-Vorabnahme): Der unverschlüsselte IMF-Container wird im easyDCP Player+ geladen. Die GPU-beschleunigte Engine decodiert die hochbitratigen Kinodaten in Echtzeit am Studio-Arbeitsplatz. Der integrierte easyDCP Validator prüft die XML-Struktur, konstante Frameraten (24.000 / 25.000 fps) und die Audio-Lautheitsstandards (z. B. EBU R128 für spätere TV-Fassungen).
 
 Stufe 2 (Hardware-Hauptabnahme): Die Zuspielung an den Kino- oder Laserprojektor erfolgt direkt vom Studio-Rechner aus. Über eine professionelle Video-I/O-Karte (z. B. Blackmagic Design DeckLink oder UltraStudio) wird das bitgenaue Kinobild im originalen XYZ-Farbraum per HD-SDI oder DisplayPort (30-Bit-Farbtiefe) in den Service-Eingang des Projektors eingespeist. Ein teurer Kinoserver (IMB) ist für diesen Testbetrieb nicht erforderlich.
 
-=== 10.10.3 DRM-Verschlüsselung & Rechtemanagement
+=== 11.10.3 DRM-Verschlüsselung & Rechtemanagement
 Erst nach erfolgreicher Abnahme wird das unverschlüsselte Master paketiert und gesichert.
 
 MXF-Verschlüsselung: Der easyDCP Publisher verschlüsselt die Video- und Audiodaten innerhalb des MXF-Containers (Material Exchange Format) mittels AES-128-Bit auf Frame-Ebene. Ohne kryptografischen Schlüssel existiert auf den SSDs der Kinosäle nur unbrauchbarer Datensalat.
 
 KDM-Generierung: Das System erzeugt ein hardware- und zeitgebundenes XML-Zertifikat, die KDM (Key Delivery Message). Diese enthält den AES-Schlüssel, ist exakt auf den digitalen Fingerabdruck (Hardware-ID) des spezifischen Saal-Projektors zugelassen und besitzt ein strikt definiertes Zeitfenster (z. B. passend zum CMS-Spielplan).
 
-=== 10.10.4 Speicher- & Löschzyklus im Kinosaal (Instant-Wipe)
+=== 11.10.4 Speicher- & Löschzyklus im Kinosaal (Instant-Wipe)
 Der automatisierte Server-Ablauf im Kinosaal nutzt die hocheffiziente Dateigröße und die restriktiven DRM-Parameter für maximale Datensicherheit:
 
 Inbound-Transfer: Das verschlüsselte 60-GB-IMF/DCP-Paket wird Just-in-Time über das Netzwerk auf die lokale SSD des Kinosaals gespiegelt.
@@ -254,35 +261,35 @@ Validierung & Playback: Der Projektor verifiziert die Hardware-ID der KDM. Inner
 
 Trigger & Secure Wipe: Erreicht das Playback den SMPTE-Marker <Label>FilmEnd</Label>, erlischt die Gültigkeit der KDM sofort. Der lokale Saal-Server triggert augenblicklich einen automatisierten Secure Wipe-Befehl, löscht das MXF-Paket und überschreibt die Speicherblöcke der SSD mit dem nächsten verschlüsselten Container des Spielplans.
 
-== 10.11 Beschaffungsweg: Fahnen und Standarten
+== 11.11 Beschaffungsweg: Fahnen und Standarten
 
-=== 10.11.1 Logistische Oberhoheit und Bedarfsanforderung
+=== 11.11.1 Logistische Oberhoheit und Bedarfsanforderung
 Die Beschaffung, Registrierung und Instandhaltung sämtlicher textiler Identitätsmedien fällt exklusiv in den Aufgabenbereich der Abteilung Logistik & Beschaffungswesen (LBW) in Absprache mit dem Protokolldienst der Generaldirektion. 
 Jede Anforderung für den Austausch oder die Neuplatzierung von Fahnen und Standarten muss digital über das unternehmenseigene Enterprise Resource Planning and Dispatch System (ERPDS) eingeleitet und vom zuständigen Referatsleiter freigegeben werden.
 
-=== 10.11.2 Strukturierte Lieferkette (Supply Chain)
+=== 11.11.2 Strukturierte Lieferkette (Supply Chain)
 Zur Wahrung unserer Qualitäts- und Compliance-Standards folgt der Beschaffungsweg einer streng definierten Kette:
 
 1. *Zertifizierte Herstellererauswahl:* Das LBW arbeitet ausschließlich mit staatlich geprüften Webereien und Fahnenherstellern innerhalb Österreichs zusammen, die eine exakte Einhaltung der CI-Farbwerte (#070052) garantieren.
 2. *Wareneingang und Qualitätskontrolle:* Nach der Anlieferung erfolgt im zentralen *Referat Zeugamt* eine physische und administrative Überprüfung auf Farbkonformität, Reißfestigkeit und UV-Beständigkeit.
 3. *ERPDS-Inventarisierung:* Jedes textile Element wird mit einem eindeutigen RFID- beziehungsweise Barcode-Tag versehen und digital im System erfasst, um den Lebenszyklus lückenlos zu überwachen.
 
-=== 10.11.3 Sachgemäße Aufbewahrung
+=== 11.11.3 Sachgemäße Aufbewahrung
 Nicht im Einsatz befindliche Flaggen, Repräsentationsbänder und Fahrzeugstandarten werden im klimatisierten Depot des Zentralen Zeugamts gelagert. 
 Die Lagerung erfolgt in spezialisierten, staubgeschützten und UV-absorbierenden Aufbewahrungsbehältnissen, um ein Verblassen der Textilfarben oder Stockfleckenbildung durch Luftfeuchtigkeit präventiv auszuschließen.
 
-=== 10.11.4 Pflege, Lifecycle und Austauschintervalle
+=== 11.11.4 Pflege, Lifecycle und Austauschintervalle
 Das Gewebe unterliegt durch permanente Witterungseinflüsse einem natürlichen Verschleiß. Es gelten folgende verbindliche Pflegerichtlinien:
 
 * *Reinigungszyklus:* Fahnen im permanenten Außeneinsatz sind quartalsweise durch das hauseigene Facility-Management materialschonend zu reinigen.
 * *Sicherheitsprüfung:* Bei Unwetterwarnungen beurteilt das LSZ (Lage- und Sicherheitszentrum) automatisch die Belastung; ab Windgeschwindigkeiten von 60 km/h sind die Flaggen einzuholen.
 * *Aussonderung:* Sichtbar beschädigte, ausgefranste oder verblasste Flaggen stellen einen Mangel im repräsentativen Goldstandard der SPMG dar. Sie werden umgehend über das ERPDS als "ausgesondert" markiert, eingezogen und durch das Zeugamt fachgerecht thermisch verwertet.
 
-=== 10.12 Beschaffungsweg: Papierwaren und Druckzubehör
+=== 11.12 Beschaffungsweg: Papierwaren und Druckzubehör
 
 Die Versorgung der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) sowie sämtlicher Tochtergesellschaften, Regionalstationen und Spezialeinheiten mit Papierwaren, Druckmedien und Verbrauchsmaterialien wird zentral durch die Abteilung Logistik & Beschaffungswesen (LBW) gesteuert. Ziel ist die Gewährleistung einer lückenlosen Materialverfügbarkeit für Verwaltung, Medienproduktion und operative Handlungsfelder unter Berücksichtigung von Wirtschaftlichkeit, Nachhaltigkeit und Sicherheitsanforderungen.
 
-==== 10.12.1 Materialklassen und Spezifikationen
+==== 11.12.1 Materialklassen und Spezifikationen
 
 Das Beschaffungsportfolio im Bereich Papier und Druckzubehör gliedert sich in drei Kernkategorien:
 
@@ -290,10 +297,12 @@ Das Beschaffungsportfolio im Bereich Papier und Druckzubehör gliedert sich in d
 * *Sicherheits- und Spezialpapiere:* Witterungs- und reißfeste Papiere für den Außeneinsatz (z. B. Einsatzdokumentation, Checklisten für Sicherheits- und Sanitätsdienste), fälschungssichere Dokumentenpapiere sowie Spezialmedien für Druck- und Plotteraufbauten im Medien- und Designbereich.
 * *Druckverbrauchsmaterialien:* Original- und zertifizierte Verbrauchsmaterialien (Toner, Tintenpatronen, Druckköpfe) für das flächendeckend eingesetzte Drucker- und Kopiererequipment.
 
-==== 10.12.2 Beschaffungs- und Bestellablauf
+==== 11.12.2 Beschaffungs- und Bestellablauf
 
 Zur Vermeidung von Dezentralisierungseffekten und Fehlbeständen erfolgt der Beschaffungsprozess voll integriert über das enterprise-interne ERPDS-System:
 
+[[table-19]]
+.Zentrale Beschaffungsmatrix
 [cols="1,3,4", options="header"]
 |===
 | Schritt | Prozessstufe | Operative Durchführung
@@ -315,19 +324,19 @@ Zur Vermeidung von Dezentralisierungseffekten und Fehlbeständen erfolgt der Bes
 | Bei Erhalt der Ware erfolgt die Überprüfung auf Vollständigkeit und Unversehrtheit im Zeugamt beziehungsweise an den lokalen Abgabestellen samt Systemverbuchung im ERPDS.
 |===
 
-==== 10.12.3 Rahmenverträge und Wirtschaftlichkeit
+==== 11.12.3 Rahmenverträge und Wirtschaftlichkeit
 
 Um administrative Aufwände gering zu halten und Planungssicherheit zu gewährleisten, schließt die SPMG mehrjährige Rahmenverträge mit zertifizierten Papier- und Büromaterialgroßhändlern ab. Bei der Auswahl der Hauptlieferanten stehen versorgungssichere Logistikketten, flexible Nachlieferfristen sowie die Bereitstellung umweltfreundlicher Produktlinien im Vordergrund.
 
-== 10.13 Beschaffungsweg: Taschenlampen und Andere Leuchtmittel
+== 11.13 Beschaffungsweg: Taschenlampen und Andere Leuchtmittel
 
-=== 10.13.1 Strategische Grundausrichtung und Eigensicherung
+=== 11.13.1 Strategische Grundausrichtung und Eigensicherung
 
 Die Beschaffung und Bereitstellung von Leuchtmitteln folgt im gesamten Unternehmen einer strikten **Null-Risiko-Strategie**. Unabhängig von der baulichen Trennung der einzelnen Fachbereiche (Sicherheitsdienst, Betriebsfeuerwehr, Sanitäts- und Rettungsdienst) wird die Licht- und Diagnostikausrüstung für jeden Mitarbeiter standardisiert. 
 
 Da bei Verbund- und Werkseinsätzen das Betreten potenziell explosionsgefährdeter Zonen (ATEX-Bereiche) nie gänzlich ausgeschlossen werden kann, gilt für die persönliche Schutzausrüstung (PSA) der Grundsatz der durchgängigen Ex-Zertifizierung. Standardisierte Konsumgüter oder nicht zertifizierte Leuchtmittel sind im operativen Dienstbetrieb strikt untersagt, um thermische Zündgefahren sowie elektrische Funkenbildung (z. B. durch Schaltkontakte) vollständig auszuschließen.
 
-=== 10.13.2 Die Normierte Zwei-Komponenten-Ausstattung
+=== 11.13.2 Die Normierte Zwei-Komponenten-Ausstattung
 
 Jeder Mitarbeiter – vom Interventionsdienst im Anzug (A-Dienst) über den Feuerwehrmann unter Atemschutz bis hin zum Notfallsanitäter – erhält eine identische, aus zwei Modulen bestehende Lichtausstattung:
 
@@ -341,10 +350,12 @@ Jeder Mitarbeiter – vom Interventionsdienst im Anzug (A-Dienst) über den Feue
 * **Sicherheitsspezifikation:** ATEX-zertifiziert für den Ex-Bereich. Lichtleistung im Diagnostikmodus auf augensichere Werte gedimmt, jedoch mit explizit ex-geschütztem Gehäuse und schaltfunkenfreier Elektronik.
 * **Trageweise:** Ergonomisch fixiert in der Hemdtasche, Sakko-Innentasche (A-Dienst) oder den vorgesehenen Stiftschlaufen der Einsatzbekleidung.
 
-=== 10.13.3 Dezentrale Logistik und Integration auf den Wachen
+=== 11.13.3 Dezentrale Logistik und Integration auf den Wachen
 
 Obwohl die Wachen der einzelnen Gewerke baulich voneinander getrennt sind, wird die Lade- und Bereitstellungsinfrastruktur systemisch vereinheitlicht.
 
+[[table-20]]
+.Dezentrales Logistikwesen
 [cols="1,3", options="header"]
 |===
 | Wache / Bereich | Logistische Einbindung & Übergabe
@@ -358,7 +369,7 @@ Obwohl die Wachen der einzelnen Gewerke baulich voneinander getrennt sind, wird 
 | Integration am Ladetisch der San-Station (saubere Trennung zur fahrzeuggebundenen Medizintechnik auf RTW/NEF). Primärlampe an der Einsatzhose/Jacke, Penlight als primäres Diagnostiktool am Mann.
 |===
 
-=== 10.13.4 Wirtschaftliche und operative Synergien
+=== 11.13.4 Wirtschaftliche und operative Synergien
 
 Durch die Beschaffung von exakt zwei fest definierten Artikelnummern für das gesamte Unternehmen ergeben sich wesentliche operative und betriebswirtschaftliche Vorteile:
 
@@ -366,7 +377,7 @@ Durch die Beschaffung von exakt zwei fest definierten Artikelnummern für das ge
 * **Interdisziplinäre Schnittstelle:** Da das Sanitätspersonal die Sicherheitskräfte intern in der neurologischen Erstdiagnostik (Pupillenreflexe, Differenzierung SHT vs. Intoxikation) schult, nutzen beide Berufsgruppen im Realeinsatz exakt dasselbe Werkzeug.
 * **Reduzierter Wartungsaufwand:** Einheitliche Ladeschalen und Ladekonzepte vereinfachen die periodische Überprüfung der Ausrüstung durch die Haustechnik und minimieren die Ersatzteilbevorratung im Zentrallager.
 
-== 10.14 Beschaffungsweg/Technisches Konzept: Telekommunikation
+== 11.14 Beschaffungsweg/Technisches Konzept: Telekommunikation
 
 Die telekommunikative Infrastruktur des Unternehmens beruht auf einem hybriden, technisch strikt getrennten Zwei-Kanal-Modell. Es vereint eine ortsfeste IP-Telefonanlage für die Büroarbeitsplätze mit autarken Diensthandys für die mobile Erreichbarkeit. Ziel dieses Konzepts ist eine maximale Ausfallsicherheit, strikte Wahrung der Privatsphäre der Mitarbeiter sowie eine intuitive Handhabung im Alltagsbetrieb ohne den Einsatz fehleranfälliger mobiler Applikationen.
 

@@ -1,5 +1,5 @@
 :current-chapter: ERPDS
-= 13 Enterprise Resource Planning and Dispatch System (ERPDS)
+= 14 Enterprise Resource Planning and Dispatch System (ERPDS)
 
 Die SPMG nutzt für ihre internen Prozesse und dem grundlegenden Tagesgeschäft ein Hauseigenes ERP-System mit internen Dispatch-Funktionen, welche es ermöglichen, alle internen Services koordiniert zu steuern. 
 
@@ -7,36 +7,36 @@ Das ERPDS ist hierbei ein maßgeschneidertes System, welches speziell auf die um
 
 Der Funktionalitätsumfang des ERPDS umfasst unter anderem die folgenden Bereiche:
 
-== 13.1 Personalmanagement 
+== 14.1 Personalmanagement 
 Das ERPDS ermöglicht die Verwaltung aller relevanten Personaldaten, einschließlich der Qualifikationen, Zertifikate, Disziplinarien und Lizenzen, welche die Mitarbeiter für die Ausübung ihrer Tätigkeiten benötigen. Es bietet Funktionen zur Planung von Schulungen, zur Überwachung von Zertifikatsabläufen und zur Verwaltung von Mitarbeiterprofilen.
 
-== 13.2 Projektmanagement
+== 14.2 Projektmanagement
 Das ERPDS unterstützt die Planung, Koordination und Überwachung von Projekten. +
 Die Plattform ermöglicht die automatisierte Dokumentenerstellung, Berichtserstellung und Fortschrittsverfolgung, um sicherzustellen, dass Projekte effizient und termingerecht abgeschlossen werden.
 
-== 13.3 Fleetmanagement
+== 14.3 Fleetmanagement
 Die Plattform bietet Funktionen zur Verwaltung der Fahrzeugflotte der SPMG, einschließlich der Wartungsplanung, der Verwaltung von Fahrerdaten und rechtssicheren Dokumentenspeicherung (z.B. Digitales Fahrtenbuch, Digitales Zulassungsdokumente, usw.). 
 
-== 13.4 Automatisierte Waffenausgabe und Compliance-Monitoring
+== 14.4 Automatisierte Waffenausgabe und Compliance-Monitoring
 Für die operativen Einheiten des Sicherheitsdienstes steuert das ERPDS die tägliche, rechtssichere Bereitstellung der Ausgabelisten für Dienstwaffen. Das System gleicht hierzu in Echtzeit die Daten des Dienstplans mit den gesetzlichen und internen Compliance-Vorgaben des Personalmanagements ab. 
 
 Mitarbeiter mit aktiven Sperren (wie der gesetzlichen 15-jährigen Waffensperre nach dem Zivildienstgesetz oder abgelaufenen waffentechnischen Überprüfungen) werden systemseitig für den bewaffneten Dienst blockiert und automatisch von der täglichen Waffenausgabeliste ausgeschlossen. Das generierte Ausgabledokument dient als revisionssicherer Nachweis für Behördenprüfungen.
 
-== 13.5 Rechtssichere Dokumentenverwaltung
+== 14.5 Rechtssichere Dokumentenverwaltung
 Alle Dokumente, die im Rahmen der interner Prozesse erstellt werden, werden im ERPDS rechtssicher mittels digitaler Signatur (ID-Austria) signiert und archiviert. Dies gewährleistet die Einhaltung aller gesetzlichen Anforderungen und ermöglicht eine lückenlose Nachvollziehbarkeit.
 
-== 13.6 Gefahrenstoffdokumentation und Disposition
+== 14.6 Gefahrenstoffdokumentation und Disposition
 
 Die Erweiterung des ERPDS um ein integriertes Gefahrstoffmanagement bildet die rechtliche und operative Brücke zwischen der internen Lagerhaltung (WMS) und der hochkritischen Disposition im Einsatzfall (BtF, Werksrettung, Werkschutz). Durch die automatisierte Anbindung externer Fachdatenbanken sowie die Nutzung offiziellem österreichischen E-Government-Standards wird die gesetzliche Konformität vollständig im System abgebildet.
 
-=== 13.6.1 Rechtskonforme Datenerfassung und Schnittstellen
+=== 14.6.1 Rechtskonforme Datenerfassung und Schnittstellen
 
 Die Erfassung von Gefahrstoffen erfolgt strikt getrennt nach den für den jeweiligen Anwendungsbereich maßgeblichen Normen und Verordnungen:
 
 * *Lagersystem (Inbound & WMS):* Abbildung der Verordnung (EG) Nr. 1272/2008 (CLP/GHS) zur Auswertung von GHS-Piktogrammen, Signalwörtern sowie H- und P-Sätzen. Dies ermöglicht die automatisierte Durchsetzung von Zusammenlagerungsverboten und die Überwachung von Mengenschwellen gemäß den regionalen Feuerpolizeigesetzen sowie der VbF.
 * *Dispatching & Transport (ADR / GGBG):* Automatische Synchronisation der UN-Stoffnummern, Gefahrgutklassen und Beförderungskategorien über eine strukturierte REST-API (z. B. KISTERS TRANSEC). Dadurch entfällt die fehleranfällige manuelle Dateneingabe, und gesetzliche Updates des ADR-Regelwerks werden nahtlos übernommen.
 
-=== 13.6.2 Einsatztaktische Bereitstellung im Dispatching
+=== 14.6.2 Einsatztaktische Bereitstellung im Dispatching
 
 Im Alarmfall übersetzt das System die erfassten UN-Nummern live in einsatztaktische Handlungsempfehlungen für die Einsatzkräfte vor Ort:
 
@@ -44,18 +44,18 @@ Im Alarmfall übersetzt das System die erfassten UN-Nummern live in einsatztakti
 . *Sicherheitsdienst & Evakuierung:* Automatische Weitergabe von Absperrzonen an das Zutrittskontrollsystem zur Absicherung des Werksgeländes.
 . *Werksrettungsdienst:* Sofortige Bereitstellung stoffspezifischer Erstversorgungs- und Dekontaminationshinweise bei Personenschäden.
 
-=== 13.6.3 Systemarchitektur: Offline-Resilienzsicherung und Snapshot-Logik
+=== 14.6.3 Systemarchitektur: Offline-Resilienzsicherung und Snapshot-Logik
 
 Um den Anforderungen an kritische Infrastrukturen (KITIS) gerecht zu werden, folgt die technische Umsetzung im C# .NET Backend zwei wesentlichen Schutzkonzepten:
 
 * *Data-Snapshot-Muster:* Beim Erstellen eines Lagerauftrags oder Einsatzprotokolls werden die normierten Gefahrgutdaten als unveränderlicher Ist-Zustand in das Dokument kopiert. Künftige Normenänderungen verfälschen dadurch rückwirkend keine historischen Datensätze.
 * *Offline-First & Local Caching:* Einsatzrelevante Gefahrgutstammdaten werden im Standby auf die mobilen Endgeräte (z. B. Fahrzeug-Tablets im ULF/KDOF) synchronisiert. Bei einem Netzausfall oder einer physischen Beschädigung der Werksinfrastruktur bleibt die volle Funktionalität der Einsatzführung lokal erhalten.
 
-=== 13.6.4 Revisionssichere Dokumentation via ID Austria
+=== 14.6.4 Revisionssichere Dokumentation via ID Austria
 
 Nach Abschluss eines Einsatzes oder Transports generiert das System automatisch einen strukturierten Einsatzbericht im PDF-Format. Zur Erfüllung der eIDAS-Vorgaben und der rechtlichen Gleichstellung gemäß § 4 SVG wird dieser Bericht über die offizielle Schnittstelle (A-Trust / MOA-SS) mittels **ID Austria** qualifiziert elektronisch signiert (QES). Das Dokument wird im Nachgang kryptografisch versiegelt und revisionssicher auf dem Server archiviert.
 
-== 13.7 Technische Dokumentation 
+== 14.7 Technische Dokumentation 
 Die Technische Dokumentation der Plattform umfasst detailliertere Funktionsbeschreibungen, Anleitungen zur Nutzung der verschiedenen Module und Informationen zu den technischen Spezifikationen des Systems. Sie finden diese Dokumentation auf folgender Seite: 
 
 https://github.com/Stiller-und-Partner-Mediengruppe-GmbH/ERPDS-SPMG.Dokumentation/releases

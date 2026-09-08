@@ -10,9 +10,10 @@ Des Weiteren unterliegen sich der Geheimhaltungspflicht als Firmengeheimnisses l
 
 Ihre Verbreitung außerhalb des Unternehmens und ohne Zustimmung des Autors bzw. der Geschäftsleitung der Stiller und Partner MedienGruppe GmbH is nicht gestattet und wird Zivil- sowie Arbeitsrechtliche Konsequenzen nach sich ziehen.
 
-* <<table-1>>
-* <<table-2>>
-* <<table-3>>
+* <<table-01>>
+* <<table-02>>
+* <<table-03>>
+
 
 == 2.2 Abbildungsverzeichnis
 Alle Abbildungen obliegen dem Urheberrechtes der Stiller und Partner MedienGruppe GmbH.
@@ -50,7 +51,7 @@ Es ist auch eine Möglichkeit, um den Anfang einfacher zu gestalten da wir dann 
 
 Hier ist eine Tabelle als Vergleich um zu zeigen, wie wo die Probleme liegen, wenn wir nur zu zweit agieren und welche Erleichterungen ein Team bieten:
 
-[[table-1]]
+[[table-01]]
 .Darstellung Vor- und Nachteile
 [cols="1,1", options="header"]
 |===
@@ -138,7 +139,7 @@ Dadurch wird auch sowohl die Fehlerquote als auch natürlich das Ausmaß eines F
 
 Ein Vorschlag meinerseits also wie folgt:
 
-[[table-2]]
+[[table-02]]
 .Tabellarische Darstellung des Teams
 [cols="1,1,1", options="header"]
 |===
@@ -154,11 +155,11 @@ Ein Vorschlag meinerseits also wie folgt:
 |===
 
 [[img-8]]
-.Organigramm SuP MedienGruppe GmbH nach Konzept Neu
+.Organigramm SPMG Stiller und Partner Mediengruppe GmbH nach Konzept Neu
 //image::./images/image8.png[Organigramm SuP MedienGruppe GmbH nach Konzept Neu]
 
 [[img-9]]
-.Organigramm Teil 2 SuP MedienGruppe GmbH nach Konzept Neu
+.Organigramm Teil 2 SPMG Stiller und Partner Mediengruppe GmbH nach Konzept Neu
 //image::./images/image9.png[Organigramm Teil 2 SuP MedienGruppe GmbH nach Konzept Neu]
 
 == 2.7 Interne Verwaltungssoftware
@@ -230,7 +231,7 @@ Dies ist nur eine Konzept Aufstellung und dient natürlich nur zum Veranschaulic
 === 2.8.4 zeitlich/Tabellarische Darstellung
 In der folgenden Darstellung finden Sie die letzte Auflistung mit Zeitlicher Abfolge (nach wie vielen GJ was verwirklicht werden soll).
 
-[[table-3]]
+[[table-03]]
 .Zeitlich/Tabellarische Darstellung Projekte und Produkte
 [cols="1,1,2,1", options="header"]
 |===

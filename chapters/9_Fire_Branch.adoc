@@ -11,8 +11,6 @@ Um die Operative Souveränität des Unternehmens vollumfänglich zu gewährleist
 @startuml
 skinparam packageStyle rectangle
 allowmixing
-skinparam shadowing false
-
 
 skinparam rectangle {
     BackgroundColor transparent

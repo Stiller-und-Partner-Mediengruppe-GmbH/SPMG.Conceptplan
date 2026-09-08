@@ -64,6 +64,7 @@ object "LSG-Werttransport" as LSG_WT
 object "LSG-Arrestantentransport" as LSG_AT
 object "LSG-VIP Shuttle Service" as LSG_VIP
 object "LSG-VIP Medical Service" as LSG_VIP_Med
+object "Juristischer Wachdienst" as JSW
 }
 
 CSO -down-> RO
@@ -79,6 +80,7 @@ RUE -down-> FES
 RO -down-> ED
 RSE -down-> DHE
 RUE -down-> LSG
+RUE -down-> JSW
 
 LSG -down-> LSG_WT
 LSG -down-> LSG_AT
@@ -139,6 +141,20 @@ Im Rahmen unseres VIP-Shuttle Services werden können VIPs und geladene Ehrengä
 *** *VIP-Medical-Shuttle Service*: +
 Auf bedarf kann auch eine Abholung mit Medizinischer Begleitung (NFS-NKI oder bei besonderem Bedarf mit Arzt) durchgeführt werden. +
 Dieses und das VIP-Shuttle-Service arbeiten auch sehr eng mit der Personenschutzgruppe (SPMG-PSG) zusammen um die Bestmögliche Experience für den Gast zu garantieren.
+
+** *Referat Unterstützungseinheiten - Juristische Sicherheitswache*: +
+Die *Juristische Sicherheitswache (JSW)* ist eine Sondergruppe des Sicherheitsdienstes, die Primär für den Schutz der Betriebsinternen Juristischen Einrichtungen und Personal, des weiteren sind sie für die Verwaltung, Sicherheit und den Betrieb der Betriebsinternen Verwahrungsbereiche und die Übergabe an die Polizei. 
+
+*** **Juristischer Prozesswachdienst**: +
+Der Juristische Prozesswachdienst ist primär für die Sicherheit in den Juristischen Räumlichkeiten und während der Durchführung bei jeglichen Internen Justiziarrat-Prozessen oder Besprechungen. 
+
+*** **Juristischer Personenschutzdienst**: +
+Der Juristische Personenschutzdienst ist primär für die direkte Überwachung bzw. den Persönlichen Schutz der Justiziarrat-Mitgliedern, ihrem Stab und dem Unterstützungspersonal.
+
+
+*** **Zuführungs- und Verwahrungsdienst**: +
+Der Zuführungs- und Verwahrungsdienst ist primär für die Verwaltung und Sicherheit in den Betriebseigenen Verwahrungsbereichen, die Übergabe angehaltener Personen an die zuständige Sicherheitsbehörde (LPD) und die Begleitung von Arrestanten-Transporten innerhalb Großarealen (SPMG-Zentralkomplex und SPMG-Land)
+
 
 == 7.3 IT-Security
 aber auch die beste physische Sicherheit kann nicht helfen, wenn die IT-Infrastruktur des Unternehmens nicht ausreichend geschützt ist. Daher legt die SPMG großen Wert auf die Implementierung von robusten IT-Sicherheitsmaßnahmen, um die Vertraulichkeit, Integrität und Verfügbarkeit der Daten und Systeme zu gewährleisten.
@@ -292,6 +308,8 @@ Da die Vollfundamentierung eine natürliche Versickerung auf dem Hauptareal verh
 
 Bei einem Totalausfall des öffentlichen Netzes (Stufe Rot) schaltet das *ERPDS* die Energieversorgung mittels autarker Speichermedien (Redox-Flow- und LFP-Batteriesysteme) sowie der Rohrturbinen in eine strikte Prioritätenkaskade:
 
+[[table-12]]
+.Kaskadierungsmatrix Energieversorgung im Krisenfall
 [cols="1,3,2", options="header"]
 |===
 | Prioritätsstufe | Abgesicherte Infrastruktur / Sektoren | Operativer Fokus
@@ -388,6 +406,8 @@ Das Konzept vermeidet kostenintensive und ineffiziente Redundanzen an einzelnen 
 
 === 7.10.2 Standorthierarchie und Kategorieneinteilung
 
+[[table-13]]
+.Standortmatrix Sicherheitsdienst
 [cols="1,2,3,2", options="header"]
 |===
 |Kategorie |Bezeichnung |Funktion & Ausstattung |Führungsebene
@@ -443,6 +463,8 @@ Hotels zeichnen sich bau- und betriebsbedingt durch ein extrem hohes, unkontroll
 
 Um diesen Risiken wirksam zu begegnen, setzt das Unternehmenskonzept auf den Einsatz eigener, dezentral organisierter und verdeckter Unterkünfte im urbanen Raum. Diese Objekte fungieren im Normalbetrieb als unauffällige Firmenwohnungen oder administrative Dependancen und werden erst anlassbezogen als vollgesicherte Residenzen ("Standby-Aktivierung") hochgefahren.
 
+[[table-14]]
+.Vorteilsmatrix Corporate Safehouses
 [cols="1,3", options="header"]
 |===
 | Dimension | Taktischer & Operativer Vorteil

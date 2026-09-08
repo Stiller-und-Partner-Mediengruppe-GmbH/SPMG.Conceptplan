@@ -24,6 +24,8 @@ Um eine maximale Kompatibilität bei minimaler Hemmschwelle zu gewährleisten, n
 
 === 6.5.2 Strategische Relevanz für Stakeholder
 
+[[table-10]]
+.Stakeholder Aufteilung
 [cols="1,2", options="header"]
 |===
 | Zielgruppe | Mehrwert & Wirkung
@@ -91,6 +93,8 @@ Through the decoupling of administrative hurdles from everyday operations, stand
 
 === 6.7.2 Operative Matrix zur Reduzierung von Reibungspunkten
 
+[[table-11]]
+.Operationsmatrix Servicestelle Personenangelegenheiten
 [cols="25%,35%,40%", options="header"]
 |===
 | Reibungspunkt (Problemfeld) | Ursache / Risiko | Lösungsansatz der Servicestelle

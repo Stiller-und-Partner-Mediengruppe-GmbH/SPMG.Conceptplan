@@ -1,9 +1,9 @@
 :current-chapter: Dienstbekleidung und Corporate Identity
-= 17 Dienstbekleidung und Corporate Identity
+= 18 Dienstbekleidung und Corporate Identity
 
 In diesem Abschnitt werden die grundlegenden Regelungen im Bezug zur *Dienstbekleidung* und der *Corporate Identity (Logo und Farbschema)*
 
-== 17.1 Dienstbekleidung und Uniformen
+== 18.1 Dienstbekleidung und Uniformen
 
 Ein Unternehmen ist nur so seriös wie seine Mitarbeiter. Aus diesem Grund muss der Mitarbeiter auch so Seriös aussehen wie die Seriösität des Unternehmen es darstellen soll. Aus diesem Grund setzt auch die Stiller und Partner Mediengruppe GmbH/Holding (SPMG) auf eine Standartisierte Dienstbekleidung und Uniform 
 
@@ -11,7 +11,7 @@ Ein Unternehmen ist nur so seriös wie seine Mitarbeiter. Aus diesem Grund muss 
 
 Es wird hier grundsätzlich zwischen der Dienstbekleidung und der Uniform unterschieden. Die Dienstbekleidung bezeichnet hier also die Kleidung welche Personen tragen müssen, welche in den Bereichen Unternehmensleitung, Management und Vertrieb tätig sind. Uniformen werden von Personen getragen, wenn sie also in Operativen Bereichen(Sicherheit, Sanitätswesen, Brandschutz, Produktion und Technik und Logistik) tätig sind 
 
-=== 17.1.1Standard Dienstalltag 
+=== 18.1.1Standard Dienstalltag 
 
 ==== Definition des Standard-Dienstbetriebes (SDB)
 1. Begriffsbestimmung Der Standard-Dienstbetrieb (SDB) definiert den regulären, kontinuierlichen Arbeitsmodus der Stiller und Partner Mediengruppe GmbH im 24/7-Rhythmus
@@ -36,7 +36,7 @@ Management & Vertrieb: Business-Casual-Standard oder die allgemeine SPMG-Dienstb
 4. Zielsetzung Das primäre Ziel des Standard-Dienstbetriebes ist die lückenlose Gewährleistung der Betriebssicherheit und der Servicequalität der Mediengruppe
 . Durch klare Routinen und funktionsoptimierte Ausrüstung wird eine Arbeitsumgebung geschaffen, die sowohl die Gesundheit der Mitarbeiter (Arbeitsschutz) als auch die hohen Anforderungen an den Schutz von Daten, Sachwerten und der Markenidentität (Domain- und Urheberschutz) im Alltag sicherstellt
 
-=== 17.1.2 Representationsanläße 
+=== 18.1.2 Representationsanläße 
 ==== Definition und Standards für Repräsentationsanlässe
 
 1. Begriffsbestimmung Als Repräsentationsanlässe werden alle offiziellen Termine und Ereignisse definiert, bei denen die Außenwirkung und die Markenidentität der Stiller und Partner Mediengruppe GmbH (SPMG) im Zentrum stehen. In diesen Situationen dient die Dienstbekleidung primär als visuelle Repräsentation der Unternehmenswerte – Professionalität, Seriosität und Kompetenz – und tritt hinter rein funktionale oder taktische Aspekte zurück
@@ -53,7 +53,7 @@ Sicherheits-, Brandschutz- und Sanitätsdienst: Bei Repräsentationsanlässen is
 4. Zielsetzung Die strikte Einhaltung dieser Standards bei Repräsentationsanlässen stellt sicher, dass die SPMG über alle Geschäftsbereiche hinweg als Einheit wahrgenommen wird und das Vertrauen externer Partner in die professionelle Struktur des Lage- und Sicherheitszentrums sowie der Mediengruppe gestärkt wird
 
 
-=== 17.1.3 Besondere Dienste 
+=== 18.1.3 Besondere Dienste 
 ==== Definition der Besonderen Dienste (Dienste mit erhöhtem Gefahrenpotenzial)
 1. Begriffsbestimmung +
  Besondere Dienste umfassen alle operativen Tätigkeiten, die aufgrund ihrer Art, des Einsatzumfeldes oder der verwendeten Arbeitsmittel ein überdurchschnittliches Gefahrenpotenzial für Leib und Leben aufweisen
@@ -78,87 +78,101 @@ Kennzeichnung: Klare visuelle Unterscheidbarkeit der Funktionen (z. B. farblich 
 Durch die Kombination aus technischer Überwachung (ERP/LSZ), spezialisierter PSA und strenger Einhaltung behördlicher Auflagen wird ein Sicherheitsstandard etabliert, der die Integrität der Mitarbeiter schützt und die Zuverlässigkeit der SPMG als spezialisierter Mediengruppe mit Luftfahrtkomponente untermauert.
 
 
-== 17.2 Corporate Identity: Bekleidung und Distinktionen
+== 18.2 Corporate Identity: Bekleidung und Distinktionen
 
-=== 17.2.1 Identitätsphilosophie und operative Säulen
+=== 18.2.1 Identitätsphilosophie und operative Säulen
 Die visuelle Identität der SPMG basiert auf den Werten **Integrität, technische Präzision und operative Souveränität**. Sie dient als Ausdruck unserer Fachkompetenz gegenüber Investoren und Partnern.
 
 * **Rechtssicherheit:** Gewährleistet durch Domain- und Markenschutz in Österreich sowie die strikte Einhaltung des Urheberrechts (Schutz von Stimme und Gesicht).
 * **Sicherheitspräsenz:** Der bewaffnete Werkschutz signalisiert geordnete Autorität gemäß den österreichischen Rechtsnormen.
 * **Fachkompetenz:** Die Einhaltung der H1-Bewilligungskriterien im Flugbetrieb sowie die offiziell anerkannte Betriebsfeuerwehr (BTF) bilden das Rückgrat der operativen Identität.
 
-=== 17.2.2 Farbliche Gestaltung (Color Management System)
+=== 18.2.2 Farbliche Gestaltung (Color Management System)
 Das Farbsystem dient der sofortigen funktionalen Identifikation der Fachbereiche. Die Hintergrundfarben in der Tabelle dienen ausschließlich der visuellen Referenz.
 
-[cols="2,5,2,2,1", options="header"]
-|===
-| Farbname | Farbnutzung | Hex-Code | Pantone | Visuelle Probe
 
-| {set:cellbgcolor!} **SPMG Navy Blue**
+[[table-27]]
+.Unternehmensfarbenmatrix
+[cols="", options="header"]
+|===
+| Farbname | Farbnutzung | Hex-Code | Pantone 
+
+|{set:cellbgcolor:#070052} **SPMG Navy Blue**
 | **Hauptfarbe** der Mediengruppe für Management, Holding sowie offizielle Dokumente und Repräsentation.
 | #070052
 | Blue 2766 C
-| {set:cellbgcolor:#070052} 
 
-| {set:cellbgcolor!} **Production Black**
+| {set:cellbgcolor:#2F353B} **Production Black**
 | **Sekundärfarbe** für Medientechnik und Kamerateams zur Gewährleistung eines reflexionsarmen Set-Betriebs.
-| #000000
-| Black 6 C
-| {set:cellbgcolor:#000000}
+| #2F353B
+| 19-4007 TCX
+ 
 
-| {set:cellbgcolor!} **Tactical Navy**
+| {set:cellbgcolor:#1B2631} **Tactical Navy**
 | **Sekundärfarbe** für den bewaffneten Werkschutz und das Lage- und Sicherheitszentrum (LSZ).
 | #1B2631
 | 533 C
-| {set:cellbgcolor:#1B2631}
 
-| {set:cellbgcolor!} **Emergency Red**
+
+| {set:cellbgcolor:#C0392B} **Emergency Red**
 | **Akzentfarbe** für Sanitätsdienst-Bereiche (MedOps) sowie Brandschutz-Markierungen.
 | #C0392B
 | 1805 C
-| {set:cellbgcolor:#C0392B}
 
-| {set:cellbgcolor!} **Medical White**
-| **Basisfarbe** für die Gestaltung medizinischer Einrichtungen und Rettungsdienst-Bekleidung.
-| #FFFFFF
-| P 1-1 C
-| {set:cellbgcolor:#FFFFFF}
 
-| {set:cellbgcolor!} **Aviation Yellow**
+| {set:cellbgcolor:#F4F4F4}**Medical White/Reinweiß**
+| **Basisfarbe** für Fahrzeuge der SPMG Notfallrettung
+| #F4F4F4
+| 11-0601 TPX
+
+
+| {set:cellbgcolor:#FF5500} **Leuchtorange**
+| **Signalfarbe** für Rettungsdienstliche Einsatzuniform.
+| #FF5500
+| 16-1364 TCX
+
+| {set:cellbgcolor:#F1C40F} **Aviation Yellow**
 | **Signalfarbe** für Groundcrew und Bodenlotsen zur Sichtbarkeit bei Hubschrauber-Operationen (H1).
 | #F1C40F
 | 116 C
-| {set:cellbgcolor:#F1C40F}
 
-| {set:cellbgcolor!} **Signal Orange**
+
+| {set:cellbgcolor:#E67E22} **Signal Orange**
 | **Signalfarbe** für Marshalling und PSA in Hochrisiko-Gefahrenzonen.
 | #E67E22
 | 1785 C
-| {set:cellbgcolor:#E67E22}
-|===
-{set:cellbgcolor!}
 
-=== 17.2.3 Dienstbekleidung und Kopfbedeckungen
+
+| {set:cellbgcolor:#AF2B1E} **Feuerrot**
+| **Grundfarbe** für alle Fahrzeuge des BtF und Brandschutzes.
+| #AF2B1E
+| 484 C
+|===
+
+
+=== 18.2.3 Dienstbekleidung und Kopfbedeckungen
 Die Bekleidung unterscheidet strikt zwischen operativer Funktionalität und formalem Protokoll.
 
-==== 17.2.3.1 Standard-Dienstbetrieb (SDB)
+==== 18.2.3.1 Standard-Dienstbetrieb (SDB)
 Fokus auf Ergonomie und Tragekomfort im täglichen Dienst.
 * **Bekleidung:** Funktionale Einsatzbekleidung in den jeweiligen Fachbereichsfarben.
 * **Kopfbedeckung:** SPMG-Baseball-Kappen oder Beanies. Diese dienen der praktischen Arbeit und minimieren Verwechslungsgefahren mit Behörden im Alltag.
 
-==== 17.2.3.2 Repräsentationsanlässe (Rep)
+==== 18.2.3.2 Repräsentationsanlässe (Rep)
 Formeller Dienstanzug für offizielle Termine und protokollarische Aufgaben.
 * **Schnitt:** Orientierung am Dienstanzug der Landespolizeidirektion (LPD) und Berufs- /Freiwiligen Feuerwehren, jedoch konsequent in *Tactical Navy*.
 * **Kopfbedeckung (Hierarchisch):**
 ** **Offiziere (Leitung):** Tellerkappe (Schirmmütze) in Tactical Navy mit hellblauem Band.
 ** **Chargen & Unteroffiziere:** Barrett in Tactical Navy mit hellblauer Abzeichen-Unterlage.
 
-=== 17.2.4 Distinktionen der operativen Einsatzorganisationen
+=== 18.2.4 Distinktionen der operativen Einsatzorganisationen
 Distinktionen sind exklusiv den operativen Einheiten vorbehalten. Die Unternehmensleitung führt keine Rangabzeichen.
 
+[[table-28]]
+.Destinktionsverteilung
 [cols="1,3,2", options="header"]
 |===
-| Bereich | Kragendistinktion (Rep) | Merkmale
+|{set:cellbgcolor:#00000000} Bereich | Kragendistinktion (Rep) | Merkmale
 
 | **Sicherheitsdienst**
 | Hellblaue Patten mit silbernen Balken oder Litzen.
@@ -177,7 +191,7 @@ Distinktionen sind exklusiv den operativen Einheiten vorbehalten. Die Unternehme
 | Kennzeichnung der Funkhoheit und Koordinationsgewalt im Sicherheitszentrum.
 |===
 
-=== 17.2.5 Systemintegration (ERP & NFC)
+=== 18.2.5 Systemintegration (ERP & NFC)
 Die visuelle Identität ist unmittelbar mit der digitalen Infrastruktur verknüpft.
 
 * **Validierung:** Dienstgrade und Berechtigungen werden erst nach Prüfung der Qualifikationsnachweise im **ERP-System** freigeschaltet und entsprechend Ausgegeben angebracht. 
@@ -187,7 +201,7 @@ Die visuelle Identität ist unmittelbar mit der digitalen Infrastruktur verknüp
 Die Verwendung der definierten Farben und Distinktionen ist verbindlich. Jede Abweichung gefährdet die Markenintegrität und den rechtlichen Schutz der SPMG als spezialisierter Mediendienstleister mit Sicherheitsdienst.
 ====
 
-== 17.3 Beflaggung und Standarte im Unternehmen
+== 18.3 Beflaggung und Standarte im Unternehmen
 
 === Grundsatz und Corporate Identity
 Die optische Präsenz an den physischen Standorten der Stiller und Partner Mediengruppe GmbH/Holding (SPMG) dient als Ausdruck unserer operativen Souveränität, Integrität und Corporate Identity (CI). 
@@ -211,18 +225,18 @@ Die Flaggen werden im 24/7-Rhythmus geführt.
 Bei Dunkelheit oder widrigen Sichtverhältnissen sorgt eine automatisierte, bodenseitige LED-Anstrahlung für die lückenlose Sichtbarkeit der Symbole, ohne den umliegenden Werksverkehr oder Studioaufnahmen durch Reflexionen zu beeinträchtigen.
 
 
-== 17.4 Corporate Identity: Rettungsdienst
+== 18.4 Corporate Identity: Rettungsdienst
 
 Die visuelle und begriffliche Präsenz der operativen Einheiten im Straßenraum sowie gegenüber Patienten, Behörden und Partnerorganisationen ist ein zentraler Baustein der Qualitäts- und Sicherheitspolitik der Unternehmensgruppe. Die Markenführung vereint höchste rechtliche Konformität im nationalen Rahmen mit internationaler Wiedererkennbarkeit.
 
-=== 17.4.1 Marken- und Firmenbezeichnung
+=== 18.4.1 Marken- und Firmenbezeichnung
 
 Im Firmenbuch ist die operative Einheit als *SPMG - Notfallrettung GmbH* eingetragen. Im täglichen Einsatzdienst, auf Einsatzkleidung, Einsatzfahrzeugen und im visuellen Branding wird die griffige Bezeichnung **„SPMG - NOTFALLRETTUNG“** geführt. 
 
 * *Rechtliche Abgrenzung:* Die bewusste Vermeidung geschützter öffentlich-rechtlicher Begriffe (wie „Berufsrettung“) garantiert absolute Konformität mit dem Unternehmensgesetzbuch (§ 18 UGB), dem Gesetz gegen den unlauteren Wettbewerb (§ 2 UWG) sowie den Bestimmungen des Wiener Rettungs- und Krankentransportgesetzes (WRKG).
 * *Fachliche Signalwirkung:* Der Begriff „Notfallrettung“ definiert das Leistungsspektrum präzise und barrierefrei. Er signalisiert die Abdeckung des gesamten präklinischen Einsatzspektrums (von Standard-Notfalleinsätzen bis hin zu kritischen Sekundärtransporten) durch ausschließlich hauptamtliches, hochqualifiziertes Fachpersonal.
 
-=== 17.4.2 Fahrzeugdesign und Normenkonformität (ÖNORM EN 1789)
+=== 18.4.2 Fahrzeugdesign und Normenkonformität (ÖNORM EN 1789)
 
 Das Außendesign der Einsatzfahrzeuge (RTW/NKTW) folgt streng den Vorgaben der **ÖNORM EN 1789** zur optischen Kennzeichnung von Krankenkraftwagen sowie den Sicherheitsstandards für den Wiener Straßenverkehr:
 
@@ -234,7 +248,7 @@ Das Außendesign der Einsatzfahrzeuge (RTW/NKTW) folgt streng den Vorgaben der *
 . *Dachorganisation und Türmarkierung:*
   ** Auf den Fahrer- und Beifahrertüren wird im Sinne des Corporate Designs der Absender der Dachorganisation geführt (*Stiller und Partner Mediengruppe GmbH*). Dies unterstreicht die Einbettung in eine strukturierte, leistungsfähige Unternehmensgruppe.
 
-=== 17.4.3 Fuhrpark-Systematik und Registrierung
+=== 18.4.3 Fuhrpark-Systematik und Registrierung
 
 Zur Abrundung des behördenähnlichen, hochstrukturierten Gesamtauftritts werden sämtliche Einsatzfahrzeuge im Wiener Zulassungsbezirk einheitlich registriert:
 

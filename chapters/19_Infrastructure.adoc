@@ -1,6 +1,6 @@
-= 18 Liegenschafts- und Gebäudeverwaltung (LGW)
+= 19 Liegenschafts- und Gebäudeverwaltung (LGW)
 
-== 18.1 Struktur und Organisation
+== 19.1 Struktur und Organisation
 [plantuml, org-chart-FM, svg]
 ----
 @startuml
@@ -43,13 +43,13 @@ package "Liegenschafts- und Gebäudeverwaltung" as LGW{
 @enduml
 ----
 
-== 18.2 Technische Gebäudekonzeptionierung
+== 19.2 Technische Gebäudekonzeptionierung
 
-== 18.2.1 Infrastruktur der Zentralen Uhr (Master Clock System)
+== 19.2.1 Infrastruktur der Zentralen Uhr (Master Clock System)
 
 Die technische Zuverlässigkeit, Netzwerksynchronisation und zeitliche Integrität aller physischen und digitalen Einheiten der Stiller und Partner Mediengruppe wird durch eine hochverfügbare, zentralisierte Master-Clock-Infrastruktur sichergestellt. Diese Infrastruktur fungiert als physischer und logischer Taktgeber für sämtliche Rechenzentren, Regieräume, Logistik-Hubs, Einsatzfahrzeuge und mobilen Einheiten (Toughbook Active Docks / Avionik-Gateways).
 
-=== 18.2.2 Server-Hardware und Empfänger-Topologie
+=== 19.2.2 Server-Hardware und Empfänger-Topologie
 
 Die Kerninfrastruktur der Zentralen Uhr wird im zentralen SPMG Data Center betrieben und ist als Stratum-1-Zeitserverarchitektur ausgelegt:
 
@@ -57,7 +57,7 @@ Die Kerninfrastruktur der Zentralen Uhr wird im zentralen SPMG Data Center betri
 * *Master Time Server (Stratum 1):* Dua-redundante, gehärtete NTP/PTP-Hardware-Zeitserver mit integrierten Rubidium- / OCXO-Oszillatoren (Holdover-Funktionalität). Diese sichern die genaue Zeitbasis auch bei vollständigem Ausfall aller externen Antennensignale über mindestens 72 Stunden ab.
 * *Infrastruktureller Fallback:* Verschlüsselte Sync-Verbindungen zu offiziellen, hochpräzisen NTP-Zeitservern der österreichischen Infrastruktur (.gv.at / .ac.at).
 
-=== 18.2.3 Netzwerk-Verteilung und Protokolle
+=== 19.2.3 Netzwerk-Verteilung und Protokolle
 
 Die Signalverteilung innerhalb der Unternehmens-Infrastruktur erfolgt abgestuft nach Latenz- und Präzisionsanforderungen:
 
@@ -65,13 +65,13 @@ Die Signalverteilung innerhalb der Unternehmens-Infrastruktur erfolgt abgestuft 
 * *Network Time Protocol (NTP / RFC 5905):* Netzweite Verteilung an Unternehmens-Server, Datenbanken, Zutrittskontrollsysteme, IP-Kameras der Sec-Ops sowie an die ERPDS-Backend-Server.
 * *Remote & Mobile Infrastructure Sync:* Automatische, verschlüsselte Synchronisation mobiler Einheiten (z. B. Panasonic Toughbooks in Fahrzeugen, Flugfunk- und Avionik-Interface-Einheiten der S-70 / H145) beim Einbuchen in das SPMG-VPN oder die lokalen Vehicle-Docks.
 
-=== 18.2.4 Physische Sicherheit, Hardening und Redundanz
+=== 19.2.4 Physische Sicherheit, Hardening und Redundanz
 
 * *Infrastrukturelle Entkopplung:* Die Master-Clock-Hardware ist in dedizierten, zugangsbeschränkten 19-Zoll-Sicherheits-Racks innerhalb des Serverraums verbaut und USV-gepuffert.
 * *Integritätssicherung auf OS- und Hardware-Ebene:* Endgeräte und Server erhalten Schreibschutz-Richtlinien auf Systemebene; manuelle Anpassungen der Systemzeit durch lokale Benutzer sind technisch deaktiviert.
 * *Forensische Protokollierung:* Jede Abweichung oder Synchronisationsanomalie innerhalb des Netzwerks wird sofort an die Network Security Unit (NSU) gemeldet und für Audit-Zwecke unveränderbar protokolliert.
 
-== 18.3 Geschwindigkeitsbeschränkung auf allen Liegenschaften
+== 19.3 Geschwindigkeitsbeschränkung auf allen Liegenschaften
 
 Zur Gewährleistung der betrieblichen Sicherheit, zum Schutz der internen Transportinfrastruktur sowie zur Vermeidung von Gefährdungen für Personal und Besucher gilt auf sämtlichen Liegenschaften des Unternehmens eine einheitliche Geschwindigkeitsbeschränkung.
 
@@ -79,6 +79,8 @@ Da es sich bei den Unternehmensliegenschaften um baulich gesicherte, nicht-öffe
 
 === Rechtlicher und regulatorischer Rahmen
 
+[[table-29]]
+.Rechtliche Rahmenmatrix
 [cols="1,3", options="header"]
 |===
 | Dimension | Rechtliche Grundlage & Umsetzung

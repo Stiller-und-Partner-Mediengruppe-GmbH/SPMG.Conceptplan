@@ -14,6 +14,8 @@ Die Erfassung von einsatz- und logistikrelevanten Zeiten innerhalb des ERPDS-Ök
 
 ==== Trigger-Logik nach Fahrzeugkategorie
 
+[[table-04]]
+.Trigger-Logik auf Fahrzeugen
 [cols="2,3,3", options="header"]
 |===
 | Fahrzeugtyp | Ereignis (Event) | System-Aktion im ERPDS
@@ -84,6 +86,8 @@ Der Errichtungs- und Entstehungsprozess gliedert sich in folgende regulatorische
 
 Die Einbindung der betrieblichen Arbeitnehmervertretung folgt konsequent dem operativen Hub-and-Spoke-Modell der Stiller und Partner Mediengruppe (SPMG). Um sowohl die regionale Handlungsfähigkeit an den dezentralen Standorten als auch die strategische Steuerung der Gesamtgruppe zu gewährleisten, wird eine skalierungsbereite, mehrstufige Mitbestimmungsstruktur auf Basis des österreichischen Arbeitsverfassungsgesetzes (ArbVG) etabliert.
 
+[[table-05]]
+.Aufteilung Betriebsräte
 [cols="1,2,2", options="header"]
 |===
 | Ebene | Organisatorische Verankerung | Gesetzliche & Operative Funktion
@@ -129,6 +133,7 @@ Der Betrieb von Schwerfahrzeugen unterliegt in unserem Unternehmen einer zweifac
 * *EU-Verordnung (EG) Nr. 561/2006:* Regelung der reinen Lenkzeiten (maximale Tageslenkzeit von 9 Stunden, zweimal pro Woche auf 10 Stunden erweiterbar) sowie der verpflichtenden Fahrtunterbrechungen (45 Minuten nach spätestens 4,5 Stunden) und täglichen Ruhezeiten.
 * *Österreichisches Arbeitszeitgesetz (AZG) & KFG:* Regelung der Gesamtarbeitszeit (Höchstarbeitszeit von max. 10 Stunden/Tag, im Schnitt max. 48 Stunden/Woche). Das AZG greift vollumfänglich für alle Tätigkeiten außerhalb des Lenkrads (Laden, Wartung, administrative Aufgaben).
 
+[[table-06]]
 .Systemische Unterscheidung der Arbeitsformen
 [cols="1,2,2", options="header"]
 |===
@@ -209,6 +214,8 @@ Um betrieblich-psychologischen Fehlbelastungen, Burn-out-Symptomatiken oder uner
 
 Für Fälle, in denen der Arbeitnehmer die Kooperation oder das Angebot der Schadensminimierung verweigert, greift ein zweistufiges, behördlich angelehntes Eskalationsmodell.
 
+[[table-07]]
+.Disziplinarisches Eskalationsmatrix
 [cols="1,3", options="header"]
 |===
 | Instanz / Prozess | Gesetzliche und organisatorische Verankerung
@@ -250,6 +257,8 @@ Für das operative Einsatzpersonal im Sanitäts- und Sicherheitswesen gelten die
 ==== Systemseitige Umsetzung und Automated Compliance Engine
 Die technische Durchsetzung der Regelungen erfolgt im ERPDS über eine zweigeteilte Validierungs-Engine im .NET-Backend:
 
+[[table-08]]
+.Unterteilung Disponierbarkeit
 [cols="1,2,2", options="header"]
 |===
 |Personalgruppe |System-Status (Dispatch) |Compliance-Check (Rules Engine)
@@ -309,6 +318,8 @@ Neben dem Nettogehalt, das direkt an die Dienstnehmer ausgezahlt wird, entstehen
 
 Der Bruttolohn bildet die Grundlage für sämtliche regulatorischen Abzüge und Beiträge:
 
+[[table-09]]
+.Abgabenstrukturdarstellung
 [cols="1,3,2", options="header"]
 |===
 | Empfänger | Abgabe / Beitrag | Tragschaft

@@ -1,30 +1,30 @@
 
-= 11 Abteilung: Fuhrpark- und Flottenmanagement (FFM)
+= 12 Abteilung: Fuhrpark- und Flottenmanagement (FFM)
 
-== 11.1 Strategische Zielsetzung 
+== 12.1 Strategische Zielsetzung 
 Die administrative Abteilung "Fuhrpark- und Flottenmanagement" (FFM) verantwortet die technische Einsatzbereitschaft, Aufrüstung und rechtssichere Dokumentation der gesamten Fahrzeugflotte der SPMG.
 
-== 11.2 Verantwortlichkeiten
+== 12.2 Verantwortlichkeiten
 Lebenszyklus-Management: Koordination der Anschaffung (in Kooperation mit dem LBW), Aufrüstung und laufenden Wartung aller Land- und Luftfahrzeuge.
 
 Technische Spezifikation: Festlegung hoher Sicherheitsstandards, wie etwa der Einsatz vollumschlossener LKW-Aufbauten anstelle von Planen zur Erhöhung der Transportsicherheit.
 
 Corporate Design: Überwachung der einheitlichen Folierung unter strikter Vermeidung eines "Polizei-Looks", um die Markenidentität zu wahren und rechtliche Konflikte zu vermeiden.
 
-== 11.3 Unternehmenseigener Abschlepp- und Überstellungsdienst 
+== 12.3 Unternehmenseigener Abschlepp- und Überstellungsdienst 
 Das FFM betreibt einen spezialisierten internen Dienst zur Sicherung der operativen Souveränität:
 
 Spionageprävention: Sicherstellung, dass verunfallte oder defekte Fahrzeuge, die mit sensibler IT (Knox, ERP-Schnittstellen) ausgestattet sind, ohne Zugriff Dritter direkt in die unternehmenseigene Werkstatt verbracht werden.
 
 Spezialtransport: Rechtskonformer Transfer von Filmfahrzeugen (insbes. Einsatzfahrzeuge mit Sondersignalanlagen) zwischen Standorten und Drehorten, da diese im öffentlichen Verkehr nicht eigenständig bewegt werden dürfen.
-=== 11.3.1 Rechtliche Grundlagen und Gewerbeform
+=== 12.3.1 Rechtliche Grundlagen und Gewerbeform
 
 Die regulatorischen Anforderungen für die Gründung eines Abschleppdienstes in Österreich richten sich primär nach dem höchstzulässigen Gesamtgewicht (hzG) der eingesetzten Fahrzeuge:
 
 * *Fahrzeuge bis 3,5 t hzG (Ausnahmefall):* Fällt unter das *freie Gewerbe* ("Abschleppen von Kraftfahrzeugen"). Die Anmeldung ist an keinen Befähigungsnachweis gebunden, schränkt den professionellen Betrieb (z. B. mit Plateau-Lkw oder Bergekranen) jedoch stark ein.
 * *Fahrzeuge über 3,5 t hzG (Regelfall):* Die Tätigkeit wird als *reglementiertes Güterbeförderungsgewerbe* (Straßengüterverkehr) eingestuft. Für den Betrieb ist eine behördliche Konzession zwingend erforderlich.
 
-=== 11.3.2 Voraussetzungen für die Konzessionserteilung (> 3,5 t hzG)
+=== 12.3.2 Voraussetzungen für die Konzessionserteilung (> 3,5 t hzG)
 
 Für die Erlangung der Güterbeförderungskonzession durch die zuständige Behörde (Bezirkshauptmannschaft oder Magistrat) müssen vier gesetzliche Kernkriterien erfüllt werden:
 
@@ -33,7 +33,7 @@ Für die Erlangung der Güterbeförderungskonzession durch die zuständige Behö
 3. *Tatsächliche und dauerhafte Niederlassung:* Ein fester Firmensitz in Österreich mit entsprechenden Räumlichkeiten zur Aufbewahrung der Geschäftsunterlagen sowie geeigneten Abstellplätzen für den Fuhrpark.
 4. *Fachliche Eignung (Befähigungsnachweis):* Nachweis der fachlichen Kompetenz durch den Gründer selbst oder durch die Bestellung eines gewerberechtlichen Geschäftsführers (Mindestanstellungsausmaß: 20 Wochenstunden).
 
-=== 11.3.3 Operative und infrastrukturelle Praxisanforderungen
+=== 12.3.3 Operative und infrastrukturelle Praxisanforderungen
 
 Neben den gewerberechtlichen Voraussetzungen müssen für den operativen Betrieb folgende Kriterien erfüllt sein:
 
@@ -41,29 +41,32 @@ Neben den gewerberechtlichen Voraussetzungen müssen für den operativen Betrieb
 * *Versicherungsschutz:* Neben der Kfz-Haftpflicht ist der Abschluss einer *Frachtführer-Haftpflichtversicherung* (Transportversicherung) zwingend erforderlich, um Haftungsrisiken für Schäden am abgeschleppten/geborgenen Fremdfahrzeug abzudecken.
 * *Infrastruktur (Verwahrplatz):* Sofern Abschleppungen im Auftrag von Behörden oder von Privatgrundstücken durchgeführt werden, ist ein gesichertes, umzäuntes Areal zur Verwahrung der sichergestellten Fahrzeuge gesetzlich vorgeschrieben.
 
-== 11.4 Flotten-IT und Dokumentation
+== 12.4 Flotten-IT und Dokumentation
 ERPDS-Integration: Führung digitaler Fahrtenbücher und Zulassungsdokumente direkt im zentralen ERPDS-System.
 
 Hardware-Integrität: Installation und Wartung von Knox-konformen Dockingstationen und Kommunikationssystemen (Funk/NFC) innerhalb der Fahrzeuge.
 
 Sondersignalanlagen: Koordination der Bestückung mit gelben Warnbalken zur Absicherung im öffentlichen Raum gemäß österreichischer Vorschriften.
 
-== 11.5 Operative Unterstützung
+== 12.5 Operative Unterstützung
 Das FFM stellt die notwendigen Transportkapazitäten für die Security Logistics Unit (SLU) bereit, insbesondere für Wert- und Arrestantentransporte.
 
-== 11.6 Sondergruppe Verkehrsrecht
+== 12.6 Sondergruppe Verkehrsrecht
 
-=== 11.6.1 Strategische Positionierung und Grundausrichtung
+=== 12.6.1 Strategische Positionierung und Grundausrichtung
 Die *Einsatzgruppe Verkehrs- und Zulassungsrecht* ist als hochspezialisierte Sondereinheit organisatorisch direkt in der übergeordneten Rechtsabteilung verankert. Sie fungiert als interne, voll handlungsfähige Spezialkanzlei und bildet die primäre Schnittstelle zwischen dem operativen Fuhrparkmanagement, den staatlichen Regulierungsbehörden sowie den Gerichten. 
 
 Besetzt mit vollwertig zugelassenen, angestellten Rechtsanwälte (gemäß § 1a RAO), garantiert die Einheit die uneingeschränkte Postulationsfähigkeit und Vertretungsmacht des Unternehmens vor allen ordentlichen Gerichten und Verwaltungsbehörden (einschließlich VwGH und VfGH). Dadurch wird eine vollständige Inhouse-Abwicklung aller verkehrs-, zulassungs- und haftungsrechtlichen Agenden ohne Medienbrüche oder die Notwendigkeit externer Kanzleibeaftragungen sichergestellt.
 
-=== 11.6.2 Operative Eingliederung in das Fuhrparkmanagement
+=== 12.6.2 Operative Eingliederung in das Fuhrparkmanagement
 Die Eingliederung in die alltägliche Fuhrparkverwaltung erfolgt nach dem Prinzip der **funktionalen Gewaltenteilung**:
 
 * **Operativer Fuhrpark (Ausführung & Logistik):** Verantwortlich für den laufenden Betrieb, die Wartung, Disposition, die routinemäßige Führerscheinkontrolle sowie die Überwachung der wiederkehrenden Begutachtungen (§ 57a KFG).
 * **Einsatzgruppe Verkehrsrecht (Juristisches Risikomanagement & Compliance):** Übernimmt die federführende Regie, sobald Vorgänge die Ebene der reinen Verwaltung verlassen und eine rechtliche, behördliche oder haftungsrelevante Dimension erreichen.
 
+
+[[table-21]]
+.Operationsmatrix EG-VR
 [cols="1,2,2", options="header"]
 |===
 | Anlassfall / Trigger | Aufgabe Operativer Fuhrpark | Aufgabe Einsatzgruppe Verkehrsrecht
@@ -85,7 +88,7 @@ Die Eingliederung in die alltägliche Fuhrparkverwaltung erfolgt nach dem Prinzi
 | Ausarbeitung und Erwirkung von Dauer- und Sonderausnahmegenehmigungen (§ 45 StVO) bei den zuständigen Behörden.
 |===
 
-=== 11.6.3 Digitale Workflow-Integration im ERPDS
+=== 12.6.3 Digitale Workflow-Integration im ERPDS
 Die nahtlose Zusammenarbeit zwischen der Fuhrparkverwaltung, der Einsatzgruppe Verkehrsrecht sowie der übergeordneten Rechtsabteilung (inkl. der Anbindung des externen Hausnotars) wird im ERPDS über eine strikte, **rollenbasierte Rechteverwaltung (RBAC)** gesteuert:
 
 1. **Automatisierte Escalation-Trigger:** Erfasst der Fuhrparkleiter ein unfallbedingtes Schadensereignis oder trifft eine behördliche Anonymverfügung/Straferkenntnis im System ein, löst das ERPDS automatisch einen Sperr- und Übergabe-Workflow an die Einsatzgruppe aus.
